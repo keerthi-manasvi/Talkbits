@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <meta charset="UTF-8">
+    <title>{% block title %}EventSphere{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    {% block head %}{% endblock %}
+</head>
+
+<body>
+    <!-- 
+    <nav class="navbar navbar-dark bg-dark px-3">
+        <a class="navbar-brand" href="{% url 'index' %}">EventSphere</a>
+        <div class="dropdown">
+            <a class="btn btn-outline-light me-2" href="{% url 'pastEvents' %}">Feedback</a>
+            <button class="btn btn-outline-light me-2 dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Categories
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="{% url 'Categories' %}?category=Technical">Technical</a></li>
+                <li><a class="dropdown-item" href="{% url 'Categories' %}?category=Cultural">Cultural</a></li>
+                <li><a class="dropdown-item" href="{% url 'Categories' %}?category=Sports">Sports</a></li>
+            </ul>
+            {% if user.isOrganizer %}
+            <a class="btn btn-outline-light me-2" href="{% url 'createEvent' %}">New</a>
+            {% endif %}
+            {% if user.is_authenticated %}
+            <a class="btn btn-light" href="{% url 'logout' %}">Logout</a>
+            {% else %}
+            <a class="btn btn-light" href="{% url 'login' %}">Login</a>
+            {% endif %}
+        </div>
+    </nav>
+
+    <main class="container py-4">
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer class="text-center text-muted py-3">
+        <small>&copy; 2025 EventSphere</small>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    {% block scripts %}{% endblock %}
+    --->
+</body>
+
+</html>
