@@ -5,14 +5,34 @@
   "description": "Master essential Telugu greetings, introductions, family terms, and daily interactions with support for automatic translation into Hindi, Tamil, or other languages.",
   "translation_config": {
     "source_lang": "te-IN",
-    "supported_target_langs": ["hi-IN", "ta-IN", "en-IN"],
-    "translatable_fields": ["word", "example", "text", "response", "prompt", "answer", "question", "options", "lines.text", "cultural_notes"]
+    "supported_target_langs": [
+      "hi-IN",
+      "ta-IN",
+      "en-IN"
+    ],
+    "translatable_fields": [
+      "word",
+      "example",
+      "text",
+      "response",
+      "prompt",
+      "answer",
+      "question",
+      "options",
+      "lines.text",
+      "cultural_notes"
+    ]
   },
   "lessons": [
     {
       "lesson": 1,
       "title": "Greetings",
-      "skills": ["Vocabulary", "Phrases", "Pronunciation", "Cultural Context"],
+      "skills": [
+        "Vocabulary",
+        "Phrases",
+        "Pronunciation",
+        "Cultural Context"
+      ],
       "content": [
         {
           "type": "vocab",
@@ -498,10 +518,26 @@
           "prompt_translatable": true,
           "lang": "te-IN",
           "pairs": [
-            { "word": "నీవు ఎలా ఉన్నావు?", "match": "నేను బాగున్నాను, ధన్యవాదాలు!", "translatable": true },
-            { "word": "నీవు కలిసినందుకు సంతోషం!", "match": "నీవు కూడా కలిసినందుకు సంతోషం!", "translatable": true },
-            { "word": "గొప్ప రోజు కలిగి ఉండు!", "match": "ధన్యవాదాలు, నీవు కూడా!", "translatable": true },
-            { "word": "తర్వాత కలుద్దాం!", "match": "బై!", "translatable": true }
+            {
+              "word": "నీవు ఎలా ఉన్నావు?",
+              "match": "నేను బాగున్నాను, ధన్యవాదాలు!",
+              "translatable": true
+            },
+            {
+              "word": "నీవు కలిసినందుకు సంతోషం!",
+              "match": "నీవు కూడా కలిసినందుకు సంతోషం!",
+              "translatable": true
+            },
+            {
+              "word": "గొప్ప రోజు కలిగి ఉండు!",
+              "match": "ధన్యవాదాలు, నీవు కూడా!",
+              "translatable": true
+            },
+            {
+              "word": "తర్వాత కలుద్దాం!",
+              "match": "బై!",
+              "translatable": true
+            }
           ]
         },
         {
@@ -531,7 +567,12 @@
           "question_translatable": true,
           "answer": "శుభ సాయంత్రం",
           "answer_translatable": true,
-          "options": ["శుభోదయం", "శుభ సాయంత్రం", "నమస్తే", "వీడ్కోలు"],
+          "options": [
+            "శుభోదయం",
+            "శుభ సాయంత్రం",
+            "నమస్తే",
+            "వీడ్కోలు"
+          ],
           "options_translatable": true,
           "lang": "te-IN"
         },
@@ -569,7 +610,12 @@
           "question_translatable": true,
           "answer": "క్షమించండి",
           "answer_translatable": true,
-          "options": ["ధన్యవాదాలు", "దయచేసి", "క్షమించండి", "వీడ్కోలు"],
+          "options": [
+            "ధన్యవాదాలు",
+            "దయచేసి",
+            "క్షమించండి",
+            "వీడ్కోలు"
+          ],
           "options_translatable": true,
           "lang": "te-IN"
         },
@@ -618,7 +664,12 @@
           "question_translatable": true,
           "answer": "గొప్ప రోజు కలిగి ఉండు!",
           "answer_translatable": true,
-          "options": ["నీవు ఎలా ఉన్నావు?", "గొప్ప రోజు కలిగి ఉండు!", "వీడ్కోలు", "క్షమించండి"],
+          "options": [
+            "నీవు ఎలా ఉన్నావు?",
+            "గొప్ప రోజు కలిగి ఉండు!",
+            "వీడ్కోలు",
+            "క్షమించండి"
+          ],
           "options_translatable": true,
           "lang": "te-IN"
         },
@@ -639,8 +690,16 @@
           "prompt": "Match phrases to responses",
           "prompt_translatable": true,
           "pairs": [
-            { "word": "ఏమిటి సంగతులు?", "match": "ఏమీ లేదు, నీవు?", "translatable": true },
-            { "word": "నీవు కనిపించడం సంతోషం!", "match": "నీవు కూడా!", "translatable": true }
+            {
+              "word": "ఏమిటి సంగతులు?",
+              "match": "ఏమీ లేదు, నీవు?",
+              "translatable": true
+            },
+            {
+              "word": "నీవు కనిపించడం సంతోషం!",
+              "match": "నీవు కూడా!",
+              "translatable": true
+            }
           ],
           "lang": "te-IN"
         },
@@ -671,7 +730,12 @@
           "question_translatable": true,
           "answer": "ఏమిటి సంగతులు?",
           "answer_translatable": true,
-          "options": ["శుభ రాత్రి", "ఏమిటి సంగతులు?", "ధన్యవాదాలు", "దయచేసి"],
+          "options": [
+            "శుభ రాత్రి",
+            "ఏమిటి సంగతులు?",
+            "ధన్యవాదాలు",
+            "దయచేసి"
+          ],
           "options_translatable": true,
           "lang": "te-IN"
         },
@@ -720,7 +784,12 @@
           "question_translatable": true,
           "answer": "శుభ మధ్యాహ్నం",
           "answer_translatable": true,
-          "options": ["శుభోదయం", "శుభ మధ్యాహ్నం", "శుభ రాత్రి", "నమస్తే"],
+          "options": [
+            "శుభోదయం",
+            "శుభ మధ్యాహ్నం",
+            "శుభ రాత్రి",
+            "నమస్తే"
+          ],
           "options_translatable": true,
           "lang": "te-IN"
         }
@@ -731,7 +800,11 @@
     {
       "lesson": 2,
       "title": "Self Introduction",
-      "skills": ["Phrases", "Grammar", "Pronunciation"],
+      "skills": [
+        "Phrases",
+        "Grammar",
+        "Pronunciation"
+      ],
       "content": [
         {
           "type": "phrase",
@@ -1099,10 +1172,26 @@
           "prompt_translatable": true,
           "lang": "te-IN",
           "pairs": [
-            { "word": "నా పేరు [Your Name].", "match": "నీవు కలిసినందుకు సంతోషం!", "translatable": true },
-            { "word": "నేను విద్యార్థిని.", "match": "బాగుంది! నీవు ఏమి చదువుతున్నావు?", "translatable": true },
-            { "word": "నాకు పుస్తకాలు చదవడం ఇష్టం.", "match": "బాగుంది! ఏ పుస్తకాలు చదువుతావు?", "translatable": true },
-            { "word": "నేను [Your City] లో నివసిస్తున్నాను.", "match": "ఆ నగరం నాకు ఇష్టం!", "translatable": true }
+            {
+              "word": "నా పేరు [Your Name].",
+              "match": "నీవు కలిసినందుకు సంతోషం!",
+              "translatable": true
+            },
+            {
+              "word": "నేను విద్యార్థిని.",
+              "match": "బాగుంది! నీవు ఏమి చదువుతున్నావు?",
+              "translatable": true
+            },
+            {
+              "word": "నాకు పుస్తకాలు చదవడం ఇష్టం.",
+              "match": "బాగుంది! ఏ పుస్తకాలు చదువుతావు?",
+              "translatable": true
+            },
+            {
+              "word": "నేను [Your City] లో నివసిస్తున్నాను.",
+              "match": "ఆ నగరం నాకు ఇష్టం!",
+              "translatable": true
+            }
           ]
         },
         {
@@ -1132,7 +1221,12 @@
           "question_translatable": true,
           "answer": "నేను డాక్టర్",
           "answer_translatable": true,
-          "options": ["నేను విద్యార్థిని", "నేను డాక్టర్", "నా పేరు డాక్టర్", "నేను డాక్టర్ నుండి"],
+          "options": [
+            "నేను విద్యార్థిని",
+            "నేను డాక్టర్",
+            "నా పేరు డాక్టర్",
+            "నేను డాక్టర్ నుండి"
+          ],
           "options_translatable": true,
           "lang": "te-IN"
         },
@@ -1170,7 +1264,12 @@
           "question_translatable": true,
           "answer": "నాకు [hobby] ఇష్టం.",
           "answer_translatable": true,
-          "options": ["నేను హాబీ", "నాకు [hobby] ఇష్టం.", "నా పేరు హాబీ", "నేను హాబీ నుండి"],
+          "options": [
+            "నేను హాబీ",
+            "నాకు [hobby] ఇష్టం.",
+            "నా పేరు హాబీ",
+            "నేను హాబీ నుండి"
+          ],
           "options_translatable": true,
           "lang": "te-IN"
         },
@@ -1219,7 +1318,12 @@
           "question_translatable": true,
           "answer": "నేను కెనడా నుండి వచ్చాను",
           "answer_translatable": true,
-          "options": ["నేను కెనడా", "నేను కెనడా నుండి వచ్చాను", "నా పేరు కెనడా", "నాకు కెనడా ఇష్టం"],
+          "options": [
+            "నేను కెనడా",
+            "నేను కెనడా నుండి వచ్చాను",
+            "నా పేరు కెనడా",
+            "నాకు కెనడా ఇష్టం"
+          ],
           "options_translatable": true,
           "lang": "te-IN"
         },
@@ -1240,8 +1344,16 @@
           "prompt": "Match phrases to responses",
           "prompt_translatable": true,
           "pairs": [
-            { "word": "నాకు ప్రయాణం చేయడం ఇష్టం.", "match": "నీవు ఎక్కడికి వెళ్ళావు?", "translatable": true },
-            { "word": "నేను నర్సు.", "match": "అది గొప్ప ఉద్యోగం!", "translatable": true }
+            {
+              "word": "నాకు ప్రయాణం చేయడం ఇష్టం.",
+              "match": "నీవు ఎక్కడికి వెళ్ళావు?",
+              "translatable": true
+            },
+            {
+              "word": "నేను నర్సు.",
+              "match": "అది గొప్ప ఉద్యోగం!",
+              "translatable": true
+            }
           ],
           "lang": "te-IN"
         },
@@ -1272,7 +1384,12 @@
           "question_translatable": true,
           "answer": "నేను [Your City] లో నివసిస్తున్నాను.",
           "answer_translatable": true,
-          "options": ["నేను [Your City].", "నేను [Your City] లో నివసిస్తున్నాను.", "నేను [Your City] లో పనిచేస్తున్నాను.", "నాకు [Your City] ఇష్టం."],
+          "options": [
+            "నేను [Your City].",
+            "నేను [Your City] లో నివసిస్తున్నాను.",
+            "నేను [Your City] లో పనిచేస్తున్నాను.",
+            "నాకు [Your City] ఇష్టం."
+          ],
           "options_translatable": true,
           "lang": "te-IN"
         },
@@ -1319,9 +1436,14 @@
       "cultural_notes_translatable": true
     },
     {
-    "lesson": 3,
+      "lesson": 3,
       "title": "Family",
-      "skills": ["Vocabulary", "Phrases", "Grammar", "Cultural Context"],
+      "skills": [
+        "Vocabulary",
+        "Phrases",
+        "Grammar",
+        "Cultural Context"
+      ],
       "content": [
         {
           "type": "vocab",
@@ -1662,10 +1784,26 @@
           "prompt_translatable": true,
           "lang": "te-IN",
           "pairs": [
-            { "word": "తండ్రి", "match": "డాక్టర్", "translatable": true },
-            { "word": "తల్లి", "match": "ఉపాధ్యాయురాలు", "translatable": true },
-            { "word": "చెల్లి", "match": "నృత్యం ఇష్టపడుతుంది", "translatable": true },
-            { "word": "తమ్ముడు", "match": "విద్యార్థి", "translatable": true }
+            {
+              "word": "తండ్రి",
+              "match": "డాక్టర్",
+              "translatable": true
+            },
+            {
+              "word": "తల్లి",
+              "match": "ఉపాధ్యాయురాలు",
+              "translatable": true
+            },
+            {
+              "word": "చెల్లి",
+              "match": "నృత్యం ఇష్టపడుతుంది",
+              "translatable": true
+            },
+            {
+              "word": "తమ్ముడు",
+              "match": "విద్యార్థి",
+              "translatable": true
+            }
           ]
         },
         {
@@ -1695,7 +1833,12 @@
           "question_translatable": true,
           "answer": "తండ్రి",
           "answer_translatable": true,
-          "options": ["తల్లి", "తండ్రి", "అన్న", "చెల్లి"],
+          "options": [
+            "తల్లి",
+            "తండ్రి",
+            "అన్న",
+            "చెల్లి"
+          ],
           "options_translatable": true,
           "lang": "te-IN"
         },
@@ -1733,7 +1876,12 @@
           "question_translatable": true,
           "answer": "నేను నా కుటుంబాన్ని ప్రేమిస్తాను.",
           "answer_translatable": true,
-          "options": ["నేను నా కుటుంబాన్ని ప్రేమిస్తాను.", "నాకు పెద్ద కుటుంబం ఉంది.", "నా తల్లి ఉపాధ్యాయురాలు.", "నీకు తమ్ముడు ఉన్నాడా?"],
+          "options": [
+            "నేను నా కుటుంబాన్ని ప్రేమిస్తాను.",
+            "నాకు పెద్ద కుటుంబం ఉంది.",
+            "నా తల్లి ఉపాధ్యాయురాలు.",
+            "నీకు తమ్ముడు ఉన్నాడా?"
+          ],
           "options_translatable": true,
           "lang": "te-IN"
         },
@@ -1762,7 +1910,11 @@
     {
       "lesson": 4,
       "title": "Basic Interactions",
-      "skills": ["Phrases", "Politeness", "Everyday Expressions"],
+      "skills": [
+        "Phrases",
+        "Politeness",
+        "Everyday Expressions"
+      ],
       "content": [
         {
           "type": "phrase",
@@ -1968,9 +2120,21 @@
           "prompt_translatable": true,
           "lang": "te-IN",
           "pairs": [
-            { "word": "నీవు నాకు సహాయం చేయగలవా?", "match": "అవును, ఖచ్చితంగా!", "translatable": true },
-            { "word": "ఇది ఎంత?", "match": "ఇది ఐదు వందల రూపాయలు.", "translatable": true },
-            { "word": "సమయం ఎంత?", "match": "ఇప్పుడు మధ్యాహ్నం రెండు గంటలు.", "translatable": true }
+            {
+              "word": "నీవు నాకు సహాయం చేయగలవా?",
+              "match": "అవును, ఖచ్చితంగా!",
+              "translatable": true
+            },
+            {
+              "word": "ఇది ఎంత?",
+              "match": "ఇది ఐదు వందల రూపాయలు.",
+              "translatable": true
+            },
+            {
+              "word": "సమయం ఎంత?",
+              "match": "ఇప్పుడు మధ్యాహ్నం రెండు గంటలు.",
+              "translatable": true
+            }
           ]
         },
         {
@@ -2000,7 +2164,12 @@
           "question_translatable": true,
           "answer": "సమయం ఎంత?",
           "answer_translatable": true,
-          "options": ["ఇది ఎంత?", "సమయం ఎంత?", "నీవు ఎక్కడ నివసిస్తావు?", "దయచేసి"],
+          "options": [
+            "ఇది ఎంత?",
+            "సమయం ఎంత?",
+            "నీవు ఎక్కడ నివసిస్తావు?",
+            "దయచేసి"
+          ],
           "options_translatable": true,
           "lang": "te-IN"
         },
@@ -2038,7 +2207,12 @@
           "question_translatable": true,
           "answer": "నీవు నాకు సహాయం చేయగలవా?",
           "answer_translatable": true,
-          "options": ["నీవు నాకు సహాయం చేయగలవా?", "సమయం ఎంత?", "ఇది ఎంత?", "ధన్యవాదాలు"],
+          "options": [
+            "నీవు నాకు సహాయం చేయగలవా?",
+            "సమయం ఎంత?",
+            "ఇది ఎంత?",
+            "ధన్యవాదాలు"
+          ],
           "options_translatable": true,
           "lang": "te-IN"
         },
