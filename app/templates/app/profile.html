@@ -1,0 +1,79 @@
+{% extends "app/layout.html" %}
+
+{% block title %}Profile - APP{% endblock %}
+
+{% block content %}
+<div class="py-12 px-4 bg-gradient-to-br from-blue-50 to-emerald-100">
+    <div class="max-w-4xl mx-auto">
+        <!-- Header Section -->
+        <div class="text-center mb-12">
+            <div class="w-24 h-24 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                <span class="text-4xl">🦜</span>
+            </div>
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-2">Your Learning Journey</h1>
+            <p class="text-lg text-blue-700">भाषा सीखें, भारत जानें – Track your progress with APP.</p>
+        </div>
+
+        <!-- Messages -->
+        {% if messages %}
+        <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded-md mb-8 max-w-lg mx-auto">
+            {% for message in messages %}
+            <p>{{ message }}</p>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <!-- Profile Information -->
+        <div class="bg-white rounded-lg shadow-md p-6 max-w-lg mx-auto">
+            <h2 class="text-2xl font-semibold text-gray-900 mb-4">Profile Details</h2>
+            <div class="space-y-4">
+                <div>
+                    <span class="block text-sm font-medium text-gray-600">Name</span>
+                    <p class="text-lg text-gray-900">{{ user.get_full_name|default:"Not set" }}</p>
+                </div>
+                <div>
+                    <span class="block text-sm font-medium text-gray-600">Email/Phone</span>
+                    <p class="text-lg text-gray-900">{{ user.username }}</p>
+                </div>
+                <div>
+                    <span class="block text-sm font-medium text-gray-600">Account Status</span>
+                    <p class="text-lg text-gray-900">
+                        {% if user.is_active %}
+                        <span class="text-blue-600">Verified</span>
+                        {% else %}
+                        <span class="text-red-600">Unverified (Check your email)</span>
+                        {% endif %}
+                    </p>
+                </div>
+            </div>
+            <div class="mt-6">
+                edit profile here
+            </div>
+        </div>
+
+        <!-- Learning Progress -->
+        <div class="mt-8 bg-white rounded-lg shadow-md p-6 max-w-lg mx-auto">
+            <h2 class="text-2xl font-semibold text-gray-900 mb-4">Learning Progress</h2>
+            <div class="space-y-4">
+                <div>
+                    <span class="block text-sm font-medium text-gray-600">Courses Enrolled</span>
+                    <p class="text-lg text-gray-900">{% if user.profile.courses %}{{ user.profile.courses }}
+                        {% else %}None yet{% endif %}</p>
+                </div>
+
+
+            </div>
+            <div class="mt-6">
+                courses here
+            </div>
+        </div>
+
+        <!-- Logout -->
+        <div class="text-center mt-8">
+            <a href="{% url 'logout' %}"
+                class="inline-block border border-blue-600 text-blue-600 px-4 py-2 rounded-full font-semibold hover:bg-blue-50 transition">Log
+                Out</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
