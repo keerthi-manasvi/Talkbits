@@ -1,0 +1,14 @@
+{% extends 'app/layout.html' %}
+{% block content %}
+<h2 class="text-2xl font-bold mb-4">{{ language }} - Unit {{ unit }} Lessons</h2>
+<ul class="space-y-2">
+    {% for lesson in lessons %}
+    <li>
+        <a href="{% url 'lesson_detail' language unit forloop.counter %}"
+            class="block bg-white p-4 rounded shadow hover:bg-blue-50 font-medium text-blue-700">
+            {{ lesson.title }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}

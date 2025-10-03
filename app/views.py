@@ -11,7 +11,8 @@ from django.contrib.auth.tokens import default_token_generator
 from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
 from django.utils.encoding import force_bytes, force_str
 from django.contrib.auth.decorators import login_required
-
+import json
+import os
 
 def index(request):
     return render(request, 'app/index.html')
@@ -133,3 +134,74 @@ def profile(request):
 def logout_view(request):
     logout(request)  # Log out the user
     return render(request, 'app/logout.html')
+
+def load_json(language: str) -> dict:
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    filename = f"{language.lower()}_translated.json"
+    path = os.path.join(base_dir, 'lessons', filename)
+    try:
+        with open(path, encoding='utf-8') as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return {"lessons": []}
+
+@login_required
+def course_list(request):
+    languages = ['Telugu', 'Hindi', 'English', 'Tamil']
+    return render(request, 'app/index.html', {'languages': languages})
+
+@login_required
+def unit_list(request, language):
+    return render(request, 'app/unit_list.html', {'language': language})
+
+@login_required
+def lesson_list(request, language, unit):
+    data = load_json(language)
+    lessons = data.get('lessons', [])
+    return render(request, 'app/lesson_list.html', {
+        'language': language,
+        'unit': unit,
+        'lessons': lessons
+    })
+
+@login_required
+def lesson_detail(request, language, unit, lesson):
+    data = load_json(language)
+    lessons = data.get('lessons', [])
+    if lesson - 1 >= len(lessons):
+        return render(request, 'app/lesson_detail.html', {
+            'language': language,
+            'unit': unit,
+            'lesson': lesson,
+            'lesson_data': {
+                'title': 'Lesson not found',
+                'content': []
+            }
+        })
+    lesson_data = lessons[lesson - 1]
+    return render(request, 'app/lesson_detail.html', {
+        'language': language,
+        'unit': unit,
+        'lesson': lesson,
+        'lesson_data': lesson_data
+    })
+
+@login_required
+def exercise_page(request, language, unit, lesson):
+    data = load_json(language)
+    lesson_data = data.get('lessons', [])[lesson - 1]
+    exercises = [c for c in lesson_data.get('content', []) if c.get('type') == 'exercise']
+    submitted = request.method == 'POST'
+    if submitted:
+        course_obj = Course.objects.filter(language=language).first()
+        if course_obj:
+            progress, _ = UserProgress.objects.get_or_create(user=request.user, course=course_obj)
+            progress.exercises_submitted[str(lesson)] = True
+            progress.save()
+        return redirect('lesson_list', language=language, unit=unit)
+    return render(request, 'app/exercise_page.html', {
+        'language': language,
+        'unit': unit,
+        'lesson': lesson,
+        'exercises': exercises
+    })
