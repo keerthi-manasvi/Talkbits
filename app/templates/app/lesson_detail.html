@@ -1,0 +1,60 @@
+{% extends 'app/layout.html' %}
+{% block content %}
+<h2 class="text-2xl font-bold mb-4">{{ lesson_data.title }}</h2>
+
+<div class="mb-4">
+    <label for="languageSelect" class="block font-medium mb-1">Translate to:</label>
+    <select id="languageSelect" class="border rounded px-2 py-1">
+        <option value="ta-IN">Tamil</option>
+        <option value="hi-IN">Hindi</option>
+        <option value="te-IN">Telugu</option>
+        <option value="en-IN">English</option>
+    </select>
+</div>
+
+{% for item in lesson_data.content %}
+<div class="bg-white p-4 rounded shadow mb-4">
+    {% if item.type == 'vocab' or item.type == 'phrase' %}
+    <p data-translatable data-translations='{{ item.translations|safe }}' class="font-semibold">{{
+        item.word|default:item.text }}</p>
+    {% if item.example %}
+    <p class="italic">{{ item.example }}</p>
+    {% elif item.response %}
+    <p class="italic">{{ item.response }}</p>
+    {% else %}
+    <p class="italic text-gray-500">No example available.</p>
+    {% endif %}
+    {% if item.audio %}
+    <audio controls class="mt-2 w-full">
+        <source src="/static/audio/{{ item.lang }}/{{ item.audio }}" type="audio/mpeg">
+    </audio>
+    {% endif %}
+    {% elif item.type == 'dialogue' %}
+    <p class="font-bold mb-2">Dialogue: {{ item.scenario }}</p>
+    {% for line in item.lines %}
+    <p><strong>{{ line.speaker }}:</strong> {{ line.text }}</p>
+    {% if line.audio %}
+    <audio controls class="mt-1 w-full">
+        <source src="/static/audio/{{ line.lang }}/{{ line.audio }}" type="audio/mpeg">
+    </audio>
+    {% endif %}
+    {% endfor %}
+    {% elif item.type == 'cultural_notes' %}
+    <div class="bg-blue-100 p-2 rounded">{{ item.text }}</div>
+    {% endif %}
+</div>
+{% endfor %}
+
+<a href="{% url 'exercise_page' language unit lesson %}"
+    class="bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600">Go to Exercises</a>
+
+<script>
+    document.getElementById('languageSelect').addEventListener('change', function () {
+        const selectedLang = this.value;
+        document.querySelectorAll('[data-translatable]').forEach(el => {
+            const translations = JSON.parse(el.getAttribute('data-translations'));
+            el.innerText = translations[selectedLang] || el.innerText;
+        });
+    });
+</script>
+{% endblock %}

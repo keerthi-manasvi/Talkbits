@@ -32,7 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'app',
-    'allauth',
+    #'allauth',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -134,9 +134,10 @@ EMAIL_HOST_PASSWORD = '123'  # App-specific password (not regular password)
 DEFAULT_FROM_EMAIL = 'appname <computerstempo@gmail.com>'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-
+"""
 AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
     'allauth.account.auth_backends.AuthenticationBackend',
 ]
-SITE_ID = 1
+"""
+#SITE_ID = 1
