@@ -72,6 +72,16 @@
         </div>
 
         <!-- Social Logins -->
+        <div class="space-y-3">
+            {% load socialaccount %}
+
+            <a href="{% provider_login_url 'google' %}"
+                class="w-full flex justify-center py-3 px-4 border border-gray-300 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-50 transition">
+                <img src="https://developers.google.com/identity/images/g-logo.png" alt="Google" class="w-5 h-5 mr-2">
+                Continue with Google
+            </a>
+
+        </div>
 
         <!-- Sign In Link -->
         <div class="text-center">
