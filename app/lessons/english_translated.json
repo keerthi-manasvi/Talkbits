@@ -1441,7 +1441,7 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "Hello, I’m Tom. I’m from New York.",
+              "text": "Hello, I’m Tom. I’m from New Delhi.",
               "translatable": true,
               "lang": "en-IN",
               "audio": "hello_tom.mp3"
@@ -1733,7 +1733,7 @@
         {
           "type": "exercise",
           "format": "dialogue",
-          "prompt": "Complete the dialogue: A: I’m from New York. B: ___",
+          "prompt": "Complete the dialogue: A: I’m from New Delhi. B: ___",
           "prompt_translatable": true,
           "answer": "Wow, that’s far!",
           "answer_translatable": true,
@@ -2365,10 +2365,10 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "My parents live in Chicago.",
+              "text": "My parents live in Chennai.",
               "translatable": true,
               "lang": "en-IN",
-              "audio": "parents_live_chicago.mp3"
+              "audio": "parents_live_Chennai.mp3"
             },
             {
               "speaker": "B",

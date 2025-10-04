@@ -147,7 +147,7 @@
                     "text": "Have a great day!",
                     "translatable": true,
                     "lang": "en-IN",
-                    "response": "Thanks, you too!",
+                    "response": "Thankyou, you too!",
                     "response_translatable": true,
                     "audio": "have_a_great_day.mp3"
                 },
@@ -270,7 +270,7 @@
                 },
                 {
                     "type": "phrase",
-                    "text": "Catch you later!",
+                    "text": "See you later!",
                     "translatable": true,
                     "lang": "en-IN",
                     "response": "Sure thing!",
@@ -282,13 +282,13 @@
                     "text": "How’s everything?",
                     "translatable": true,
                     "lang": "en-IN",
-                    "response": "Everything’s good!",
+                    "response": "Everything’s good.",
                     "response_translatable": true,
                     "audio": "hows_everything.mp3"
                 },
                 {
                     "type": "phrase",
-                    "text": "Nice to see you again!",
+                    "text": "Good to see you again!",
                     "translatable": true,
                     "lang": "en-IN",
                     "response": "Same here!",
@@ -344,10 +344,10 @@
                         },
                         {
                             "speaker": "B",
-                            "text": "Morning! Yes, let’s do this!",
+                            "text": "Good Morning! Yes, I'm ready. You?",
                             "translatable": true,
                             "lang": "en-IN",
-                            "audio": "morning_lets_do_this.mp3"
+                            "audio": "good_morning_yes_im_ready_you.mp3"
                         }
                     ]
                 },
@@ -444,7 +444,7 @@
                         },
                         {
                             "speaker": "B",
-                            "text": "Not much, just chilling!",
+                            "text": "Not much, just chilling.",
                             "translatable": true,
                             "lang": "en-IN",
                             "audio": "not_much_chilling.mp3"
@@ -838,7 +838,7 @@
                     "text": "I work as a teacher.",
                     "translatable": true,
                     "lang": "en-IN",
-                    "response": "That’s great!",
+                    "response": "That’s great! What do you teach?",
                     "response_translatable": true,
                     "audio": "i_work_as_teacher.mp3"
                 },
@@ -892,7 +892,7 @@
                     "text": "I like to travel.",
                     "translatable": true,
                     "lang": "en-IN",
-                    "response": "Where have you been?",
+                    "response": "Which places did you visit?",
                     "response_translatable": true,
                     "audio": "i_like_to_travel.mp3"
                 },
@@ -934,19 +934,10 @@
                 },
                 {
                     "type": "phrase",
-                    "text": "I’m from a small town.",
-                    "translatable": true,
-                    "lang": "en-IN",
-                    "response": "That sounds cozy!",
-                    "response_translatable": true,
-                    "audio": "im_from_small_town.mp3"
-                },
-                {
-                    "type": "phrase",
                     "text": "I work as a chef.",
                     "translatable": true,
                     "lang": "en-IN",
-                    "response": "Do you cook anything special?",
+                    "response": "What do you cook?",
                     "response_translatable": true,
                     "audio": "i_work_as_chef.mp3"
                 },
@@ -964,7 +955,7 @@
                     "text": "I’m studying at university.",
                     "translatable": true,
                     "lang": "en-IN",
-                    "response": "What’s your major?",
+                    "response": "What do you study?",
                     "response_translatable": true,
                     "audio": "im_studying_university.mp3"
                 },
@@ -973,7 +964,7 @@
                     "text": "I enjoy cooking.",
                     "translatable": true,
                     "lang": "en-IN",
-                    "response": "What’s your favorite dish?",
+                    "response": "What’s your favorite dish to cook?",
                     "response_translatable": true,
                     "audio": "i_enjoy_cooking.mp3"
                 },
@@ -982,7 +973,7 @@
                     "text": "I’m from Canada.",
                     "translatable": true,
                     "lang": "en-IN",
-                    "response": "Cool, which part?",
+                    "response": "Cool! Which part?",
                     "response_translatable": true,
                     "audio": "im_from_canada.mp3"
                 },
@@ -1018,7 +1009,7 @@
                     "text": "I’m a nurse.",
                     "translatable": true,
                     "lang": "en-IN",
-                    "response": "That’s a noble job!",
+                    "response": "That’s a good job",
                     "response_translatable": true,
                     "audio": "im_a_nurse.mp3"
                 },
@@ -1051,7 +1042,7 @@
                         },
                         {
                             "speaker": "A",
-                            "text": "I’m a student. I study biology.",
+                            "text": "I’m a student. I study biology. What do you do?",
                             "translatable": true,
                             "lang": "en-IN",
                             "audio": "im_a_student.mp3"
@@ -1078,7 +1069,7 @@
                         },
                         {
                             "speaker": "A",
-                            "text": "Nice to meet you! I like to paint.",
+                            "text": "Nice to meet you!",
                             "translatable": true,
                             "lang": "en-IN",
                             "audio": "nice_to_meet_paint.mp3"
@@ -1111,14 +1102,14 @@
                     "lines": [
                         {
                             "speaker": "A",
-                            "text": "Hello, I’m Tom. I’m from New York.",
+                            "text": "Hello, I’m Tom. I’m from Hyderabad",
                             "translatable": true,
                             "lang": "en-IN",
                             "audio": "hello_tom.mp3"
                         },
                         {
                             "speaker": "B",
-                            "text": "Hi Tom, I’m Rachel. I’m a doctor.",
+                            "text": "Hi Tom, I’m Rachel. I’m from Bangalore",
                             "translatable": true,
                             "lang": "en-IN",
                             "audio": "hi_rachel_doctor.mp3"
@@ -1138,10 +1129,10 @@
                         },
                         {
                             "speaker": "B",
-                            "text": "Nice to meet you, James! Where have you been?",
+                            "text": "Nice to meet you, James! Which places did you visit?",
                             "translatable": true,
                             "lang": "en-IN",
-                            "audio": "where_have_you_been.mp3"
+                            "audio": "which_places_did_you_visit.mp3"
                         }
                     ]
                 },
@@ -1151,7 +1142,7 @@
                     "lines": [
                         {
                             "speaker": "A",
-                            "text": "Hello, I’m Mia. I live in [Your City].",
+                            "text": "Hello, I’m Mia. I recently moved to [Your City]",
                             "translatable": true,
                             "lang": "en-IN",
                             "audio": "hello_mia.mp3"
@@ -1332,7 +1323,7 @@
                     "format": "dialogue",
                     "prompt": "Complete the dialogue: A: I’m studying at university. B: ___",
                     "prompt_translatable": true,
-                    "answer": "What’s your major?",
+                    "answer": "What do you study?",
                     "answer_translatable": true,
                     "hint": "Ask about their studies",
                     "hint_translatable": true,
@@ -1351,7 +1342,7 @@
                         },
                         {
                             "word": "I’m a nurse.",
-                            "match": "That’s a noble job!",
+                            "match": "That’s a good job!",
                             "translatable": true
                         }
                     ],
@@ -1403,7 +1394,7 @@
                 {
                     "type": "exercise",
                     "format": "dialogue",
-                    "prompt": "Complete the dialogue: A: I’m from New York. B: ___",
+                    "prompt": "Complete the dialogue: A: I’m from New Delhi. B: ___",
                     "prompt_translatable": true,
                     "answer": "Wow, that’s far!",
                     "answer_translatable": true,
@@ -1522,7 +1513,7 @@
                     "word": "Uncle",
                     "translatable": true,
                     "lang": "en-IN",
-                    "example": "My uncle lives in Texas.",
+                    "example": "My uncle lives in Mumbai.",
                     "example_translatable": true,
                     "audio": "uncle.mp3"
                 },
@@ -1831,10 +1822,10 @@
                     "lines": [
                         {
                             "speaker": "A",
-                            "text": "My parents live in Chicago.",
+                            "text": "My parents live in Chennai.",
                             "translatable": true,
                             "lang": "en-IN",
-                            "audio": "parents_live_chicago.mp3"
+                            "audio": "parents_live_Chennai.mp3"
                         },
                         {
                             "speaker": "B",
@@ -1987,7 +1978,7 @@
                     "options": [
                         "Do you have a job?",
                         "Do you have siblings?",
-                        "Where is your family?",
+                        "What do you study?",
                         "I love my family"
                     ],
                     "options_translatable": true,
@@ -2107,7 +2098,7 @@
                     "options": [
                         "Do you have a sister?",
                         "Do you have a brother?",
-                        "Where is your brother?",
+                        "My daughter is in school.",
                         "I love my brother"
                     ],
                     "options_translatable": true,
