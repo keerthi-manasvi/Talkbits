@@ -925,795 +925,251 @@
             "cultural_notes_translatable": true
         },
         {
-            "lesson": 3,
-            "title": "Family",
-            "skills": [
-                "Vocabulary",
-                "Phrases",
-                "Grammar",
-                "Cultural Context"
-            ],
-            "content": [
-                {
-                    "type": "vocab",
-                    "word": "पिता",
-                    "translatable": true,
-                    "lang": "hi-IN",
-                    "example": "मेरे पिता एक डॉक्टर हैं।",
-                    "example_translatable": true,
-                    "audio": "pita.mp3"
-                },
-                {
-                    "type": "vocab",
-                    "word": "माता",
-                    "translatable": true,
-                    "lang": "hi-IN",
-                    "example": "मेरी माता एक शिक्षिका हैं।",
-                    "example_translatable": true,
-                    "audio": "mata.mp3"
-                },
-                {
-                    "type": "vocab",
-                    "word": "बड़ा भाई",
-                    "translatable": true,
-                    "lang": "hi-IN",
-                    "example": "मेरा बड़ा भाई 25 साल का है।",
-                    "example_translatable": true,
-                    "audio": "bada_bhai.mp3"
-                },
-                {
-                    "type": "vocab",
-                    "word": "छोटा भाई",
-                    "translatable": true,
-                    "lang": "hi-IN",
-                    "example": "मेरा छोटा भाई स्कूल में है।",
-                    "example_translatable": true,
-                    "audio": "chhota_bhai.mp3"
-                },
-                {
-                    "type": "vocab",
-                    "word": "बड़ी बहन",
-                    "translatable": true,
-                    "lang": "hi-IN",
-                    "example": "मेरी बड़ी बहन वकील है।",
-                    "example_translatable": true,
-                    "audio": "badi_behen.mp3"
-                },
-                {
-                    "type": "vocab",
-                    "word": "छोटी बहन",
-                    "translatable": true,
-                    "lang": "hi-IN",
-                    "example": "मेरी छोटी बहन को नृत्य करना पसंद है।",
-                    "example_translatable": true,
-                    "audio": "chhoti_behen.mp3"
-                },
-                {
-                    "type": "vocab",
-                    "word": "बेटी",
-                    "translatable": true,
-                    "lang": "hi-IN",
-                    "example": "मेरी बेटी पाँच साल की है।",
-                    "example_translatable": true,
-                    "audio": "beti.mp3"
-                },
-                {
-                    "type": "vocab",
-                    "word": "बेटा",
-                    "translatable": true,
-                    "lang": "hi-IN",
-                    "example": "मेरा बेटा फुटबॉल खेलता है।",
-                    "example_translatable": true,
-                    "audio": "beta.mp3"
-                },
-                {
-                    "type": "vocab",
-                    "word": "चाचा",
-                    "translatable": true,
-                    "lang": "hi-IN",
-                    "example": "मेरे चाचा दिल्ली में रहते हैं।",
-                    "example_translatable": true,
-                    "audio": "chacha.mp3"
-                },
-                {
-                    "type": "vocab",
-                    "word": "चाची",
-                    "translatable": true,
-                    "lang": "hi-IN",
-                    "example": "मेरी चाची स्वादिष्ट खाना बनाती हैं।",
-                    "example_translatable": true,
-                    "audio": "chachi.mp3"
-                },
-                {
-                    "type": "phrase",
-                    "text": "यह मेरा परिवार है।",
-                    "translatable": true,
-                    "lang": "hi-IN",
-                    "response": "आपका परिवार बहुत अच्छा लगता है!",
-                    "response_translatable": true,
-                    "audio": "yeh_mera_parivaar.mp3"
-                },
-                {
-                    "type": "phrase",
-                    "text": "मेरे दो भाई हैं।",
-                    "translatable": true,
-                    "lang": "hi-IN",
-                    "response": "यह एक बड़ा परिवार है!",
-                    "response_translatable": true,
-                    "audio": "mere_do_bhai.mp3"
-                },
-                {
-                    "type": "phrase",
-                    "text": "मेरी माता एक शिक्षिका हैं।",
-                    "translatable": true,
-                    "lang": "hi-IN",
-                    "response": "यह अद्भुत है!",
-                    "response_translatable": true,
-                    "audio": "mata_shikshika.mp3"
-                },
-                {
-                    "type": "phrase",
-                    "text": "क्या आपके भाई-बहन हैं?",
-                    "translatable": true,
-                    "lang": "hi-IN",
-                    "response": "हाँ, मेरी एक बहन है।",
-                    "response_translatable": true,
-                    "audio": "kya_bhai_behen.mp3"
-                },
-                {
-                    "type": "phrase",
-                    "text": "मेरे माता-पिता [आपका शहर] में रहते हैं।",
-                    "translatable": true,
-                    "lang": "hi-IN",
-                    "response": "अच्छा स्थान!",
-                    "response_translatable": true,
-                    "audio": "mata_pita_shehar.mp3"
-                },
-                {
-                    "type": "phrase",
-                    "text": "मैं अपने परिवार से प्यार करता हूँ।",
-                    "translatable": true,
-                    "lang": "hi-IN",
-                    "response": "यह बहुत प्यारा है!",
-                    "response_translatable": true,
-                    "audio": "main_parivaar_pyaar.mp3"
-                },
-                {
-                    "type": "phrase",
-                    "text": "मेरे पिता एक डॉक्टर हैं।",
-                    "translatable": true,
-                    "lang": "hi-IN",
-                    "response": "वाह, यह प्रभावशाली है!",
-                    "response_translatable": true,
-                    "audio": "pita_doctor.mp3"
-                },
-                {
-                    "type": "phrase",
-                    "text": "मेरी एक बहन है।",
-                    "translatable": true,
-                    "lang": "hi-IN",
-                    "response": "यह अच्छा है!",
-                    "response_translatable": true,
-                    "audio": "meri_ek_behen.mp3"
-                },
-                {
-                    "type": "phrase",
-                    "text": "मेरा भाई एक छात्र है।",
-                    "translatable": true,
-                    "lang": "hi-IN",
-                    "response": "वह क्या पढ़ता है?",
-                    "response_translatable": true,
-                    "audio": "mera_bhai_chhatra.mp3"
-                },
-                {
-                    "type": "phrase",
-                    "text": "मेरी दादी हमारे साथ रहती हैं।",
-                    "translatable": true,
-                    "lang": "hi-IN",
-                    "response": "यह बहुत अच्छा है!",
-                    "response_translatable": true,
-                    "audio": "meri_dadi.mp3"
-                },
-                {
-                    "type": "dialogue",
-                    "scenario": "संग्रह में परिवार के बारे में बात करना",
-                    "lines": [
-                        {
-                            "speaker": "A",
-                            "text": "क्या आपके भाई-बहन हैं?",
-                            "translatable": true,
-                            "lang": "hi-IN",
-                            "audio": "kya_bhai_behen_sangrah.mp3"
-                        },
-                        {
-                            "speaker": "B",
-                            "text": "हाँ, मेरी एक बहन और एक भाई है।",
-                            "translatable": true,
-                            "lang": "hi-IN",
-                            "audio": "ek_behen_ek_bhai.mp3"
-                        },
-                        {
-                            "speaker": "A",
-                            "text": "यह अच्छा है! वे क्या करते हैं?",
-                            "translatable": true,
-                            "lang": "hi-IN",
-                            "audio": "kya_karte_hain.mp3"
-                        }
-                    ]
-                },
-                {
-                    "type": "dialogue",
-                    "scenario": "आयोजन में परिवार का परिचय देना",
-                    "lines": [
-                        {
-                            "speaker": "A",
-                            "text": "यह मेरी माँ, ज्योति हैं।",
-                            "translatable": true,
-                            "lang": "hi-IN",
-                            "audio": "yeh_meri_maa.mp3"
-                        },
-                        {
-                            "speaker": "B",
-                            "text": "ज्योति, आपसे मिलकर खुशी हुई!",
-                            "translatable": true,
-                            "lang": "hi-IN",
-                            "audio": "milkar_khushi_jyoti.mp3"
-                        },
-                        {
-                            "speaker": "A",
-                            "text": "वह एक शिक्षिका हैं।",
-                            "translatable": true,
-                            "lang": "hi-IN",
-                            "audio": "woh_shikshika.mp3"
-                        }
-                    ]
-                },
-                {
-                    "type": "dialogue",
-                    "scenario": "पार्टी में परिवार के बारे में बात करना",
-                    "lines": [
-                        {
-                            "speaker": "A",
-                            "text": "मेरे दो भाई हैं।",
-                            "translatable": true,
-                            "lang": "hi-IN",
-                            "audio": "mere_do_bhai_party.mp3"
-                        },
-                        {
-                            "speaker": "B",
-                            "text": "यह एक बड़ा परिवार है!",
-                            "translatable": true,
-                            "lang": "hi-IN",
-                            "audio": "bada_parivaar.mp3"
-                        }
-                    ]
-                },
-                {
-                    "type": "dialogue",
-                    "scenario": "क्लास में परिवार के बारे में बात करना",
-                    "lines": [
-                        {
-                            "speaker": "A",
-                            "text": "मेरे माता-पिता दिल्ली में रहते हैं।",
-                            "translatable": true,
-                            "lang": "hi-IN",
-                            "audio": "mata_pita_delhi.mp3"
-                        },
-                        {
-                            "speaker": "B",
-                            "text": "अच्छा स्थान!",
-                            "translatable": true,
-                            "lang": "hi-IN",
-                            "audio": "accha_sthaan.mp3"
-                        }
-                    ]
-                },
-                {
-                    "type": "dialogue",
-                    "scenario": "पारिवारिक आयोजन में चाचा का परिचय देना",
-                    "lines": [
-                        {
-                            "speaker": "A",
-                            "text": "यह मेरे चाचा, मनोज हैं।",
-                            "translatable": true,
-                            "lang": "hi-IN",
-                            "audio": "yeh_mere_chacha.mp3"
-                        },
-                        {
-                            "speaker": "B",
-                            "text": "मनोज, आपसे मिलकर खुशी हुई!",
-                            "translatable": true,
-                            "lang": "hi-IN",
-                            "audio": "milkar_khushi_manoj.mp3"
-                        }
-                    ]
-                },
-                {
-                    "type": "dialogue",
-                    "scenario": "बेटी के बारे में बात करना",
-                    "lines": [
-                        {
-                            "speaker": "A",
-                            "text": "मेरी बेटी पाँच साल की है।",
-                            "translatable": true,
-                            "lang": "hi-IN",
-                            "audio": "beti_panch_saal.mp3"
-                        },
-                        {
-                            "speaker": "B",
-                            "text": "यह बहुत प्यारा है!",
-                            "translatable": true,
-                            "lang": "hi-IN",
-                            "audio": "bahut_pyaara.mp3"
-                        }
-                    ]
-                },
-                {
-                    "type": "exercise",
-                    "format": "match",
-                    "prompt": "वाक्यांशों को उनके जवाबों से मिलाएँ",
-                    "prompt_translatable": true,
-                    "lang": "hi-IN",
-                    "pairs": [
-                        {
-                            "word": "यह मेरा परिवार है।",
-                            "match": "आपका परिवार बहुत अच्छा लगता है!",
-                            "translatable": true
-                        },
-                        {
-                            "word": "मेरे दो भाई हैं।",
-                            "match": "यह एक बड़ा परिवार है!",
-                            "translatable": true
-                        },
-                        {
-                            "word": "मेरी माता एक शिक्षिका हैं।",
-                            "match": "यह अद्भुत है!",
-                            "translatable": true
-                        },
-                        {
-                            "word": "मैं अपने परिवार से प्यार करता हूँ।",
-                            "match": "यह बहुत प्यारा है!",
-                            "translatable": true
-                        }
-                    ]
-                },
-                {
-                    "type": "exercise",
-                    "format": "voice",
-                    "prompt": "कहें: यह मेरी माँ है।",
-                    "prompt_translatable": true,
-                    "expected": "यह मेरी माँ है।",
-                    "expected_translatable": true,
-                    "lang": "hi-IN"
-                },
-                {
-                    "type": "exercise",
-                    "format": "fill-in",
-                    "prompt": "पूरा करें: मेरी एक ___ है।",
-                    "prompt_translatable": true,
-                    "answer": "बहन",
-                    "answer_translatable": true,
-                    "hint": "एक परिवार का सदस्य",
-                    "hint_translatable": true,
-                    "lang": "hi-IN"
-                },
-                {
-                    "type": "exercise",
-                    "format": "quiz",
-                    "question": "'मेरे माता-पिता' को कैसे कहते हैं?",
-                    "question_translatable": true,
-                    "answer": "मेरे माता-पिता",
-                    "answer_translatable": true,
-                    "options": [
-                        "मेरे भाई",
-                        "मेरे माता-पिता",
-                        "मेरा परिवार",
-                        "मेरी माँ"
-                    ],
-                    "options_translatable": true,
-                    "lang": "hi-IN"
-                },
-                {
-                    "type": "exercise",
-                    "format": "type",
-                    "prompt": "टाइप करें: मेरे दो भाई हैं।",
-                    "prompt_translatable": true,
-                    "lang": "hi-IN"
-                },
-                {
-                    "type": "exercise",
-                    "format": "voice",
-                    "prompt": "कहें: मेरे पिता एक डॉक्टर हैं।",
-                    "prompt_translatable": true,
-                    "expected": "मेरे पिता एक डॉक्टर हैं।",
-                    "expected_translatable": true,
-                    "lang": "hi-IN"
-                },
-                {
-                    "type": "exercise",
-                    "format": "fill-in",
-                    "prompt": "पूरा करें: मेरी ___ एक शिक्षिका हैं।",
-                    "prompt_translatable": true,
-                    "answer": "माता",
-                    "answer_translatable": true,
-                    "hint": "एक परिवार का सदस्य",
-                    "hint_translatable": true,
-                    "lang": "hi-IN"
-                },
-                {
-                    "type": "exercise",
-                    "format": "quiz",
-                    "question": "किसी के परिवार के बारे में पूछने के लिए क्या कहते हैं?",
-                    "question_translatable": true,
-                    "answer": "क्या आपके भाई-बहन हैं?",
-                    "answer_translatable": true,
-                    "options": [
-                        "क्या आपके पास नौकरी है?",
-                        "क्या आपके भाई-बहन हैं?",
-                        "आपका परिवार कहाँ है?",
-                        "मैं अपने परिवार से प्यार करता हूँ"
-                    ],
-                    "options_translatable": true,
-                    "lang": "hi-IN"
-                },
-                {
-                    "type": "exercise",
-                    "format": "dialogue",
-                    "prompt": "संवाद पूरा करें: A: यह मेरा परिवार है। B: ___",
-                    "prompt_translatable": true,
-                    "answer": "आपका परिवार बहुत अच्छा लगता है!",
-                    "answer_translatable": true,
-                    "hint": "एक विनम्र जवाब",
-                    "hint_translatable": true,
-                    "lang": "hi-IN"
-                },
-                {
-                    "type": "exercise",
-                    "format": "type",
-                    "prompt": "टाइप करें: मेरे माता-पिता [आपका शहर] में रहते हैं।",
-                    "prompt_translatable": true,
-                    "lang": "hi-IN"
-                }
-            ],
-            "cultural_notes": "हिंदी भाषी संस्कृतियों में परिवार महत्वपूर्ण है, और लोग अक्सर पारिवारिक सदस्यों को उनके रिश्ते के आधार पर संबोधित करते हैं, जैसे 'माता' या 'बड़ा भाई'। संयुक्त परिवार, जहाँ कई पीढ़ियाँ एक साथ रहती हैं, भारत में आम हैं। परिवार के बारे में बात करना सामाजिक बंधन को मजबूत करता है।",
-            "cultural_notes_translatable": true
-        },
-        {
             "lesson": 4,
-            "title": "Daily Interactions",
+            "title": "தினசரி தொடர்புகள்",
             "skills": [
-                "Vocabulary",
-                "Phrases",
-                "Dialogues",
-                "Practical Application"
+                "சொற்கள்",
+                "வாக்கியங்கள்",
+                "உரையாடல்கள்",
+                "நடைமுறை பயன்பாடு"
             ],
             "content": [
                 {
-                    "type": "vocab",
-                    "word": "दुकान",
+                    "type": "phrase",
+                    "text": "இதன் விலை எவ்வளவு?",
                     "translatable": true,
-                    "lang": "hi-IN",
-                    "example": "मैं दुकान पर जा रहा हूँ।",
-                    "example_translatable": true,
-                    "audio": "dukaan.mp3"
-                },
-                {
-                    "type": "vocab",
-                    "word": "मूल्य",
-                    "translatable": true,
-                    "lang": "hi-IN",
-                    "example": "इसका मूल्य कितना है?",
-                    "example_translatable": true,
-                    "audio": "mulya.mp3"
-                },
-                {
-                    "type": "vocab",
-                    "word": "खाना",
-                    "translatable": true,
-                    "lang": "hi-IN",
-                    "example": "यह खाना बहुत स्वादिष्ट है।",
-                    "example_translatable": true,
-                    "audio": "khana.mp3"
-                },
-                {
-                    "type": "vocab",
-                    "word": "मेनू",
-                    "translatable": true,
-                    "lang": "hi-IN",
-                    "example": "कृपया मुझे मेनू दिखाएँ।",
-                    "example_translatable": true,
-                    "audio": "menu.mp3"
-                },
-                {
-                    "type": "vocab",
-                    "word": "रास्ता",
-                    "translatable": true,
-                    "lang": "hi-IN",
-                    "example": "स्टेशन का रास्ता कौन सा है?",
-                    "example_translatable": true,
-                    "audio": "rasta.mp3"
-                },
-                {
-                    "type": "vocab",
-                    "word": "पानी",
-                    "translatable": true,
-                    "lang": "hi-IN",
-                    "example": "कृपया एक गिलास पानी दें।",
-                    "example_translatable": true,
-                    "audio": "paani.mp3"
-                },
-                {
-                    "type": "vocab",
-                    "word": "बिल",
-                    "translatable": true,
-                    "lang": "hi-IN",
-                    "example": "कृपया बिल लाएँ।",
-                    "example_translatable": true,
-                    "audio": "bill.mp3"
-                },
-                {
-                    "type": "vocab",
-                    "word": "सड़क",
-                    "translatable": true,
-                    "lang": "hi-IN",
-                    "example": "यह सड़क बाज़ार तक जाती है।",
-                    "example_translatable": true,
-                    "audio": "sadak.mp3"
-                },
-                {
-                    "type": "vocab",
-                    "word": "बाज़ार",
-                    "translatable": true,
-                    "lang": "hi-IN",
-                    "example": "मैं बाज़ार से सब्जियाँ खरीदूँगा।",
-                    "example_translatable": true,
-                    "audio": "bazaar.mp3"
-                },
-                {
-                    "type": "vocab",
-                    "word": "टिकट",
-                    "translatable": true,
-                    "lang": "hi-IN",
-                    "example": "मुझे एक टिकट चाहिए।",
-                    "example_translatable": true,
-                    "audio": "ticket.mp3"
+                    "lang": "ta-IN",
+                    "response": "இது நூறு ரூபாய்.",
+                    "response_translatable": true,
+                    "audio": "idhan_vilai_evvazhu.mp3"
                 },
                 {
                     "type": "phrase",
-                    "text": "इसका मूल्य कितना है?",
+                    "text": "தயவு செய்து எனக்கு மெனு காட்டுங்கள்.",
                     "translatable": true,
-                    "lang": "hi-IN",
-                    "response": "यह सौ रुपये है।",
+                    "lang": "ta-IN",
+                    "response": "இது உங்கள் மெனு.",
                     "response_translatable": true,
-                    "audio": "iska_mulya_kitna.mp3"
+                    "audio": "menu_kaattungal.mp3"
                 },
                 {
                     "type": "phrase",
-                    "text": "कृपया मुझे मेनू दिखाएँ।",
+                    "text": "எனக்கு கொஞ்சம் தண்ணீர் கிடைக்குமா?",
                     "translatable": true,
-                    "lang": "hi-IN",
-                    "response": "यह रहा मेनू।",
+                    "lang": "ta-IN",
+                    "response": "சரி, உடனே தருகிறேன்.",
                     "response_translatable": true,
-                    "audio": "menu_dikhaaye.mp3"
+                    "audio": "thanneer_kidaikkuma.mp3"
                 },
                 {
                     "type": "phrase",
-                    "text": "मुझे एक पानी चाहिए।",
+                    "text": "தயவு செய்து பில் கொண்டு வாருங்கள்.",
                     "translatable": true,
-                    "lang": "hi-IN",
-                    "response": "ठीक है, अभी लाता हूँ।",
+                    "lang": "ta-IN",
+                    "response": "ஒரு நிமிடம், பில் கொண்டு வருகிறேன்.",
                     "response_translatable": true,
-                    "audio": "ek_paani_chahiye.mp3"
+                    "audio": "bill_kondu_va.mp3"
                 },
                 {
                     "type": "phrase",
-                    "text": "कृपया बिल लाएँ।",
+                    "text": "சந்தை எங்கே?",
                     "translatable": true,
-                    "lang": "hi-IN",
-                    "response": "एक मिनट, मैं बिल लाता हूँ।",
+                    "lang": "ta-IN",
+                    "response": "நேராக போங்கள், பிறகு இடது பக்கம்.",
                     "response_translatable": true,
-                    "audio": "bill_laaye.mp3"
+                    "audio": "sandhai_engae.mp3"
                 },
                 {
                     "type": "phrase",
-                    "text": "बाज़ार कहाँ है?",
+                    "text": "இதை வாங்க வேண்டும்.",
                     "translatable": true,
-                    "lang": "hi-IN",
-                    "response": "बाज़ार सीधे और फिर बाएँ है।",
+                    "lang": "ta-IN",
+                    "response": "சரி, நான் இதை பேக் செய்கிறேன்.",
                     "response_translatable": true,
-                    "audio": "bazaar_kahan.mp3"
+                    "audio": "vangavendum.mp3"
                 },
                 {
                     "type": "phrase",
-                    "text": "मुझे यह खरीदना है।",
+                    "text": "நிலையம் செல்லும் வழி எது?",
                     "translatable": true,
-                    "lang": "hi-IN",
-                    "response": "ठीक है, मैं इसे पैक करता हूँ।",
+                    "lang": "ta-IN",
+                    "response": "நேராக போங்கள், பிறகு வலது பக்கம்.",
                     "response_translatable": true,
-                    "audio": "mujhe_yeh_kharidna.mp3"
+                    "audio": "nilayam_vazhi.mp3"
                 },
                 {
                     "type": "phrase",
-                    "text": "स्टेशन का रास्ता कौन सा है?",
+                    "text": "இது சைவ உணவா?",
                     "translatable": true,
-                    "lang": "hi-IN",
-                    "response": "सीधे जाएँ और दाएँ मुड़ें।",
+                    "lang": "ta-IN",
+                    "response": "ஆம், இது சைவம்.",
                     "response_translatable": true,
-                    "audio": "station_ka_rasta.mp3"
+                    "audio": "saiva_unavu.mp3"
                 },
                 {
                     "type": "phrase",
-                    "text": "क्या यह खाना शाकाहारी है?",
+                    "text": "எனக்கு ஒரு டிக்கெட் வேண்டும்.",
                     "translatable": true,
-                    "lang": "hi-IN",
-                    "response": "हाँ, यह शाकाहारी है।",
+                    "lang": "ta-IN",
+                    "response": "எங்கே செல்ல?",
                     "response_translatable": true,
-                    "audio": "kya_shakahari.mp3"
+                    "audio": "ticket_vaendum.mp3"
                 },
                 {
                     "type": "phrase",
-                    "text": "मुझे एक टिकट चाहिए।",
+                    "text": "தள்ளுபடி தர முடியுமா?",
                     "translatable": true,
-                    "lang": "hi-IN",
-                    "response": "कहाँ के लिए?",
+                    "lang": "ta-IN",
+                    "response": "பார்க்கிறேன்.",
                     "response_translatable": true,
-                    "audio": "ek_ticket_chahiye.mp3"
-                },
-                {
-                    "type": "phrase",
-                    "text": "क्या आप डिस्काउंट दे सकते हैं?",
-                    "translatable": true,
-                    "lang": "hi-IN",
-                    "response": "मैं देखता हूँ।",
-                    "response_translatable": true,
-                    "audio": "discount_de_sakte.mp3"
+                    "audio": "thallupadi.mp3"
                 },
                 {
                     "type": "dialogue",
-                    "scenario": "दुकान पर खरीदारी",
+                    "scenario": "அங்காடியில் வாங்கும் போது",
                     "lines": [
                         {
                             "speaker": "A",
-                            "text": "इसका मूल्य कितना है?",
+                            "text": "இதன் விலை எவ்வளவு?",
                             "translatable": true,
-                            "lang": "hi-IN",
-                            "audio": "iska_mulya_dukaan.mp3"
+                            "lang": "ta-IN",
+                            "audio": "idhan_vilai_angadi.mp3"
                         },
                         {
                             "speaker": "B",
-                            "text": "यह सौ रुपये है।",
+                            "text": "இது நூறு ரூபாய்.",
                             "translatable": true,
-                            "lang": "hi-IN",
-                            "audio": "sau_rupaye.mp3"
+                            "lang": "ta-IN",
+                            "audio": "nooru_rupai.mp3"
                         },
                         {
                             "speaker": "A",
-                            "text": "मुझे यह खरीदना है।",
+                            "text": "இதை வாங்க வேண்டும்.",
                             "translatable": true,
-                            "lang": "hi-IN",
-                            "audio": "mujhe_yeh_kharidna_dukaan.mp3"
+                            "lang": "ta-IN",
+                            "audio": "vangavendum_angadi.mp3"
                         }
                     ]
                 },
                 {
                     "type": "dialogue",
-                    "scenario": "रेस्तराँ में ऑर्डर देना",
+                    "scenario": "உணவகத்தில் ஆர்டர் செய்யும் போது",
                     "lines": [
                         {
                             "speaker": "A",
-                            "text": "कृपया मुझे मेनू दिखाएँ।",
+                            "text": "தயவு செய்து எனக்கு மெனு காட்டுங்கள்.",
                             "translatable": true,
-                            "lang": "hi-IN",
-                            "audio": "menu_dikhaaye_restaurant.mp3"
+                            "lang": "ta-IN",
+                            "audio": "menu_kaattungal_unavagam.mp3"
                         },
                         {
                             "speaker": "B",
-                            "text": "यह रहा मेनू।",
+                            "text": "இது உங்கள் மெனு.",
                             "translatable": true,
-                            "lang": "hi-IN",
-                            "audio": "yeh_raha_menu.mp3"
+                            "lang": "ta-IN",
+                            "audio": "idhu_ungal_menu.mp3"
                         },
                         {
                             "speaker": "A",
-                            "text": "मुझे एक शाकाहारी थाली चाहिए।",
+                            "text": "எனக்கு ஒரு சைவ தட்டு வேண்டும்.",
                             "translatable": true,
-                            "lang": "hi-IN",
-                            "audio": "shakahari_thali.mp3"
+                            "lang": "ta-IN",
+                            "audio": "saiva_thattu.mp3"
                         }
                     ]
                 },
                 {
                     "type": "dialogue",
-                    "scenario": "रास्ता पूछना",
+                    "scenario": "வழி கேட்கும் போது",
                     "lines": [
                         {
                             "speaker": "A",
-                            "text": "बाज़ार कहाँ है?",
+                            "text": "சந்தை எங்கே?",
                             "translatable": true,
-                            "lang": "hi-IN",
-                            "audio": "bazaar_kahan_rasta.mp3"
+                            "lang": "ta-IN",
+                            "audio": "sandhai_engae_vazhi.mp3"
                         },
                         {
                             "speaker": "B",
-                            "text": "बाज़ार सीधे और फिर बाएँ है।",
+                            "text": "நேராக போங்கள், பிறகு இடது பக்கம்.",
                             "translatable": true,
-                            "lang": "hi-IN",
-                            "audio": "bazaar_siddhe_baaye.mp3"
+                            "lang": "ta-IN",
+                            "audio": "neraga_idathu.mp3"
                         }
                     ]
                 },
                 {
                     "type": "dialogue",
-                    "scenario": "रेस्तराँ में बिल माँगना",
+                    "scenario": "உணவகத்தில் பில் கேட்கும் போது",
                     "lines": [
                         {
                             "speaker": "A",
-                            "text": "कृपया बिल लाएँ।",
+                            "text": "தயவு செய்து பில் கொண்டு வாருங்கள்.",
                             "translatable": true,
-                            "lang": "hi-IN",
-                            "audio": "bill_laaye_restaurant.mp3"
+                            "lang": "ta-IN",
+                            "audio": "bill_va_unavagam.mp3"
                         },
                         {
                             "speaker": "B",
-                            "text": "एक मिनट, मैं बिल लाता हूँ।",
+                            "text": "ஒரு நிமிடம், பில் கொண்டு வருகிறேன்.",
                             "translatable": true,
-                            "lang": "hi-IN",
-                            "audio": "ek_minute_bill.mp3"
+                            "lang": "ta-IN",
+                            "audio": "oru_nimidam_bill.mp3"
                         }
                     ]
                 },
                 {
                     "type": "dialogue",
-                    "scenario": "टिकट खरीदना",
+                    "scenario": "டிக்கெட் வாங்கும் போது",
                     "lines": [
                         {
                             "speaker": "A",
-                            "text": "मुझे एक टिकट चाहिए।",
+                            "text": "எனக்கு ஒரு டிக்கெட் வேண்டும்.",
                             "translatable": true,
-                            "lang": "hi-IN",
-                            "audio": "ek_ticket_chahiye_station.mp3"
+                            "lang": "ta-IN",
+                            "audio": "ticket_vaendum_nilayam.mp3"
                         },
                         {
                             "speaker": "B",
-                            "text": "कहाँ के लिए?",
+                            "text": "எங்கே செல்ல?",
                             "translatable": true,
-                            "lang": "hi-IN",
-                            "audio": "kahan_ke_liye.mp3"
+                            "lang": "ta-IN",
+                            "audio": "enge_sella.mp3"
                         },
                         {
                             "speaker": "A",
-                            "text": "दिल्ली के लिए।",
+                            "text": "சென்னை செல்ல.",
                             "translatable": true,
-                            "lang": "hi-IN",
-                            "audio": "delhi_ke_liye.mp3"
+                            "lang": "ta-IN",
+                            "audio": "chennai_sella.mp3"
                         }
                     ]
                 },
                 {
                     "type": "exercise",
                     "format": "match",
-                    "prompt": "वाक्यांशों को उनके जवाबों से मिलाएँ",
+                    "prompt": "வாக்கியங்களை அதன் பதிலுடன் பொருத்துங்கள்",
                     "prompt_translatable": true,
-                    "lang": "hi-IN",
+                    "lang": "ta-IN",
                     "pairs": [
                         {
-                            "word": "इसका मूल्य कितना है?",
-                            "match": "यह सौ रुपये है।",
+                            "word": "இதன் விலை எவ்வளவு?",
+                            "match": "இது நூறு ரூபாய்.",
                             "translatable": true
                         },
                         {
-                            "word": "कृपया मुझे मेनू दिखाएँ।",
-                            "match": "यह रहा मेनू।",
+                            "word": "தயவு செய்து எனக்கு மெனு காட்டுங்கள்.",
+                            "match": "இது உங்கள் மெனு.",
                             "translatable": true
                         },
                         {
-                            "word": "बाज़ार कहाँ है?",
-                            "match": "बाज़ार सीधे और फिर बाएँ है।",
+                            "word": "சந்தை எங்கே?",
+                            "match": "நேராக போங்கள், பிறகு இடது பக்கம்.",
                             "translatable": true
                         },
                         {
-                            "word": "कृपया बिल लाएँ।",
-                            "match": "एक मिनट, मैं बिल लाता हूँ।",
+                            "word": "தயவு செய்து பில் கொண்டு வாருங்கள்.",
+                            "match": "ஒரு நிமிடம், பில் கொண்டு வருகிறேன்.",
                             "translatable": true
                         }
                     ]
@@ -1721,102 +1177,102 @@
                 {
                     "type": "exercise",
                     "format": "voice",
-                    "prompt": "कहें: इसका मूल्य कितना है?",
+                    "prompt": "பேசுங்கள்: இதன் விலை எவ்வளவு?",
                     "prompt_translatable": true,
-                    "expected": "इसका मूल्य कितना है?",
+                    "expected": "இதன் விலை எவ்வளவு?",
                     "expected_translatable": true,
-                    "lang": "hi-IN"
+                    "lang": "ta-IN"
                 },
                 {
                     "type": "exercise",
                     "format": "fill-in",
-                    "prompt": "पूरा करें: कृपया मुझे ___ दिखाएँ।",
+                    "prompt": "நிறைவு செய்யுங்கள்: தயவு செய்து எனக்கு ___ காட்டுங்கள்.",
                     "prompt_translatable": true,
-                    "answer": "मेनू",
+                    "answer": "மெனு",
                     "answer_translatable": true,
-                    "hint": "रेस्तराँ में माँगी जाने वाली चीज़",
+                    "hint": "உணவகத்தில் கேட்கும் பொருள்",
                     "hint_translatable": true,
-                    "lang": "hi-IN"
+                    "lang": "ta-IN"
                 },
                 {
                     "type": "exercise",
                     "format": "quiz",
-                    "question": "रेस्तराँ में पानी माँगने के लिए क्या कहते हैं?",
+                    "question": "உணவகத்தில் தண்ணீர் கேட்க என்ன சொல்வீர்கள்?",
                     "question_translatable": true,
-                    "answer": "मुझे एक पानी चाहिए।",
+                    "answer": "எனக்கு ஒரு தண்ணீர் வேண்டும்.",
                     "answer_translatable": true,
                     "options": [
-                        "मुझे एक पानी चाहिए।",
-                        "मुझे एक टिकट चाहिए।",
-                        "कृपया बिल लाएँ।",
-                        "इसका मूल्य कितना है?"
+                        "எனக்கு ஒரு தண்ணீர் வேண்டும்.",
+                        "எனக்கு ஒரு டிக்கெட் வேண்டும்.",
+                        "தயவு செய்து பில் கொண்டு வாருங்கள்.",
+                        "இதன் விலை எவ்வளவு?"
                     ],
                     "options_translatable": true,
-                    "lang": "hi-IN"
+                    "lang": "ta-IN"
                 },
                 {
                     "type": "exercise",
                     "format": "type",
-                    "prompt": "टाइप करें: बाज़ार कहाँ है?",
+                    "prompt": "தட்டச்சு செய்யுங்கள்: சந்தை எங்கே?",
                     "prompt_translatable": true,
-                    "lang": "hi-IN"
+                    "lang": "ta-IN"
                 },
                 {
                     "type": "exercise",
                     "format": "voice",
-                    "prompt": "कहें: कृपया बिल लाएँ।",
+                    "prompt": "பேசுங்கள்: தயவு செய்து பில் கொண்டு வாருங்கள்.",
                     "prompt_translatable": true,
-                    "expected": "कृपया बिल लाएँ।",
+                    "expected": "தயவு செய்து பில் கொண்டு வாருங்கள்.",
                     "expected_translatable": true,
-                    "lang": "hi-IN"
+                    "lang": "ta-IN"
                 },
                 {
                     "type": "exercise",
                     "format": "fill-in",
-                    "prompt": "पूरा करें: मुझे एक ___ चाहिए।",
+                    "prompt": "நிறைவு செய்யுங்கள்: எனக்கு ஒரு ___ வேண்டும்.",
                     "prompt_translatable": true,
-                    "answer": "टिकट",
+                    "answer": "டிக்கெட்",
                     "answer_translatable": true,
-                    "hint": "यात्रा के लिए ज़रूरी",
+                    "hint": "பயணத்திற்கு தேவையானது",
                     "hint_translatable": true,
-                    "lang": "hi-IN"
+                    "lang": "ta-IN"
                 },
                 {
                     "type": "exercise",
                     "format": "quiz",
-                    "question": "रास्ता पूछने के लिए क्या कहते हैं?",
+                    "question": "வழி கேட்க என்ன சொல்வீர்கள்?",
                     "question_translatable": true,
-                    "answer": "स्टेशन का रास्ता कौन सा है?",
+                    "answer": "நிலையம் செல்லும் வழி எது?",
                     "answer_translatable": true,
                     "options": [
-                        "इसका मूल्य कितना है?",
-                        "स्टेशन का रास्ता कौन सा है?",
-                        "मुझे एक पानी चाहिए।",
-                        "कृपया मुझे मेनू दिखाएँ।"
+                        "இதன் விலை எவ்வளவு?",
+                        "நிலையம் செல்லும் வழி எது?",
+                        "எனக்கு ஒரு தண்ணீர் வேண்டும்.",
+                        "தயவு செய்து எனக்கு மெனு காட்டுங்கள்."
                     ],
                     "options_translatable": true,
-                    "lang": "hi-IN"
+                    "lang": "ta-IN"
                 },
                 {
                     "type": "exercise",
                     "format": "dialogue",
-                    "prompt": "संवाद पूरा करें: A: इसका मूल्य कितना है? B: ___",
+                    "prompt": "உரையாடலை முடிக்கவும்: A: இதன் விலை எவ்வளவு? B: ___",
                     "prompt_translatable": true,
-                    "answer": "यह सौ रुपये है।",
+                    "answer": "இது நூறு ரூபாய்.",
                     "answer_translatable": true,
-                    "hint": "कीमत का जवाब",
+                    "hint": "விலைக்கு பதில்",
                     "hint_translatable": true,
-                    "lang": "hi-IN"
+                    "lang": "ta-IN"
                 },
                 {
                     "type": "exercise",
                     "format": "type",
-                    "prompt": "टाइप करें: मुझे यह खरीदना है।",
+                    "prompt": "தட்டச்சு செய்யுங்கள்: இதை வாங்க வேண்டும்.",
                     "prompt_translatable": true,
-                    "lang": "hi-IN"
+                    "lang": "ta-IN"
                 }
             ],
-            "cultural_notes": "हिंदी में दैनिक बातचीत में विनम्रता महत्वपूर्ण है। 'कृपया' और 'धन्यवाद' का उपयोग सामान्य है, खासकर दुकानों और रेस्तराँ में। बाज़ारों में मोलभाव आम है, और लोग अक्सर कीमत पर बातचीत करते हैं। रास्ता पूछते समय, स्थानीय लोग आमतौर पर दिशा-निर्देश देने में मददगार होते हैं।",
+            "cultural_notes": "தமிழில் தினசரி உரையாடலில் மரியாதை முக்கியம். 'தயவு செய்து', 'நன்றி' போன்ற சொற்கள் பொதுவாக பயன்படுத்தப்படுகின்றன, குறிப்பாக கடைகள் மற்றும் உணவகங்களில். சந்தைகளில் விலை பேசுவது வழக்கமானது. வழி கேட்கும் போது, உள்ளூர் மக்கள் உதவிகரமாக இருப்பார்கள்.",
             "cultural_notes_translatable": true
         }
     ]
