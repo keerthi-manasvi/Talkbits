@@ -1,0 +1,1579 @@
+{
+  "language": "tamil",
+  "unit": 1,
+  "title": "Tamil Conversational Foundations",
+  "description": "Master essential Tamil greetings, introductions, basic phrases, family terms, and daily interactions with support for automatic translation into English, Telugu, Hindi, or other languages.",
+  "translation_config": {
+    "source_lang": "ta-IN",
+    "supported_target_langs": [
+      "en-IN",
+      "te-IN",
+      "hi-IN"
+    ],
+    "translatable_fields": [
+      "word",
+      "example",
+      "text",
+      "response",
+      "prompt",
+      "answer",
+      "question",
+      "options",
+      "lines.text",
+      "cultural_notes"
+    ]
+  },
+  "lessons": [
+    {
+      "lesson": 1,
+      "title": "Greetings and Introductions",
+      "skills": [
+        "Vocabulary",
+        "Phrases",
+        "Pronunciation",
+        "Cultural Context"
+      ],
+      "content": [
+        {
+          "type": "vocab",
+          "word": "வணக்கம்",
+          "translatable": true,
+          "lang": "ta-IN",
+          "example": "வணக்கம், நீங்கள் எப்படி இருக்கிறீர்கள்?",
+          "example_translatable": true,
+          "audio": "vanakkam.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "வணக்கம்",
+            "te-IN": "வணக்கம்",
+            "en-IN": "வணக்கம்"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "நன்றி",
+          "translatable": true,
+          "lang": "ta-IN",
+          "example": "உதவிக்கு நன்றி!",
+          "example_translatable": true,
+          "audio": "nandri.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "நன்றி",
+            "te-IN": "நன்றி",
+            "en-IN": "நன்றி"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "பெயர்",
+          "translatable": true,
+          "lang": "ta-IN",
+          "example": "என் பெயர் ரமேஷ்.",
+          "example_translatable": true,
+          "audio": "peyar.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "பெயர்",
+            "te-IN": "பெயர்",
+            "en-IN": "பெயர்"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "நலம்",
+          "translatable": true,
+          "lang": "ta-IN",
+          "example": "நான் நலமாக இருக்கிறேன்.",
+          "example_translatable": true,
+          "audio": "nalam.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "நலம்",
+            "te-IN": "நலம்",
+            "en-IN": "நலம்"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "மகிழ்ச்சி",
+          "translatable": true,
+          "lang": "ta-IN",
+          "example": "உங்களை சந்தித்ததில் மகிழ்ச்சி.",
+          "example_translatable": true,
+          "audio": "magizhchi.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "மகிழ்ச்சி",
+            "te-IN": "மகிழ்ச்சி",
+            "en-IN": "மகிழ்ச்சி"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "வணக்கம்!",
+          "translatable": true,
+          "lang": "ta-IN",
+          "response": "வணக்கம், நலமா?",
+          "response_translatable": true,
+          "audio": "vanakkam_greeting.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "வணக்கம்!",
+            "te-IN": "!!",
+            "en-IN": "வணக்கம்!"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "என் பெயர் [உங்கள் பெயர்].",
+          "translatable": true,
+          "lang": "ta-IN",
+          "response": "உங்களை சந்தித்ததில் மகிழ்ச்சி!",
+          "response_translatable": true,
+          "audio": "en_peyar.mp3",
+          "translations": {
+            "ta-IN": "என் பெயர் [உங்கள்].",
+            "hi-IN": "என் என் [[பெயர் பெயர்]।",
+            "te-IN": "என் பெயர் [உங்கள் உங்கள்].",
+            "en-IN": "என் பெயர் [உங்கள் பெயர்]."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "நீங்கள் எப்படி இருக்கிறீர்கள்?",
+          "translatable": true,
+          "lang": "ta-IN",
+          "response": "நான் நலமாக இருக்கிறேன்.",
+          "response_translatable": true,
+          "audio": "eppadi_irukkireergal.mp3",
+          "translations": {
+            "ta-IN": "நீங்கள் எப்படி?",
+            "hi-IN": "நீங்கள் நீங்கள் இருக்கிறீர்கள்?",
+            "te-IN": "நீங்கள் எப்படி எப்படி?",
+            "en-IN": "நீங்கள் எப்படி இருக்கிறீர்கள்?"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "நன்றி!",
+          "translatable": true,
+          "lang": "ta-IN",
+          "response": "பரவாயில்லை!",
+          "response_translatable": true,
+          "audio": "nandri_phrase.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "நன்றி!",
+            "te-IN": "!!",
+            "en-IN": "நன்றி!"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "உங்களை சந்தித்ததில் மகிழ்ச்சி.",
+          "translatable": true,
+          "lang": "ta-IN",
+          "response": "எனக்கும் மகிழ்ச்சி!",
+          "response_translatable": true,
+          "audio": "sandhithathil_magizhchi.mp3",
+          "translations": {
+            "ta-IN": "உங்களை.",
+            "hi-IN": "உங்களை உங்களை சந்தித்ததில்।",
+            "te-IN": "உங்களை சந்தித்ததில்.",
+            "en-IN": "உங்களை சந்தித்ததில் மகிழ்ச்சி."
+          }
+        },
+        {
+          "type": "dialogue",
+          "scenario": "நண்பரை சந்தித்தல்",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "வணக்கம்! என் பெயர் அனிதா.",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "vanakkam_anitha.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "வணக்கம், அனிதா! என் பெயர் குமார்.",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "vanakkam_kumar.mp3"
+            },
+            {
+              "speaker": "A",
+              "text": "உங்களை சந்தித்ததில் மகிழ்ச்சி!",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "sandhithathil_magizhchi_a.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "புதிய நபரை அறிமுகப்படுத்துதல்",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "வணக்கம், நீங்கள் எப்படி இருக்கிறீர்கள்?",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "vanakkam_eppadi.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "நான் நலமாக இருக்கிறேன், நன்றி!",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "nalam_nandri.mp3"
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "வாக்கியங்களை அவற்றின் பதில்களுடன் பொருத்தவும்",
+          "prompt_translatable": true,
+          "lang": "ta-IN",
+          "pairs": [
+            {
+              "word": "வணக்கம்!",
+              "match": "வணக்கம், நலமா?",
+              "translatable": true
+            },
+            {
+              "word": "என் பெயர் [உங்கள் பெயர்].",
+              "match": "உங்களை சந்தித்ததில் மகிழ்ச்சி!",
+              "translatable": true
+            },
+            {
+              "word": "நீங்கள் எப்படி இருக்கிறீர்கள்?",
+              "match": "நான் நலமாக இருக்கிறேன்.",
+              "translatable": true
+            },
+            {
+              "word": "நன்றி!",
+              "match": "பரவாயில்லை!",
+              "translatable": true
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "சொல்லவும்: வணக்கம்!",
+          "prompt_translatable": true,
+          "expected": "வணக்கம்!",
+          "expected_translatable": true,
+          "lang": "ta-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "நிரப்பவும்: என் ___ [உங்கள் பெயர்].",
+          "prompt_translatable": true,
+          "answer": "பெயர்",
+          "answer_translatable": true,
+          "hint": "அறிமுகத்திற்கு பயன்படும் சொல்",
+          "hint_translatable": true,
+          "lang": "ta-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "வணக்கம் என்று சொல்வது எதைக் குறிக்கிறது?",
+          "question_translatable": true,
+          "answer": "Hello",
+          "answer_translatable": true,
+          "options": [
+            "Goodbye",
+            "Hello",
+            "Thank you",
+            "Please"
+          ],
+          "options_translatable": true,
+          "lang": "ta-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "தட்டச்சு செய்யவும்: உங்களை சந்தித்ததில் மகிழ்ச்சி.",
+          "prompt_translatable": true,
+          "lang": "ta-IN"
+        }
+      ],
+      "cultural_notes": "தமிழ் கலாச்சாரத்தில், 'வணக்கம்' என்பது மரியாதையான வாழ்த்து முறையாக பயன்படுத்தப்படுகிறது, கைகளை கூப்பி வணங்குவதுடன் சொல்லப்படலாம். முதல் சந்திப்பில் பெயரைப் பகிர்ந்து, நலம் விசாரிப்பது பொதுவானது மற்றும் மரியாதையைக் காட்டுகிறது.",
+      "cultural_notes_translatable": true
+    },
+    {
+      "lesson": 2,
+      "title": "Basic Phrases",
+      "skills": [
+        "Vocabulary",
+        "Phrases",
+        "Sentence Structure",
+        "Politeness"
+      ],
+      "content": [
+        {
+          "type": "vocab",
+          "word": "தயவுசெய்து",
+          "translatable": true,
+          "lang": "ta-IN",
+          "example": "தயவுசெய்து உதவி செய்யுங்கள்.",
+          "example_translatable": true,
+          "audio": "thayavuseithu.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "தயவுசெய்து",
+            "te-IN": "தயவுசெய்து",
+            "en-IN": "தயவுசெய்து"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "மன்னிக்கவும்",
+          "translatable": true,
+          "lang": "ta-IN",
+          "example": "மன்னிக்கவும், நான் தாமதமாகிவிட்டேன்.",
+          "example_translatable": true,
+          "audio": "mannikkavum.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "மன்னிக்கவும்",
+            "te-IN": "மன்னிக்கவும்",
+            "en-IN": "மன்னிக்கவும்"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "எங்கே",
+          "translatable": true,
+          "lang": "ta-IN",
+          "example": "கடை எங்கே உள்ளது?",
+          "example_translatable": true,
+          "audio": "enge.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "எங்கே",
+            "te-IN": "எங்கே",
+            "en-IN": "எங்கே"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "எப்போது",
+          "translatable": true,
+          "lang": "ta-IN",
+          "example": "பேருந்து எப்போது வரும்?",
+          "example_translatable": true,
+          "audio": "eppothu.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "எப்போது",
+            "te-IN": "எப்போது",
+            "en-IN": "எப்போது"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "எவ்வளவு",
+          "translatable": true,
+          "lang": "ta-IN",
+          "example": "இதன் விலை எவ்வளவு?",
+          "example_translatable": true,
+          "audio": "evvalavu.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "எவ்வளவு",
+            "te-IN": "எவ்வளவு",
+            "en-IN": "எவ்வளவு"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "தயவுசெய்து உதவி செய்யுங்கள்.",
+          "translatable": true,
+          "lang": "ta-IN",
+          "response": "நிச்சயமாக, நான் உதவுகிறேன்.",
+          "response_translatable": true,
+          "audio": "thayavuseithu_uthavi.mp3",
+          "translations": {
+            "ta-IN": "தயவுசெய்து.",
+            "hi-IN": "தயவுசெய்து தயவுசெய்து உதவி।",
+            "te-IN": "தயவுசெய்து உதவி.",
+            "en-IN": "தயவுசெய்து உதவி செய்யுங்கள்."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "மன்னிக்கவும், நான் புரிந்து கொள்ளவில்லை.",
+          "translatable": true,
+          "lang": "ta-IN",
+          "response": "பரவாயில்லை, மீண்டும் சொல்கிறேன்.",
+          "response_translatable": true,
+          "audio": "mannikkavum_puriyavillai.mp3",
+          "translations": {
+            "ta-IN": "மன்னிக்கவும், நான்.",
+            "hi-IN": "மன்னிக்கவும், நான் புரிந்து கொள்ளவில்லை।",
+            "te-IN": "மன்னிக்கவும், நான் புரிந்து.",
+            "en-IN": "மன்னிக்கவும், நான் புரிந்து கொள்ளவில்லை."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "நீங்கள் தமிழ் பேசுகிறீர்களா?",
+          "translatable": true,
+          "lang": "ta-IN",
+          "response": "ஆமாம், நான் தமிழ் பேசுகிறேன்.",
+          "response_translatable": true,
+          "audio": "tamil_pesugireergala.mp3",
+          "translations": {
+            "ta-IN": "நீங்கள் தமிழ்?",
+            "hi-IN": "நீங்கள் நீங்கள் பேசுகிறீர்களா?",
+            "te-IN": "நீங்கள் தமிழ் தமிழ்?",
+            "en-IN": "நீங்கள் தமிழ் பேசுகிறீர்களா?"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "நேரம் என்ன?",
+          "translatable": true,
+          "lang": "ta-IN",
+          "response": "மணி மூன்று ஆகிறது.",
+          "response_translatable": true,
+          "audio": "neram_enna.mp3",
+          "translations": {
+            "ta-IN": "நேரம் நேரம்?",
+            "hi-IN": "நேரம் நேரம்?",
+            "te-IN": "நேரம் நேரம்?",
+            "en-IN": "நேரம் என்ன?"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "எனக்கு உதவி தேவை.",
+          "translatable": true,
+          "lang": "ta-IN",
+          "response": "நான் உங்களுக்கு எப்படி உதவ முடியும்?",
+          "response_translatable": true,
+          "audio": "uthavi_thevai.mp3",
+          "translations": {
+            "ta-IN": "எனக்கு.",
+            "hi-IN": "எனக்கு எனக்கு உதவி।",
+            "te-IN": "எனக்கு உதவி.",
+            "en-IN": "எனக்கு உதவி தேவை."
+          }
+        },
+        {
+          "type": "dialogue",
+          "scenario": "ஒரு நபரிடம் உதவி கேட்பது",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "மன்னிக்கவும், நீங்கள் தமிழ் பேசுகிறீர்களா?",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "mannikkavum_tamil_pesugireergala.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "ஆமாம், நான் தமிழ் பேசுகிறேன்.",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "aamam_tamil_pesugiren.mp3"
+            },
+            {
+              "speaker": "A",
+              "text": "தயவுசெய்து உதவி செய்யுங்கள்.",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "thayavuseithu_uthavi_dialogue.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "நேரம் கேட்பது",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "நேரம் என்ன?",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "neram_enna_dialogue.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "மணி மூன்று ஆகிறது.",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "mani_moondru.mp3"
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "வாக்கியங்களை அவற்றின் பதில்களுடன் பொருத்தவும்",
+          "prompt_translatable": true,
+          "lang": "ta-IN",
+          "pairs": [
+            {
+              "word": "தயவுசெய்து உதவி செய்யுங்கள்.",
+              "match": "நிச்சயமாக, நான் உதவுகிறேன்.",
+              "translatable": true
+            },
+            {
+              "word": "மன்னிக்கவும், நான் புரிந்து கொள்ளவில்லை.",
+              "match": "பரவாயில்லை, மீண்டும் சொல்கிறேன்.",
+              "translatable": true
+            },
+            {
+              "word": "நீங்கள் தமிழ் பேசுகிறீர்களா?",
+              "match": "ஆமாம், நான் தமிழ் பேசுகிறேன்.",
+              "translatable": true
+            },
+            {
+              "word": "நேரம் என்ன?",
+              "match": "மணி மூன்று ஆகிறது.",
+              "translatable": true
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "சொல்லவும்: தயவுசெய்து உதவி செய்யுங்கள்.",
+          "prompt_translatable": true,
+          "expected": "தயவுசெய்து உதவி செய்யுங்கள்.",
+          "expected_translatable": true,
+          "lang": "ta-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "நிரப்பவும்: ___ உதவி செய்யுங்கள்.",
+          "prompt_translatable": true,
+          "answer": "தயவுசெய்து",
+          "answer_translatable": true,
+          "hint": "மரியாதையான வார்த்தை",
+          "hint_translatable": true,
+          "lang": "ta-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "நேரம் கேட்க என்ன சொல்வது?",
+          "question_translatable": true,
+          "answer": "நேரம் என்ன?",
+          "answer_translatable": true,
+          "options": [
+            "நீங்கள் தமிழ் பேசுகிறீர்களா?",
+            "நேரம் என்ன?",
+            "தயவுசெய்து உதவி செய்யுங்கள்.",
+            "மன்னிக்கவும்"
+          ],
+          "options_translatable": true,
+          "lang": "ta-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "தட்டச்சு செய்யவும்: நீங்கள் தமிழ் பேசுகிறீர்களா?",
+          "prompt_translatable": true,
+          "lang": "ta-IN"
+        }
+      ],
+      "cultural_notes": "தமிழில், 'தயவுசெய்து' மற்றும் 'மன்னிக்கவும்' போன்ற மரியாதையான வார்த்தைகள் உரையாடலில் முக்கியம். மக்கள் பொதுவாக பேச்சில் மரியாதையைக் காட்டுவதற்கு இந்த வார்த்தைகளைப் பயன்படுத்துவார்கள், குறிப்பாக அந்நியர்களுடன் பேசும்போது.",
+      "cultural_notes_translatable": true
+    },
+    {
+      "lesson": 3,
+      "title": "Family",
+      "skills": [
+        "Vocabulary",
+        "Phrases",
+        "Grammar",
+        "Cultural Context"
+      ],
+      "content": [
+        {
+          "type": "vocab",
+          "word": "அப்பா",
+          "translatable": true,
+          "lang": "ta-IN",
+          "example": "என் அப்பா ஒரு மருத்துவர்.",
+          "example_translatable": true,
+          "audio": "appa.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "அப்பா",
+            "te-IN": "அப்பா",
+            "en-IN": "அப்பா"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "அம்மா",
+          "translatable": true,
+          "lang": "ta-IN",
+          "example": "என் அம்மா ஒரு ஆசிரியர்.",
+          "example_translatable": true,
+          "audio": "amma.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "அம்மா",
+            "te-IN": "அம்மா",
+            "en-IN": "அம்மா"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "அண்ணன்",
+          "translatable": true,
+          "lang": "ta-IN",
+          "example": "என் அண்ணன் 25 வயது.",
+          "example_translatable": true,
+          "audio": "annan.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "அண்ணன்",
+            "te-IN": "அண்ணன்",
+            "en-IN": "அண்ணன்"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "தம்பி",
+          "translatable": true,
+          "lang": "ta-IN",
+          "example": "என் தம்பி பள்ளியில் படிக்கிறான்.",
+          "example_translatable": true,
+          "audio": "thambi.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "தம்பி",
+            "te-IN": "தம்பி",
+            "en-IN": "தம்பி"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "அக்கா",
+          "translatable": true,
+          "lang": "ta-IN",
+          "example": "என் அக்கா ஒரு வழக்கறிஞர்.",
+          "example_translatable": true,
+          "audio": "akka.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "அக்கா",
+            "te-IN": "அக்கா",
+            "en-IN": "அக்கா"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "தங்கை",
+          "translatable": true,
+          "lang": "ta-IN",
+          "example": "என் தங்கைக்கு நடனம் பிடிக்கும்.",
+          "example_translatable": true,
+          "audio": "thangai.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "தங்கை",
+            "te-IN": "தங்கை",
+            "en-IN": "தங்கை"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "மகள்",
+          "translatable": true,
+          "lang": "ta-IN",
+          "example": "என் மகள் ஐந்து வயது.",
+          "example_translatable": true,
+          "audio": "magal.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "மகள்",
+            "te-IN": "மகள்",
+            "en-IN": "மகள்"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "மகன்",
+          "translatable": true,
+          "lang": "ta-IN",
+          "example": "என் மகன் கால்பந்து விளையாடுகிறான்.",
+          "example_translatable": true,
+          "audio": "magan.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "மகன்",
+            "te-IN": "மகன்",
+            "en-IN": "மகன்"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "மாமா",
+          "translatable": true,
+          "lang": "ta-IN",
+          "example": "என் மாமா சென்னையில் வசிக்கிறார்.",
+          "example_translatable": true,
+          "audio": "mama.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "மாமா",
+            "te-IN": "மாமா",
+            "en-IN": "மாமா"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "மாமி",
+          "translatable": true,
+          "lang": "ta-IN",
+          "example": "என் மாமி சுவையான உணவு சமைக்கிறார்.",
+          "example_translatable": true,
+          "audio": "mami.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "மாமி",
+            "te-IN": "மாமி",
+            "en-IN": "மாமி"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "இது என் குடும்பம்.",
+          "translatable": true,
+          "lang": "ta-IN",
+          "response": "உங்கள் குடும்பம் மிகவும் அருமையாக இருக்கிறது!",
+          "response_translatable": true,
+          "audio": "idhu_en_kudumbam.mp3",
+          "translations": {
+            "ta-IN": "இது.",
+            "hi-IN": "இது இது என்।",
+            "te-IN": "இது என்.",
+            "en-IN": "இது என் குடும்பம்."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "எனக்கு இரண்டு சகோதரர்கள் உள்ளனர்.",
+          "translatable": true,
+          "lang": "ta-IN",
+          "response": "அது ஒரு பெரிய குடும்பம்!",
+          "response_translatable": true,
+          "audio": "irandu_sagotharargal.mp3",
+          "translations": {
+            "ta-IN": "எனக்கு இரண்டு.",
+            "hi-IN": "எனக்கு எனக்கு சகோதரர்கள் உள்ளனர்।",
+            "te-IN": "எனக்கு இரண்டு சகோதரர்கள்.",
+            "en-IN": "எனக்கு இரண்டு சகோதரர்கள் உள்ளனர்."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "என் அம்மா ஒரு ஆசிரியர்.",
+          "translatable": true,
+          "lang": "ta-IN",
+          "response": "அது அற்புதம்!",
+          "response_translatable": true,
+          "audio": "amma_asiriyar.mp3",
+          "translations": {
+            "ta-IN": "என் அம்மா.",
+            "hi-IN": "என் என் ஒரு ஆசிரியர்।",
+            "te-IN": "என் அம்மா ஒரு.",
+            "en-IN": "என் அம்மா ஒரு ஆசிரியர்."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "உங்களுக்கு சகோதரர்கள் உள்ளனரா?",
+          "translatable": true,
+          "lang": "ta-IN",
+          "response": "ஆமாம், எனக்கு ஒரு சகோதரி உள்ளார்.",
+          "response_translatable": true,
+          "audio": "sagotharargal_ullara.mp3",
+          "translations": {
+            "ta-IN": "உங்களுக்கு சகோதரர்கள்?",
+            "hi-IN": "உங்களுக்கு உங்களுக்கு உள்ளனரா?",
+            "te-IN": "உங்களுக்கு சகோதரர்கள் சகோதரர்கள்?",
+            "en-IN": "உங்களுக்கு சகோதரர்கள் உள்ளனரா?"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "என் பெற்றோர் [உங்கள் ஊர்] இல் வசிக்கின்றனர்.",
+          "translatable": true,
+          "lang": "ta-IN",
+          "response": "நல்ல இடம்!",
+          "response_translatable": true,
+          "audio": "petror_oor.mp3",
+          "translations": {
+            "ta-IN": "என் பெற்றோர் [உங்கள் உங்கள்] இல்.",
+            "hi-IN": "என் என் [உங்கள் உங்கள் ஊர்] வசிக்கின்றனர் வசிக்கின்றனர்।",
+            "te-IN": "என் பெற்றோர் [உங்கள் உங்கள்] இல்.",
+            "en-IN": "என் பெற்றோர் [உங்கள் ஊர்] இல் வசிக்கின்றனர்."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "நான் என் குடும்பத்தை நேசிக்கிறேன்.",
+          "translatable": true,
+          "lang": "ta-IN",
+          "response": "அது மிகவும் அழகு!",
+          "response_translatable": true,
+          "audio": "naan_kudumbam_nesikkiren.mp3",
+          "translations": {
+            "ta-IN": "நான் என்.",
+            "hi-IN": "நான் நான் குடும்பத்தை நேசிக்கிறேன்।",
+            "te-IN": "நான் என் குடும்பத்தை.",
+            "en-IN": "நான் என் குடும்பத்தை நேசிக்கிறேன்."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "என் அப்பா ஒரு மருத்துவர்.",
+          "translatable": true,
+          "lang": "ta-IN",
+          "response": "வாவ், அது பிரமிக்க வைக்கிறது!",
+          "response_translatable": true,
+          "audio": "appa_maruthuvar.mp3",
+          "translations": {
+            "ta-IN": "என் அப்பா.",
+            "hi-IN": "என் என் ஒரு மருத்துவர்।",
+            "te-IN": "என் அப்பா ஒரு.",
+            "en-IN": "என் அப்பா ஒரு மருத்துவர்."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "எனக்கு ஒரு சகோதரி உள்ளார்.",
+          "translatable": true,
+          "lang": "ta-IN",
+          "response": "அது நல்லது!",
+          "response_translatable": true,
+          "audio": "oru_sagothari.mp3",
+          "translations": {
+            "ta-IN": "எனக்கு ஒரு.",
+            "hi-IN": "எனக்கு எனக்கு சகோதரி உள்ளார்।",
+            "te-IN": "எனக்கு ஒரு சகோதரி.",
+            "en-IN": "எனக்கு ஒரு சகோதரி உள்ளார்."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "என் சகோதரர் ஒரு மாணவர்.",
+          "translatable": true,
+          "lang": "ta-IN",
+          "response": "அவர் என்ன படிக்கிறார்?",
+          "response_translatable": true,
+          "audio": "sagotharar_maanavar.mp3",
+          "translations": {
+            "ta-IN": "என் சகோதரர்.",
+            "hi-IN": "என் என் ஒரு மாணவர்।",
+            "te-IN": "என் சகோதரர் ஒரு.",
+            "en-IN": "என் சகோதரர் ஒரு மாணவர்."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "என் பாட்டி எங்களுடன் வசிக்கிறார்.",
+          "translatable": true,
+          "lang": "ta-IN",
+          "response": "அது மிகவும் நல்லது!",
+          "response_translatable": true,
+          "audio": "paatti_engaludan.mp3",
+          "translations": {
+            "ta-IN": "என் பாட்டி.",
+            "hi-IN": "என் என் எங்களுடன் வசிக்கிறார்।",
+            "te-IN": "என் பாட்டி எங்களுடன்.",
+            "en-IN": "என் பாட்டி எங்களுடன் வசிக்கிறார்."
+          }
+        },
+        {
+          "type": "dialogue",
+          "scenario": "கூட்டத்தில் குடும்பம் பற்றி பேசுதல்",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "உங்களுக்கு சகோதரர்கள் உள்ளனரா?",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "sagotharargal_ullara_kootam.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "ஆமாம், எனக்கு ஒரு சகோதரியும் ஒரு சகோதரரும் உள்ளனர்.",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "oru_sagothari_sagotharar.mp3"
+            },
+            {
+              "speaker": "A",
+              "text": "அது நல்லது! அவர்கள் என்ன செய்கிறார்கள்?",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "avargal_enna_seygirargal.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "நிகழ்ச்சியில் குடும்ப அறிமுகம்",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "இது என் அம்மா, ஜோதி.",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "idhu_en_amma_jothi.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "ஜோதி, உங்களை சந்தித்ததில் மகிழ்ச்சி!",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "sandhithathil_magizhchi_jothi.mp3"
+            },
+            {
+              "speaker": "A",
+              "text": "அவர் ஒரு ஆசிரியர்.",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "avar_asiriyar.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "விருந்தில் குடும்பம் பற்றி பேசுதல்",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "எனக்கு இரண்டு சகோதரர்கள் உள்ளனர்.",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "irandu_sagotharargal_virundhu.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "அது ஒரு பெரிய குடும்பம்!",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "periya_kudumbam.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "வகுப்பில் குடும்பம் பற்றி பேசுதல்",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "என் பெற்றோர் சென்னையில் வசிக்கின்றனர்.",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "petror_chennai.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "நல்ல இடம்!",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "nalla_idam.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "குடும்ப நிகழ்ச்சியில் மாமா அறிமுகம்",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "இது என் மாமா, மனோஜ்.",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "idhu_en_mama_manoj.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "மனோஜ், உங்களை சந்தித்ததில் மகிழ்ச்சி!",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "sandhithathil_magizhchi_manoj.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "மகள் பற்றி பேசுதல்",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "என் மகள் ஐந்து வயது.",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "magal_ainthu_vayathu.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "அது மிகவும் அழகு!",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "migavum_azhagu.mp3"
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "வாக்கியங்களை அவற்றின் பதில்களுடன் பொருத்தவும்",
+          "prompt_translatable": true,
+          "lang": "ta-IN",
+          "pairs": [
+            {
+              "word": "இது என் குடும்பம்.",
+              "match": "உங்கள் குடும்பம் மிகவும் அருமையாக இருக்கிறது!",
+              "translatable": true
+            },
+            {
+              "word": "எனக்கு இரண்டு சகோதரர்கள் உள்ளனர்.",
+              "match": "அது ஒரு பெரிய குடும்பம்!",
+              "translatable": true
+            },
+            {
+              "word": "என் அம்மா ஒரு ஆசிரியர்.",
+              "match": "அது அற்புதம்!",
+              "translatable": true
+            },
+            {
+              "word": "நான் என் குடும்பத்தை நேசிக்கிறேன்.",
+              "match": "அது மிகவும் அழகு!",
+              "translatable": true
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "சொல்லவும்: இது என் அம்மா.",
+          "prompt_translatable": true,
+          "expected": "இது என் அம்மா.",
+          "expected_translatable": true,
+          "lang": "ta-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "நிரப்பவும்: எனக்கு ஒரு ___ உள்ளார்.",
+          "prompt_translatable": true,
+          "answer": "சகோதரி",
+          "answer_translatable": true,
+          "hint": "ஒரு குடும்ப உறுப்பினர்",
+          "hint_translatable": true,
+          "lang": "ta-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "'என் பெற்றோர்' என்று எப்படி சொல்வது?",
+          "question_translatable": true,
+          "answer": "என் பெற்றோர்",
+          "answer_translatable": true,
+          "options": [
+            "என் சகோதரர்கள்",
+            "என் பெற்றோர்",
+            "என் குடும்பம்",
+            "என் அம்மா"
+          ],
+          "options_translatable": true,
+          "lang": "ta-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "தட்டச்சு செய்யவும்: எனக்கு இரண்டு சகோதரர்கள் உள்ளனர்.",
+          "prompt_translatable": true,
+          "lang": "ta-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "சொல்லவும்: என் அப்பா ஒரு மருத்துவர்.",
+          "prompt_translatable": true,
+          "expected": "என் அப்பா ஒரு மருத்துவர்.",
+          "expected_translatable": true,
+          "lang": "ta-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "நிரப்பவும்: என் ___ ஒரு ஆசிரியர்.",
+          "prompt_translatable": true,
+          "answer": "அம்மா",
+          "answer_translatable": true,
+          "hint": "ஒரு குடும்ப உறுப்பினர்",
+          "hint_translatable": true,
+          "lang": "ta-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "குடும்பத்தைப் பற்றி கேட்க என்ன சொல்வது?",
+          "question_translatable": true,
+          "answer": "உங்களுக்கு சகோதரர்கள் உள்ளனரா?",
+          "answer_translatable": true,
+          "options": [
+            "உங்களுக்கு வேலை உள்ளதா?",
+            "உங்களுக்கு சகோதரர்கள் உள்ளனரா?",
+            "உங்கள் குடும்பம் எங்கே?",
+            "நான் என் குடும்பத்தை நேசிக்கிறேன்"
+          ],
+          "options_translatable": true,
+          "lang": "ta-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "உரையாடலை முடிக்கவும்: A: இது என் குடும்பம். B: ___",
+          "prompt_translatable": true,
+          "answer": "உங்கள் குடும்பம் மிகவும் அருமையாக இருக்கிறது!",
+          "answer_translatable": true,
+          "hint": "ஒரு மரியாதையான பதில்",
+          "hint_translatable": true,
+          "lang": "ta-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "தட்டச்சு செய்யவும்: என் பெற்றோர் [உங்கள் ஊர்] இல் வசிக்கின்றனர்.",
+          "prompt_translatable": true,
+          "lang": "ta-IN"
+        }
+      ],
+      "cultural_notes": "தமிழ் கலாச்சாரத்தில் குடும்பம் முக்கியமானது. உறவினர்களை 'அப்பா', 'அம்மா', 'அண்ணன்' போன்ற உறவு முறை பெயர்களால் அழைப்பது வழக்கம். கூட்டுக் குடும்பங்கள், பல தலைமுறைகள் ஒன்றாக வாழ்வது, தமிழ்நாட்டில் பொதுவானது. குடும்பத்தைப் பற்றி பேசுவது நட்பை வளர்க்க உதவுகிறது.",
+      "cultural_notes_translatable": true
+    },
+    {
+      "lesson": 4,
+      "title": "தினசரி தொடர்புகள்",
+      "skills": [
+        "சொற்கள்",
+        "வாக்கியங்கள்",
+        "உரையாடல்கள்",
+        "நடைமுறை பயன்பாடு"
+      ],
+      "content": [
+        {
+          "type": "phrase",
+          "text": "இதன் விலை எவ்வளவு?",
+          "translatable": true,
+          "lang": "ta-IN",
+          "response": "இது நூறு ரூபாய்.",
+          "response_translatable": true,
+          "audio": "idhan_vilai_evvazhu.mp3",
+          "translations": {
+            "ta-IN": "இதன் விலை?",
+            "hi-IN": "இதன் இதன் எவ்வளவு?",
+            "te-IN": "இதன் விலை விலை?",
+            "en-IN": "இதன் விலை எவ்வளவு?"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "தயவு செய்து எனக்கு மெனு காட்டுங்கள்.",
+          "translatable": true,
+          "lang": "ta-IN",
+          "response": "இது உங்கள் மெனு.",
+          "response_translatable": true,
+          "audio": "menu_kaattungal.mp3",
+          "translations": {
+            "ta-IN": "தயவு செய்து எனக்கு.",
+            "hi-IN": "தயவு தயவு செய்து காட்டுங்கள் காட்டுங்கள்।",
+            "te-IN": "தயவு செய்து எனக்கு மெனு.",
+            "en-IN": "தயவு செய்து எனக்கு மெனு காட்டுங்கள்."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "எனக்கு கொஞ்சம் தண்ணீர் கிடைக்குமா?",
+          "translatable": true,
+          "lang": "ta-IN",
+          "response": "சரி, உடனே தருகிறேன்.",
+          "response_translatable": true,
+          "audio": "thanneer_kidaikkuma.mp3",
+          "translations": {
+            "ta-IN": "எனக்கு கொஞ்சம் கொஞ்சம்?",
+            "hi-IN": "எனக்கு எனக்கு தண்ணீர் கிடைக்குமா?",
+            "te-IN": "எனக்கு கொஞ்சம் தண்ணீர்?",
+            "en-IN": "எனக்கு கொஞ்சம் தண்ணீர் கிடைக்குமா?"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "தயவு செய்து பில் கொண்டு வாருங்கள்.",
+          "translatable": true,
+          "lang": "ta-IN",
+          "response": "ஒரு நிமிடம், பில் கொண்டு வருகிறேன்.",
+          "response_translatable": true,
+          "audio": "bill_kondu_va.mp3",
+          "translations": {
+            "ta-IN": "தயவு செய்து பில்.",
+            "hi-IN": "தயவு தயவு செய்து வாருங்கள் வாருங்கள்।",
+            "te-IN": "தயவு செய்து பில் கொண்டு.",
+            "en-IN": "தயவு செய்து பில் கொண்டு வாருங்கள்."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "சந்தை எங்கே?",
+          "translatable": true,
+          "lang": "ta-IN",
+          "response": "நேராக போங்கள், பிறகு இடது பக்கம்.",
+          "response_translatable": true,
+          "audio": "sandhai_engae.mp3",
+          "translations": {
+            "ta-IN": "சந்தை சந்தை?",
+            "hi-IN": "சந்தை சந்தை?",
+            "te-IN": "சந்தை சந்தை?",
+            "en-IN": "சந்தை எங்கே?"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "இதை வாங்க வேண்டும்.",
+          "translatable": true,
+          "lang": "ta-IN",
+          "response": "சரி, நான் இதை பேக் செய்கிறேன்.",
+          "response_translatable": true,
+          "audio": "vangavendum.mp3",
+          "translations": {
+            "ta-IN": "இதை.",
+            "hi-IN": "இதை இதை வாங்க।",
+            "te-IN": "இதை வாங்க.",
+            "en-IN": "இதை வாங்க வேண்டும்."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "நிலையம் செல்லும் வழி எது?",
+          "translatable": true,
+          "lang": "ta-IN",
+          "response": "நேராக போங்கள், பிறகு வலது பக்கம்.",
+          "response_translatable": true,
+          "audio": "nilayam_vazhi.mp3",
+          "translations": {
+            "ta-IN": "நிலையம் செல்லும் செல்லும்?",
+            "hi-IN": "நிலையம் நிலையம் வழி எது?",
+            "te-IN": "நிலையம் செல்லும் வழி?",
+            "en-IN": "நிலையம் செல்லும் வழி எது?"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "இது சைவ உணவா?",
+          "translatable": true,
+          "lang": "ta-IN",
+          "response": "ஆம், இது சைவம்.",
+          "response_translatable": true,
+          "audio": "saiva_unavu.mp3",
+          "translations": {
+            "ta-IN": "இது சைவ?",
+            "hi-IN": "இது இது உணவா?",
+            "te-IN": "இது சைவ சைவ?",
+            "en-IN": "இது சைவ உணவா?"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "எனக்கு ஒரு டிக்கெட் வேண்டும்.",
+          "translatable": true,
+          "lang": "ta-IN",
+          "response": "எங்கே செல்ல?",
+          "response_translatable": true,
+          "audio": "ticket_vaendum.mp3",
+          "translations": {
+            "ta-IN": "எனக்கு ஒரு.",
+            "hi-IN": "எனக்கு எனக்கு டிக்கெட் வேண்டும்।",
+            "te-IN": "எனக்கு ஒரு டிக்கெட்.",
+            "en-IN": "எனக்கு ஒரு டிக்கெட் வேண்டும்."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "தள்ளுபடி தர முடியுமா?",
+          "translatable": true,
+          "lang": "ta-IN",
+          "response": "பார்க்கிறேன்.",
+          "response_translatable": true,
+          "audio": "thallupadi.mp3",
+          "translations": {
+            "ta-IN": "தள்ளுபடி தர?",
+            "hi-IN": "தள்ளுபடி தள்ளுபடி முடியுமா?",
+            "te-IN": "தள்ளுபடி தர தர?",
+            "en-IN": "தள்ளுபடி தர முடியுமா?"
+          }
+        },
+        {
+          "type": "dialogue",
+          "scenario": "அங்காடியில் வாங்கும் போது",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "இதன் விலை எவ்வளவு?",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "idhan_vilai_angadi.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "இது நூறு ரூபாய்.",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "nooru_rupai.mp3"
+            },
+            {
+              "speaker": "A",
+              "text": "இதை வாங்க வேண்டும்.",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "vangavendum_angadi.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "உணவகத்தில் ஆர்டர் செய்யும் போது",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "தயவு செய்து எனக்கு மெனு காட்டுங்கள்.",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "menu_kaattungal_unavagam.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "இது உங்கள் மெனு.",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "idhu_ungal_menu.mp3"
+            },
+            {
+              "speaker": "A",
+              "text": "எனக்கு ஒரு சைவ தட்டு வேண்டும்.",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "saiva_thattu.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "வழி கேட்கும் போது",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "சந்தை எங்கே?",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "sandhai_engae_vazhi.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "நேராக போங்கள், பிறகு இடது பக்கம்.",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "neraga_idathu.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "உணவகத்தில் பில் கேட்கும் போது",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "தயவு செய்து பில் கொண்டு வாருங்கள்.",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "bill_va_unavagam.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "ஒரு நிமிடம், பில் கொண்டு வருகிறேன்.",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "oru_nimidam_bill.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "டிக்கெட் வாங்கும் போது",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "எனக்கு ஒரு டிக்கெட் வேண்டும்.",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "ticket_vaendum_nilayam.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "எங்கே செல்ல?",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "enge_sella.mp3"
+            },
+            {
+              "speaker": "A",
+              "text": "சென்னை செல்ல.",
+              "translatable": true,
+              "lang": "ta-IN",
+              "audio": "chennai_sella.mp3"
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "வாக்கியங்களை அதன் பதிலுடன் பொருத்துங்கள்",
+          "prompt_translatable": true,
+          "lang": "ta-IN",
+          "pairs": [
+            {
+              "word": "இதன் விலை எவ்வளவு?",
+              "match": "இது நூறு ரூபாய்.",
+              "translatable": true
+            },
+            {
+              "word": "தயவு செய்து எனக்கு மெனு காட்டுங்கள்.",
+              "match": "இது உங்கள் மெனு.",
+              "translatable": true
+            },
+            {
+              "word": "சந்தை எங்கே?",
+              "match": "நேராக போங்கள், பிறகு இடது பக்கம்.",
+              "translatable": true
+            },
+            {
+              "word": "தயவு செய்து பில் கொண்டு வாருங்கள்.",
+              "match": "ஒரு நிமிடம், பில் கொண்டு வருகிறேன்.",
+              "translatable": true
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "பேசுங்கள்: இதன் விலை எவ்வளவு?",
+          "prompt_translatable": true,
+          "expected": "இதன் விலை எவ்வளவு?",
+          "expected_translatable": true,
+          "lang": "ta-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "நிறைவு செய்யுங்கள்: தயவு செய்து எனக்கு ___ காட்டுங்கள்.",
+          "prompt_translatable": true,
+          "answer": "மெனு",
+          "answer_translatable": true,
+          "hint": "உணவகத்தில் கேட்கும் பொருள்",
+          "hint_translatable": true,
+          "lang": "ta-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "உணவகத்தில் தண்ணீர் கேட்க என்ன சொல்வீர்கள்?",
+          "question_translatable": true,
+          "answer": "எனக்கு ஒரு தண்ணீர் வேண்டும்.",
+          "answer_translatable": true,
+          "options": [
+            "எனக்கு ஒரு தண்ணீர் வேண்டும்.",
+            "எனக்கு ஒரு டிக்கெட் வேண்டும்.",
+            "தயவு செய்து பில் கொண்டு வாருங்கள்.",
+            "இதன் விலை எவ்வளவு?"
+          ],
+          "options_translatable": true,
+          "lang": "ta-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "தட்டச்சு செய்யுங்கள்: சந்தை எங்கே?",
+          "prompt_translatable": true,
+          "lang": "ta-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "பேசுங்கள்: தயவு செய்து பில் கொண்டு வாருங்கள்.",
+          "prompt_translatable": true,
+          "expected": "தயவு செய்து பில் கொண்டு வாருங்கள்.",
+          "expected_translatable": true,
+          "lang": "ta-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "நிறைவு செய்யுங்கள்: எனக்கு ஒரு ___ வேண்டும்.",
+          "prompt_translatable": true,
+          "answer": "டிக்கெட்",
+          "answer_translatable": true,
+          "hint": "பயணத்திற்கு தேவையானது",
+          "hint_translatable": true,
+          "lang": "ta-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "வழி கேட்க என்ன சொல்வீர்கள்?",
+          "question_translatable": true,
+          "answer": "நிலையம் செல்லும் வழி எது?",
+          "answer_translatable": true,
+          "options": [
+            "இதன் விலை எவ்வளவு?",
+            "நிலையம் செல்லும் வழி எது?",
+            "எனக்கு ஒரு தண்ணீர் வேண்டும்.",
+            "தயவு செய்து எனக்கு மெனு காட்டுங்கள்."
+          ],
+          "options_translatable": true,
+          "lang": "ta-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "உரையாடலை முடிக்கவும்: A: இதன் விலை எவ்வளவு? B: ___",
+          "prompt_translatable": true,
+          "answer": "இது நூறு ரூபாய்.",
+          "answer_translatable": true,
+          "hint": "விலைக்கு பதில்",
+          "hint_translatable": true,
+          "lang": "ta-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "தட்டச்சு செய்யுங்கள்: இதை வாங்க வேண்டும்.",
+          "prompt_translatable": true,
+          "lang": "ta-IN"
+        }
+      ],
+      "cultural_notes": "தமிழில் தினசரி உரையாடலில் மரியாதை முக்கியம். 'தயவு செய்து', 'நன்றி' போன்ற சொற்கள் பொதுவாக பயன்படுத்தப்படுகின்றன, குறிப்பாக கடைகள் மற்றும் உணவகங்களில். சந்தைகளில் விலை பேசுவது வழக்கமானது. வழி கேட்கும் போது, உள்ளூர் மக்கள் உதவிகரமாக இருப்பார்கள்.",
+      "cultural_notes_translatable": true
+    }
+  ]
+}

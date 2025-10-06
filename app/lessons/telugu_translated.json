@@ -1,0 +1,2180 @@
+{
+  "language": "telugu",
+  "unit": 1,
+  "title": "Telugu Conversational Foundations",
+  "description": "Master essential Telugu greetings, introductions, family terms, and daily interactions with support for automatic translation into Hindi, Tamil, or other languages.",
+  "translation_config": {
+    "source_lang": "te-IN",
+    "supported_target_langs": [
+      "hi-IN",
+      "ta-IN",
+      "en-IN"
+    ],
+    "translatable_fields": [
+      "word",
+      "example",
+      "text",
+      "response",
+      "prompt",
+      "answer",
+      "question",
+      "options",
+      "lines.text",
+      "cultural_notes"
+    ]
+  },
+  "lessons": [
+    {
+      "lesson": 1,
+      "title": "Greetings",
+      "skills": [
+        "Vocabulary",
+        "Phrases",
+        "Pronunciation",
+        "Cultural Context"
+      ],
+      "content": [
+        {
+          "type": "vocab",
+          "word": "నమస్కారం",
+          "translatable": true,
+          "lang": "te-IN",
+          "example": "నమస్కారం, మీరు బాగున్నారా?",
+          "example_translatable": true,
+          "audio": "namaskaram.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "నమస్కారం",
+            "te-IN": "నమస్కారం",
+            "en-IN": "నమస్కారం"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "శుభోదయం",
+          "translatable": true,
+          "lang": "te-IN",
+          "example": "అందరికీ శుభోదయం!",
+          "example_translatable": true,
+          "audio": "shubhodayam.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "శుభోదయం",
+            "te-IN": "శుభోదయం",
+            "en-IN": "శుభోదయం"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "శుభ మధ్యాహ్నం",
+          "translatable": true,
+          "lang": "te-IN",
+          "example": "శుభ మధ్యాహ్నం, మీకు ఎలా సహాయం చేయగలను?",
+          "example_translatable": true,
+          "audio": "shubha_madhyahnam.mp3",
+          "translations": {
+            "ta-IN": ". శుభ",
+            "hi-IN": "శుభ మధ్యాహ్నం",
+            "te-IN": "శుభ శుభ",
+            "en-IN": "శుభ మధ్యాహ్నం"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "శుభ సాయంత్రం",
+          "translatable": true,
+          "lang": "te-IN",
+          "example": "శుభ సాయంత్రం, కార్యక్రమానికి స్వాగతం!",
+          "example_translatable": true,
+          "audio": "shubha_sayantram.mp3",
+          "translations": {
+            "ta-IN": ". శుభ",
+            "hi-IN": "శుభ సాయంత్రం",
+            "te-IN": "శుభ శుభ",
+            "en-IN": "శుభ సాయంత్రం"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "శుభ రాత్రి",
+          "translatable": true,
+          "lang": "te-IN",
+          "example": "శుభ రాత్రి, రేపు ఉదయానికి కలుద్దాం.",
+          "example_translatable": true,
+          "audio": "shubha_ratri.mp3",
+          "translations": {
+            "ta-IN": ". శుభ",
+            "hi-IN": "శుభ రాత్రి",
+            "te-IN": "శుభ శుభ",
+            "en-IN": "శుభ రాత్రి"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "ధన్యవాదాలు",
+          "translatable": true,
+          "lang": "te-IN",
+          "example": "నీ సహాయానికి ధన్యవాదాలు.",
+          "example_translatable": true,
+          "audio": "dhanyavadalu.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "ధన్యవాదాలు",
+            "te-IN": "ధన్యవాదాలు",
+            "en-IN": "ధన్యవాదాలు"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "దయచేసి",
+          "translatable": true,
+          "lang": "te-IN",
+          "example": "దయచేసి లోపలికి రండి.",
+          "example_translatable": true,
+          "audio": "dayachesi.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "దయచేసి",
+            "te-IN": "దయచేసి",
+            "en-IN": "దయచేసి"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "క్షమించండి",
+          "translatable": true,
+          "lang": "te-IN",
+          "example": "క్షమించండి, నేను అడ్డుపడాలని అనుకోలేదు.",
+          "example_translatable": true,
+          "audio": "kshaminchandi.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "క్షమించండి",
+            "te-IN": "క్షమించండి",
+            "en-IN": "క్షమించండి"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "వీడ్కోలు",
+          "translatable": true,
+          "lang": "te-IN",
+          "example": "వీడ్కోలు, త్వరలో కలుద్దాం!",
+          "example_translatable": true,
+          "audio": "vidkolu.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "వీడ్కోలు",
+            "te-IN": "వీడ్కోలు",
+            "en-IN": "వీడ్కోలు"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "మీరు ఎలా ఉన్నారు?",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "నేను బాగున్నాను",
+          "response_translatable": true,
+          "audio": "neevu_ela_unnavu.mp3",
+          "translations": {
+            "ta-IN": "మీరు ఎలా?",
+            "hi-IN": "మీరు మీరు ఉన్నారు?",
+            "te-IN": "మీరు ఎలా ఎలా?",
+            "en-IN": "మీరు ఎలా ఉన్నారు?"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "మిమ్మల్ని కలిసినందుకు చాలా సంతోషం!",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "నాకు కూడా కలిసినందుకు చాలా సంతోషంగా ఉంది!",
+          "response_translatable": true,
+          "audio": "neevu_kalisinanduku_santosham.mp3",
+          "translations": {
+            "ta-IN": "మిమ్మల్ని కలిసినందుకు కలిసినందుకు!",
+            "hi-IN": "మిమ్మల్ని మిమ్మల్ని చాలా సంతోషం!",
+            "te-IN": "మిమ్మల్ని కలిసినందుకు చాలా చాలా!",
+            "en-IN": "మిమ్మల్ని కలిసినందుకు చాలా సంతోషం!"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "తర్వాత కలుద్దాం!",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "కచ్చితంగా!",
+          "response_translatable": true,
+          "audio": "tarvata_kaluddham.mp3",
+          "translations": {
+            "ta-IN": "తర్వాత తర్వాత!",
+            "hi-IN": "తర్వాత తర్వాత!",
+            "te-IN": "తర్వాత తర్వాత!",
+            "en-IN": "తర్వాత కలుద్దాం!"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "ఏమి జరుగుతోంది?",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "ఏమీ లేదు!",
+          "response_translatable": true,
+          "audio": "emi_jarugutondi.mp3",
+          "translations": {
+            "ta-IN": "ఏమి ఏమి?",
+            "hi-IN": "ఏమి ఏమి?",
+            "te-IN": "ఏమి ఏమి?",
+            "en-IN": "ఏమి జరుగుతోంది?"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "జాగ్రత్త!",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "మీరు కూడా!",
+          "response_translatable": true,
+          "audio": "jagratha.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "జాగ్రత్త!",
+            "te-IN": "!!",
+            "en-IN": "జాగ్రత్త!"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "ఏమిటి సంగతులు?",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "ఏమీ లేదు, మీరే చెప్పాలి?",
+          "response_translatable": true,
+          "audio": "emiti_sangathulu.mp3",
+          "translations": {
+            "ta-IN": "ఏమిటి ఏమిటి?",
+            "hi-IN": "ఏమిటి ఏమిటి?",
+            "te-IN": "ఏమిటి ఏమిటి?",
+            "en-IN": "ఏమిటి సంగతులు?"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "ఎలా ఉన్నారు?",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "బాగున్నాను, మీరు ఎలా ఉన్నారు?",
+          "response_translatable": true,
+          "audio": "hey_neevu_ela_unnavu.mp3",
+          "translations": {
+            "ta-IN": "ఎలా ఎలా?",
+            "hi-IN": "ఎలా ఎలా?",
+            "te-IN": "ఎలా ఎలా?",
+            "en-IN": "ఎలా ఉన్నారు?"
+          }
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Meeting a friend at a cafe",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "నమస్కారం! మీరు ఎలా ఉన్నారు?",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "namaskaram_meeru_ela_unnaru.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "నేను బాగున్నాను! మిమ్మల్ని కలిసినందుకు చాలా సంతోషంగా ఉంది",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "nenu_bagunnanu.mp3"
+            },
+            {
+              "speaker": "A",
+              "text": "నాకు కూడా!",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "naaku_kuda.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Greeting a colleague",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "శుభోదయం! సమావేశానికి సిద్ధంగా ఉన్నారా?",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "shubhodayam_samavesaniki.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "అందరం సిద్ధంగా ఉన్నాం!",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "udayam_avunu_cheddam.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Saying goodbye after class",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "తర్వాత కలుద్దాం!",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "tarvata_kaluddham_class.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "సరే",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "bai_goppa_roju.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Greeting a neighbor",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "శుభ మధ్యాహ్నం! అంతా బాగున్నాదా?",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "shubha_madhyahnam_anta.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "అంతా బాగుంది, ధన్యవాదాలు!",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "anta_bagundi.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Meeting a friend at a park",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "హే, ఏమిటి సంగతులు?",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "hey_emiti_sangathulu.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "ఏమీ లేదు, కేవలం విశ్రాంతి తీసుకుంటున్నాను!",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "emi_ledu_vishranti.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Greeting a teacher",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "నమస్కారం ఉపాధ్యాయినీ గారు!",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "shubhodayam_neevu_ela.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "నమస్కారం, అందరూ కూర్చోండి!",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "nenu_bagunnanu.mp3"
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "Match phrases to responses",
+          "prompt_translatable": true,
+          "lang": "te-IN",
+          "pairs": [
+            {
+              "word": "మీరు ఎలా ఉన్నారు?",
+              "match": "నేను బాగున్నాను, ధన్యవాదాలు!",
+              "translatable": true
+            },
+            {
+              "word": "మిమ్మల్ని కలవడం చాలా సంతోషంగా ఉంది!",
+              "match": "మీకూడా!",
+              "translatable": true
+            },
+            {
+              "word": "తర్వాత కలుద్దాం!",
+              "match": "బై!",
+              "translatable": true
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: ___ ఎలా ఉన్నారు?",
+          "prompt_translatable": true,
+          "answer": "మీరు",
+          "answer_translatable": true,
+          "hint": "Asking about someone’s well-being",
+          "hint_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to greet someone in the evening?",
+          "question_translatable": true,
+          "answer": "శుభ సాయంత్రం",
+          "answer_translatable": true,
+          "options": [
+            "శుభోదయం",
+            "శుభ సాయంత్రం",
+            "నమస్తే",
+            "వీడ్కోలు"
+          ],
+          "options_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "Type: మీరు ఎలా ఉన్నారు?",
+          "prompt_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "Say: శుభోదయం!",
+          "prompt_translatable": true,
+          "expected": "శుభోదయం!",
+          "expected_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: ___ కలుద్దాం!",
+          "prompt_translatable": true,
+          "answer": "తర్వాత",
+          "answer_translatable": true,
+          "hint": "A casual goodbye",
+          "hint_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to apologize?",
+          "question_translatable": true,
+          "answer": "క్షమించండి",
+          "answer_translatable": true,
+          "options": [
+            "ధన్యవాదాలు",
+            "దయచేసి",
+            "క్షమించండి",
+            "వీడ్కోలు"
+          ],
+          "options_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "Complete the dialogue: A: హాయ్! నీవు ఎలా ఉన్నావు? B: ___",
+          "prompt_translatable": true,
+          "answer": "నేను బాగున్నాను",
+          "answer_translatable": true,
+          "hint": "Respond to a greeting",
+          "hint_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "Say: జాగ్రత్త!",
+          "prompt_translatable": true,
+          "expected": "జాగ్రత్త!",
+          "expected_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: శుభ ___!",
+          "prompt_translatable": true,
+          "answer": "రాత్రి",
+          "answer_translatable": true,
+          "hint": "A nighttime greeting",
+          "hint_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "Complete the dialogue: A: రేపు కలుద్దాం! B: ___",
+          "prompt_translatable": true,
+          "answer": "సరే, బై!",
+          "answer_translatable": true,
+          "hint": "A response to a goodbye",
+          "hint_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "Match phrases to responses",
+          "prompt_translatable": true,
+          "pairs": [
+            {
+              "word": "ఏమిటి సంగతులు?",
+              "match": "ఏమీ లేదు!",
+              "translatable": true
+            },
+            {
+              "word": "నీవు కనిపించడం సంతోషం!",
+              "match": "నీవు కూడా!",
+              "translatable": true
+            }
+          ],
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: ___ కలవడం చాలా సంతోషంగా ఉంది",
+          "prompt_translatable": true,
+          "answer": "మిమ్మల్ని",
+          "answer_translatable": true,
+          "hint": "A polite greeting",
+          "hint_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to greet someone casually?",
+          "question_translatable": true,
+          "answer": "ఏమిటి సంగతులు?",
+          "answer_translatable": true,
+          "options": [
+            "శుభ రాత్రి",
+            "ఏమిటి సంగతులు?",
+            "ధన్యవాదాలు",
+            "దయచేసి"
+          ],
+          "options_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "Type: నీవు కనిపించడం సంతోషం!",
+          "prompt_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "Say: ఏమి జరుగుతోంది?",
+          "prompt_translatable": true,
+          "expected": "ఏమి జరుగుతోంది?",
+          "expected_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: ___ జాగ్రత్త!",
+          "prompt_translatable": true,
+          "answer": "మీరు కూడా",
+          "answer_translatable": true,
+          "hint": "A farewell phrase",
+          "hint_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to greet someone in the afternoon?",
+          "question_translatable": true,
+          "answer": "శుభ మధ్యాహ్నం",
+          "answer_translatable": true,
+          "options": [
+            "శుభోదయం",
+            "శుభ మధ్యాహ్నం",
+            "శుభ రాత్రి",
+            "నమస్తే"
+          ],
+          "options_translatable": true,
+          "lang": "te-IN"
+        }
+      ],
+      "cultural_notes": "In Telugu-speaking cultures, greetings often reflect respect, with 'నమస్తే' used formally and hands pressed together in a gesture called 'Namaskaram.' Casual greetings like 'హాయ్' or 'ఏమిటి సంగతులు?' are common among friends. Smiling and nodding are typical during greetings.",
+      "cultural_notes_translatable": true
+    },
+    {
+      "lesson": 2,
+      "title": "Self Introduction",
+      "skills": [
+        "Phrases",
+        "Grammar",
+        "Pronunciation"
+      ],
+      "content": [
+        {
+          "type": "phrase",
+          "text": "నా పేరు [Your Name].",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "నీవు కలిసినందుకు సంతోషం!",
+          "response_translatable": true,
+          "audio": "naa_peru.mp3",
+          "translations": {
+            "ta-IN": "నా పేరు [உங்கள் பெயர்].",
+            "hi-IN": "నా నా [[आपका नाम]।",
+            "te-IN": "నా పేరు [మీ పేరు].",
+            "en-IN": "నా పేరు [Your Name]."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "నేను [Your City] నుండి వచ్చాను.",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "అది ఆసక్తికరం!",
+          "response_translatable": true,
+          "audio": "nenu_your_city.mp3",
+          "translations": {
+            "ta-IN": "నేను [உங்கள் நகரம்].",
+            "hi-IN": "నేను [आपका शहर] వచ్చాను వచ్చాను।",
+            "te-IN": "నేను [మీ నగరం] నుండి.",
+            "en-IN": "నేను [Your City] నుండి వచ్చాను."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "నేను విద్యార్థిని.",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "బాగుంది! నీవు ఏమి చదువుతున్నావు?",
+          "response_translatable": true,
+          "audio": "nenu_vidyarthini.mp3",
+          "translations": {
+            "ta-IN": ". నేను.",
+            "hi-IN": "నేను విద్యార్థిని।",
+            "te-IN": "నేను నేను.",
+            "en-IN": "నేను విద్యార్థిని."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "నేను ఉపాధ్యాయుడిగా పనిచేస్తున్నాను.",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "అది గొప్పది!",
+          "response_translatable": true,
+          "audio": "nenu_upadhyayudiga.mp3",
+          "translations": {
+            "ta-IN": "నేను.",
+            "hi-IN": "నేను నేను ఉపాధ్యాయుడిగా।",
+            "te-IN": "నేను ఉపాధ్యాయుడిగా.",
+            "en-IN": "నేను ఉపాధ్యాయుడిగా పనిచేస్తున్నాను."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "నాకు పుస్తకాలు చదవడం ఇష్టం.",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "బాగుంది! ఏ పుస్తకాలు చదువుతావు?",
+          "response_translatable": true,
+          "audio": "naaku_pustakalu.mp3",
+          "translations": {
+            "ta-IN": "నాకు పుస్తకాలు.",
+            "hi-IN": "నాకు నాకు చదవడం ఇష్టం।",
+            "te-IN": "నాకు పుస్తకాలు చదవడం.",
+            "en-IN": "నాకు పుస్తకాలు చదవడం ఇష్టం."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "నేను [Your City] లో నివసిస్తున్నాను.",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "ఆ నగరం నాకు ఇష్టం!",
+          "response_translatable": true,
+          "audio": "nenu_your_city_nivasistunnanu.mp3",
+          "translations": {
+            "ta-IN": "నేను [உங்கள் நகரம்].",
+            "hi-IN": "నేను [आपका शहर] నివసిస్తున్నాను నివసిస్తున్నాను।",
+            "te-IN": "నేను [మీ నగరం] లో.",
+            "en-IN": "నేను [Your City] లో నివసిస్తున్నాను."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "నా హాబీ చిత్రలేఖనం.",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "అది సృజనాత్మకం!",
+          "response_translatable": true,
+          "audio": "naa_hobby_chitralekhanam.mp3",
+          "translations": {
+            "ta-IN": "నా.",
+            "hi-IN": "నా నా హాబీ।",
+            "te-IN": "నా హాబీ.",
+            "en-IN": "నా హాబీ చిత్రలేఖనం."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "నాకు ప్రయాణం చేయడం ఇష్టం.",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "నీవు ఎక్కడికి వెళ్ళావు?",
+          "response_translatable": true,
+          "audio": "naaku_prayanam.mp3",
+          "translations": {
+            "ta-IN": "నాకు ప్రయాణం.",
+            "hi-IN": "నాకు నాకు చేయడం ఇష్టం।",
+            "te-IN": "నాకు ప్రయాణం చేయడం.",
+            "en-IN": "నాకు ప్రయాణం చేయడం ఇష్టం."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "నేను జీవశాస్త్రం చదువుతున్నాను.",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "అది ఆసక్తికరం!",
+          "response_translatable": true,
+          "audio": "nenu_jeevashastram.mp3",
+          "translations": {
+            "ta-IN": "నేను.",
+            "hi-IN": "నేను నేను జీవశాస్త్రం।",
+            "te-IN": "నేను జీవశాస్త్రం.",
+            "en-IN": "నేను జీవశాస్త్రం చదువుతున్నాను."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "నేను ఆఫీసులో పనిచేస్తున్నాను.",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "అక్కడ నీవు ఏమి చేస్తావు?",
+          "response_translatable": true,
+          "audio": "nenu_office_lo.mp3",
+          "translations": {
+            "ta-IN": "నేను.",
+            "hi-IN": "నేను నేను ఆఫీసులో।",
+            "te-IN": "నేను ఆఫీసులో.",
+            "en-IN": "నేను ఆఫీసులో పనిచేస్తున్నాను."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "నాకు సంగీతం ఇష్టం.",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "ఏ రకమైన సంగీతం?",
+          "response_translatable": true,
+          "audio": "naaku_sangeetam.mp3",
+          "translations": {
+            "ta-IN": "నాకు.",
+            "hi-IN": "నాకు నాకు సంగీతం।",
+            "te-IN": "నాకు సంగీతం.",
+            "en-IN": "నాకు సంగీతం ఇష్టం."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "నేను చిన్న పట్టణం నుండి వచ్చాను.",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "అది హాయిగా ఉంటుంది!",
+          "response_translatable": true,
+          "audio": "nenu_chinna_pattanam.mp3",
+          "translations": {
+            "ta-IN": "నేను చిన్న పట్టణం.",
+            "hi-IN": "నేను నేను చిన్న వచ్చాను వచ్చాను।",
+            "te-IN": "నేను చిన్న పట్టణం నుండి.",
+            "en-IN": "నేను చిన్న పట్టణం నుండి వచ్చాను."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "నాకు క్రీడలు ఆడటం ఇష్టం.",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "ఏ క్రీడలు?",
+          "response_translatable": true,
+          "audio": "naaku_kreedalu.mp3",
+          "translations": {
+            "ta-IN": "నాకు క్రీడలు.",
+            "hi-IN": "నాకు నాకు ఆడటం ఇష్టం।",
+            "te-IN": "నాకు క్రీడలు ఆడటం.",
+            "en-IN": "నాకు క్రీడలు ఆడటం ఇష్టం."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "నేను విశ్వవిద్యాలయంలో చదువుతున్నాను.",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "నీవు ఏ సబ్జెక్ట్ చదువుతున్నావు?",
+          "response_translatable": true,
+          "audio": "nenu_vishwavidyalayamlo.mp3",
+          "translations": {
+            "ta-IN": "నేను.",
+            "hi-IN": "నేను నేను విశ్వవిద్యాలయంలో।",
+            "te-IN": "నేను విశ్వవిద్యాలయంలో.",
+            "en-IN": "నేను విశ్వవిద్యాలయంలో చదువుతున్నాను."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "నాకు వంట చేయడం ఇష్టం.",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "నీకు ఇష్టమైన వంటకం ఏమిటి?",
+          "response_translatable": true,
+          "audio": "naaku_vanta_cheyadam.mp3",
+          "translations": {
+            "ta-IN": "నాకు వంట.",
+            "hi-IN": "నాకు నాకు చేయడం ఇష్టం।",
+            "te-IN": "నాకు వంట చేయడం.",
+            "en-IN": "నాకు వంట చేయడం ఇష్టం."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "నేను రచయితగా పనిచేస్తున్నాను.",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "నీవు ఏమి రాస్తావు?",
+          "response_translatable": true,
+          "audio": "nenu_rachayitaga.mp3",
+          "translations": {
+            "ta-IN": "నేను.",
+            "hi-IN": "నేను నేను రచయితగా।",
+            "te-IN": "నేను రచయితగా.",
+            "en-IN": "నేను రచయితగా పనిచేస్తున్నాను."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "నేను కంప్యూటర్ సైన్స్ చదువుతున్నాను.",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "అది బాగుంది!",
+          "response_translatable": true,
+          "audio": "nenu_computer_science.mp3",
+          "translations": {
+            "ta-IN": "నేను కంప్యూటర్.",
+            "hi-IN": "నేను నేను సైన్స్ చదువుతున్నాను।",
+            "te-IN": "నేను కంప్యూటర్ సైన్స్.",
+            "en-IN": "నేను కంప్యూటర్ సైన్స్ చదువుతున్నాను."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "నాకు సినిమాలు చూడటం ఇష్టం.",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "నీకు ఇష్టమైన సినిమా ఏమిటి?",
+          "response_translatable": true,
+          "audio": "naaku_cinemalu.mp3",
+          "translations": {
+            "ta-IN": "నాకు సినిమాలు.",
+            "hi-IN": "నాకు నాకు చూడటం ఇష్టం।",
+            "te-IN": "నాకు సినిమాలు చూడటం.",
+            "en-IN": "నాకు సినిమాలు చూడటం ఇష్టం."
+          }
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Introducing yourself at a party",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "హాయ్, నేను సారా. నేను హైదరాబాద్ నుండి వచ్చాను.",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "hai_sara.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "సారా, నీను కలిసినందుకు సంతోషం! నేను జాన్.",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "sara_kalisinanduku.mp3"
+            },
+            {
+              "speaker": "A",
+              "text": "నేను విద్యార్థిని. నేను జీవశాస్త్రం చదువుతున్నాను.",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "nenu_vidyarthini_jeevashastram.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Meeting a colleague",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "నమస్కారం, నా పేరు అలెక్స్. నేను డిజైనర్‌గా పనిచేస్తున్నాను.",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "namaste_alex.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "హాయ్ అలెక్స్, నేను లీసా. నేను మేనేజర్.",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "hai_lisa.mp3"
+            },
+            {
+              "speaker": "A",
+              "text": "నీను కలిసినందుకు సంతోషం! నాకు చిత్రలేఖనం ఇష్టం.",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "kalisinanduku_chitralekhanam.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Introducing yourself in class",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "అందరికీ నమస్కారం, నేను ఎమ్మా. నేను విశ్వవిద్యాలయంలో చదువుతున్నాను.",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "hai_emma.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Meeting someone at a conference",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "నమస్తే, నేను టామ్. నేను న్యూయార్క్ నుండి వచ్చాను.",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "namaste_tom.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "హాయ్ టామ్, నేను రాచెల్. నేను డాక్టరుగా పనిచేస్తున్నాను.",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "hai_rachel_doctor.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Meeting a new neighbor",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "నమస్కారం, నేను మియా. నేను [Your City] లో నివసిస్తున్నాను.",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "namaste_mia.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "హాయ్ మియా, నేను సామ్. పొరుగునకు స్వాగతం!",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "hai_sam.mp3"
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "Match phrases to responses",
+          "prompt_translatable": true,
+          "lang": "te-IN",
+          "pairs": [
+            {
+              "word": "నా పేరు [Your Name].",
+              "match": "నీవు కలిసినందుకు సంతోషం!",
+              "translatable": true
+            },
+            {
+              "word": "నేను విద్యార్థిని.",
+              "match": "బాగుంది! నీవు ఏమి చదువుతున్నావు?",
+              "translatable": true
+            },
+            {
+              "word": "నాకు పుస్తకాలు చదవడం ఇష్టం.",
+              "match": "బాగుంది! ఏ పుస్తకాలు చదువుతావు?",
+              "translatable": true
+            },
+            {
+              "word": "నేను [Your City] లో నివసిస్తున్నాను.",
+              "match": "ఆ నగరం నాకు ఇష్టం!",
+              "translatable": true
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "Say: నా పేరు [Your Name].",
+          "prompt_translatable": true,
+          "expected": "నా పేరు [Your Name].",
+          "expected_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: నేను ___ నుండి వచ్చాను.",
+          "prompt_translatable": true,
+          "answer": "హైదరాబాద్",
+          "answer_translatable": true,
+          "hint": "A city or country",
+          "hint_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "Type: నేను విద్యార్థిని.",
+          "prompt_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "Say: నాకు చదవడం ఇష్టం.",
+          "prompt_translatable": true,
+          "expected": "నాకు చదవడం ఇష్టం.",
+          "expected_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: నేను ___గా పనిచేస్తున్నాను.",
+          "prompt_translatable": true,
+          "answer": "ఉపాధ్యాయుడు",
+          "answer_translatable": true,
+          "hint": "An occupation",
+          "hint_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to share your hobby?",
+          "question_translatable": true,
+          "answer": "నాకు [hobby] ఇష్టం.",
+          "answer_translatable": true,
+          "options": [
+            "నేను హాబీ",
+            "నాకు [hobby] ఇష్టం.",
+            "నా పేరు హాబీ",
+            "నేను హాబీ నుండి"
+          ],
+          "options_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "Complete the dialogue: A: హాయ్, నేను సారా. B: ___",
+          "prompt_translatable": true,
+          "answer": "సారా, నువ్వు కలిసినందుకు సంతోషం!",
+          "answer_translatable": true,
+          "hint": "A polite response",
+          "hint_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "Type: నేను [Your City] లో నివసిస్తున్నాను.",
+          "prompt_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "Say: నేను డాక్టర్.",
+          "prompt_translatable": true,
+          "expected": "నేను డాక్టర్.",
+          "expected_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: నాకు ___ ఇష్టం.",
+          "prompt_translatable": true,
+          "answer": "ప్రయాణం",
+          "answer_translatable": true,
+          "hint": "A hobby",
+          "hint_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "How do you say you’re from Canada?",
+          "question_translatable": true,
+          "answer": "నేను కెనడా నుండి వచ్చాను",
+          "answer_translatable": true,
+          "options": [
+            "నేను కెనడా",
+            "నేను కెనడా నుండి వచ్చాను",
+            "నా పేరు కెనడా",
+            "నాకు కెనడా ఇష్టం"
+          ],
+          "options_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "Complete the dialogue: A: నేను విశ్వవిద్యాలయంలో చదువుతున్నాను. B: ___",
+          "prompt_translatable": true,
+          "answer": "నీవు ఏ సబ్జెక్ట్ చదువుతున్నావు?",
+          "answer_translatable": true,
+          "hint": "Ask about their studies",
+          "hint_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "Match phrases to responses",
+          "prompt_translatable": true,
+          "pairs": [
+            {
+              "word": "నాకు ప్రయాణం చేయడం ఇష్టం.",
+              "match": "నీవు ఎక్కడికి వెళ్ళావు?",
+              "translatable": true
+            }
+          ],
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "Say: నాకు వంట చేయడం ఇష్టం.",
+          "prompt_translatable": true,
+          "expected": "నాకు వంట చేయడం ఇష్టం.",
+          "expected_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: నేను ___ చదువుతున్నాను.",
+          "prompt_translatable": true,
+          "answer": "జీవశాస్త్రం",
+          "answer_translatable": true,
+          "hint": "A subject",
+          "hint_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to share where you live?",
+          "question_translatable": true,
+          "answer": "నేను [Your City] లో నివసిస్తున్నాను.",
+          "answer_translatable": true,
+          "options": [
+            "నేను [Your City].",
+            "నేను [Your City] లో నివసిస్తున్నాను.",
+            "నేను [Your City] లో పనిచేస్తున్నాను.",
+            "నాకు [Your City] ఇష్టం."
+          ],
+          "options_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "Type: నాకు క్రీడలు ఆడటం ఇష్టం.",
+          "prompt_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "Complete the dialogue: A: నేను న్యూయార్క్ నుండి వచ్చాను. B: ___",
+          "prompt_translatable": true,
+          "answer": "వావ్, అది చాలా దూరం!",
+          "answer_translatable": true,
+          "hint": "A surprised response",
+          "hint_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "Say: నేను చెఫ్‌గా పనిచేస్తున్నాను.",
+          "prompt_translatable": true,
+          "expected": "నేను చెఫ్‌గా పనిచేస్తున్నాను.",
+          "expected_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: నా హాబీ ___",
+          "prompt_translatable": true,
+          "answer": "చిత్రలేఖనం",
+          "answer_translatable": true,
+          "hint": "A creative activity",
+          "hint_translatable": true,
+          "lang": "te-IN"
+        }
+      ],
+      "cultural_notes": "In Telugu introductions, sharing your name and hometown is common. Small talk often involves asking about family, food, or festivals, especially during social gatherings like weddings or community events.",
+      "cultural_notes_translatable": true
+    },
+    {
+      "lesson": 3,
+      "title": "Family",
+      "skills": [
+        "Vocabulary",
+        "Phrases",
+        "Grammar",
+        "Cultural Context"
+      ],
+      "content": [
+        {
+          "type": "vocab",
+          "word": "తండ్రి",
+          "translatable": true,
+          "lang": "te-IN",
+          "example": "నా తండ్రి గారు డాక్టర్.",
+          "example_translatable": true,
+          "audio": "tandri.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "తండ్రి",
+            "te-IN": "తండ్రి",
+            "en-IN": "తండ్రి"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "తల్లి",
+          "translatable": true,
+          "lang": "te-IN",
+          "example": "నా తల్లి గారుఉపాధ్యాయురాలు.",
+          "example_translatable": true,
+          "audio": "talli.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "తల్లి",
+            "te-IN": "తల్లి",
+            "en-IN": "తల్లి"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "అన్న",
+          "translatable": true,
+          "lang": "te-IN",
+          "example": "మా అన్న 25 సంవత్సరాలు.",
+          "example_translatable": true,
+          "audio": "anna.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "అన్న",
+            "te-IN": "అన్న",
+            "en-IN": "అన్న"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "తమ్ముడు",
+          "translatable": true,
+          "lang": "te-IN",
+          "example": "నా తమ్ముడు పాఠశాలలో ఉన్నాడు.",
+          "example_translatable": true,
+          "audio": "tammudu.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "తమ్ముడు",
+            "te-IN": "తమ్ముడు",
+            "en-IN": "తమ్ముడు"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "అక్క",
+          "translatable": true,
+          "lang": "te-IN",
+          "example": "మా అక్క న్యాయవాది.",
+          "example_translatable": true,
+          "audio": "akka.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "అక్క",
+            "te-IN": "అక్క",
+            "en-IN": "అక్క"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "చెల్లి",
+          "translatable": true,
+          "lang": "te-IN",
+          "example": "నా చెల్లి నృత్యం ఇష్టపడుతుంది.",
+          "example_translatable": true,
+          "audio": "chelli.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "చెల్లి",
+            "te-IN": "చెల్లి",
+            "en-IN": "చెల్లి"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "కూతురు",
+          "translatable": true,
+          "lang": "te-IN",
+          "example": "నా కూతురు ఐదు సంవత్సరాలు.",
+          "example_translatable": true,
+          "audio": "kuthuru.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "కూతురు",
+            "te-IN": "కూతురు",
+            "en-IN": "కూతురు"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "కొడుకు",
+          "translatable": true,
+          "lang": "te-IN",
+          "example": "నా కొడుకు ఫుట్‌బాల్ ఆడతాడు.",
+          "example_translatable": true,
+          "audio": "koduku.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "కొడుకు",
+            "te-IN": "కొడుకు",
+            "en-IN": "కొడుకు"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "మామ",
+          "translatable": true,
+          "lang": "te-IN",
+          "example": "మా మామ టెక్సాస్‌లో నివసిస్తున్నాడు.",
+          "example_translatable": true,
+          "audio": "mama.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "మామ",
+            "te-IN": "మామ",
+            "en-IN": "మామ"
+          }
+        },
+        {
+          "type": "vocab",
+          "word": "అత్త",
+          "translatable": true,
+          "lang": "te-IN",
+          "example": "మా అత్త గొప్ప కుకీలు చేస్తుంది.",
+          "example_translatable": true,
+          "audio": "atta.mp3",
+          "translations": {
+            "ta-IN": ".",
+            "hi-IN": "అత్త",
+            "te-IN": "అత్త",
+            "en-IN": "అత్త"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "ఇది నా కుటుంబం.",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "నీ కుటుంబం అద్భుతంగా కనిపిస్తుంది!",
+          "response_translatable": true,
+          "audio": "idi_naa_kutumbam.mp3",
+          "translations": {
+            "ta-IN": "ఇది.",
+            "hi-IN": "ఇది ఇది నా।",
+            "te-IN": "ఇది నా.",
+            "en-IN": "ఇది నా కుటుంబం."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "నాకు ఇద్దరు అన్నలు ఉన్నారు.",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "అది పెద్ద కుటుంబం!",
+          "response_translatable": true,
+          "audio": "naaku_iddaru_anna.mp3",
+          "translations": {
+            "ta-IN": "నాకు ఇద్దరు.",
+            "hi-IN": "నాకు నాకు అన్నలు ఉన్నారు।",
+            "te-IN": "నాకు ఇద్దరు అన్నలు.",
+            "en-IN": "నాకు ఇద్దరు అన్నలు ఉన్నారు."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "నా తల్లి ఉపాధ్యాయురాలు.",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "అది అద్భుతం!",
+          "response_translatable": true,
+          "audio": "naa_talli_upadhyayuralu.mp3",
+          "translations": {
+            "ta-IN": "నా.",
+            "hi-IN": "నా నా తల్లి।",
+            "te-IN": "నా తల్లి.",
+            "en-IN": "నా తల్లి ఉపాధ్యాయురాలు."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "నీకు అన్నలు లేదా చెల్లెళ్ళు ఉన్నారా?",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "అవును, నాకు ఒక చెల్లి ఉంది.",
+          "response_translatable": true,
+          "audio": "neeku_anna_leka_chelli.mp3",
+          "translations": {
+            "ta-IN": "నీకు అన్నలు అన్నలు లేదా?",
+            "hi-IN": "నీకు నీకు లేదా ఉన్నారా ఉన్నారా?",
+            "te-IN": "నీకు అన్నలు లేదా చెల్లెళ్ళు చెల్లెళ్ళు?",
+            "en-IN": "నీకు అన్నలు లేదా చెల్లెళ్ళు ఉన్నారా?"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "నా తల్లిదండ్రులు [Your City] లో నివసిస్తున్నారు.",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "చక్కని స్థలం!",
+          "response_translatable": true,
+          "audio": "naa_tallidandrulu.mp3",
+          "translations": {
+            "ta-IN": "నా తల్లిదండ్రులు [உங்கள் நகரம்] లో.",
+            "hi-IN": "నా నా [[आपका शहर] నివసిస్తున్నారు నివసిస్తున్నారు।",
+            "te-IN": "నా తల్లిదండ్రులు [మీ నగరం] లో.",
+            "en-IN": "నా తల్లిదండ్రులు [Your City] లో నివసిస్తున్నారు."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "నా అమ్మమ్మ మాతో నివసిస్తుంది.",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "అది అద్భుతం!",
+          "response_translatable": true,
+          "audio": "naa_ammamma_mato.mp3",
+          "translations": {
+            "ta-IN": "నా అమ్మమ్మ.",
+            "hi-IN": "నా నా మాతో నివసిస్తుంది।",
+            "te-IN": "నా అమ్మమ్మ మాతో.",
+            "en-IN": "నా అమ్మమ్మ మాతో నివసిస్తుంది."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "నాకు పెద్ద కుటుంబం ఉంది.",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "అది సరదాగా ఉంటుంది!",
+          "response_translatable": true,
+          "audio": "naaku_pedda_kutumbam.mp3",
+          "translations": {
+            "ta-IN": "నాకు పెద్ద.",
+            "hi-IN": "నాకు నాకు కుటుంబం ఉంది।",
+            "te-IN": "నాకు పెద్ద కుటుంబం.",
+            "en-IN": "నాకు పెద్ద కుటుంబం ఉంది."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "నా తల్లిదండ్రులు రిటైర్ అయ్యారు.",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "అది వారికి బాగుంది!",
+          "response_translatable": true,
+          "audio": "naa_tallidandrulu_retire.mp3",
+          "translations": {
+            "ta-IN": "నా తల్లిదండ్రులు.",
+            "hi-IN": "నా నా రిటైర్ అయ్యారు।",
+            "te-IN": "నా తల్లిదండ్రులు రిటైర్.",
+            "en-IN": "నా తల్లిదండ్రులు రిటైర్ అయ్యారు."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "నా చెల్లి నృత్యం చేయడం ఇష్టపడుతుంది.",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "అది బాగుంది!",
+          "response_translatable": true,
+          "audio": "naa_chelli_nrutya.mp3",
+          "translations": {
+            "ta-IN": "నా చెల్లి నృత్యం.",
+            "hi-IN": "నా నా చెల్లి ఇష్టపడుతుంది ఇష్టపడుతుంది।",
+            "te-IN": "నా చెల్లి నృత్యం చేయడం.",
+            "en-IN": "నా చెల్లి నృత్యం చేయడం ఇష్టపడుతుంది."
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "మా తాతయ్య కథలు చెబుతాడు.",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "అది సరదాగా ఉంటుంది!",
+          "response_translatable": true,
+          "audio": "naa_tatayya_kathalu.mp3",
+          "translations": {
+            "ta-IN": "మా తాతయ్య.",
+            "hi-IN": "మా మా కథలు చెబుతాడు।",
+            "te-IN": "మా తాతయ్య కథలు.",
+            "en-IN": "మా తాతయ్య కథలు చెబుతాడు."
+          }
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Talking about family at a gathering",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "ఇది నా కుటుంబం. నాకు ఇద్దరు అన్నలు ఉన్నారు.",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "idi_naa_kutumbam_iddaru.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "అది పెద్ద కుటుంబం! వారు ఏమి చేస్తారు?",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "adi_pedda_kutumbam.mp3"
+            },
+            {
+              "speaker": "A",
+              "text": "మా అన్న ఇంజనీర్, మరియు మా తమ్ముడు విద్యార్థి.",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "naa_anna_engineer.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Introducing family at a community event",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "ఇది నా తల్లి. ఆమె ఉపాధ్యాయురాలు.",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "idi_naa_talli.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "అది అద్భుతం! నీవు ఆమెతో సమయం గడుపుతావా?",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "adi_adbhutam_talli.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Discussing family with a friend",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "నీకు అన్నలు లేదా చెల్లెళ్ళు ఉన్నారా?",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "neeku_anna_chelli.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "అవును, నాకు ఒక చెల్లి ఉంది.",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "avunu_okka_chelli.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Talking about family at work",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "మా తండ్రి గారు డాక్టర్. ఆయన హైదరాబాద్‌లో పనిచేస్తారు.",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "naa_tandri_doctor_hyd.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "మరి మీ అమ్మ గారు ఏమి చేస్తారు?",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "wow_adi_akattukuntundi.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Meeting a relative",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "మా అమ్మమ్మ మాతో నివసిస్తుంది.",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "naa_ammamma_mato.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "అది అద్భుతం! ఆమె ఏమి చేస్తుంది?",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "adi_adbhutam_amme.mp3"
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "Match family terms to their descriptions",
+          "prompt_translatable": true,
+          "lang": "te-IN",
+          "pairs": [
+            {
+              "word": "తండ్రి",
+              "match": "డాక్టర్",
+              "translatable": true
+            },
+            {
+              "word": "తల్లి",
+              "match": "ఉపాధ్యాయురాలు",
+              "translatable": true
+            },
+            {
+              "word": "చెల్లి",
+              "match": "నృత్యం ఇష్టపడుతుంది",
+              "translatable": true
+            },
+            {
+              "word": "తమ్ముడు",
+              "match": "విద్యార్థి",
+              "translatable": true
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "Say: ఇది నా కుటుంబం.",
+          "prompt_translatable": true,
+          "expected": "ఇది నా కుటుంబం.",
+          "expected_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: నాకు ఒక ___ ఉంది.",
+          "prompt_translatable": true,
+          "answer": "చెల్లి",
+          "answer_translatable": true,
+          "hint": "A sibling",
+          "hint_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What is the word for 'father'?",
+          "question_translatable": true,
+          "answer": "తండ్రి",
+          "answer_translatable": true,
+          "options": [
+            "తల్లి",
+            "తండ్రి",
+            "అన్న",
+            "చెల్లి"
+          ],
+          "options_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "Type: నా తల్లి ఉపాధ్యాయురాలు.",
+          "prompt_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "Say: నా తమ్ముడు విద్యార్థి.",
+          "prompt_translatable": true,
+          "expected": "నా తమ్ముడు విద్యార్థి.",
+          "expected_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: నా ___ డాక్టర్.",
+          "prompt_translatable": true,
+          "answer": "తండ్రి",
+          "answer_translatable": true,
+          "hint": "A parent",
+          "hint_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "How do you say 'I love my family'?",
+          "question_translatable": true,
+          "answer": "నేను నా కుటుంబాన్ని ప్రేమిస్తాను.",
+          "answer_translatable": true,
+          "options": [
+            "నేను నా కుటుంబాన్ని ప్రేమిస్తాను.",
+            "నాకు పెద్ద కుటుంబం ఉంది.",
+            "నా తల్లి ఉపాధ్యాయురాలు.",
+            "నీకు తమ్ముడు ఉన్నాడా?"
+          ],
+          "options_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "Complete the dialogue: A: నీకు అన్నలు లేదా చెల్లెళ్ళు ఉన్నారా? B: ___",
+          "prompt_translatable": true,
+          "answer": "అవును, నాకు ఒక చెల్లి ఉంది.",
+          "answer_translatable": true,
+          "hint": "Answer about siblings",
+          "hint_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "Type: నాకు పెద్ద కుటుంబం ఉంది.",
+          "prompt_translatable": true,
+          "lang": "te-IN"
+        }
+      ],
+      "cultural_notes": "In Telugu culture, family is central, and extended families often live together. Respect for elders is shown by addressing them with terms like 'తాతయ్య' (grandfather) or 'అమ్మమ్మ' (grandmother). Family gatherings during festivals like Sankranti are common.",
+      "cultural_notes_translatable": true
+    },
+    {
+      "lesson": 4,
+      "title": "Basic Interactions",
+      "skills": [
+        "Phrases",
+        "Politeness",
+        "Everyday Expressions"
+      ],
+      "content": [
+        {
+          "type": "phrase",
+          "text": "నీవు నాకు సహాయం చేయగలవా?",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "ఖచ్చితంగా! ఏమిటి?",
+          "response_translatable": true,
+          "audio": "neevu_naaku_sahayam.mp3",
+          "translations": {
+            "ta-IN": "నీవు నాకు నాకు?",
+            "hi-IN": "నీవు నీవు సహాయం చేయగలవా?",
+            "te-IN": "నీవు నాకు సహాయం?",
+            "en-IN": "నీవు నాకు సహాయం చేయగలవా?"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "ఇది ఎంత?",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "ఇది ఐదు వందల రూపాయలు.",
+          "response_translatable": true,
+          "audio": "idi_entha.mp3",
+          "translations": {
+            "ta-IN": "ఇది ఇది?",
+            "hi-IN": "ఇది ఇది?",
+            "te-IN": "ఇది ఇది?",
+            "en-IN": "ఇది ఎంత?"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "మీరు ఎక్కడ నివసిస్తారు?",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "నేను హైదరాబాద్‌లో నివసిస్తాను.",
+          "response_translatable": true,
+          "audio": "neevu_ekkada_nivasistavu.mp3",
+          "translations": {
+            "ta-IN": "మీరు ఎక్కడ?",
+            "hi-IN": "మీరు మీరు నివసిస్తారు?",
+            "te-IN": "మీరు ఎక్కడ ఎక్కడ?",
+            "en-IN": "మీరు ఎక్కడ నివసిస్తారు?"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "సమయం ఎంత?",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "ఇప్పుడు మధ్యాహ్నం రెండు గంటలు.",
+          "response_translatable": true,
+          "audio": "samayam_entha.mp3",
+          "translations": {
+            "ta-IN": "సమయం సమయం?",
+            "hi-IN": "సమయం సమయం?",
+            "te-IN": "సమయం సమయం?",
+            "en-IN": "సమయం ఎంత?"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "దయచేసి మీరు మళ్లీ చెప్పగలరా?",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "ఖచ్చితంగా!",
+          "response_translatable": true,
+          "audio": "dayachesi_punaravrutam.mp3",
+          "translations": {
+            "ta-IN": "దయచేసి మీరు మీరు?",
+            "hi-IN": "దయచేసి దయచేసి మళ్లీ చెప్పగలరా?",
+            "te-IN": "దయచేసి మీరు మళ్లీ?",
+            "en-IN": "దయచేసి మీరు మళ్లీ చెప్పగలరా?"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "నేను బస్సు స్టాప్‌కు ఎలా వెళ్ళగలను?",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "ఈ రోడ్డు నేరుగా వెళ్ళు, తర్వాత కుడివైపు తిరుగు.",
+          "response_translatable": true,
+          "audio": "nenu_bus_stopku.mp3",
+          "translations": {
+            "ta-IN": "నేను బస్సు బస్సు స్టాప్‌కు?",
+            "hi-IN": "నేను నేను స్టాప్‌కు వెళ్ళగలను వెళ్ళగలను?",
+            "te-IN": "నేను బస్సు స్టాప్‌కు ఎలా ఎలా?",
+            "en-IN": "నేను బస్సు స్టాప్‌కు ఎలా వెళ్ళగలను?"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "ఈ రెస్టారెంట్ ఎక్కడ ఉంది?",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "ఇది తర్వాత వీధిలో ఉంది.",
+          "response_translatable": true,
+          "audio": "ee_restaurant_ekkada.mp3",
+          "translations": {
+            "ta-IN": "ఈ రెస్టారెంట్ రెస్టారెంట్?",
+            "hi-IN": "ఈ ఈ ఎక్కడ ఉంది?",
+            "te-IN": "ఈ రెస్టారెంట్ ఎక్కడ?",
+            "en-IN": "ఈ రెస్టారెంట్ ఎక్కడ ఉంది?"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "నీవు ఏమి చేస్తావు?",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "నేను ఇంజనీర్‌గా పనిచేస్తాను.",
+          "response_translatable": true,
+          "audio": "neevu_emi_chestavu.mp3",
+          "translations": {
+            "ta-IN": "నీవు ఏమి?",
+            "hi-IN": "నీవు నీవు చేస్తావు?",
+            "te-IN": "నీవు ఏమి ఏమి?",
+            "en-IN": "నీవు ఏమి చేస్తావు?"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "నాకు ఒక నీళ్ళ బాటిల్ ఇవ్వగలవా?",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "ఇక్కడ ఉంది.",
+          "response_translatable": true,
+          "audio": "naaku_neella_bottle.mp3",
+          "translations": {
+            "ta-IN": "నాకు ఒక ఒక నీళ్ళ?",
+            "hi-IN": "నాకు నాకు నీళ్ళ ఇవ్వగలవా ఇవ్వగలవా?",
+            "te-IN": "నాకు ఒక నీళ్ళ బాటిల్ బాటిల్?",
+            "en-IN": "నాకు ఒక నీళ్ళ బాటిల్ ఇవ్వగలవా?"
+          }
+        },
+        {
+          "type": "phrase",
+          "text": "నీవు ఈ రోజు ఏమి చేస్తున్నావు?",
+          "translatable": true,
+          "lang": "te-IN",
+          "response": "నేను స్నేహితులను కలుస్తున్నాను.",
+          "response_translatable": true,
+          "audio": "neevu_ee_roju_emi.mp3",
+          "translations": {
+            "ta-IN": "నీవు ఈ ఈ రోజు?",
+            "hi-IN": "నీవు నీవు రోజు చేస్తున్నావు చేస్తున్నావు?",
+            "te-IN": "నీవు ఈ రోజు ఏమి ఏమి?",
+            "en-IN": "నీవు ఈ రోజు ఏమి చేస్తున్నావు?"
+          }
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Asking for directions at a market",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "నమస్తే, బస్సు స్టాప్‌కు ఎలా వెళ్ళగలను?",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "namaste_bus_stopku.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "ఈ రోడ్డు నేరుగా వెళ్ళు, తర్వాత కుడివైపు తిరుగు.",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "ee_roaddu_neruga.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Buying something at a store",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "ఈ చొక్కా ఎంత?",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "ee_chokka_entha.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "ఇది వెయ్యి రూపాయలు.",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "idi_veyyi_rupayalu.mp3"
+            },
+            {
+              "speaker": "A",
+              "text": "ధన్యవాదాలు, నేను తీసుకుంటాను.",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "dhanyavadalu_tisukuntanu.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Asking for the time",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "సమయం ఎంత?",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "samayam_entha_dialogue.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "ఇప్పుడు సాయంత్రం ఆరు గంటలు.",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "ippudu_sayantram_aru.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Asking for help at a station",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "మీరు నాకు సహాయం చేయగలరా? నాకు టికెట్ కావాలి.",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "neevu_naaku_sahayam_ticket.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "ఖచ్చితంగా, టికెట్ కౌంటర్ అక్కడ ఉంది.",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "khachchitanga_ticket_counter.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Asking about someone’s day",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "నువ్వు ఈ రోజు ఏమి చేస్తున్నావు?",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "neevu_ee_roju_emi_dialogue.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "నేను స్నేహితులను కలుస్తున్నాను.",
+              "translatable": true,
+              "lang": "te-IN",
+              "audio": "nenu_snehitulato.mp3"
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "Match phrases to responses",
+          "prompt_translatable": true,
+          "lang": "te-IN",
+          "pairs": [
+            {
+              "word": "మీరు నాకు సహాయం చేయగలరా?",
+              "match": "ఖచ్చితంగా!",
+              "translatable": true
+            },
+            {
+              "word": "ఇది ఎంత?",
+              "match": "ఇది ఐదు వందల రూపాయలు.",
+              "translatable": true
+            },
+            {
+              "word": "సమయం ఎంత?",
+              "match": "ఇప్పుడు మధ్యాహ్నం రెండు గంటలు.",
+              "translatable": true
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "Say: మీరు నాకు సహాయం చేయగలరా?",
+          "prompt_translatable": true,
+          "expected": "మీరు నాకు సహాయం చేయగలరా?",
+          "expected_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: ___ ఎంత?",
+          "prompt_translatable": true,
+          "answer": "ఇది",
+          "answer_translatable": true,
+          "hint": "Asking about price",
+          "hint_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "How do you ask for the time?",
+          "question_translatable": true,
+          "answer": "సమయం ఎంత?",
+          "answer_translatable": true,
+          "options": [
+            "ఇది ఎంత?",
+            "సమయం ఎంత?",
+            "నీవు ఎక్కడ నివసిస్తావు?",
+            "దయచేసి"
+          ],
+          "options_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "Type: నేను బస్సు స్టాప్‌కు ఎలా వెళ్ళగలను?",
+          "prompt_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "Say: ఈ రెస్టారెంట్ ఎక్కడ ఉంది?",
+          "prompt_translatable": true,
+          "expected": "ఈ రెస్టారెంట్ ఎక్కడ ఉంది?",
+          "expected_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: మీరు ___ నివసిస్తున్నారు?",
+          "prompt_translatable": true,
+          "answer": "ఎక్కడ",
+          "answer_translatable": true,
+          "hint": "Asking about location",
+          "hint_translatable": true,
+          "lang": "te-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "Type: దయచేసి మీరు మళ్లీ చెప్పగలరా?",
+          "prompt_translatable": true,
+          "lang": "te-IN"
+        }
+      ],
+      "cultural_notes": "In Telugu interactions, politeness is key, especially when asking for help or directions. Using 'దయచేసి' (please) and 'ధన్యవాదాలు' (thank you) is common in formal or unfamiliar settings. Smiling and maintaining eye contact are appreciated during conversations.",
+      "cultural_notes_translatable": true
+    }
+  ]
+}
