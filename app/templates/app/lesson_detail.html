@@ -22,17 +22,16 @@
 
     <p data-translatable data-translations='{{ item.translations|safe }}' class="font-semibold">
         {% if item.word %}
-        <a href="https://www.google.com/search?q={{ item.word|urlencode }}+Indian+Sign+Language" target="_blank"
-            class="hover:underline text-blue-600">
+        <a href="https://www.google.com/search?tbm=isch&q={{ item.word|urlencode }}+Indian+Sign+Language"
+            target="_blank" class="hover:underline text-blue-600">
             {{ item.word }}
         </a>
         {% elif item.text %}
-        <a href="https://www.google.com/search?q={{ item.text|urlencode }}+Indian+Sign+Language" target="_blank"
-            class="hover:underline text-blue-600">
+        <a href="https://www.google.com/search?tbm=isch&q={{ item.text|urlencode }}+Indian+Sign+Language"
+            target="_blank" class="hover:underline text-blue-600">
             {{ item.text }}
         </a>
         {% endif %}
-
     </p>
 
     {% if item.example %}
