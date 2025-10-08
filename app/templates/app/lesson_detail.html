@@ -13,10 +13,28 @@
 </div>
 
 {% for item in lesson_data.content %}
+{% if item.type != "exercise" %}
+
 <div class="bg-white p-4 rounded shadow mb-4">
+
     {% if item.type == 'vocab' or item.type == 'phrase' %}
-    <p data-translatable data-translations='{{ item.translations|safe }}' class="font-semibold">{{
-        item.word|default:item.text }}</p>
+
+
+    <p data-translatable data-translations='{{ item.translations|safe }}' class="font-semibold">
+        {% if item.word %}
+        <a href="https://www.google.com/search?q={{ item.word|urlencode }}+Indian+Sign+Language" target="_blank"
+            class="hover:underline text-blue-600">
+            {{ item.word }}
+        </a>
+        {% elif item.text %}
+        <a href="https://www.google.com/search?q={{ item.text|urlencode }}+Indian+Sign+Language" target="_blank"
+            class="hover:underline text-blue-600">
+            {{ item.text }}
+        </a>
+        {% endif %}
+
+    </p>
+
     {% if item.example %}
     <p class="italic">{{ item.example }}</p>
     {% elif item.response %}
@@ -24,25 +42,32 @@
     {% else %}
     <p class="italic text-gray-500">No example available.</p>
     {% endif %}
+
     {% if item.audio %}
     <audio controls class="mt-2 w-full">
         <source src="/static/audio/{{ item.lang }}/{{ item.audio }}" type="audio/mpeg">
     </audio>
     {% endif %}
+
     {% elif item.type == 'dialogue' %}
     <p class="font-bold mb-2">Dialogue: {{ item.scenario }}</p>
     {% for line in item.lines %}
     <p><strong>{{ line.speaker }}:</strong> {{ line.text }}</p>
+
     {% if line.audio %}
     <audio controls class="mt-1 w-full">
         <source src="/static/audio/{{ line.lang }}/{{ line.audio }}" type="audio/mpeg">
     </audio>
     {% endif %}
+
     {% endfor %}
+
     {% elif item.type == 'cultural_notes' %}
     <div class="bg-blue-100 p-2 rounded">{{ item.text }}</div>
     {% endif %}
+
 </div>
+{% endif %}
 {% endfor %}
 
 <a href="{% url 'exercise_page' language unit lesson %}"
