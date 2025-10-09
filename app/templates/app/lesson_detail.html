@@ -1,45 +1,47 @@
 {% extends 'app/layout.html' %}
 {% block content %}
+
 <h2 class="text-2xl font-bold mb-4">{{ lesson_data.title }}</h2>
 
-<div class="mb-4">
-    <label for="languageSelect" class="block font-medium mb-1">Translate to:</label>
-    <select id="languageSelect" class="border rounded px-2 py-1">
-        <option value="ta-IN">Tamil</option>
-        <option value="hi-IN">Hindi</option>
-        <option value="te-IN">Telugu</option>
-        <option value="en-IN">English</option>
-    </select>
-</div>
-
-{% for item in lesson_data.content %}
-{% if item.type != "exercise" %}
-
+{% for item, trans in combined %}
+{% if item.type != 'exercise' %}
 <div class="bg-white p-4 rounded shadow mb-4">
 
+
     {% if item.type == 'vocab' or item.type == 'phrase' %}
-
-
-    <p data-translatable data-translations='{{ item.translations|safe }}' class="font-semibold">
-        {% if item.word %}
-        <a href="https://www.google.com/search?tbm=isch&q={{ item.word|urlencode }}+Indian+Sign+Language"
+    {% if item.word %}
+    <p class="font-semibold">
+        <a href="https://www.google.com/search?tbm=isch&q={{ trans.word|urlencode }}+Indian+Sign+Language"
             target="_blank" class="hover:underline text-blue-600">
             {{ item.word }}
+
         </a>
-        {% elif item.text %}
-        <a href="https://www.google.com/search?tbm=isch&q={{ item.text|urlencode }}+Indian+Sign+Language"
+        {% if trans.word %}
+    <p>{{ trans.word}}</p>
+    {% endif %}
+    </p>
+    {% endif %}
+    {% if item.text %}
+    <p class="font-semibold">
+        <a href="https://www.google.com/search?tbm=isch&q={{ trans.word|urlencode }}+Indian+Sign+Language"
             target="_blank" class="hover:underline text-blue-600">
             {{ item.text }}
+
         </a>
-        {% endif %}
+        {% if trans.text %}
+    <p>{{ trans.text}}</p>
+    {% endif %}
     </p>
+    {% endif %}
 
     {% if item.example %}
     <p class="italic">{{ item.example }}</p>
-    {% elif item.response %}
-    <p class="italic">{{ item.response }}</p>
-    {% else %}
-    <p class="italic text-gray-500">No example available.</p>
+    {% if item.translation.example %}
+    {% if trans.word %}
+    <p>{{ trans.example}}</p>
+    {% endif %}
+
+    {% endif %}
     {% endif %}
 
     {% if item.audio %}
@@ -52,13 +54,11 @@
     <p class="font-bold mb-2">Dialogue: {{ item.scenario }}</p>
     {% for line in item.lines %}
     <p><strong>{{ line.speaker }}:</strong> {{ line.text }}</p>
-
     {% if line.audio %}
     <audio controls class="mt-1 w-full">
         <source src="/static/audio/{{ line.lang }}/{{ line.audio }}" type="audio/mpeg">
     </audio>
     {% endif %}
-
     {% endfor %}
 
     {% elif item.type == 'cultural_notes' %}
@@ -72,13 +72,4 @@
 <a href="{% url 'exercise_page' language unit lesson %}"
     class="bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600">Go to Exercises</a>
 
-<script>
-    document.getElementById('languageSelect').addEventListener('change', function () {
-        const selectedLang = this.value;
-        document.querySelectorAll('[data-translatable]').forEach(el => {
-            const translations = JSON.parse(el.getAttribute('data-translations'));
-            el.innerText = translations[selectedLang] || el.innerText;
-        });
-    });
-</script>
 {% endblock %}

@@ -137,12 +137,19 @@ def logout_view(request):
 
 def load_json(language: str) -> dict:
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    filename = f"{language.lower()}_translated.json"
-    path = os.path.join(base_dir, 'lessons', filename)
+    # Updated path to point to app/languages/lessons/
+    path = os.path.join(base_dir, 'languages', 'lessons', f"{language.lower()}.json")
+
     try:
         with open(path, encoding='utf-8') as f:
-            return json.load(f)
+            data = json.load(f)
+            print(f"✅ Loaded {language}.json successfully with {len(data.get('lessons', []))} lessons")
+            return data
     except FileNotFoundError:
+        print(f"❌ File not found: {path}")
+        return {"lessons": []}
+    except json.JSONDecodeError as e:
+        print(f"⚠️ JSON decode error in {language}.json: {e}")
         return {"lessons": []}
 
 @login_required
@@ -164,10 +171,12 @@ def lesson_list(request, language, unit):
         'lessons': lessons
     })
 
+
 @login_required
 def lesson_detail(request, language, unit, lesson):
     data = load_json(language)
     lessons = data.get('lessons', [])
+
     if lesson - 1 >= len(lessons):
         return render(request, 'app/lesson_detail.html', {
             'language': language,
@@ -176,15 +185,39 @@ def lesson_detail(request, language, unit, lesson):
             'lesson_data': {
                 'title': 'Lesson not found',
                 'content': []
-            }
+            },
+            'target_lang': ''
         })
+
     lesson_data = lessons[lesson - 1]
+
+    # Determine target language (user preference or dropdown)
+    target_lang = request.GET.get('target', 'english')
+
+    # Load the translated file (e.g., telugu_translated_to_english.json)
+    targ = f"telugu_translated_to_{target_lang}"
+    translated_file = load_json(targ)
+    trans_lessons = translated_file.get('lessons', [])
+
+    # Make sure both lesson lists exist and have matching indices
+    if lesson - 1 < len(trans_lessons):
+        trans_lesson_data = trans_lessons[lesson - 1]
+    else:
+        trans_lesson_data = {"content": []}
+
+    # Zip the original and translated content
+    combined = list(zip(lesson_data.get('content', []), trans_lesson_data.get('content', [])))
+
     return render(request, 'app/lesson_detail.html', {
         'language': language,
         'unit': unit,
         'lesson': lesson,
-        'lesson_data': lesson_data
+        'lesson_data': lesson_data,   # for title etc.
+        'combined': combined,         # zipped content
+        'target_lang': target_lang
     })
+
+
 
 @login_required
 def exercise_page(request, language, unit, lesson):

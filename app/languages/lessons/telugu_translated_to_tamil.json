@@ -36,243 +36,147 @@
       "content": [
         {
           "type": "vocab",
-          "word": "నమస్కారం",
+          "word": "வணக்கம்",
           "translatable": true,
           "lang": "te-IN",
-          "example": "నమస్కారం, మీరు బాగున్నారా?",
+          "example": "வணக்கம், நீங்கள் நன்றாக இருக்கிறீர்களா?",
           "example_translatable": true,
-          "audio": "namaskaram.mp3",
-          "translations": {
-            "ta-IN": ".",
-            "hi-IN": "నమస్కారం",
-            "te-IN": "నమస్కారం",
-            "en-IN": "నమస్కారం"
-          }
+          "audio": "namaskaram.mp3"
         },
         {
           "type": "vocab",
-          "word": "శుభోదయం",
+          "word": "காலை வணக்கம்",
           "translatable": true,
           "lang": "te-IN",
-          "example": "అందరికీ శుభోదయం!",
+          "example": "அனைவருக்கும் காலை வணக்கம்!",
           "example_translatable": true,
-          "audio": "shubhodayam.mp3",
-          "translations": {
-            "ta-IN": ".",
-            "hi-IN": "శుభోదయం",
-            "te-IN": "శుభోదయం",
-            "en-IN": "శుభోదయం"
-          }
+          "audio": "shubhodayam.mp3"
         },
         {
           "type": "vocab",
-          "word": "శుభ మధ్యాహ్నం",
+          "word": "நல்ல மதியம்",
           "translatable": true,
           "lang": "te-IN",
-          "example": "శుభ మధ్యాహ్నం, మీకు ఎలా సహాయం చేయగలను?",
+          "example": "நல்ல மதியம், நீங்கள் உங்களுக்கு எவ்வாறு உதவ முடியும்?",
           "example_translatable": true,
-          "audio": "shubha_madhyahnam.mp3",
-          "translations": {
-            "ta-IN": ". శుభ",
-            "hi-IN": "శుభ మధ్యాహ్నం",
-            "te-IN": "శుభ శుభ",
-            "en-IN": "శుభ మధ్యాహ్నం"
-          }
+          "audio": "shubha_madhyahnam.mp3"
         },
         {
           "type": "vocab",
-          "word": "శుభ సాయంత్రం",
+          "word": "நல்ல மாலை",
           "translatable": true,
           "lang": "te-IN",
-          "example": "శుభ సాయంత్రం, కార్యక్రమానికి స్వాగతం!",
+          "example": "நல்ல மாலை, திட்டத்திற்கு வருக!",
           "example_translatable": true,
-          "audio": "shubha_sayantram.mp3",
-          "translations": {
-            "ta-IN": ". శుభ",
-            "hi-IN": "శుభ సాయంత్రం",
-            "te-IN": "శుభ శుభ",
-            "en-IN": "శుభ సాయంత్రం"
-          }
+          "audio": "shubha_sayantram.mp3"
         },
         {
           "type": "vocab",
-          "word": "శుభ రాత్రి",
+          "word": "நல்ல இரவு",
           "translatable": true,
           "lang": "te-IN",
-          "example": "శుభ రాత్రి, రేపు ఉదయానికి కలుద్దాం.",
+          "example": "நல்ல இரவு மற்றும் நாளை காலை.",
           "example_translatable": true,
-          "audio": "shubha_ratri.mp3",
-          "translations": {
-            "ta-IN": ". శుభ",
-            "hi-IN": "శుభ రాత్రి",
-            "te-IN": "శుభ శుభ",
-            "en-IN": "శుభ రాత్రి"
-          }
+          "audio": "shubha_ratri.mp3"
         },
         {
           "type": "vocab",
-          "word": "ధన్యవాదాలు",
+          "word": "நன்றி",
           "translatable": true,
           "lang": "te-IN",
-          "example": "నీ సహాయానికి ధన్యవాదాలు.",
+          "example": "உங்கள் உதவிக்கு நன்றி.",
           "example_translatable": true,
-          "audio": "dhanyavadalu.mp3",
-          "translations": {
-            "ta-IN": ".",
-            "hi-IN": "ధన్యవాదాలు",
-            "te-IN": "ధన్యవాదాలు",
-            "en-IN": "ధన్యవాదాలు"
-          }
+          "audio": "dhanyavadalu.mp3"
         },
         {
           "type": "vocab",
-          "word": "దయచేసి",
+          "word": "தயவுசெய்து",
           "translatable": true,
           "lang": "te-IN",
-          "example": "దయచేసి లోపలికి రండి.",
+          "example": "தயவுசெய்து உள்ளே வாருங்கள்.",
           "example_translatable": true,
-          "audio": "dayachesi.mp3",
-          "translations": {
-            "ta-IN": ".",
-            "hi-IN": "దయచేసి",
-            "te-IN": "దయచేసి",
-            "en-IN": "దయచేసి"
-          }
+          "audio": "dayachesi.mp3"
         },
         {
           "type": "vocab",
-          "word": "క్షమించండి",
+          "word": "மன்னிக்கவும்",
           "translatable": true,
           "lang": "te-IN",
-          "example": "క్షమించండి, నేను అడ్డుపడాలని అనుకోలేదు.",
+          "example": "மன்னிக்கவும், நான் அடைக்கப்பட விரும்பவில்லை.",
           "example_translatable": true,
-          "audio": "kshaminchandi.mp3",
-          "translations": {
-            "ta-IN": ".",
-            "hi-IN": "క్షమించండి",
-            "te-IN": "క్షమించండి",
-            "en-IN": "క్షమించండి"
-          }
+          "audio": "kshaminchandi.mp3"
         },
         {
           "type": "vocab",
-          "word": "వీడ్కోలు",
+          "word": "விடைபெறுதல்",
           "translatable": true,
           "lang": "te-IN",
-          "example": "వీడ్కోలు, త్వరలో కలుద్దాం!",
+          "example": "பிரியாவிடை, விரைவில் சந்திப்போம்!",
           "example_translatable": true,
-          "audio": "vidkolu.mp3",
-          "translations": {
-            "ta-IN": ".",
-            "hi-IN": "వీడ్కోలు",
-            "te-IN": "వీడ్కోలు",
-            "en-IN": "వీడ్కోలు"
-          }
+          "audio": "vidkolu.mp3"
         },
         {
           "type": "phrase",
-          "text": "మీరు ఎలా ఉన్నారు?",
+          "text": "நீங்கள் எப்படி இருக்கிறீர்கள்?",
           "translatable": true,
           "lang": "te-IN",
-          "response": "నేను బాగున్నాను",
+          "response": "நான் நன்றாக இருக்கிறேன்",
           "response_translatable": true,
-          "audio": "neevu_ela_unnavu.mp3",
-          "translations": {
-            "ta-IN": "మీరు ఎలా?",
-            "hi-IN": "మీరు మీరు ఉన్నారు?",
-            "te-IN": "మీరు ఎలా ఎలా?",
-            "en-IN": "మీరు ఎలా ఉన్నారు?"
-          }
+          "audio": "neevu_ela_unnavu.mp3"
         },
         {
           "type": "phrase",
-          "text": "మిమ్మల్ని కలిసినందుకు చాలా సంతోషం!",
+          "text": "உங்களை சந்தித்ததில் மிகவும் மகிழ்ச்சி!",
           "translatable": true,
           "lang": "te-IN",
-          "response": "నాకు కూడా కలిసినందుకు చాలా సంతోషంగా ఉంది!",
+          "response": "என்னையும் சந்தித்ததில் மிகவும் மகிழ்ச்சி!",
           "response_translatable": true,
-          "audio": "neevu_kalisinanduku_santosham.mp3",
-          "translations": {
-            "ta-IN": "మిమ్మల్ని కలిసినందుకు కలిసినందుకు!",
-            "hi-IN": "మిమ్మల్ని మిమ్మల్ని చాలా సంతోషం!",
-            "te-IN": "మిమ్మల్ని కలిసినందుకు చాలా చాలా!",
-            "en-IN": "మిమ్మల్ని కలిసినందుకు చాలా సంతోషం!"
-          }
+          "audio": "neevu_kalisinanduku_santosham.mp3"
         },
         {
           "type": "phrase",
-          "text": "తర్వాత కలుద్దాం!",
+          "text": "பின்னர் சந்திப்போம்!",
           "translatable": true,
           "lang": "te-IN",
-          "response": "కచ్చితంగా!",
+          "response": "நிச்சயமாக!",
           "response_translatable": true,
-          "audio": "tarvata_kaluddham.mp3",
-          "translations": {
-            "ta-IN": "తర్వాత తర్వాత!",
-            "hi-IN": "తర్వాత తర్వాత!",
-            "te-IN": "తర్వాత తర్వాత!",
-            "en-IN": "తర్వాత కలుద్దాం!"
-          }
+          "audio": "tarvata_kaluddham.mp3"
         },
         {
           "type": "phrase",
-          "text": "ఏమి జరుగుతోంది?",
+          "text": "என்ன நடக்கிறது?",
           "translatable": true,
           "lang": "te-IN",
-          "response": "ఏమీ లేదు!",
+          "response": "எதுவும் இல்லை!",
           "response_translatable": true,
-          "audio": "emi_jarugutondi.mp3",
-          "translations": {
-            "ta-IN": "ఏమి ఏమి?",
-            "hi-IN": "ఏమి ఏమి?",
-            "te-IN": "ఏమి ఏమి?",
-            "en-IN": "ఏమి జరుగుతోంది?"
-          }
+          "audio": "emi_jarugutondi.mp3"
         },
         {
           "type": "phrase",
-          "text": "జాగ్రత్త!",
+          "text": "ஜாக்கிரதை!",
           "translatable": true,
           "lang": "te-IN",
-          "response": "మీరు కూడా!",
+          "response": "நீங்களும்!",
           "response_translatable": true,
-          "audio": "jagratha.mp3",
-          "translations": {
-            "ta-IN": ".",
-            "hi-IN": "జాగ్రత్త!",
-            "te-IN": "!!",
-            "en-IN": "జాగ్రత్త!"
-          }
+          "audio": "jagratha.mp3"
         },
         {
           "type": "phrase",
-          "text": "ఏమిటి సంగతులు?",
+          "text": "என்ன?",
           "translatable": true,
           "lang": "te-IN",
-          "response": "ఏమీ లేదు, మీరే చెప్పాలి?",
+          "response": "ஒன்றுமில்லை, நீங்களே சொல்ல?",
           "response_translatable": true,
-          "audio": "emiti_sangathulu.mp3",
-          "translations": {
-            "ta-IN": "ఏమిటి ఏమిటి?",
-            "hi-IN": "ఏమిటి ఏమిటి?",
-            "te-IN": "ఏమిటి ఏమిటి?",
-            "en-IN": "ఏమిటి సంగతులు?"
-          }
+          "audio": "emiti_sangathulu.mp3"
         },
         {
           "type": "phrase",
-          "text": "ఎలా ఉన్నారు?",
+          "text": "நீங்கள் எப்படி இருக்கிறீர்கள்?",
           "translatable": true,
           "lang": "te-IN",
-          "response": "బాగున్నాను, మీరు ఎలా ఉన్నారు?",
+          "response": "சரி, நீங்கள் எப்படி இருக்கிறீர்கள்?",
           "response_translatable": true,
-          "audio": "hey_neevu_ela_unnavu.mp3",
-          "translations": {
-            "ta-IN": "ఎలా ఎలా?",
-            "hi-IN": "ఎలా ఎలా?",
-            "te-IN": "ఎలా ఎలా?",
-            "en-IN": "ఎలా ఉన్నారు?"
-          }
+          "audio": "hey_neevu_ela_unnavu.mp3"
         },
         {
           "type": "dialogue",
@@ -280,21 +184,21 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "నమస్కారం! మీరు ఎలా ఉన్నారు?",
+              "text": "வணக்கம்! நீங்கள் எப்படி இருக்கிறீர்கள்?",
               "translatable": true,
               "lang": "te-IN",
               "audio": "namaskaram_meeru_ela_unnaru.mp3"
             },
             {
               "speaker": "B",
-              "text": "నేను బాగున్నాను! మిమ్మల్ని కలిసినందుకు చాలా సంతోషంగా ఉంది",
+              "text": "நான் நன்றாக இருக்கிறேன்! உங்களை சந்தித்ததில் மிகவும் மகிழ்ச்சி",
               "translatable": true,
               "lang": "te-IN",
               "audio": "nenu_bagunnanu.mp3"
             },
             {
               "speaker": "A",
-              "text": "నాకు కూడా!",
+              "text": "நானும்!",
               "translatable": true,
               "lang": "te-IN",
               "audio": "naaku_kuda.mp3"
@@ -307,14 +211,14 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "శుభోదయం! సమావేశానికి సిద్ధంగా ఉన్నారా?",
+              "text": "காலை வணக்கம்! ஒரு கூட்டத்திற்கு தயாரா?",
               "translatable": true,
               "lang": "te-IN",
               "audio": "shubhodayam_samavesaniki.mp3"
             },
             {
               "speaker": "B",
-              "text": "అందరం సిద్ధంగా ఉన్నాం!",
+              "text": "நாங்கள் அனைவரும் தயாராக இருக்கிறோம்!",
               "translatable": true,
               "lang": "te-IN",
               "audio": "udayam_avunu_cheddam.mp3"
@@ -327,14 +231,14 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "తర్వాత కలుద్దాం!",
+              "text": "பின்னர் சந்திப்போம்!",
               "translatable": true,
               "lang": "te-IN",
               "audio": "tarvata_kaluddham_class.mp3"
             },
             {
               "speaker": "B",
-              "text": "సరే",
+              "text": "சரி",
               "translatable": true,
               "lang": "te-IN",
               "audio": "bai_goppa_roju.mp3"
@@ -347,14 +251,14 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "శుభ మధ్యాహ్నం! అంతా బాగున్నాదా?",
+              "text": "நல்ல மதியம்! எல்லாம் நன்றாக இருக்கிறதா?",
               "translatable": true,
               "lang": "te-IN",
               "audio": "shubha_madhyahnam_anta.mp3"
             },
             {
               "speaker": "B",
-              "text": "అంతా బాగుంది, ధన్యవాదాలు!",
+              "text": "எல்லாம் நன்றாக இருக்கிறது, நன்றி!",
               "translatable": true,
               "lang": "te-IN",
               "audio": "anta_bagundi.mp3"
@@ -367,14 +271,14 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "హే, ఏమిటి సంగతులు?",
+              "text": "ஏய், என்ன இருக்கிறது?",
               "translatable": true,
               "lang": "te-IN",
               "audio": "hey_emiti_sangathulu.mp3"
             },
             {
               "speaker": "B",
-              "text": "ఏమీ లేదు, కేవలం విశ్రాంతి తీసుకుంటున్నాను!",
+              "text": "ஒன்றுமில்லை, ஓய்வெடுக்கிறது!",
               "translatable": true,
               "lang": "te-IN",
               "audio": "emi_ledu_vishranti.mp3"
@@ -387,14 +291,14 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "నమస్కారం ఉపాధ్యాయినీ గారు!",
+              "text": "வணக்கம் ஆசிரியர்!",
               "translatable": true,
               "lang": "te-IN",
               "audio": "shubhodayam_neevu_ela.mp3"
             },
             {
               "speaker": "B",
-              "text": "నమస్కారం, అందరూ కూర్చోండి!",
+              "text": "வணக்கம், எல்லோரும் உட்கார்ந்து கொள்ளுங்கள்!",
               "translatable": true,
               "lang": "te-IN",
               "audio": "nenu_bagunnanu.mp3"
@@ -404,7 +308,7 @@
         {
           "type": "exercise",
           "format": "match",
-          "prompt": "Match phrases to responses",
+          "prompt": "பதில்களுடன் சொற்றொடர்களை பொருத்துங்கள்",
           "prompt_translatable": true,
           "lang": "te-IN",
           "pairs": [
@@ -428,7 +332,7 @@
         {
           "type": "exercise",
           "format": "fill-in",
-          "prompt": "Complete: ___ ఎలా ఉన్నారు?",
+          "prompt": "முழுமையானது: ___ நீங்கள் எப்படி இருக்கிறீர்கள்?",
           "prompt_translatable": true,
           "answer": "మీరు",
           "answer_translatable": true,
@@ -455,14 +359,14 @@
         {
           "type": "exercise",
           "format": "type",
-          "prompt": "Type: మీరు ఎలా ఉన్నారు?",
+          "prompt": "வகை: நீங்கள் எப்படி இருக்கிறீர்கள்?",
           "prompt_translatable": true,
           "lang": "te-IN"
         },
         {
           "type": "exercise",
           "format": "voice",
-          "prompt": "Say: శుభోదయం!",
+          "prompt": "சொல்லுங்கள்: காலை வணக்கம்!",
           "prompt_translatable": true,
           "expected": "శుభోదయం!",
           "expected_translatable": true,
@@ -471,7 +375,7 @@
         {
           "type": "exercise",
           "format": "fill-in",
-          "prompt": "Complete: ___ కలుద్దాం!",
+          "prompt": "முழுமையானது: ___ சந்திப்போம்!",
           "prompt_translatable": true,
           "answer": "తర్వాత",
           "answer_translatable": true,
@@ -498,7 +402,7 @@
         {
           "type": "exercise",
           "format": "dialogue",
-          "prompt": "Complete the dialogue: A: హాయ్! నీవు ఎలా ఉన్నావు? B: ___",
+          "prompt": "உரையாடலை முடிக்கவும்: ஒரு: ஹாய்! நீங்கள் எப்படி இருக்கிறீர்கள்? பி: ___",
           "prompt_translatable": true,
           "answer": "నేను బాగున్నాను",
           "answer_translatable": true,
@@ -509,7 +413,7 @@
         {
           "type": "exercise",
           "format": "voice",
-          "prompt": "Say: జాగ్రత్త!",
+          "prompt": "சொல்லுங்கள்: ஜாக்கிரதை!",
           "prompt_translatable": true,
           "expected": "జాగ్రత్త!",
           "expected_translatable": true,
@@ -518,7 +422,7 @@
         {
           "type": "exercise",
           "format": "fill-in",
-          "prompt": "Complete: శుభ ___!",
+          "prompt": "முடிந்தது: நல்லது ___!",
           "prompt_translatable": true,
           "answer": "రాత్రి",
           "answer_translatable": true,
@@ -529,7 +433,7 @@
         {
           "type": "exercise",
           "format": "dialogue",
-          "prompt": "Complete the dialogue: A: రేపు కలుద్దాం! B: ___",
+          "prompt": "உரையாடலை முடிக்கவும்: ஒரு: நாளை சந்திப்போம்! பி: ___",
           "prompt_translatable": true,
           "answer": "సరే, బై!",
           "answer_translatable": true,
@@ -540,7 +444,7 @@
         {
           "type": "exercise",
           "format": "match",
-          "prompt": "Match phrases to responses",
+          "prompt": "பதில்களுடன் சொற்றொடர்களை பொருத்துங்கள்",
           "prompt_translatable": true,
           "pairs": [
             {
@@ -559,7 +463,7 @@
         {
           "type": "exercise",
           "format": "fill-in",
-          "prompt": "Complete: ___ కలవడం చాలా సంతోషంగా ఉంది",
+          "prompt": "முடிந்தது: ___ சந்திப்பதில் மிகவும் மகிழ்ச்சி",
           "prompt_translatable": true,
           "answer": "మిమ్మల్ని",
           "answer_translatable": true,
@@ -586,14 +490,14 @@
         {
           "type": "exercise",
           "format": "type",
-          "prompt": "Type: నీవు కనిపించడం సంతోషం!",
+          "prompt": "வகை: உங்களைப் பார்த்ததில் மகிழ்ச்சி!",
           "prompt_translatable": true,
           "lang": "te-IN"
         },
         {
           "type": "exercise",
           "format": "voice",
-          "prompt": "Say: ఏమి జరుగుతోంది?",
+          "prompt": "சொல்லுங்கள்: என்ன நடக்கிறது?",
           "prompt_translatable": true,
           "expected": "ఏమి జరుగుతోంది?",
           "expected_translatable": true,
@@ -602,7 +506,7 @@
         {
           "type": "exercise",
           "format": "fill-in",
-          "prompt": "Complete: ___ జాగ్రత్త!",
+          "prompt": "முடிந்தது: ___ ஜாக்கிரதை!",
           "prompt_translatable": true,
           "answer": "మీరు కూడా",
           "answer_translatable": true,
@@ -641,273 +545,165 @@
       "content": [
         {
           "type": "phrase",
-          "text": "నా పేరు [Your Name].",
+          "text": "எனது பெயர் [உங்கள் பெயர்].",
           "translatable": true,
           "lang": "te-IN",
-          "response": "నీవు కలిసినందుకు సంతోషం!",
+          "response": "உங்களை சந்தித்ததில் மகிழ்ச்சி!",
           "response_translatable": true,
-          "audio": "naa_peru.mp3",
-          "translations": {
-            "ta-IN": "నా పేరు [உங்கள் பெயர்].",
-            "hi-IN": "నా నా [[आपका नाम]।",
-            "te-IN": "నా పేరు [మీ పేరు].",
-            "en-IN": "నా పేరు [Your Name]."
-          }
+          "audio": "naa_peru.mp3"
         },
         {
           "type": "phrase",
-          "text": "నేను [Your City] నుండి వచ్చాను.",
+          "text": "நான் [உங்கள் நகரத்திலிருந்து] வந்தேன்.",
           "translatable": true,
           "lang": "te-IN",
-          "response": "అది ఆసక్తికరం!",
+          "response": "அது சுவாரஸ்யமானது!",
           "response_translatable": true,
-          "audio": "nenu_your_city.mp3",
-          "translations": {
-            "ta-IN": "నేను [உங்கள் நகரம்].",
-            "hi-IN": "నేను [आपका शहर] వచ్చాను వచ్చాను।",
-            "te-IN": "నేను [మీ నగరం] నుండి.",
-            "en-IN": "నేను [Your City] నుండి వచ్చాను."
-          }
+          "audio": "nenu_your_city.mp3"
         },
         {
           "type": "phrase",
-          "text": "నేను విద్యార్థిని.",
+          "text": "நான் ஒரு மாணவர்.",
           "translatable": true,
           "lang": "te-IN",
-          "response": "బాగుంది! నీవు ఏమి చదువుతున్నావు?",
+          "response": "நல்லது! நீங்கள் என்ன படிக்கிறீர்கள்?",
           "response_translatable": true,
-          "audio": "nenu_vidyarthini.mp3",
-          "translations": {
-            "ta-IN": ". నేను.",
-            "hi-IN": "నేను విద్యార్థిని।",
-            "te-IN": "నేను నేను.",
-            "en-IN": "నేను విద్యార్థిని."
-          }
+          "audio": "nenu_vidyarthini.mp3"
         },
         {
           "type": "phrase",
-          "text": "నేను ఉపాధ్యాయుడిగా పనిచేస్తున్నాను.",
+          "text": "நான் ஒரு ஆசிரியராக வேலை செய்கிறேன்.",
           "translatable": true,
           "lang": "te-IN",
-          "response": "అది గొప్పది!",
+          "response": "அது பெரியது!",
           "response_translatable": true,
-          "audio": "nenu_upadhyayudiga.mp3",
-          "translations": {
-            "ta-IN": "నేను.",
-            "hi-IN": "నేను నేను ఉపాధ్యాయుడిగా।",
-            "te-IN": "నేను ఉపాధ్యాయుడిగా.",
-            "en-IN": "నేను ఉపాధ్యాయుడిగా పనిచేస్తున్నాను."
-          }
+          "audio": "nenu_upadhyayudiga.mp3"
         },
         {
           "type": "phrase",
-          "text": "నాకు పుస్తకాలు చదవడం ఇష్టం.",
+          "text": "புத்தகங்களைப் படிப்பது எனக்கு மிகவும் பிடிக்கும்.",
           "translatable": true,
           "lang": "te-IN",
-          "response": "బాగుంది! ఏ పుస్తకాలు చదువుతావు?",
+          "response": "நல்லது! நீங்கள் என்ன புத்தகங்களைப் படிக்கிறீர்கள்?",
           "response_translatable": true,
-          "audio": "naaku_pustakalu.mp3",
-          "translations": {
-            "ta-IN": "నాకు పుస్తకాలు.",
-            "hi-IN": "నాకు నాకు చదవడం ఇష్టం।",
-            "te-IN": "నాకు పుస్తకాలు చదవడం.",
-            "en-IN": "నాకు పుస్తకాలు చదవడం ఇష్టం."
-          }
+          "audio": "naaku_pustakalu.mp3"
         },
         {
           "type": "phrase",
-          "text": "నేను [Your City] లో నివసిస్తున్నాను.",
+          "text": "நான் [உங்கள் நகரத்தில்] வசிக்கிறேன்.",
           "translatable": true,
           "lang": "te-IN",
-          "response": "ఆ నగరం నాకు ఇష్టం!",
+          "response": "எனக்கு அந்த நகரம் பிடிக்கும்!",
           "response_translatable": true,
-          "audio": "nenu_your_city_nivasistunnanu.mp3",
-          "translations": {
-            "ta-IN": "నేను [உங்கள் நகரம்].",
-            "hi-IN": "నేను [आपका शहर] నివసిస్తున్నాను నివసిస్తున్నాను।",
-            "te-IN": "నేను [మీ నగరం] లో.",
-            "en-IN": "నేను [Your City] లో నివసిస్తున్నాను."
-          }
+          "audio": "nenu_your_city_nivasistunnanu.mp3"
         },
         {
           "type": "phrase",
-          "text": "నా హాబీ చిత్రలేఖనం.",
+          "text": "என் பொழுதுபோக்கு ஓவியம்.",
           "translatable": true,
           "lang": "te-IN",
-          "response": "అది సృజనాత్మకం!",
+          "response": "அது படைப்பு!",
           "response_translatable": true,
-          "audio": "naa_hobby_chitralekhanam.mp3",
-          "translations": {
-            "ta-IN": "నా.",
-            "hi-IN": "నా నా హాబీ।",
-            "te-IN": "నా హాబీ.",
-            "en-IN": "నా హాబీ చిత్రలేఖనం."
-          }
+          "audio": "naa_hobby_chitralekhanam.mp3"
         },
         {
           "type": "phrase",
-          "text": "నాకు ప్రయాణం చేయడం ఇష్టం.",
+          "text": "எனக்கு பயணம் பிடிக்கும்.",
           "translatable": true,
           "lang": "te-IN",
-          "response": "నీవు ఎక్కడికి వెళ్ళావు?",
+          "response": "நீங்கள் எங்கு சென்றீர்கள்?",
           "response_translatable": true,
-          "audio": "naaku_prayanam.mp3",
-          "translations": {
-            "ta-IN": "నాకు ప్రయాణం.",
-            "hi-IN": "నాకు నాకు చేయడం ఇష్టం।",
-            "te-IN": "నాకు ప్రయాణం చేయడం.",
-            "en-IN": "నాకు ప్రయాణం చేయడం ఇష్టం."
-          }
+          "audio": "naaku_prayanam.mp3"
         },
         {
           "type": "phrase",
-          "text": "నేను జీవశాస్త్రం చదువుతున్నాను.",
+          "text": "நான் உயிரியலைப் படிக்கிறேன்.",
           "translatable": true,
           "lang": "te-IN",
-          "response": "అది ఆసక్తికరం!",
+          "response": "அது சுவாரஸ்யமானது!",
           "response_translatable": true,
-          "audio": "nenu_jeevashastram.mp3",
-          "translations": {
-            "ta-IN": "నేను.",
-            "hi-IN": "నేను నేను జీవశాస్త్రం।",
-            "te-IN": "నేను జీవశాస్త్రం.",
-            "en-IN": "నేను జీవశాస్త్రం చదువుతున్నాను."
-          }
+          "audio": "nenu_jeevashastram.mp3"
         },
         {
           "type": "phrase",
-          "text": "నేను ఆఫీసులో పనిచేస్తున్నాను.",
+          "text": "நான் அலுவலகத்தில் வேலை செய்கிறேன்.",
           "translatable": true,
           "lang": "te-IN",
-          "response": "అక్కడ నీవు ఏమి చేస్తావు?",
+          "response": "நீங்கள் அங்கு என்ன செய்கிறீர்கள்?",
           "response_translatable": true,
-          "audio": "nenu_office_lo.mp3",
-          "translations": {
-            "ta-IN": "నేను.",
-            "hi-IN": "నేను నేను ఆఫీసులో।",
-            "te-IN": "నేను ఆఫీసులో.",
-            "en-IN": "నేను ఆఫీసులో పనిచేస్తున్నాను."
-          }
+          "audio": "nenu_office_lo.mp3"
         },
         {
           "type": "phrase",
-          "text": "నాకు సంగీతం ఇష్టం.",
+          "text": "எனக்கு இசை பிடிக்கும்.",
           "translatable": true,
           "lang": "te-IN",
-          "response": "ఏ రకమైన సంగీతం?",
+          "response": "என்ன வகையான இசை?",
           "response_translatable": true,
-          "audio": "naaku_sangeetam.mp3",
-          "translations": {
-            "ta-IN": "నాకు.",
-            "hi-IN": "నాకు నాకు సంగీతం।",
-            "te-IN": "నాకు సంగీతం.",
-            "en-IN": "నాకు సంగీతం ఇష్టం."
-          }
+          "audio": "naaku_sangeetam.mp3"
         },
         {
           "type": "phrase",
-          "text": "నేను చిన్న పట్టణం నుండి వచ్చాను.",
+          "text": "நான் ஒரு சிறிய நகரத்திலிருந்து வந்தேன்.",
           "translatable": true,
           "lang": "te-IN",
-          "response": "అది హాయిగా ఉంటుంది!",
+          "response": "அது வசதியாக இருக்கும்!",
           "response_translatable": true,
-          "audio": "nenu_chinna_pattanam.mp3",
-          "translations": {
-            "ta-IN": "నేను చిన్న పట్టణం.",
-            "hi-IN": "నేను నేను చిన్న వచ్చాను వచ్చాను।",
-            "te-IN": "నేను చిన్న పట్టణం నుండి.",
-            "en-IN": "నేను చిన్న పట్టణం నుండి వచ్చాను."
-          }
+          "audio": "nenu_chinna_pattanam.mp3"
         },
         {
           "type": "phrase",
-          "text": "నాకు క్రీడలు ఆడటం ఇష్టం.",
+          "text": "எனக்கு விளையாட்டு விளையாடுவதை விரும்புகிறேன்.",
           "translatable": true,
           "lang": "te-IN",
-          "response": "ఏ క్రీడలు?",
+          "response": "என்ன விளையாட்டு?",
           "response_translatable": true,
-          "audio": "naaku_kreedalu.mp3",
-          "translations": {
-            "ta-IN": "నాకు క్రీడలు.",
-            "hi-IN": "నాకు నాకు ఆడటం ఇష్టం।",
-            "te-IN": "నాకు క్రీడలు ఆడటం.",
-            "en-IN": "నాకు క్రీడలు ఆడటం ఇష్టం."
-          }
+          "audio": "naaku_kreedalu.mp3"
         },
         {
           "type": "phrase",
-          "text": "నేను విశ్వవిద్యాలయంలో చదువుతున్నాను.",
+          "text": "நான் பல்கலைக்கழகத்தில் படித்து வருகிறேன்.",
           "translatable": true,
           "lang": "te-IN",
-          "response": "నీవు ఏ సబ్జెక్ట్ చదువుతున్నావు?",
+          "response": "நீங்கள் எந்த விஷயத்தைப் படிக்கிறீர்கள்?",
           "response_translatable": true,
-          "audio": "nenu_vishwavidyalayamlo.mp3",
-          "translations": {
-            "ta-IN": "నేను.",
-            "hi-IN": "నేను నేను విశ్వవిద్యాలయంలో।",
-            "te-IN": "నేను విశ్వవిద్యాలయంలో.",
-            "en-IN": "నేను విశ్వవిద్యాలయంలో చదువుతున్నాను."
-          }
+          "audio": "nenu_vishwavidyalayamlo.mp3"
         },
         {
           "type": "phrase",
-          "text": "నాకు వంట చేయడం ఇష్టం.",
+          "text": "எனக்கு சமையல் பிடிக்கும்.",
           "translatable": true,
           "lang": "te-IN",
-          "response": "నీకు ఇష్టమైన వంటకం ఏమిటి?",
+          "response": "உங்களுக்கு பிடித்த உணவு எது?",
           "response_translatable": true,
-          "audio": "naaku_vanta_cheyadam.mp3",
-          "translations": {
-            "ta-IN": "నాకు వంట.",
-            "hi-IN": "నాకు నాకు చేయడం ఇష్టం।",
-            "te-IN": "నాకు వంట చేయడం.",
-            "en-IN": "నాకు వంట చేయడం ఇష్టం."
-          }
+          "audio": "naaku_vanta_cheyadam.mp3"
         },
         {
           "type": "phrase",
-          "text": "నేను రచయితగా పనిచేస్తున్నాను.",
+          "text": "நான் ஒரு எழுத்தாளராக வேலை செய்கிறேன்.",
           "translatable": true,
           "lang": "te-IN",
-          "response": "నీవు ఏమి రాస్తావు?",
+          "response": "நீங்கள் என்ன எழுதுகிறீர்கள்?",
           "response_translatable": true,
-          "audio": "nenu_rachayitaga.mp3",
-          "translations": {
-            "ta-IN": "నేను.",
-            "hi-IN": "నేను నేను రచయితగా।",
-            "te-IN": "నేను రచయితగా.",
-            "en-IN": "నేను రచయితగా పనిచేస్తున్నాను."
-          }
+          "audio": "nenu_rachayitaga.mp3"
         },
         {
           "type": "phrase",
-          "text": "నేను కంప్యూటర్ సైన్స్ చదువుతున్నాను.",
+          "text": "நான் கணினி அறிவியலைப் படித்து வருகிறேன்.",
           "translatable": true,
           "lang": "te-IN",
-          "response": "అది బాగుంది!",
+          "response": "அது நல்லது!",
           "response_translatable": true,
-          "audio": "nenu_computer_science.mp3",
-          "translations": {
-            "ta-IN": "నేను కంప్యూటర్.",
-            "hi-IN": "నేను నేను సైన్స్ చదువుతున్నాను।",
-            "te-IN": "నేను కంప్యూటర్ సైన్స్.",
-            "en-IN": "నేను కంప్యూటర్ సైన్స్ చదువుతున్నాను."
-          }
+          "audio": "nenu_computer_science.mp3"
         },
         {
           "type": "phrase",
-          "text": "నాకు సినిమాలు చూడటం ఇష్టం.",
+          "text": "எனக்கு திரைப்படங்களைப் பார்ப்பது பிடிக்கும்.",
           "translatable": true,
           "lang": "te-IN",
-          "response": "నీకు ఇష్టమైన సినిమా ఏమిటి?",
+          "response": "உங்களுக்கு பிடித்த படம் எது?",
           "response_translatable": true,
-          "audio": "naaku_cinemalu.mp3",
-          "translations": {
-            "ta-IN": "నాకు సినిమాలు.",
-            "hi-IN": "నాకు నాకు చూడటం ఇష్టం।",
-            "te-IN": "నాకు సినిమాలు చూడటం.",
-            "en-IN": "నాకు సినిమాలు చూడటం ఇష్టం."
-          }
+          "audio": "naaku_cinemalu.mp3"
         },
         {
           "type": "dialogue",
@@ -915,21 +711,21 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "హాయ్, నేను సారా. నేను హైదరాబాద్ నుండి వచ్చాను.",
+              "text": "ஹாய், நான் சாரா. நான் ஹைதராபாத்தைச் சேர்ந்தவன்.",
               "translatable": true,
               "lang": "te-IN",
               "audio": "hai_sara.mp3"
             },
             {
               "speaker": "B",
-              "text": "సారా, నీను కలిసినందుకు సంతోషం! నేను జాన్.",
+              "text": "சாரா, உங்களை சந்தித்ததில் மகிழ்ச்சி! நான் ஜான்.",
               "translatable": true,
               "lang": "te-IN",
               "audio": "sara_kalisinanduku.mp3"
             },
             {
               "speaker": "A",
-              "text": "నేను విద్యార్థిని. నేను జీవశాస్త్రం చదువుతున్నాను.",
+              "text": "நான் ஒரு மாணவர். நான் உயிரியலைப் படிக்கிறேன்.",
               "translatable": true,
               "lang": "te-IN",
               "audio": "nenu_vidyarthini_jeevashastram.mp3"
@@ -942,21 +738,21 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "నమస్కారం, నా పేరు అలెక్స్. నేను డిజైనర్‌గా పనిచేస్తున్నాను.",
+              "text": "வணக்கம், என் பெயர் அலெக்ஸ். நான் ஒரு வடிவமைப்பாளராக வேலை செய்கிறேன்.",
               "translatable": true,
               "lang": "te-IN",
               "audio": "namaste_alex.mp3"
             },
             {
               "speaker": "B",
-              "text": "హాయ్ అలెక్స్, నేను లీసా. నేను మేనేజర్.",
+              "text": "ஹாய் அலெக்ஸ், நான் லிசா. நான் மேலாளர்.",
               "translatable": true,
               "lang": "te-IN",
               "audio": "hai_lisa.mp3"
             },
             {
               "speaker": "A",
-              "text": "నీను కలిసినందుకు సంతోషం! నాకు చిత్రలేఖనం ఇష్టం.",
+              "text": "உங்களை சந்தித்ததில் மகிழ்ச்சி! எனக்கு ஓவியம் பிடிக்கும்.",
               "translatable": true,
               "lang": "te-IN",
               "audio": "kalisinanduku_chitralekhanam.mp3"
@@ -969,7 +765,7 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "అందరికీ నమస్కారం, నేను ఎమ్మా. నేను విశ్వవిద్యాలయంలో చదువుతున్నాను.",
+              "text": "அனைவருக்கும் வணக்கம், நான் எம்மா. நான் பல்கலைக்கழகத்தில் படித்து வருகிறேன்.",
               "translatable": true,
               "lang": "te-IN",
               "audio": "hai_emma.mp3"
@@ -982,14 +778,14 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "నమస్తే, నేను టామ్. నేను న్యూయార్క్ నుండి వచ్చాను.",
+              "text": "நமஸ்தே, நான் டாம். நான் நியூயார்க்கிலிருந்து வந்தவன்.",
               "translatable": true,
               "lang": "te-IN",
               "audio": "namaste_tom.mp3"
             },
             {
               "speaker": "B",
-              "text": "హాయ్ టామ్, నేను రాచెల్. నేను డాక్టరుగా పనిచేస్తున్నాను.",
+              "text": "ஹாய் டாம், நான் ரேச்சல். நான் ஒரு மருத்துவராக வேலை செய்கிறேன்.",
               "translatable": true,
               "lang": "te-IN",
               "audio": "hai_rachel_doctor.mp3"
@@ -1002,14 +798,14 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "నమస్కారం, నేను మియా. నేను [Your City] లో నివసిస్తున్నాను.",
+              "text": "வணக்கம், நான் மியா. நான் [உங்கள் நகரத்தில்] வசிக்கிறேன்.",
               "translatable": true,
               "lang": "te-IN",
               "audio": "namaste_mia.mp3"
             },
             {
               "speaker": "B",
-              "text": "హాయ్ మియా, నేను సామ్. పొరుగునకు స్వాగతం!",
+              "text": "ஹாய் மியா, நான் சாம். பக்கத்து வீட்டுக்காரருக்கு வருக!",
               "translatable": true,
               "lang": "te-IN",
               "audio": "hai_sam.mp3"
@@ -1019,7 +815,7 @@
         {
           "type": "exercise",
           "format": "match",
-          "prompt": "Match phrases to responses",
+          "prompt": "பதில்களுடன் சொற்றொடர்களை பொருத்துங்கள்",
           "prompt_translatable": true,
           "lang": "te-IN",
           "pairs": [
@@ -1048,7 +844,7 @@
         {
           "type": "exercise",
           "format": "voice",
-          "prompt": "Say: నా పేరు [Your Name].",
+          "prompt": "சொல்லுங்கள்: எனது பெயர் [உங்கள் பெயர்].",
           "prompt_translatable": true,
           "expected": "నా పేరు [Your Name].",
           "expected_translatable": true,
@@ -1057,7 +853,7 @@
         {
           "type": "exercise",
           "format": "fill-in",
-          "prompt": "Complete: నేను ___ నుండి వచ్చాను.",
+          "prompt": "முழுமையானது: நான் ___ இலிருந்து வந்தேன்.",
           "prompt_translatable": true,
           "answer": "హైదరాబాద్",
           "answer_translatable": true,
@@ -1068,14 +864,14 @@
         {
           "type": "exercise",
           "format": "type",
-          "prompt": "Type: నేను విద్యార్థిని.",
+          "prompt": "வகை: நான் ஒரு மாணவன்.",
           "prompt_translatable": true,
           "lang": "te-IN"
         },
         {
           "type": "exercise",
           "format": "voice",
-          "prompt": "Say: నాకు చదవడం ఇష్టం.",
+          "prompt": "சொல்லுங்கள்: எனக்கு வாசிப்பு பிடிக்கும்.",
           "prompt_translatable": true,
           "expected": "నాకు చదవడం ఇష్టం.",
           "expected_translatable": true,
@@ -1084,7 +880,7 @@
         {
           "type": "exercise",
           "format": "fill-in",
-          "prompt": "Complete: నేను ___గా పనిచేస్తున్నాను.",
+          "prompt": "முழுமையானது: நான் ___ ஆக வேலை செய்கிறேன்.",
           "prompt_translatable": true,
           "answer": "ఉపాధ్యాయుడు",
           "answer_translatable": true,
@@ -1111,7 +907,7 @@
         {
           "type": "exercise",
           "format": "dialogue",
-          "prompt": "Complete the dialogue: A: హాయ్, నేను సారా. B: ___",
+          "prompt": "உரையாடலை முடிக்கவும்: ஒரு: ஹாய், நான் சாரா. பி: ___",
           "prompt_translatable": true,
           "answer": "సారా, నువ్వు కలిసినందుకు సంతోషం!",
           "answer_translatable": true,
@@ -1122,14 +918,14 @@
         {
           "type": "exercise",
           "format": "type",
-          "prompt": "Type: నేను [Your City] లో నివసిస్తున్నాను.",
+          "prompt": "வகை: நான் [உங்கள் நகரத்தில்] வசிக்கிறேன்.",
           "prompt_translatable": true,
           "lang": "te-IN"
         },
         {
           "type": "exercise",
           "format": "voice",
-          "prompt": "Say: నేను డాక్టర్.",
+          "prompt": "சொல்லுங்கள்: நான் ஒரு மருத்துவர்.",
           "prompt_translatable": true,
           "expected": "నేను డాక్టర్.",
           "expected_translatable": true,
@@ -1138,7 +934,7 @@
         {
           "type": "exercise",
           "format": "fill-in",
-          "prompt": "Complete: నాకు ___ ఇష్టం.",
+          "prompt": "முழுமையானது: எனக்கு ___ பிடிக்கும்.",
           "prompt_translatable": true,
           "answer": "ప్రయాణం",
           "answer_translatable": true,
@@ -1165,7 +961,7 @@
         {
           "type": "exercise",
           "format": "dialogue",
-          "prompt": "Complete the dialogue: A: నేను విశ్వవిద్యాలయంలో చదువుతున్నాను. B: ___",
+          "prompt": "உரையாடலை முடிக்கவும்: ஒரு: நான் பல்கலைக்கழகத்தில் படிக்கிறேன். பி: ___",
           "prompt_translatable": true,
           "answer": "నీవు ఏ సబ్జెక్ట్ చదువుతున్నావు?",
           "answer_translatable": true,
@@ -1176,7 +972,7 @@
         {
           "type": "exercise",
           "format": "match",
-          "prompt": "Match phrases to responses",
+          "prompt": "பதில்களுடன் சொற்றொடர்களை பொருத்துங்கள்",
           "prompt_translatable": true,
           "pairs": [
             {
@@ -1190,7 +986,7 @@
         {
           "type": "exercise",
           "format": "voice",
-          "prompt": "Say: నాకు వంట చేయడం ఇష్టం.",
+          "prompt": "சொல்லுங்கள்: எனக்கு சமைப்பது பிடிக்கும்.",
           "prompt_translatable": true,
           "expected": "నాకు వంట చేయడం ఇష్టం.",
           "expected_translatable": true,
@@ -1199,7 +995,7 @@
         {
           "type": "exercise",
           "format": "fill-in",
-          "prompt": "Complete: నేను ___ చదువుతున్నాను.",
+          "prompt": "முழுமையானது: நான் ___ படிக்கிறேன்.",
           "prompt_translatable": true,
           "answer": "జీవశాస్త్రం",
           "answer_translatable": true,
@@ -1226,14 +1022,14 @@
         {
           "type": "exercise",
           "format": "type",
-          "prompt": "Type: నాకు క్రీడలు ఆడటం ఇష్టం.",
+          "prompt": "வகை: நான் விளையாடுவதை விரும்புகிறேன்.",
           "prompt_translatable": true,
           "lang": "te-IN"
         },
         {
           "type": "exercise",
           "format": "dialogue",
-          "prompt": "Complete the dialogue: A: నేను న్యూయార్క్ నుండి వచ్చాను. B: ___",
+          "prompt": "உரையாடலை முடிக்கவும்: ஒரு: நான் நியூயார்க்கிலிருந்து வந்தேன். பி: ___",
           "prompt_translatable": true,
           "answer": "వావ్, అది చాలా దూరం!",
           "answer_translatable": true,
@@ -1244,7 +1040,7 @@
         {
           "type": "exercise",
           "format": "voice",
-          "prompt": "Say: నేను చెఫ్‌గా పనిచేస్తున్నాను.",
+          "prompt": "சொல்லுங்கள்: நான் ஒரு சமையல்காரராக வேலை செய்கிறேன்.",
           "prompt_translatable": true,
           "expected": "నేను చెఫ్‌గా పనిచేస్తున్నాను.",
           "expected_translatable": true,
@@ -1253,7 +1049,7 @@
         {
           "type": "exercise",
           "format": "fill-in",
-          "prompt": "Complete: నా హాబీ ___",
+          "prompt": "முழுமையானது: எனது பொழுதுபோக்கு ___",
           "prompt_translatable": true,
           "answer": "చిత్రలేఖనం",
           "answer_translatable": true,
@@ -1277,303 +1073,183 @@
       "content": [
         {
           "type": "vocab",
-          "word": "తండ్రి",
+          "word": "தந்தை",
           "translatable": true,
           "lang": "te-IN",
-          "example": "నా తండ్రి గారు డాక్టర్.",
+          "example": "என் தந்தை ஒரு மருத்துவர்.",
           "example_translatable": true,
-          "audio": "tandri.mp3",
-          "translations": {
-            "ta-IN": ".",
-            "hi-IN": "తండ్రి",
-            "te-IN": "తండ్రి",
-            "en-IN": "తండ్రి"
-          }
+          "audio": "tandri.mp3"
         },
         {
           "type": "vocab",
-          "word": "తల్లి",
+          "word": "அம்மா",
           "translatable": true,
           "lang": "te-IN",
-          "example": "నా తల్లి గారుఉపాధ్యాయురాలు.",
+          "example": "என் அம்மா ஒரு குரு.",
           "example_translatable": true,
-          "audio": "talli.mp3",
-          "translations": {
-            "ta-IN": ".",
-            "hi-IN": "తల్లి",
-            "te-IN": "తల్లి",
-            "en-IN": "తల్లి"
-          }
+          "audio": "talli.mp3"
         },
         {
           "type": "vocab",
-          "word": "అన్న",
+          "word": "அண்ணா",
           "translatable": true,
           "lang": "te-IN",
-          "example": "మా అన్న 25 సంవత్సరాలు.",
+          "example": "எங்கள் மூத்த சகோதரருக்கு 25 வயது.",
           "example_translatable": true,
-          "audio": "anna.mp3",
-          "translations": {
-            "ta-IN": ".",
-            "hi-IN": "అన్న",
-            "te-IN": "అన్న",
-            "en-IN": "అన్న"
-          }
+          "audio": "anna.mp3"
         },
         {
           "type": "vocab",
-          "word": "తమ్ముడు",
+          "word": "தம்பி",
           "translatable": true,
           "lang": "te-IN",
-          "example": "నా తమ్ముడు పాఠశాలలో ఉన్నాడు.",
+          "example": "என் தம்பி பள்ளியில் இருந்தார்.",
           "example_translatable": true,
-          "audio": "tammudu.mp3",
-          "translations": {
-            "ta-IN": ".",
-            "hi-IN": "తమ్ముడు",
-            "te-IN": "తమ్ముడు",
-            "en-IN": "తమ్ముడు"
-          }
+          "audio": "tammudu.mp3"
         },
         {
           "type": "vocab",
-          "word": "అక్క",
+          "word": "மூத்த சகோதரி",
           "translatable": true,
           "lang": "te-IN",
-          "example": "మా అక్క న్యాయవాది.",
+          "example": "எங்கள் மூத்த சகோதரியின் வழக்கறிஞர்.",
           "example_translatable": true,
-          "audio": "akka.mp3",
-          "translations": {
-            "ta-IN": ".",
-            "hi-IN": "అక్క",
-            "te-IN": "అక్క",
-            "en-IN": "అక్క"
-          }
+          "audio": "akka.mp3"
         },
         {
           "type": "vocab",
-          "word": "చెల్లి",
+          "word": "செல்",
           "translatable": true,
           "lang": "te-IN",
-          "example": "నా చెల్లి నృత్యం ఇష్టపడుతుంది.",
+          "example": "நான் என் சகோதரி நடனத்தை விரும்புகிறேன்.",
           "example_translatable": true,
-          "audio": "chelli.mp3",
-          "translations": {
-            "ta-IN": ".",
-            "hi-IN": "చెల్లి",
-            "te-IN": "చెల్లి",
-            "en-IN": "చెల్లి"
-          }
+          "audio": "chelli.mp3"
         },
         {
           "type": "vocab",
-          "word": "కూతురు",
+          "word": "மகள்",
           "translatable": true,
           "lang": "te-IN",
-          "example": "నా కూతురు ఐదు సంవత్సరాలు.",
+          "example": "என் மகளுக்கு ஐந்து வயது.",
           "example_translatable": true,
-          "audio": "kuthuru.mp3",
-          "translations": {
-            "ta-IN": ".",
-            "hi-IN": "కూతురు",
-            "te-IN": "కూతురు",
-            "en-IN": "కూతురు"
-          }
+          "audio": "kuthuru.mp3"
         },
         {
           "type": "vocab",
-          "word": "కొడుకు",
+          "word": "மகன்",
           "translatable": true,
           "lang": "te-IN",
-          "example": "నా కొడుకు ఫుట్‌బాల్ ఆడతాడు.",
+          "example": "என் மகன் கால்பந்து விளையாடுகிறான்.",
           "example_translatable": true,
-          "audio": "koduku.mp3",
-          "translations": {
-            "ta-IN": ".",
-            "hi-IN": "కొడుకు",
-            "te-IN": "కొడుకు",
-            "en-IN": "కొడుకు"
-          }
+          "audio": "koduku.mp3"
         },
         {
           "type": "vocab",
-          "word": "మామ",
+          "word": "மாமா",
           "translatable": true,
           "lang": "te-IN",
-          "example": "మా మామ టెక్సాస్‌లో నివసిస్తున్నాడు.",
+          "example": "எங்கள் மாமா டெக்சாஸில் வசிக்கிறார்.",
           "example_translatable": true,
-          "audio": "mama.mp3",
-          "translations": {
-            "ta-IN": ".",
-            "hi-IN": "మామ",
-            "te-IN": "మామ",
-            "en-IN": "మామ"
-          }
+          "audio": "mama.mp3"
         },
         {
           "type": "vocab",
-          "word": "అత్త",
+          "word": "அத்தை",
           "translatable": true,
           "lang": "te-IN",
-          "example": "మా అత్త గొప్ప కుకీలు చేస్తుంది.",
+          "example": "எங்கள் அத்தை சிறந்த குக்கீகளை உருவாக்குகிறார்.",
           "example_translatable": true,
-          "audio": "atta.mp3",
-          "translations": {
-            "ta-IN": ".",
-            "hi-IN": "అత్త",
-            "te-IN": "అత్త",
-            "en-IN": "అత్త"
-          }
+          "audio": "atta.mp3"
         },
         {
           "type": "phrase",
-          "text": "ఇది నా కుటుంబం.",
+          "text": "இது எனது குடும்பம்.",
           "translatable": true,
           "lang": "te-IN",
-          "response": "నీ కుటుంబం అద్భుతంగా కనిపిస్తుంది!",
+          "response": "உங்கள் குடும்பம் அருமையாக தெரிகிறது!",
           "response_translatable": true,
-          "audio": "idi_naa_kutumbam.mp3",
-          "translations": {
-            "ta-IN": "ఇది.",
-            "hi-IN": "ఇది ఇది నా।",
-            "te-IN": "ఇది నా.",
-            "en-IN": "ఇది నా కుటుంబం."
-          }
+          "audio": "idi_naa_kutumbam.mp3"
         },
         {
           "type": "phrase",
-          "text": "నాకు ఇద్దరు అన్నలు ఉన్నారు.",
+          "text": "எனக்கு இரண்டு மூத்த சகோதரர்கள் உள்ளனர்.",
           "translatable": true,
           "lang": "te-IN",
-          "response": "అది పెద్ద కుటుంబం!",
+          "response": "அது ஒரு பெரிய குடும்பம்!",
           "response_translatable": true,
-          "audio": "naaku_iddaru_anna.mp3",
-          "translations": {
-            "ta-IN": "నాకు ఇద్దరు.",
-            "hi-IN": "నాకు నాకు అన్నలు ఉన్నారు।",
-            "te-IN": "నాకు ఇద్దరు అన్నలు.",
-            "en-IN": "నాకు ఇద్దరు అన్నలు ఉన్నారు."
-          }
+          "audio": "naaku_iddaru_anna.mp3"
         },
         {
           "type": "phrase",
-          "text": "నా తల్లి ఉపాధ్యాయురాలు.",
+          "text": "என் அம்மா ஒரு ஆசிரியர்.",
           "translatable": true,
           "lang": "te-IN",
-          "response": "అది అద్భుతం!",
+          "response": "அது அருமை!",
           "response_translatable": true,
-          "audio": "naa_talli_upadhyayuralu.mp3",
-          "translations": {
-            "ta-IN": "నా.",
-            "hi-IN": "నా నా తల్లి।",
-            "te-IN": "నా తల్లి.",
-            "en-IN": "నా తల్లి ఉపాధ్యాయురాలు."
-          }
+          "audio": "naa_talli_upadhyayuralu.mp3"
         },
         {
           "type": "phrase",
-          "text": "నీకు అన్నలు లేదా చెల్లెళ్ళు ఉన్నారా?",
+          "text": "உங்களுக்கு மூத்த சகோதரிகள் அல்லது சகோதரிகள் இருக்கிறார்களா?",
           "translatable": true,
           "lang": "te-IN",
-          "response": "అవును, నాకు ఒక చెల్లి ఉంది.",
+          "response": "ஆம், எனக்கு ஒரு சகோதரி இருக்கிறார்.",
           "response_translatable": true,
-          "audio": "neeku_anna_leka_chelli.mp3",
-          "translations": {
-            "ta-IN": "నీకు అన్నలు అన్నలు లేదా?",
-            "hi-IN": "నీకు నీకు లేదా ఉన్నారా ఉన్నారా?",
-            "te-IN": "నీకు అన్నలు లేదా చెల్లెళ్ళు చెల్లెళ్ళు?",
-            "en-IN": "నీకు అన్నలు లేదా చెల్లెళ్ళు ఉన్నారా?"
-          }
+          "audio": "neeku_anna_leka_chelli.mp3"
         },
         {
           "type": "phrase",
-          "text": "నా తల్లిదండ్రులు [Your City] లో నివసిస్తున్నారు.",
+          "text": "என் பெற்றோர் [உங்கள் நகரத்தில்] வசிக்கிறார்கள்.",
           "translatable": true,
           "lang": "te-IN",
-          "response": "చక్కని స్థలం!",
+          "response": "ஒரு நல்ல இடம்!",
           "response_translatable": true,
-          "audio": "naa_tallidandrulu.mp3",
-          "translations": {
-            "ta-IN": "నా తల్లిదండ్రులు [உங்கள் நகரம்] లో.",
-            "hi-IN": "నా నా [[आपका शहर] నివసిస్తున్నారు నివసిస్తున్నారు।",
-            "te-IN": "నా తల్లిదండ్రులు [మీ నగరం] లో.",
-            "en-IN": "నా తల్లిదండ్రులు [Your City] లో నివసిస్తున్నారు."
-          }
+          "audio": "naa_tallidandrulu.mp3"
         },
         {
           "type": "phrase",
-          "text": "నా అమ్మమ్మ మాతో నివసిస్తుంది.",
+          "text": "என் பாட்டி எங்களுடன் வசிக்கிறார்.",
           "translatable": true,
           "lang": "te-IN",
-          "response": "అది అద్భుతం!",
+          "response": "அது அருமை!",
           "response_translatable": true,
-          "audio": "naa_ammamma_mato.mp3",
-          "translations": {
-            "ta-IN": "నా అమ్మమ్మ.",
-            "hi-IN": "నా నా మాతో నివసిస్తుంది।",
-            "te-IN": "నా అమ్మమ్మ మాతో.",
-            "en-IN": "నా అమ్మమ్మ మాతో నివసిస్తుంది."
-          }
+          "audio": "naa_ammamma_mato.mp3"
         },
         {
           "type": "phrase",
-          "text": "నాకు పెద్ద కుటుంబం ఉంది.",
+          "text": "எனக்கு ஒரு பெரிய குடும்பம் உள்ளது.",
           "translatable": true,
           "lang": "te-IN",
-          "response": "అది సరదాగా ఉంటుంది!",
+          "response": "அது வேடிக்கையானது!",
           "response_translatable": true,
-          "audio": "naaku_pedda_kutumbam.mp3",
-          "translations": {
-            "ta-IN": "నాకు పెద్ద.",
-            "hi-IN": "నాకు నాకు కుటుంబం ఉంది।",
-            "te-IN": "నాకు పెద్ద కుటుంబం.",
-            "en-IN": "నాకు పెద్ద కుటుంబం ఉంది."
-          }
+          "audio": "naaku_pedda_kutumbam.mp3"
         },
         {
           "type": "phrase",
-          "text": "నా తల్లిదండ్రులు రిటైర్ అయ్యారు.",
+          "text": "என் பெற்றோர் ஓய்வு பெற்றனர்.",
           "translatable": true,
           "lang": "te-IN",
-          "response": "అది వారికి బాగుంది!",
+          "response": "அது அவர்களுக்கு நல்லது!",
           "response_translatable": true,
-          "audio": "naa_tallidandrulu_retire.mp3",
-          "translations": {
-            "ta-IN": "నా తల్లిదండ్రులు.",
-            "hi-IN": "నా నా రిటైర్ అయ్యారు।",
-            "te-IN": "నా తల్లిదండ్రులు రిటైర్.",
-            "en-IN": "నా తల్లిదండ్రులు రిటైర్ అయ్యారు."
-          }
+          "audio": "naa_tallidandrulu_retire.mp3"
         },
         {
           "type": "phrase",
-          "text": "నా చెల్లి నృత్యం చేయడం ఇష్టపడుతుంది.",
+          "text": "என் சகோதரி நடனமாட விரும்புகிறார்.",
           "translatable": true,
           "lang": "te-IN",
-          "response": "అది బాగుంది!",
+          "response": "அது நல்லது!",
           "response_translatable": true,
-          "audio": "naa_chelli_nrutya.mp3",
-          "translations": {
-            "ta-IN": "నా చెల్లి నృత్యం.",
-            "hi-IN": "నా నా చెల్లి ఇష్టపడుతుంది ఇష్టపడుతుంది।",
-            "te-IN": "నా చెల్లి నృత్యం చేయడం.",
-            "en-IN": "నా చెల్లి నృత్యం చేయడం ఇష్టపడుతుంది."
-          }
+          "audio": "naa_chelli_nrutya.mp3"
         },
         {
           "type": "phrase",
-          "text": "మా తాతయ్య కథలు చెబుతాడు.",
+          "text": "எங்கள் தாத்தா கதைகளைச் சொல்கிறார்.",
           "translatable": true,
           "lang": "te-IN",
-          "response": "అది సరదాగా ఉంటుంది!",
+          "response": "அது வேடிக்கையானது!",
           "response_translatable": true,
-          "audio": "naa_tatayya_kathalu.mp3",
-          "translations": {
-            "ta-IN": "మా తాతయ్య.",
-            "hi-IN": "మా మా కథలు చెబుతాడు।",
-            "te-IN": "మా తాతయ్య కథలు.",
-            "en-IN": "మా తాతయ్య కథలు చెబుతాడు."
-          }
+          "audio": "naa_tatayya_kathalu.mp3"
         },
         {
           "type": "dialogue",
@@ -1581,21 +1257,21 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "ఇది నా కుటుంబం. నాకు ఇద్దరు అన్నలు ఉన్నారు.",
+              "text": "இது எனது குடும்பம். எனக்கு இரண்டு மூத்த சகோதரர்கள் உள்ளனர்.",
               "translatable": true,
               "lang": "te-IN",
               "audio": "idi_naa_kutumbam_iddaru.mp3"
             },
             {
               "speaker": "B",
-              "text": "అది పెద్ద కుటుంబం! వారు ఏమి చేస్తారు?",
+              "text": "அது ஒரு பெரிய குடும்பம்! அவர்கள் என்ன செய்கிறார்கள்?",
               "translatable": true,
               "lang": "te-IN",
               "audio": "adi_pedda_kutumbam.mp3"
             },
             {
               "speaker": "A",
-              "text": "మా అన్న ఇంజనీర్, మరియు మా తమ్ముడు విద్యార్థి.",
+              "text": "எங்கள் சகோதரர் ஒரு பொறியாளர், எங்கள் தம்பி ஒரு மாணவர்.",
               "translatable": true,
               "lang": "te-IN",
               "audio": "naa_anna_engineer.mp3"
@@ -1608,14 +1284,14 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "ఇది నా తల్లి. ఆమె ఉపాధ్యాయురాలు.",
+              "text": "இது என் அம்மா. அவள் ஒரு ஆசிரியர்.",
               "translatable": true,
               "lang": "te-IN",
               "audio": "idi_naa_talli.mp3"
             },
             {
               "speaker": "B",
-              "text": "అది అద్భుతం! నీవు ఆమెతో సమయం గడుపుతావా?",
+              "text": "அது அருமை! அவளுடன் நேரம் செலவிடுவீர்களா?",
               "translatable": true,
               "lang": "te-IN",
               "audio": "adi_adbhutam_talli.mp3"
@@ -1628,14 +1304,14 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "నీకు అన్నలు లేదా చెల్లెళ్ళు ఉన్నారా?",
+              "text": "உங்களுக்கு மூத்த சகோதரிகள் அல்லது சகோதரிகள் இருக்கிறார்களா?",
               "translatable": true,
               "lang": "te-IN",
               "audio": "neeku_anna_chelli.mp3"
             },
             {
               "speaker": "B",
-              "text": "అవును, నాకు ఒక చెల్లి ఉంది.",
+              "text": "ஆம், எனக்கு ஒரு சகோதரி இருக்கிறார்.",
               "translatable": true,
               "lang": "te-IN",
               "audio": "avunu_okka_chelli.mp3"
@@ -1648,14 +1324,14 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "మా తండ్రి గారు డాక్టర్. ఆయన హైదరాబాద్‌లో పనిచేస్తారు.",
+              "text": "எங்கள் தந்தை ஒரு மருத்துவர். அவர் ஹைதராபாத்தில் பணிபுரிகிறார்.",
               "translatable": true,
               "lang": "te-IN",
               "audio": "naa_tandri_doctor_hyd.mp3"
             },
             {
               "speaker": "B",
-              "text": "మరి మీ అమ్మ గారు ఏమి చేస్తారు?",
+              "text": "உங்கள் அம்மா என்ன செய்கிறார்?",
               "translatable": true,
               "lang": "te-IN",
               "audio": "wow_adi_akattukuntundi.mp3"
@@ -1668,14 +1344,14 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "మా అమ్మమ్మ మాతో నివసిస్తుంది.",
+              "text": "எங்கள் பாட்டி எங்களுடன் வசிக்கிறார்.",
               "translatable": true,
               "lang": "te-IN",
               "audio": "naa_ammamma_mato.mp3"
             },
             {
               "speaker": "B",
-              "text": "అది అద్భుతం! ఆమె ఏమి చేస్తుంది?",
+              "text": "அது அருமை! அவள் என்ன செய்கிறாள்?",
               "translatable": true,
               "lang": "te-IN",
               "audio": "adi_adbhutam_amme.mp3"
@@ -1685,7 +1361,7 @@
         {
           "type": "exercise",
           "format": "match",
-          "prompt": "Match family terms to their descriptions",
+          "prompt": "குடும்ப விதிமுறைகளை அவர்களின் விளக்கங்களுடன் பொருத்துங்கள்",
           "prompt_translatable": true,
           "lang": "te-IN",
           "pairs": [
@@ -1714,7 +1390,7 @@
         {
           "type": "exercise",
           "format": "voice",
-          "prompt": "Say: ఇది నా కుటుంబం.",
+          "prompt": "சொல்லுங்கள்: இது என் குடும்பம்.",
           "prompt_translatable": true,
           "expected": "ఇది నా కుటుంబం.",
           "expected_translatable": true,
@@ -1723,7 +1399,7 @@
         {
           "type": "exercise",
           "format": "fill-in",
-          "prompt": "Complete: నాకు ఒక ___ ఉంది.",
+          "prompt": "முழுமையானது: எனக்கு ஒரு ___ உள்ளது.",
           "prompt_translatable": true,
           "answer": "చెల్లి",
           "answer_translatable": true,
@@ -1750,14 +1426,14 @@
         {
           "type": "exercise",
           "format": "type",
-          "prompt": "Type: నా తల్లి ఉపాధ్యాయురాలు.",
+          "prompt": "வகை: என் அம்மா ஒரு ஆசிரியர்.",
           "prompt_translatable": true,
           "lang": "te-IN"
         },
         {
           "type": "exercise",
           "format": "voice",
-          "prompt": "Say: నా తమ్ముడు విద్యార్థి.",
+          "prompt": "சொல்லுங்கள்: என் தம்பி ஒரு மாணவர்.",
           "prompt_translatable": true,
           "expected": "నా తమ్ముడు విద్యార్థి.",
           "expected_translatable": true,
@@ -1766,7 +1442,7 @@
         {
           "type": "exercise",
           "format": "fill-in",
-          "prompt": "Complete: నా ___ డాక్టర్.",
+          "prompt": "முழுமையானது: எனது ___ மருத்துவர்.",
           "prompt_translatable": true,
           "answer": "తండ్రి",
           "answer_translatable": true,
@@ -1793,7 +1469,7 @@
         {
           "type": "exercise",
           "format": "dialogue",
-          "prompt": "Complete the dialogue: A: నీకు అన్నలు లేదా చెల్లెళ్ళు ఉన్నారా? B: ___",
+          "prompt": "உரையாடலை முடிக்கவும்: ஒரு: உங்களுக்கு மூத்த சகோதரிகள் அல்லது சகோதரிகள் இருக்கிறார்களா? பி: ___",
           "prompt_translatable": true,
           "answer": "అవును, నాకు ఒక చెల్లి ఉంది.",
           "answer_translatable": true,
@@ -1804,7 +1480,7 @@
         {
           "type": "exercise",
           "format": "type",
-          "prompt": "Type: నాకు పెద్ద కుటుంబం ఉంది.",
+          "prompt": "வகை: எனக்கு ஒரு பெரிய குடும்பம் உள்ளது.",
           "prompt_translatable": true,
           "lang": "te-IN"
         }
@@ -1823,153 +1499,93 @@
       "content": [
         {
           "type": "phrase",
-          "text": "నీవు నాకు సహాయం చేయగలవా?",
+          "text": "நீங்கள் எனக்கு உதவ முடியுமா?",
           "translatable": true,
           "lang": "te-IN",
-          "response": "ఖచ్చితంగా! ఏమిటి?",
+          "response": "நிச்சயமாக! என்ன?",
           "response_translatable": true,
-          "audio": "neevu_naaku_sahayam.mp3",
-          "translations": {
-            "ta-IN": "నీవు నాకు నాకు?",
-            "hi-IN": "నీవు నీవు సహాయం చేయగలవా?",
-            "te-IN": "నీవు నాకు సహాయం?",
-            "en-IN": "నీవు నాకు సహాయం చేయగలవా?"
-          }
+          "audio": "neevu_naaku_sahayam.mp3"
         },
         {
           "type": "phrase",
-          "text": "ఇది ఎంత?",
+          "text": "அது எவ்வளவு?",
           "translatable": true,
           "lang": "te-IN",
-          "response": "ఇది ఐదు వందల రూపాయలు.",
+          "response": "இது ஐநூறு ரூபாய்.",
           "response_translatable": true,
-          "audio": "idi_entha.mp3",
-          "translations": {
-            "ta-IN": "ఇది ఇది?",
-            "hi-IN": "ఇది ఇది?",
-            "te-IN": "ఇది ఇది?",
-            "en-IN": "ఇది ఎంత?"
-          }
+          "audio": "idi_entha.mp3"
         },
         {
           "type": "phrase",
-          "text": "మీరు ఎక్కడ నివసిస్తారు?",
+          "text": "நீங்கள் எங்கே வாழ்கிறீர்கள்?",
           "translatable": true,
           "lang": "te-IN",
-          "response": "నేను హైదరాబాద్‌లో నివసిస్తాను.",
+          "response": "நான் ஹைதராபாத்தில் வசிக்கிறேன்.",
           "response_translatable": true,
-          "audio": "neevu_ekkada_nivasistavu.mp3",
-          "translations": {
-            "ta-IN": "మీరు ఎక్కడ?",
-            "hi-IN": "మీరు మీరు నివసిస్తారు?",
-            "te-IN": "మీరు ఎక్కడ ఎక్కడ?",
-            "en-IN": "మీరు ఎక్కడ నివసిస్తారు?"
-          }
+          "audio": "neevu_ekkada_nivasistavu.mp3"
         },
         {
           "type": "phrase",
-          "text": "సమయం ఎంత?",
+          "text": "எவ்வளவு நேரம்?",
           "translatable": true,
           "lang": "te-IN",
-          "response": "ఇప్పుడు మధ్యాహ్నం రెండు గంటలు.",
+          "response": "இப்போது பிற்பகல் இரண்டு மணி நேரம்.",
           "response_translatable": true,
-          "audio": "samayam_entha.mp3",
-          "translations": {
-            "ta-IN": "సమయం సమయం?",
-            "hi-IN": "సమయం సమయం?",
-            "te-IN": "సమయం సమయం?",
-            "en-IN": "సమయం ఎంత?"
-          }
+          "audio": "samayam_entha.mp3"
         },
         {
           "type": "phrase",
-          "text": "దయచేసి మీరు మళ్లీ చెప్పగలరా?",
+          "text": "மீண்டும் சொல்ல முடியுமா?",
           "translatable": true,
           "lang": "te-IN",
-          "response": "ఖచ్చితంగా!",
+          "response": "நிச்சயமாக!",
           "response_translatable": true,
-          "audio": "dayachesi_punaravrutam.mp3",
-          "translations": {
-            "ta-IN": "దయచేసి మీరు మీరు?",
-            "hi-IN": "దయచేసి దయచేసి మళ్లీ చెప్పగలరా?",
-            "te-IN": "దయచేసి మీరు మళ్లీ?",
-            "en-IN": "దయచేసి మీరు మళ్లీ చెప్పగలరా?"
-          }
+          "audio": "dayachesi_punaravrutam.mp3"
         },
         {
           "type": "phrase",
-          "text": "నేను బస్సు స్టాప్‌కు ఎలా వెళ్ళగలను?",
+          "text": "நான் எப்படி பஸ் நிறுத்தத்திற்கு செல்ல முடியும்?",
           "translatable": true,
           "lang": "te-IN",
-          "response": "ఈ రోడ్డు నేరుగా వెళ్ళు, తర్వాత కుడివైపు తిరుగు.",
+          "response": "இந்த சாலைக்கு நேராகச் சென்று, பின்னர் வலதுபுறம் திரும்பவும்.",
           "response_translatable": true,
-          "audio": "nenu_bus_stopku.mp3",
-          "translations": {
-            "ta-IN": "నేను బస్సు బస్సు స్టాప్‌కు?",
-            "hi-IN": "నేను నేను స్టాప్‌కు వెళ్ళగలను వెళ్ళగలను?",
-            "te-IN": "నేను బస్సు స్టాప్‌కు ఎలా ఎలా?",
-            "en-IN": "నేను బస్సు స్టాప్‌కు ఎలా వెళ్ళగలను?"
-          }
+          "audio": "nenu_bus_stopku.mp3"
         },
         {
           "type": "phrase",
-          "text": "ఈ రెస్టారెంట్ ఎక్కడ ఉంది?",
+          "text": "இந்த உணவகம் எங்கே?",
           "translatable": true,
           "lang": "te-IN",
-          "response": "ఇది తర్వాత వీధిలో ఉంది.",
+          "response": "அது பின்னர் தெருவில் இருந்தது.",
           "response_translatable": true,
-          "audio": "ee_restaurant_ekkada.mp3",
-          "translations": {
-            "ta-IN": "ఈ రెస్టారెంట్ రెస్టారెంట్?",
-            "hi-IN": "ఈ ఈ ఎక్కడ ఉంది?",
-            "te-IN": "ఈ రెస్టారెంట్ ఎక్కడ?",
-            "en-IN": "ఈ రెస్టారెంట్ ఎక్కడ ఉంది?"
-          }
+          "audio": "ee_restaurant_ekkada.mp3"
         },
         {
           "type": "phrase",
-          "text": "నీవు ఏమి చేస్తావు?",
+          "text": "நீங்கள் என்ன செய்கிறீர்கள்?",
           "translatable": true,
           "lang": "te-IN",
-          "response": "నేను ఇంజనీర్‌గా పనిచేస్తాను.",
+          "response": "நான் ஒரு பொறியாளராக வேலை செய்கிறேன்.",
           "response_translatable": true,
-          "audio": "neevu_emi_chestavu.mp3",
-          "translations": {
-            "ta-IN": "నీవు ఏమి?",
-            "hi-IN": "నీవు నీవు చేస్తావు?",
-            "te-IN": "నీవు ఏమి ఏమి?",
-            "en-IN": "నీవు ఏమి చేస్తావు?"
-          }
+          "audio": "neevu_emi_chestavu.mp3"
         },
         {
           "type": "phrase",
-          "text": "నాకు ఒక నీళ్ళ బాటిల్ ఇవ్వగలవా?",
+          "text": "எனக்கு ஒரு பாட்டில் தண்ணீர் கொடுக்க முடியுமா?",
           "translatable": true,
           "lang": "te-IN",
-          "response": "ఇక్కడ ఉంది.",
+          "response": "இங்கே.",
           "response_translatable": true,
-          "audio": "naaku_neella_bottle.mp3",
-          "translations": {
-            "ta-IN": "నాకు ఒక ఒక నీళ్ళ?",
-            "hi-IN": "నాకు నాకు నీళ్ళ ఇవ్వగలవా ఇవ్వగలవా?",
-            "te-IN": "నాకు ఒక నీళ్ళ బాటిల్ బాటిల్?",
-            "en-IN": "నాకు ఒక నీళ్ళ బాటిల్ ఇవ్వగలవా?"
-          }
+          "audio": "naaku_neella_bottle.mp3"
         },
         {
           "type": "phrase",
-          "text": "నీవు ఈ రోజు ఏమి చేస్తున్నావు?",
+          "text": "இன்று நீங்கள் என்ன செய்கிறீர்கள்?",
           "translatable": true,
           "lang": "te-IN",
-          "response": "నేను స్నేహితులను కలుస్తున్నాను.",
+          "response": "நான் நண்பர்களைச் சந்திக்கிறேன்.",
           "response_translatable": true,
-          "audio": "neevu_ee_roju_emi.mp3",
-          "translations": {
-            "ta-IN": "నీవు ఈ ఈ రోజు?",
-            "hi-IN": "నీవు నీవు రోజు చేస్తున్నావు చేస్తున్నావు?",
-            "te-IN": "నీవు ఈ రోజు ఏమి ఏమి?",
-            "en-IN": "నీవు ఈ రోజు ఏమి చేస్తున్నావు?"
-          }
+          "audio": "neevu_ee_roju_emi.mp3"
         },
         {
           "type": "dialogue",
@@ -1977,14 +1593,14 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "నమస్తే, బస్సు స్టాప్‌కు ఎలా వెళ్ళగలను?",
+              "text": "நமஸ்தே, நான் எப்படி பஸ் நிறுத்தத்திற்கு செல்ல முடியும்?",
               "translatable": true,
               "lang": "te-IN",
               "audio": "namaste_bus_stopku.mp3"
             },
             {
               "speaker": "B",
-              "text": "ఈ రోడ్డు నేరుగా వెళ్ళు, తర్వాత కుడివైపు తిరుగు.",
+              "text": "இந்த சாலைக்கு நேராகச் சென்று, பின்னர் வலதுபுறம் திரும்பவும்.",
               "translatable": true,
               "lang": "te-IN",
               "audio": "ee_roaddu_neruga.mp3"
@@ -1997,21 +1613,21 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "ఈ చొక్కా ఎంత?",
+              "text": "இந்த சட்டை எவ்வளவு?",
               "translatable": true,
               "lang": "te-IN",
               "audio": "ee_chokka_entha.mp3"
             },
             {
               "speaker": "B",
-              "text": "ఇది వెయ్యి రూపాయలు.",
+              "text": "இது ஆயிரம் ரூபாய்.",
               "translatable": true,
               "lang": "te-IN",
               "audio": "idi_veyyi_rupayalu.mp3"
             },
             {
               "speaker": "A",
-              "text": "ధన్యవాదాలు, నేను తీసుకుంటాను.",
+              "text": "நன்றி, நான் அதை எடுத்துக்கொள்வேன்.",
               "translatable": true,
               "lang": "te-IN",
               "audio": "dhanyavadalu_tisukuntanu.mp3"
@@ -2024,14 +1640,14 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "సమయం ఎంత?",
+              "text": "எவ்வளவு நேரம்?",
               "translatable": true,
               "lang": "te-IN",
               "audio": "samayam_entha_dialogue.mp3"
             },
             {
               "speaker": "B",
-              "text": "ఇప్పుడు సాయంత్రం ఆరు గంటలు.",
+              "text": "இப்போது மாலை ஆறு மணி.",
               "translatable": true,
               "lang": "te-IN",
               "audio": "ippudu_sayantram_aru.mp3"
@@ -2044,14 +1660,14 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "మీరు నాకు సహాయం చేయగలరా? నాకు టికెట్ కావాలి.",
+              "text": "நீங்கள் எனக்கு உதவ முடியுமா? எனக்கு ஒரு டிக்கெட் வேண்டும்.",
               "translatable": true,
               "lang": "te-IN",
               "audio": "neevu_naaku_sahayam_ticket.mp3"
             },
             {
               "speaker": "B",
-              "text": "ఖచ్చితంగా, టికెట్ కౌంటర్ అక్కడ ఉంది.",
+              "text": "நிச்சயமாக, டிக்கெட் கவுண்டர் உள்ளது.",
               "translatable": true,
               "lang": "te-IN",
               "audio": "khachchitanga_ticket_counter.mp3"
@@ -2064,14 +1680,14 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "నువ్వు ఈ రోజు ఏమి చేస్తున్నావు?",
+              "text": "இன்று நீங்கள் என்ன செய்கிறீர்கள்?",
               "translatable": true,
               "lang": "te-IN",
               "audio": "neevu_ee_roju_emi_dialogue.mp3"
             },
             {
               "speaker": "B",
-              "text": "నేను స్నేహితులను కలుస్తున్నాను.",
+              "text": "நான் நண்பர்களைச் சந்திக்கிறேன்.",
               "translatable": true,
               "lang": "te-IN",
               "audio": "nenu_snehitulato.mp3"
@@ -2081,7 +1697,7 @@
         {
           "type": "exercise",
           "format": "match",
-          "prompt": "Match phrases to responses",
+          "prompt": "பதில்களுடன் சொற்றொடர்களை பொருத்துங்கள்",
           "prompt_translatable": true,
           "lang": "te-IN",
           "pairs": [
@@ -2105,7 +1721,7 @@
         {
           "type": "exercise",
           "format": "voice",
-          "prompt": "Say: మీరు నాకు సహాయం చేయగలరా?",
+          "prompt": "சொல்லுங்கள்: நீங்கள் எனக்கு உதவ முடியுமா?",
           "prompt_translatable": true,
           "expected": "మీరు నాకు సహాయం చేయగలరా?",
           "expected_translatable": true,
@@ -2114,7 +1730,7 @@
         {
           "type": "exercise",
           "format": "fill-in",
-          "prompt": "Complete: ___ ఎంత?",
+          "prompt": "முழுமையானது: ___ எவ்வளவு?",
           "prompt_translatable": true,
           "answer": "ఇది",
           "answer_translatable": true,
@@ -2141,14 +1757,14 @@
         {
           "type": "exercise",
           "format": "type",
-          "prompt": "Type: నేను బస్సు స్టాప్‌కు ఎలా వెళ్ళగలను?",
+          "prompt": "வகை: நான் எப்படி பஸ் நிறுத்தத்திற்கு செல்ல முடியும்?",
           "prompt_translatable": true,
           "lang": "te-IN"
         },
         {
           "type": "exercise",
           "format": "voice",
-          "prompt": "Say: ఈ రెస్టారెంట్ ఎక్కడ ఉంది?",
+          "prompt": "சொல்லுங்கள்: இந்த உணவகம் எங்கே?",
           "prompt_translatable": true,
           "expected": "ఈ రెస్టారెంట్ ఎక్కడ ఉంది?",
           "expected_translatable": true,
@@ -2157,7 +1773,7 @@
         {
           "type": "exercise",
           "format": "fill-in",
-          "prompt": "Complete: మీరు ___ నివసిస్తున్నారు?",
+          "prompt": "முழுமையானது: நீங்கள் ___ வாழ்கிறீர்களா?",
           "prompt_translatable": true,
           "answer": "ఎక్కడ",
           "answer_translatable": true,
@@ -2168,7 +1784,7 @@
         {
           "type": "exercise",
           "format": "type",
-          "prompt": "Type: దయచేసి మీరు మళ్లీ చెప్పగలరా?",
+          "prompt": "வகை: மீண்டும் உங்களுக்குச் சொல்ல முடியுமா?",
           "prompt_translatable": true,
           "lang": "te-IN"
         }

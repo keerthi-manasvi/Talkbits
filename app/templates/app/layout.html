@@ -6,15 +6,28 @@
     <meta charset="UTF-8">
     <title>{% block title %} Learn Languages Like a Pro{% endblock %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <style>
         body {
             font-family: 'Inter', sans-serif;
         }
     </style>
+    {% load static %}
+
+    <script id="translation-data" type="application/json">
+          {{ translations|default:"{}"|safe }}
+
+</script>
+
+    <script>
+        const targetLang = "{{ target_lang }}";  // or dynamically set
+    </script>
+
+    <script src="{% static 'script.js' %}"></script>
     {% block head %}{% endblock %}
 </head>
 
