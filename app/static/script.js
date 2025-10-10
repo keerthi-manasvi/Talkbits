@@ -22,3 +22,23 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+// --- Audio Playback Control: ensure only one audio plays at a time ---
+(function () {
+  function enableSingleAudioPlayback() {
+    const audios = Array.from(document.querySelectorAll('audio'));
+    audios.forEach(a => {
+      a.addEventListener('play', () => {
+        audios.forEach(other => {
+          if (other !== a) other.pause();
+        });
+      });
+    });
+  }
+
+  if (document.readyState === 'complete' || document.readyState === 'interactive') {
+    enableSingleAudioPlayback();
+  } else {
+    document.addEventListener('DOMContentLoaded', enableSingleAudioPlayback);
+  }
+})();
