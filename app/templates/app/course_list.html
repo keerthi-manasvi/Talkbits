@@ -1,0 +1,32 @@
+{% extends 'app/layout.html' %}
+
+{% block title %}Course List{% endblock %}
+
+{% block content %}
+<!-- Messages -->
+{% if messages %}
+<div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded-md mb-8 max-w-lg mx-auto">
+    {% for message in messages %}
+    <p>{{ message }}</p>
+    {% endfor %}
+</div>
+{% endif %}
+
+
+<div class="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-emerald-100 py-12 px-4">
+    <div class="max-w-md w-full text-center">
+        <div class="w-24 h-24 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
+            <span class="text-4xl">🦜</span>
+        </div>
+        <h2 class="text-2xl font-bold mb-6">Select a Language Course</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {% for lang in languages %}
+            <a href="{% url 'register' lang %}"
+                class="bg-white shadow p-4 rounded text-center hover:bg-blue-50 font-medium text-blue-700">
+                {{ lang }}
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}

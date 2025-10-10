@@ -1,0 +1,30 @@
+{% extends "app/layout.html" %}
+{% block title %}Courses{% endblock %}
+
+{% block content %}
+
+<div class="min-h-screen bg-gray-50 flex flex-col items-center py-12">
+    <h1 class="text-3xl font-bold text-gray-800 mb-8">My Courses</h1>
+
+    {% if registrations %}
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-11/12 max-w-5xl">
+        {% for reg in registrations %}
+        <a href="{% url 'unit_list' reg.learning_language %}"
+            class="group block p-6 bg-white border border-gray-200 rounded-2xl shadow hover:shadow-lg hover:bg-indigo-50 transition-all duration-200">
+            <h2 class="text-xl font-semibold text-gray-800 group-hover:text-indigo-600">
+                {{ reg.learning_language|title }}
+            </h2>
+            <p class="mt-2 text-gray-500">View all units and lessons for {{ reg.learning_language|title }}.</p>
+        </a>
+        {% endfor %}
+    </div>
+    {% else %}
+    <p class="text-gray-600 text-lg">You haven’t registered for any courses yet.</p>
+    <a href="{% url 'register' %}"
+        class="mt-4 inline-block bg-indigo-600 text-white px-5 py-2 rounded-lg hover:bg-indigo-700 transition">
+        Register Now
+    </a>
+    {% endif %}
+</div>
+
+{% endblock %}

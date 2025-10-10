@@ -66,3 +66,17 @@ class UserProgress(models.Model):
     def mark_exercise_submitted(self, lesson_id):
         self.exercises_submitted[str(lesson_id)] = True
         self.save()
+
+
+class LanguageRegistration(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    learning_language = models.CharField(max_length=100)
+    known_language = models.CharField(max_length=100)
+    date_registered = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        unique_together = ('user', 'learning_language')  # prevents duplicate registration
+
+    def __str__(self):
+        return f"{self.user.username} learns {self.learning_language} via {self.known_language}"
+

@@ -46,9 +46,6 @@
                     </p>
                 </div>
             </div>
-            <div class="mt-6">
-                edit profile here
-            </div>
         </div>
 
         <!-- Learning Progress -->
@@ -57,14 +54,20 @@
             <div class="space-y-4">
                 <div>
                     <span class="block text-sm font-medium text-gray-600">Courses Enrolled</span>
-                    <p class="text-lg text-gray-900">{% if user.profile.courses %}{{ user.profile.courses }}
-                        {% else %}None yet{% endif %}</p>
+                    {% if registrations %}
+                    <ul class="list-disc list-inside text-blue-900 mt-1">
+                        {% for reg in registrations %}
+                        <li class="hover:text-indigo-600">
+                            <a href="{% url 'unit_list' reg.learning_language %}">
+                                {{ reg.learning_language|title }}
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    {% else %}
+                    <p class="text-gray-500 mt-1">None yet</p>
+                    {% endif %}
                 </div>
-
-
-            </div>
-            <div class="mt-6">
-                courses here
             </div>
         </div>
 

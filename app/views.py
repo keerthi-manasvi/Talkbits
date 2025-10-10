@@ -11,15 +11,55 @@ from django.contrib.auth.tokens import default_token_generator
 from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
 from django.utils.encoding import force_bytes, force_str
 from django.contrib.auth.decorators import login_required
+from .forms import LanguageRegistrationForm
 import json
 import os
 
 def index(request):
     return render(request, 'app/index.html')
 
+from django.contrib.auth.decorators import login_required
+from django.contrib import messages
+from django.shortcuts import render, redirect
+from .models import LanguageRegistration
+from .forms import LanguageRegistrationForm  # assuming this exists
+
+@login_required
+def register_language(request, language):
+    if LanguageRegistration.objects.filter(user=request.user, learning_language=language).exists():
+        messages.error(request, f"You are already registered for {language}.")
+        return redirect('course_list')
+    if request.method == 'POST':
+        form = LanguageRegistrationForm(request.POST, user=request.user)
+        if form.is_valid():
+            registration = form.save(commit=False)
+            registration.user = request.user
+            registration.save()
+            return redirect('registration_success', language=registration.learning_language)
+    else:
+        # Pre-fill the hidden field with the passed language
+        form = LanguageRegistrationForm(initial={'learning_language': language}, user=request.user)
+
+    registrations = LanguageRegistration.objects.filter(user=request.user)
+    return render(request, 'app/register.html', {
+        'form': form,
+        'registrations': registrations,
+        'language': language
+    })
+
+def my_courses(request):
+    
+    # Get all courses registered by the user
+    registrations = LanguageRegistration.objects.filter(user=request.user)    
+    return render(request, "app/my_courses.html", {"registrations": registrations})
+
+@login_required
+def registration_success(request, language):
+    return render(request, 'app/registration_success.html', {'language': language})
+
 def signin_view(request):
     if request.user.is_authenticated:
-        return redirect('index')  # Redirect authenticated users to homepage
+        return redirect('course_list')  # Redirect authenticated users to homepage
 
     if request.method == 'POST':
         username = request.POST.get('username')  # Supports email or phone
@@ -41,7 +81,7 @@ def signin_view(request):
 
 def signup_view(request):
     if request.user.is_authenticated:
-        return redirect('index')  # Redirect authenticated users to homepage
+        return redirect('course_list')  # Redirect authenticated users to homepage
 
     if request.method == 'POST':
         name = request.POST.get('name')
@@ -129,8 +169,10 @@ def verify_email(request, uidb64, token):
 
 @login_required
 def profile(request):
-    return render(request, 'app/profile.html')
-
+    registrations = LanguageRegistration.objects.filter(user=request.user)
+    return render(request, "app/profile.html", {
+        "registrations": registrations
+    })
 def logout_view(request):
     logout(request)  # Log out the user
     return render(request, 'app/logout.html')
@@ -152,10 +194,10 @@ def load_json(language: str) -> dict:
         print(f"⚠️ JSON decode error in {language}.json: {e}")
         return {"lessons": []}
 
-@login_required
+
 def course_list(request):
     languages = ['Telugu', 'Hindi', 'English', 'Tamil']
-    return render(request, 'app/index.html', {'languages': languages})
+    return render(request, 'app/course_list.html', {'languages': languages})
 
 @login_required
 def unit_list(request, language):

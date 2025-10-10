@@ -1,22 +1,10 @@
-{% extends "app/layout.html" %}
-
-{% block title %}Index{% endblock %}
-
+{% extends 'app/layout.html' %}
 {% block content %}
-<div class="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-emerald-100 py-12 px-4">
-    <div class="max-w-md w-full text-center">
-        <div class="w-24 h-24 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
-            <span class="text-4xl">🦜</span>
-        </div>
-        <h2 class="text-2xl font-bold mb-6">Select a Language Course</h2>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {% for lang in languages %}
-            <a href="{% url 'unit_list' lang %}"
-                class="bg-white shadow p-4 rounded text-center hover:bg-blue-50 font-medium text-blue-700">
-                {{ lang }}
-            </a>
-            {% endfor %}
-        </div>
-    </div>
-</div>
+<h2 class="text-2xl font-bold mb-4">Welcome</h2>
+<p class="mb-6 text-gray-700">Learn Telugu, Hindi, English, and Tamil like a pro. Sign up or log in to begin your
+    journey!</p>
+<a href="{% url 'signup' %}" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Get Started</a>
+<a href="{% url 'course_list' %}" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Browse
+    Courses</a>
+
 {% endblock %}

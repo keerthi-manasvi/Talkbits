@@ -5,7 +5,7 @@ from deep_translator import GoogleTranslator
 # -----------------------------
 # Config
 # -----------------------------
-INPUT_FILE = "lessons/telugu.json"      # your input file
+INPUT_FILE = "lessons/tamil.json"      # your input file
 TARGET_LANG = "hindi"                  # language to translate into
 OUTPUT_FILE = "lessons/telugu_translated_to_hindi.json"  # output file
 
