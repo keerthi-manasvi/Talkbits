@@ -1,0 +1,2400 @@
+{
+  "language": "english",
+  "unit": 1,
+  "title": "English Conversational Foundations",
+  "description": "Master essential English greetings, introductions, family terms, and daily interactions with support for automatic translation into Hindi, Telugu, Tamil, or other languages.",
+  "translation_config": {
+    "source_lang": "en-IN",
+    "supported_target_langs": [
+      "hi-IN",
+      "te-IN",
+      "ta-IN"
+    ],
+    "translatable_fields": [
+      "word",
+      "example",
+      "text",
+      "response",
+      "prompt",
+      "answer",
+      "question",
+      "options",
+      "lines.text",
+      "cultural_notes"
+    ]
+  },
+  "lessons": [
+    {
+      "lesson": 1,
+      "title": "Greetings",
+      "skills": [
+        "Vocabulary",
+        "Phrases",
+        "Pronunciation",
+        "Cultural Context"
+      ],
+      "content": [
+        {
+          "type": "vocab",
+          "word": "नमस्ते",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "नमस्ते, आपको देखकर अच्छा लगा!",
+          "example_translatable": true,
+          "audio": "hello.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "नमस्ते",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "नमस्ते कैसा चल रहा है?",
+          "example_translatable": true,
+          "audio": "hi.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "शुभ प्रभात",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "सुप्रभात आपका दिन शुभ रहे!",
+          "example_translatable": true,
+          "audio": "good_morning.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "शुभ दोपहर",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "शुभ दोपहर, मैं आपकी कैसे मदद कर सकता हूँ?",
+          "example_translatable": true,
+          "audio": "good_afternoon.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "शुभ संध्या",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "शुभ संध्या, कार्यक्रम में आपका स्वागत है!",
+          "example_translatable": true,
+          "audio": "good_evening.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "शुभ रात्रि",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "शुभ रात्रि अच्छी तरह से नींद लें!",
+          "example_translatable": true,
+          "audio": "good_night.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "धन्यवाद",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "आपकी मदद के लिए आपको धन्यवाद।",
+          "example_translatable": true,
+          "audio": "thank_you.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "कृपया",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "कृपया अंदर आएं।",
+          "example_translatable": true,
+          "audio": "please.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "क्षमा मांगना",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "क्षमा करें, मेरा इरादा बीच में रोकने का नहीं था।",
+          "example_translatable": true,
+          "audio": "sorry.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "अलविदा",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "अलविदा, जल्द मिलते हैं!",
+          "example_translatable": true,
+          "audio": "goodbye.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "आप कैसे हैं?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "मैं ठीक हूं धन्यवाद!",
+          "response_translatable": true,
+          "audio": "how_are_you.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "आपसे मिलकर अच्छा लगा!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "आपसे मिलकर भी अच्छा लगा!",
+          "response_translatable": true,
+          "audio": "nice_to_meet_you.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "आपका दिन अच्छा रहे!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "धन्यवाद और आपको भी!",
+          "response_translatable": true,
+          "audio": "have_a_great_day.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "बाद में मिलते हैं!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "अलविदा!",
+          "response_translatable": true,
+          "audio": "see_you_later.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "ये कैसा चल रहा है?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "बहुत अच्छा, धन्यवाद!",
+          "response_translatable": true,
+          "audio": "hows_it_going.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "अपना ध्यान रखना!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "आप भी!",
+          "response_translatable": true,
+          "audio": "take_care.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "क्या चल रहा है?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "आप ज़्यादा नहीं?",
+          "response_translatable": true,
+          "audio": "whats_up.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "आपको देखकर अच्छा लगा!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "आप भी!",
+          "response_translatable": true,
+          "audio": "good_to_see_you.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "आपसे मिलने की उम्मीद है!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "निश्चित रूप से!",
+          "response_translatable": true,
+          "audio": "hope_to_see_you.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "आपकी शाम अच्छी बीते!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "धन्यवाद!",
+          "response_translatable": true,
+          "audio": "have_nice_evening.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "आपका दिन कैसा चल रहा है?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "ठीक चल रहा है!",
+          "response_translatable": true,
+          "audio": "hows_your_day.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "कल मिलते हैं!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "ठीक है अलविदा!",
+          "response_translatable": true,
+          "audio": "see_you_tomorrow.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "तुम्हारी रात अच्छी बीते!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "आप भी!",
+          "response_translatable": true,
+          "audio": "have_good_night.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "अरे तुम कैसे कर रहे हो?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "बहुत अच्छा कर रहे हैं, धन्यवाद!",
+          "response_translatable": true,
+          "audio": "hey_how_are_you.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "अब के लिए अलविदा!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "फिर मिलते हैं!",
+          "response_translatable": true,
+          "audio": "goodbye_for_now.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "शानदार दिन हो!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "बहुत-बहुत धन्यवाद!",
+          "response_translatable": true,
+          "audio": "have_wonderful_day.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "बाद में मिलते हैं!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "अवश्य!",
+          "response_translatable": true,
+          "audio": "catch_you_later.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "सब कैसे चल रहा है?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "सब कुछ अच्छा है.",
+          "response_translatable": true,
+          "audio": "hows_everything.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "आपसे दोबारा मिलना अच्छा लगा!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "यहाँ भी ऐसा ही!",
+          "response_translatable": true,
+          "audio": "nice_to_see_again.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "आराम से लो!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "करूंगा!",
+          "response_translatable": true,
+          "audio": "take_it_easy.mp3"
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Meeting a friend at a cafe",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "नमस्ते! आज आप कैसे हैं?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hi_how_are_you.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "धन्यवाद, में ठीक हु! आपसे मिलकर अच्छा लगा!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "im_great.mp3"
+            },
+            {
+              "speaker": "A",
+              "text": "आपको देखकर भी अच्छा लगा!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "good_to_see_you_too.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Greeting a colleague",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "शुभ प्रभात! बैठक के लिए तैयार हैं?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "good_morning_meeting.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "शुभ प्रभात! हां मैं तैयार हूं। आप?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "good_morning_yes_im_ready_you.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Saying goodbye after class",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "बाद में मिलते हैं!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "see_you_later_class.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "अलविदा, आपका दिन शुभ हो!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "bye_have_great_day.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Meeting a stranger at an event",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "नमस्कार, आपसे मिलकर अच्छा लगा!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hello_nice_to_meet.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "हाय तुमसे भी मिलकर अच्छा लगा!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hi_nice_to_meet_too.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Greeting a neighbor",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "शुभ दोपहर! सब कैसे चल रहा है?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "good_afternoon_hows_everything.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "सब कुछ अच्छा है, धन्यवाद!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "everythings_good.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Saying goodbye at a store",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "धन्यवाद आपका दिन शुभ हो!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "thank_you_great_day.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "आप भी!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "you_too.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Meeting a friend at a park",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "क्या चल रहा है?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hey_whats_up.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "ज्यादा नहीं, बस ठंडक है।",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "not_much_chilling.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Greeting a teacher",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "सुप्रभात आप कैसे हैं?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "good_morning_teacher.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "मैं ठीक हूं धन्यवाद!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "im_fine_teacher.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Leaving a party",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "अलविदा, ध्यान रखना!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "goodbye_take_care.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "आप भी, जल्द ही मिलते हैं!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "you_too_see_soon.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Meeting someone at a bus stop",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "नमस्ते कैसा चल रहा है?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hi_hows_it_going.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "बहुत अच्छा, धन्यवाद!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "pretty_good_thanks.mp3"
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "वाक्यांशों को प्रतिक्रियाओं से मिलाएँ",
+          "prompt_translatable": true,
+          "lang": "en-IN",
+          "pairs": [
+            {
+              "word": "How are you?",
+              "match": "I’m fine, thank you!",
+              "translatable": true
+            },
+            {
+              "word": "Nice to meet you!",
+              "match": "Nice to meet you too!",
+              "translatable": true
+            },
+            {
+              "word": "Have a great day!",
+              "match": "Thanks, you too!",
+              "translatable": true
+            },
+            {
+              "word": "See you later!",
+              "match": "Bye!",
+              "translatable": true
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "कहो: आपसे मिलकर अच्छा लगा!",
+          "prompt_translatable": true,
+          "expected": "Nice to meet you!",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "पूर्ण: ___ क्या आप हैं?",
+          "prompt_translatable": true,
+          "answer": "How",
+          "answer_translatable": true,
+          "hint": "Asking about someone’s well-being",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to greet someone in the evening?",
+          "question_translatable": true,
+          "answer": "Good evening",
+          "answer_translatable": true,
+          "options": [
+            "Good morning",
+            "Good evening",
+            "Hello",
+            "Goodbye"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "प्रकार: आप कैसे हैं?",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "सुप्रभात कहो!",
+          "prompt_translatable": true,
+          "expected": "Good morning!",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "पूर्ण: ___ आप बाद में!",
+          "prompt_translatable": true,
+          "answer": "See",
+          "answer_translatable": true,
+          "hint": "A casual goodbye",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to apologize?",
+          "question_translatable": true,
+          "answer": "Sorry",
+          "answer_translatable": true,
+          "options": [
+            "Thank you",
+            "Please",
+            "Sorry",
+            "Goodbye"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "संवाद पूरा करें: A: नमस्ते! आप कैसे हैं? बी: ___",
+          "prompt_translatable": true,
+          "answer": "I’m fine, thank you!",
+          "answer_translatable": true,
+          "hint": "Respond to a greeting",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "प्रकार: आपका दिन शुभ हो!",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "कहो: ध्यान रखना!",
+          "prompt_translatable": true,
+          "expected": "Take care!",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "पूर्ण: अच्छा ___!",
+          "prompt_translatable": true,
+          "answer": "night",
+          "answer_translatable": true,
+          "hint": "A nighttime greeting",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to wish someone well?",
+          "question_translatable": true,
+          "answer": "Have a great day!",
+          "answer_translatable": true,
+          "options": [
+            "How are you?",
+            "Have a great day!",
+            "Goodbye",
+            "Sorry"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "संवाद पूरा करें: A: कल मिलते हैं! बी: ___",
+          "prompt_translatable": true,
+          "answer": "Okay, bye!",
+          "answer_translatable": true,
+          "hint": "A response to a goodbye",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "वाक्यांशों को प्रतिक्रियाओं से मिलाएँ",
+          "prompt_translatable": true,
+          "pairs": [
+            {
+              "word": "What’s up?",
+              "match": "Not much, you?",
+              "translatable": true
+            },
+            {
+              "word": "Good to see you!",
+              "match": "You too!",
+              "translatable": true
+            }
+          ],
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "कहो: आपकी शाम शुभ हो!",
+          "prompt_translatable": true,
+          "expected": "Have a nice evening!",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "पूर्ण: ___आपसे मिलने के लिए!",
+          "prompt_translatable": true,
+          "answer": "Nice",
+          "answer_translatable": true,
+          "hint": "A polite greeting",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to greet someone casually?",
+          "question_translatable": true,
+          "answer": "What’s up?",
+          "answer_translatable": true,
+          "options": [
+            "Good night",
+            "What’s up?",
+            "Thank you",
+            "Please"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "प्रकार: आपको देखकर अच्छा लगा!",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "संवाद पूरा करें: उत्तर: आपका दिन शुभ हो! बी: ___",
+          "prompt_translatable": true,
+          "answer": "Thanks, you too!",
+          "answer_translatable": true,
+          "hint": "A polite response",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "कहो: कैसा चल रहा है?",
+          "prompt_translatable": true,
+          "expected": "How’s it going?",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "पूर्ण: ___देखभाल!",
+          "prompt_translatable": true,
+          "answer": "Take",
+          "answer_translatable": true,
+          "hint": "A farewell phrase",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to greet someone in the afternoon?",
+          "question_translatable": true,
+          "answer": "Good afternoon",
+          "answer_translatable": true,
+          "options": [
+            "Good morning",
+            "Good afternoon",
+            "Good night",
+            "Hello"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        }
+      ],
+      "cultural_notes": "In English-speaking cultures, greetings vary by time of day (e.g., 'Good morning' before noon, 'Good evening' after 6 PM). A smile, wave, or handshake is common, especially in formal settings. Casual greetings like 'Hi' or 'What’s up?' are popular among friends.",
+      "cultural_notes_translatable": true
+    },
+    {
+      "lesson": 2,
+      "title": "Self Introduction",
+      "skills": [
+        "Phrases",
+        "Grammar",
+        "Pronunciation"
+      ],
+      "content": [
+        {
+          "type": "phrase",
+          "text": "मेरा नाम [आपका नाम] है।",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "आपसे मिलकर अच्छा लगा!",
+          "response_translatable": true,
+          "audio": "my_name_is.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मैं [आपके शहर] से हूं।",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "यह तो दिलचस्प है!",
+          "response_translatable": true,
+          "audio": "i_am_from.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मैं पढ़ता हूं।",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "ठंडा! आप क्या पढ़ रहे हैं?",
+          "response_translatable": true,
+          "audio": "i_am_a_student.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मैं एक शिक्षक हूं।",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "यह बहुत अच्छा है! आपका पढ़ाने का विषय क्या है?",
+          "response_translatable": true,
+          "audio": "i_work_as_teacher.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मैं किताबें पढ़ना पसंद करता हूं।",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "अच्छा! आप कौन सी किताबें पढ़ते हैं?",
+          "response_translatable": true,
+          "audio": "i_like_to_read.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मैं [आपके शहर] में रहता हूँ।",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "मुझे वह शहर बहुत पसंद है!",
+          "response_translatable": true,
+          "audio": "i_live_in.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मैं अमेरिका से हूं।",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "वाह, यह बहुत दूर है!",
+          "response_translatable": true,
+          "audio": "i_am_from_us.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मै एक इंजीनियर हूँ।",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "यह प्रभावशाली था!",
+          "response_translatable": true,
+          "audio": "i_am_an_engineer.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मेरा शौक पेंटिंग करना है.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "वह रचनात्मक है!",
+          "response_translatable": true,
+          "audio": "my_hobby_painting.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मुझे यात्रा करना पसन्द है।",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "आप किन स्थानों पर गए?",
+          "response_translatable": true,
+          "audio": "i_like_to_travel.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मैं जीवविज्ञान का अध्ययन करता हूं।",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "यह दिलचस्प लगता है!",
+          "response_translatable": true,
+          "audio": "i_study_biology.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मैं एक ऑफिस में काम करता हूं।",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "आप वहाँ क्या करते हैं?",
+          "response_translatable": true,
+          "audio": "i_work_in_office.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मैं एक डॉक्टर हुँ।",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "वह आश्चर्यजनक है!",
+          "response_translatable": true,
+          "audio": "im_a_doctor.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मुझे संगीत बहुत पसंद है।",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "कैसा संगीत?",
+          "response_translatable": true,
+          "audio": "i_love_music.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मैं शेफ के तौर पर काम करता हूं.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "आप क्या पका रहे हैं?",
+          "response_translatable": true,
+          "audio": "i_work_as_chef.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मुझे खेल खेलना पसंद है.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "कौन सा खेल?",
+          "response_translatable": true,
+          "audio": "i_like_sports.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मैं विश्वविद्यालय में पढ़ रहा हूं.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "आप क्या पढ़ रहे हैं?",
+          "response_translatable": true,
+          "audio": "im_studying_university.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मुझे खाना बनाना अच्छा लगता है।",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "पकाने के लिए आपका पसंदीदा व्यंजन कौन सा है?",
+          "response_translatable": true,
+          "audio": "i_enjoy_cooking.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मैं कनाड़ा से हूं।",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "ठंडा! जो हिस्सा?",
+          "response_translatable": true,
+          "audio": "im_from_canada.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मैं एक लेखक के रूप में काम करता हूं।",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "आप क्या लिखते हैं?",
+          "response_translatable": true,
+          "audio": "i_work_as_writer.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मुझे पैदल लंबी यात्रा करना पसंद है.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "आप कहाँ पदयात्रा करते हैं?",
+          "response_translatable": true,
+          "audio": "i_like_hiking.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मुझे कम्प्यूटर साइंस पढना है।",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "यह अच्छा है!",
+          "response_translatable": true,
+          "audio": "i_study_cs.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मैं एक नर्स हुँ।",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "यह एक अच्छा काम है",
+          "response_translatable": true,
+          "audio": "im_a_nurse.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मुझे फिल्में देखना पसंद है.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "आपका पसंदीदा क्या है?",
+          "response_translatable": true,
+          "audio": "i_love_movies.mp3"
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Introducing yourself at a party",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "नमस्ते, मैं सारा हूँ। मैं लंदन से हूँ।",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hi_sarah.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "आपसे मिलकर अच्छा लगा, सारा! मैं जॉन हूं.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "nice_to_meet_sarah.mp3"
+            },
+            {
+              "speaker": "A",
+              "text": "मैं एक छात्र हूँ। मैं जीवविज्ञान का अध्ययन करता हूं। आप क्या करते हैं?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "im_a_student.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Meeting a colleague",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "हैलो मेरा नाम अलेक्स है। मैं एक डिजाइनर के रूप में काम करता हूं।",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hello_alex.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "हाय एलेक्स, मैं लिसा हूं। मैं एक मैनेजर हूं.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hi_lisa.mp3"
+            },
+            {
+              "speaker": "A",
+              "text": "आपसे मिलकर अच्छा लगा!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "nice_to_meet_paint.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Introducing yourself in class",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "नमस्ते, मैं एम्मा हूँ। मैं विश्वविद्यालय में पढ़ रहा हूं.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hi_emma.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "बढ़िया, एम्मा! आपका प्रमुख क्या है?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "cool_emma_major.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Meeting someone at a conference",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "नमस्ते, मैं टॉम हूं। मैं हैदराबाद से हूं",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hello_tom.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "हाय टॉम, मैं राहेल हूं। मैं बेंगलुरु से हूं",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hi_rachel_doctor.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Introducing yourself at a community event",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "नमस्ते, मैं जेम्स हूं। मुझे यात्रा करना पसन्द है।",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hi_james.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "आपसे मिलकर अच्छा लगा, जेम्स! आप किन स्थानों पर गए?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "which_places_did_you_visit.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Meeting a new neighbor",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "नमस्ते, मैं मिया हूं। मैं हाल ही में [आपके शहर] में स्थानांतरित हुआ हूं",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hello_mia.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "हाय मिया, मैं सैम हूं। पड़ोस में आपका स्वागत है!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "welcome_sam.mp3"
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "वाक्यांशों को प्रतिक्रियाओं से मिलाएँ",
+          "prompt_translatable": true,
+          "lang": "en-IN",
+          "pairs": [
+            {
+              "word": "My name is [Your Name].",
+              "match": "Nice to meet you!",
+              "translatable": true
+            },
+            {
+              "word": "I am a student.",
+              "match": "Cool! What do you study?",
+              "translatable": true
+            },
+            {
+              "word": "I like to read books.",
+              "match": "Nice! What books do you read?",
+              "translatable": true
+            },
+            {
+              "word": "I live in [Your City].",
+              "match": "I love that city!",
+              "translatable": true
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "कहो: मेरा नाम [आपका नाम] है।",
+          "prompt_translatable": true,
+          "expected": "My name is [Your Name].",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "पूर्ण: मैं ___ से हूं",
+          "prompt_translatable": true,
+          "answer": "London",
+          "answer_translatable": true,
+          "hint": "A city or country",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "How do you say you are a doctor?",
+          "question_translatable": true,
+          "answer": "I am a doctor",
+          "answer_translatable": true,
+          "options": [
+            "I am a student",
+            "I am a doctor",
+            "My name is doctor",
+            "I from doctor"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "प्रकार: मैं एक विद्यार्थी हूँ।",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "कहो: मुझे पढ़ना पसंद है.",
+          "prompt_translatable": true,
+          "expected": "I like to read.",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "पूर्ण: मैं ___ के रूप में काम करता हूं",
+          "prompt_translatable": true,
+          "answer": "teacher",
+          "answer_translatable": true,
+          "hint": "An occupation",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to share your hobby?",
+          "question_translatable": true,
+          "answer": "I like to [hobby].",
+          "answer_translatable": true,
+          "options": [
+            "I am a hobby",
+            "I like to [hobby].",
+            "My name is hobby",
+            "I from hobby"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "संवाद पूरा करें: A: नमस्ते, मैं सारा हूं। बी: ___",
+          "prompt_translatable": true,
+          "answer": "Nice to meet you, Sarah!",
+          "answer_translatable": true,
+          "hint": "A polite response",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "प्रकार: मैं [आपके शहर] में रहता हूँ।",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "कहो: मैं एक डॉक्टर हूँ.",
+          "prompt_translatable": true,
+          "expected": "I’m a doctor.",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "पूर्ण: मुझे ___ पसंद है",
+          "prompt_translatable": true,
+          "answer": "travel",
+          "answer_translatable": true,
+          "hint": "A hobby",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "How do you say you’re from Canada?",
+          "question_translatable": true,
+          "answer": "I’m from Canada",
+          "answer_translatable": true,
+          "options": [
+            "I’m a Canada",
+            "I’m from Canada",
+            "My name is Canada",
+            "I like Canada"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "संवाद पूरा करें: उत्तर: मैं विश्वविद्यालय में पढ़ रहा हूं। बी: ___",
+          "prompt_translatable": true,
+          "answer": "What do you study?",
+          "answer_translatable": true,
+          "hint": "Ask about their studies",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "वाक्यांशों को प्रतिक्रियाओं से मिलाएँ",
+          "prompt_translatable": true,
+          "pairs": [
+            {
+              "word": "I like to travel.",
+              "match": "Where have you been?",
+              "translatable": true
+            },
+            {
+              "word": "I’m a nurse.",
+              "match": "That’s a good job!",
+              "translatable": true
+            }
+          ],
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "कहो: मुझे खाना पकाने में मजा आता है।",
+          "prompt_translatable": true,
+          "expected": "I enjoy cooking.",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "पूर्ण: मैं अध्ययन करता हूं ___",
+          "prompt_translatable": true,
+          "answer": "biology",
+          "answer_translatable": true,
+          "hint": "A subject",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to share where you live?",
+          "question_translatable": true,
+          "answer": "I live in [Your City].",
+          "answer_translatable": true,
+          "options": [
+            "I am [Your City].",
+            "I live in [Your City].",
+            "I work in [Your City].",
+            "I like [Your City]."
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "प्रकार: मुझे खेल खेलना पसंद है।",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "संवाद पूरा करें: उत्तर: मैं नई दिल्ली से हूं। बी: ___",
+          "prompt_translatable": true,
+          "answer": "Wow, that’s far!",
+          "answer_translatable": true,
+          "hint": "A surprised response",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "कहो: मैं शेफ के रूप में काम करता हूं।",
+          "prompt_translatable": true,
+          "expected": "I work as a chef.",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "पूर्ण: मेरा शौक ___ है",
+          "prompt_translatable": true,
+          "answer": "painting",
+          "answer_translatable": true,
+          "hint": "A creative activity",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        }
+      ],
+      "cultural_notes": "English introductions often include your name, hometown, or job. Small talk about weather, hobbies, or travel is common after introductions, especially at social events like parties or conferences.",
+      "cultural_notes_translatable": true
+    },
+    {
+      "lesson": 3,
+      "title": "Family",
+      "skills": [
+        "Vocabulary",
+        "Phrases",
+        "Grammar",
+        "Cultural Context"
+      ],
+      "content": [
+        {
+          "type": "vocab",
+          "word": "पिता",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "मेरे पापा डॉक्टर हैं।",
+          "example_translatable": true,
+          "audio": "father.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "माँ",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "मेरी मां शिक्षक है।",
+          "example_translatable": true,
+          "audio": "mother.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "बड़े भाई",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "मेरा बड़ा भाई 25 साल का है.",
+          "example_translatable": true,
+          "audio": "older_brother.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "छोटा भाई",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "मेरा छोटा भाई स्कूल में है.",
+          "example_translatable": true,
+          "audio": "younger_brother.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "बड़ी बहन",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "मेरी बड़ी बहन एक वकील है.",
+          "example_translatable": true,
+          "audio": "older_sister.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "छोटी बहन",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "मेरी छोटी बहन को डांस करना बहुत पसंद है.",
+          "example_translatable": true,
+          "audio": "younger_sister.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "बेटी",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "मेरी बेटी पांच साल की है.",
+          "example_translatable": true,
+          "audio": "daughter.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "बेटा",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "मेरा बेटा फुटबॉल खेलता है.",
+          "example_translatable": true,
+          "audio": "son.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "चाचा",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "मेरे चाचा मुंबई में रहते हैं.",
+          "example_translatable": true,
+          "audio": "uncle.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "चाची",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "मेरी चाची बहुत अच्छी कुकीज़ बनाती हैं।",
+          "example_translatable": true,
+          "audio": "aunty.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "यह मेरा परिवार है।",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "आपका परिवार अद्भुत दिखता है!",
+          "response_translatable": true,
+          "audio": "this_is_my_family.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मेरे दो भाई हैं.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "वह एक बड़ा परिवार है!",
+          "response_translatable": true,
+          "audio": "i_have_two_brothers.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मेरी मां शिक्षक है।",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "वह आश्चर्यजनक है!",
+          "response_translatable": true,
+          "audio": "my_mother_is_teacher.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "क्या आपके सगे भाई बहन हैं?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "हां, मेरी एक बहन है.",
+          "response_translatable": true,
+          "audio": "do_you_have_siblings.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मेरे माता-पिता [आपके शहर] में रहते हैं।",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "अच्छी जगह!",
+          "response_translatable": true,
+          "audio": "my_parents_live_in.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मुझे अपने परिवार से प्यार है।",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "कि कितना प्यारा है!",
+          "response_translatable": true,
+          "audio": "i_love_my_family.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मेरे पापा डॉक्टर हैं।",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "वाह, यह प्रभावशाली है!",
+          "response_translatable": true,
+          "audio": "my_father_is_doctor.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मेरी एक बहन है।",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "यह अच्छा है!",
+          "response_translatable": true,
+          "audio": "i_have_one_sister.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मेरा भाई एक छात्र है.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "वह क्या पढ़ता है?",
+          "response_translatable": true,
+          "audio": "my_brother_is_student.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मेरी दादी हमारे साथ रहती हैं।",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "यह तो बहुत ही अच्छी बात है!",
+          "response_translatable": true,
+          "audio": "my_grandmother_lives.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मेरा एक बड़ा परिवार है.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "यह मजेदार लगता है!",
+          "response_translatable": true,
+          "audio": "i_have_big_family.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मेरे माता-पिता सेवानिवृत्त हैं।",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "यह उनके लिए अच्छा है!",
+          "response_translatable": true,
+          "audio": "my_parents_retired.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मेरी बहन को डांस करना पसंद है.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "यह अच्छा है!",
+          "response_translatable": true,
+          "audio": "my_sister_likes_dance.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "क्या आपका कोई भाई है?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "नहीं, मेरी एक बहन है.",
+          "response_translatable": true,
+          "audio": "do_you_have_brother.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मेरे दादाजी कहानियाँ सुनाते हैं।",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "यह मजेदार लगता है!",
+          "response_translatable": true,
+          "audio": "my_grandfather_stories.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मेरे तीन भाई बहन हूँ।",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "वाह, बड़ा परिवार!",
+          "response_translatable": true,
+          "audio": "i_have_three_siblings.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मेरी माँ अच्छा खाना बनाती है.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "बहुत भाग्यशाली हो!",
+          "response_translatable": true,
+          "audio": "my_mother_cooks_well.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मेरा परिवार बहुत दूर रहता है.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "क्या आप अक्सर आते हैं?",
+          "response_translatable": true,
+          "audio": "my_family_lives_far.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मेरा एक छोटा भाई है.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "उसकी क्या उम्र है?",
+          "response_translatable": true,
+          "audio": "i_have_younger_brother.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मेरे माता-पिता शिक्षक हैं.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "यह बहुत अच्छा है!",
+          "response_translatable": true,
+          "audio": "my_parents_teachers.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मेरे चाचा एक किसान हैं.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "यह तो दिलचस्प है!",
+          "response_translatable": true,
+          "audio": "my_uncle_is_farmer.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मेरी चाची को बागवानी पसंद है।",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "यह एक अच्छा शौक है!",
+          "response_translatable": true,
+          "audio": "my_aunty_gardening.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मेरी बेटी स्कूल में है.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "वह किस श्रेणी में है?",
+          "response_translatable": true,
+          "audio": "my_daughter_in_school.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "मेरा बेटा फुटबॉल खेलता है.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "वह तो कमाल है!",
+          "response_translatable": true,
+          "audio": "my_son_plays_soccer.mp3"
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Talking about family at a gathering",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "क्या आपका कोई सगा भाई बहन है?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "do_you_have_siblings.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "हाँ, मेरी एक बहन और एक भाई है।",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "one_sister_one_brother.mp3"
+            },
+            {
+              "speaker": "A",
+              "text": "यह अच्छा है! वे करते क्या हैं?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "what_do_they_do.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Introducing family at an event",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "यह मेरी माँ है, जेन।",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "this_is_my_mother.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "आपसे मिलकर अच्छा लगा, जेन!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "nice_to_meet_jane.mp3"
+            },
+            {
+              "speaker": "A",
+              "text": "वह एक शिक्षिका है।",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "shes_a_teacher.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Discussing family at a party",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "मेरे दो भाई हैं.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "i_have_two_brothers_party.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "वह एक बड़ा परिवार है!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "thats_big_family.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Talking about family in class",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "मेरे माता-पिता चेन्नई में रहते हैं।",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "parents_live_Chennai.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "अच्छी जगह!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "nice_place.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Introducing your uncle at a family event",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "यह मेरे चाचा, मार्क हैं।",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "this_is_my_uncle.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "आपसे मिलकर अच्छा लगा, मार्क!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "nice_to_meet_mark.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Talking about your daughter",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "मेरी बेटी पांच साल की है.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "my_daughter_five.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "वो कितना प्यारा है!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "thats_so_cute.mp3"
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "वाक्यांशों को प्रतिक्रियाओं से मिलाएँ",
+          "prompt_translatable": true,
+          "lang": "en-IN",
+          "pairs": [
+            {
+              "word": "This is my family.",
+              "match": "Your family looks wonderful!",
+              "translatable": true
+            },
+            {
+              "word": "I have two brothers.",
+              "match": "That’s a big family!",
+              "translatable": true
+            },
+            {
+              "word": "My mother is a teacher.",
+              "match": "That’s amazing!",
+              "translatable": true
+            },
+            {
+              "word": "I love my family.",
+              "match": "That’s so sweet!",
+              "translatable": true
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "कहो: यह मेरी माँ है.",
+          "prompt_translatable": true,
+          "expected": "This is my mother.",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "पूर्ण: मेरे पास एक ___ है",
+          "prompt_translatable": true,
+          "answer": "sister",
+          "answer_translatable": true,
+          "hint": "A family member",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "How do you say 'My parents'?",
+          "question_translatable": true,
+          "answer": "My parents",
+          "answer_translatable": true,
+          "options": [
+            "My brothers",
+            "My parents",
+            "My family",
+            "My mother"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "प्रकार: मेरे दो भाई हैं।",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "कहो: मेरे पिता एक डॉक्टर हैं.",
+          "prompt_translatable": true,
+          "expected": "My father is a doctor.",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "पूर्ण: मेरा ___ एक शिक्षक है।",
+          "prompt_translatable": true,
+          "answer": "mother",
+          "answer_translatable": true,
+          "hint": "A family member",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to ask about someone’s family?",
+          "question_translatable": true,
+          "answer": "Do you have siblings?",
+          "answer_translatable": true,
+          "options": [
+            "Do you have a job?",
+            "Do you have siblings?",
+            "What do you study?",
+            "I love my family"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "संवाद पूरा करें: A: यह मेरा परिवार है। बी: ___",
+          "prompt_translatable": true,
+          "answer": "Your family looks wonderful!",
+          "answer_translatable": true,
+          "hint": "A polite response",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "प्रकार: मेरे माता-पिता [आपके शहर] में रहते हैं।",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "कहो: मेरे चाचा किसान हैं।",
+          "prompt_translatable": true,
+          "expected": "My uncle is a farmer.",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "पूर्ण: मेरा ___ नृत्य करना पसंद करता है।",
+          "prompt_translatable": true,
+          "answer": "sister",
+          "answer_translatable": true,
+          "hint": "A family member",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "How do you say 'My daughter'?",
+          "question_translatable": true,
+          "answer": "My daughter",
+          "answer_translatable": true,
+          "options": [
+            "My sister",
+            "My daughter",
+            "My mother",
+            "My aunty"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "संवाद पूरा करें: उत्तर: मेरा एक छोटा भाई है। बी: ___",
+          "prompt_translatable": true,
+          "answer": "How old is he?",
+          "answer_translatable": true,
+          "hint": "Ask about age",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "वाक्यांशों को प्रतिक्रियाओं से मिलाएँ",
+          "prompt_translatable": true,
+          "pairs": [
+            {
+              "word": "My son plays soccer.",
+              "match": "That’s awesome!",
+              "translatable": true
+            },
+            {
+              "word": "My aunty loves gardening.",
+              "match": "That’s a nice hobby!",
+              "translatable": true
+            }
+          ],
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "कहो: मेरी बेटी स्कूल में है.",
+          "prompt_translatable": true,
+          "expected": "My daughter is in school.",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "संपूर्ण: मेरा ___ कहानियाँ कहता है।",
+          "prompt_translatable": true,
+          "answer": "grandfather",
+          "answer_translatable": true,
+          "hint": "An older family member",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to ask about someone’s brother?",
+          "question_translatable": true,
+          "answer": "Do you have a brother?",
+          "answer_translatable": true,
+          "options": [
+            "Do you have a sister?",
+            "Do you have a brother?",
+            "My daughter is in school.",
+            "I love my brother"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "प्रकार: मेरी बहन को नृत्य करना पसंद है।",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "संवाद पूरा करें: A: यह मेरे चाचा, मार्क हैं। बी: ___",
+          "prompt_translatable": true,
+          "answer": "Nice to meet you, Mark!",
+          "answer_translatable": true,
+          "hint": "A polite greeting",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "कहो: मेरे तीन भाई-बहन हैं।",
+          "prompt_translatable": true,
+          "expected": "I have three siblings.",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "पूर्ण: मेरा ___ एक किसान है।",
+          "prompt_translatable": true,
+          "answer": "uncle",
+          "answer_translatable": true,
+          "hint": "A family member",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        }
+      ],
+      "cultural_notes": "In English, informal terms like 'mom' and 'dad' are common. Family discussions often involve sharing stories or photos, especially at gatherings like holidays or reunions. Asking about siblings or parents is a typical conversation starter.",
+      "cultural_notes_translatable": true
+    },
+    {
+      "lesson": 4,
+      "title": "Basic Interactions",
+      "skills": [
+        "Phrases",
+        "Grammar",
+        "Pronunciation"
+      ],
+      "content": [
+        {
+          "type": "phrase",
+          "text": "क्या मुझे थोड़ा पानी मिल सकता है, कृपया?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "यकीनन तुम यहाँ चलो!",
+          "response_translatable": true,
+          "audio": "can_i_have_water.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "बस स्टॉप कहाँ है?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "यह वहाँ पर है।",
+          "response_translatable": true,
+          "audio": "where_is_bus_stop.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "आपका बहुत-बहुत धन्यवाद!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "आपका स्वागत है!",
+          "response_translatable": true,
+          "audio": "thank_you_very_much.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "कृपया क्या आप मेरी मदद कर सकते हैं?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "बिल्कुल!",
+          "response_translatable": true,
+          "audio": "can_you_help_me.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "क्या मुझे एक चाय मिल सकती है, कृपया?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "पक्का यह रहा यहाँ!",
+          "response_translatable": true,
+          "audio": "can_i_have_tea.mp3"
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Ordering at a cafe",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "क्या मुझे एक चाय मिल सकती है, कृपया?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "can_i_have_tea.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "ज़रूर, क्या आप चीनी चाहेंगे?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "would_you_like_sugar.mp3"
+            },
+            {
+              "speaker": "A",
+              "text": "नहीं धन्यवाद।",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "no_thank_you.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Asking for directions",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "बस स्टॉप कहाँ है?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "where_is_bus_stop.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "यह वहाँ पर है।",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "its_over_there.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "At a store",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "कृपया क्या आप मेरी मदद कर सकते हैं?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "can_you_help_me.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "बेशक, आपको क्या चाहिए?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "what_do_you_need.mp3"
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "उनकी प्रतिक्रियाओं से वाक्यांशों का मिलान करें",
+          "prompt_translatable": true,
+          "lang": "en-IN",
+          "pairs": [
+            {
+              "word": "Can I have some water, please?",
+              "match": "Sure, here you go!",
+              "translatable": true
+            },
+            {
+              "word": "Thank you very much!",
+              "match": "You're welcome!",
+              "translatable": true
+            },
+            {
+              "word": "Where is the bus stop?",
+              "match": "It's over there.",
+              "translatable": true
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "कहो: क्या मुझे थोड़ा पानी मिल सकता है, कृपया?",
+          "prompt_translatable": true,
+          "expected": "Can I have some water, please?",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "पूर्ण: ___आप बहुत!",
+          "prompt_translatable": true,
+          "answer": "Thank",
+          "answer_translatable": true,
+          "hint": "Expressing gratitude",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to ask for help?",
+          "question_translatable": true,
+          "answer": "Can you help me, please?",
+          "answer_translatable": true,
+          "options": [
+            "Can you help me, please?",
+            "Where is help?",
+            "Thank you for help",
+            "I need water"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "प्रकार: बस स्टॉप कहां है?",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "कहो: बहुत बहुत धन्यवाद!",
+          "prompt_translatable": true,
+          "expected": "Thank you very much!",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "पूर्ण: क्या मुझे कृपया ___ मिल सकता है?",
+          "prompt_translatable": true,
+          "answer": "tea",
+          "answer_translatable": true,
+          "hint": "A drink",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to order tea?",
+          "question_translatable": true,
+          "answer": "Can I have a tea, please?",
+          "answer_translatable": true,
+          "options": [
+            "Where is the tea?",
+            "Can I have a tea, please?",
+            "Thank you for tea",
+            "I need tea"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "संवाद पूरा करें: उत्तर: क्या मुझे एक चाय मिल सकती है, कृपया? बी: ___",
+          "prompt_translatable": true,
+          "answer": "Sure, would you like sugar?",
+          "answer_translatable": true,
+          "hint": "A server's response",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "प्रकार: क्या आप कृपया मेरी मदद कर सकते हैं?",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "cultural_notes",
+          "text": "अंग्रेजी भाषी क्षेत्रों में, बातचीत में विनम्रता महत्वपूर्ण है। 'कृपया' और 'धन्यवाद' जैसे वाक्यांश आमतौर पर सम्मान और कृतज्ञता दिखाने के लिए उपयोग किए जाते हैं।",
+          "translatable": true,
+          "lang": "en-IN"
+        }
+      ]
+    }
+  ]
+}

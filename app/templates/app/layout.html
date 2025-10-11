@@ -6,6 +6,9 @@
     <meta charset="UTF-8">
     <title>{% block title %} Learn Languages Like a Pro{% endblock %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="{% static 'manifest.json' %}">
+    <meta name="theme-color" content="#2d89ef">
+    <link rel="apple-touch-icon" href="{% static 'icons/icon-192x192.png' %}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
@@ -76,6 +79,18 @@
     </footer>
 
     {% block scripts %}{% endblock %}
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/service-worker.js')
+                    .then(function (reg) {
+                        console.log('ServiceWorker registered with scope:', reg.scope);
+                    }).catch(function (err) {
+                        console.warn('ServiceWorker registration failed:', err);
+                    });
+            });
+        }
+    </script>
 </body>
 
 </html>

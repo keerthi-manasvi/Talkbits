@@ -5,9 +5,9 @@ from deep_translator import GoogleTranslator
 # -----------------------------
 # Config
 # -----------------------------
-INPUT_FILE = "lessons/tamil.json"      # your input file
-TARGET_LANG = "hindi"                  # language to translate into
-OUTPUT_FILE = "lessons/telugu_translated_to_hindi.json"  # output file
+INPUT_FILE = "C:\\Users\\manju\\GenTech\\app\\languages\\lessons\\tamil.json"      # your input file
+TARGET_LANG = "telugu"                  # language to translate into
+OUTPUT_FILE = "C:\\Users\\manju\\GenTech\\app\\languages\\lessons\\tamil_translated_to_telugu.json"  # output file
 
 # Fields that are normally text fields
 TEXT_FIELDS = ["word", "prompt", "text", "response", "example", "question", "answer"]

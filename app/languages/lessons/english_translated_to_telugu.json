@@ -1,0 +1,2400 @@
+{
+  "language": "english",
+  "unit": 1,
+  "title": "English Conversational Foundations",
+  "description": "Master essential English greetings, introductions, family terms, and daily interactions with support for automatic translation into Hindi, Telugu, Tamil, or other languages.",
+  "translation_config": {
+    "source_lang": "en-IN",
+    "supported_target_langs": [
+      "hi-IN",
+      "te-IN",
+      "ta-IN"
+    ],
+    "translatable_fields": [
+      "word",
+      "example",
+      "text",
+      "response",
+      "prompt",
+      "answer",
+      "question",
+      "options",
+      "lines.text",
+      "cultural_notes"
+    ]
+  },
+  "lessons": [
+    {
+      "lesson": 1,
+      "title": "Greetings",
+      "skills": [
+        "Vocabulary",
+        "Phrases",
+        "Pronunciation",
+        "Cultural Context"
+      ],
+      "content": [
+        {
+          "type": "vocab",
+          "word": "Hello",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "Hello, nice to see you!",
+          "example_translatable": true,
+          "audio": "hello.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "Hi",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "Hi, how’s it going?",
+          "example_translatable": true,
+          "audio": "hi.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "Good morning",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "Good morning, have a great day!",
+          "example_translatable": true,
+          "audio": "good_morning.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "Good afternoon",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "Good afternoon, how can I help you?",
+          "example_translatable": true,
+          "audio": "good_afternoon.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "Good evening",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "Good evening, welcome to the event!",
+          "example_translatable": true,
+          "audio": "good_evening.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "Good night",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "Good night, sleep well!",
+          "example_translatable": true,
+          "audio": "good_night.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "Thank you",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "Thank you for your help.",
+          "example_translatable": true,
+          "audio": "thank_you.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "Please",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "Please come in.",
+          "example_translatable": true,
+          "audio": "please.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "Sorry",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "Sorry, I didn’t mean to interrupt.",
+          "example_translatable": true,
+          "audio": "sorry.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "Goodbye",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "Goodbye, see you soon!",
+          "example_translatable": true,
+          "audio": "goodbye.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "How are you?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "I’m fine, thank you!",
+          "response_translatable": true,
+          "audio": "how_are_you.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "Nice to meet you!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Nice to meet you too!",
+          "response_translatable": true,
+          "audio": "nice_to_meet_you.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "Have a great day!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Thankyou, you too!",
+          "response_translatable": true,
+          "audio": "have_a_great_day.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "See you later!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Bye!",
+          "response_translatable": true,
+          "audio": "see_you_later.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "How’s it going?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Pretty good, thanks!",
+          "response_translatable": true,
+          "audio": "hows_it_going.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "Take care!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "You too!",
+          "response_translatable": true,
+          "audio": "take_care.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "What’s up?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Not much, you?",
+          "response_translatable": true,
+          "audio": "whats_up.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "Good to see you!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "You too!",
+          "response_translatable": true,
+          "audio": "good_to_see_you.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "Hope to see you soon!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Definitely!",
+          "response_translatable": true,
+          "audio": "hope_to_see_you.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "Have a nice evening!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Thanks!",
+          "response_translatable": true,
+          "audio": "have_nice_evening.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "How’s your day going?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "It’s going well!",
+          "response_translatable": true,
+          "audio": "hows_your_day.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "See you tomorrow!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Okay, bye!",
+          "response_translatable": true,
+          "audio": "see_you_tomorrow.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "Have a good night!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "You too!",
+          "response_translatable": true,
+          "audio": "have_good_night.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "Hey, how are you doing?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Doing great, thanks!",
+          "response_translatable": true,
+          "audio": "hey_how_are_you.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "Goodbye for now!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "See you!",
+          "response_translatable": true,
+          "audio": "goodbye_for_now.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "Have a wonderful day!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Thanks a lot!",
+          "response_translatable": true,
+          "audio": "have_wonderful_day.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "See you later!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Sure thing!",
+          "response_translatable": true,
+          "audio": "catch_you_later.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "How’s everything?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Everything’s good.",
+          "response_translatable": true,
+          "audio": "hows_everything.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "Good to see you again!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Same here!",
+          "response_translatable": true,
+          "audio": "nice_to_see_again.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "Take it easy!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Will do!",
+          "response_translatable": true,
+          "audio": "take_it_easy.mp3"
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Meeting a friend at a cafe",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Hi! How are you today?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hi_how_are_you.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "I’m great, thanks! Nice to see you!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "im_great.mp3"
+            },
+            {
+              "speaker": "A",
+              "text": "Good to see you too!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "good_to_see_you_too.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Greeting a colleague",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Good morning! Ready for the meeting?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "good_morning_meeting.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "Good Morning! Yes, I'm ready. You?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "good_morning_yes_im_ready_you.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Saying goodbye after class",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "See you later!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "see_you_later_class.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "Bye, have a great day!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "bye_have_great_day.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Meeting a stranger at an event",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Hello, nice to meet you!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hello_nice_to_meet.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "Hi, nice to meet you too!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hi_nice_to_meet_too.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Greeting a neighbor",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Good afternoon! How’s everything?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "good_afternoon_hows_everything.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "Everything’s good, thanks!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "everythings_good.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Saying goodbye at a store",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Thank you, have a great day!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "thank_you_great_day.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "You too!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "you_too.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Meeting a friend at a park",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Hey, what’s up?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hey_whats_up.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "Not much, just chilling.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "not_much_chilling.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Greeting a teacher",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Good morning, how are you?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "good_morning_teacher.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "I’m fine, thank you!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "im_fine_teacher.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Leaving a party",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Goodbye, take care!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "goodbye_take_care.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "You too, see you soon!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "you_too_see_soon.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Meeting someone at a bus stop",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Hi, how’s it going?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hi_hows_it_going.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "Pretty good, thanks!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "pretty_good_thanks.mp3"
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "Match phrases to responses",
+          "prompt_translatable": true,
+          "lang": "en-IN",
+          "pairs": [
+            {
+              "word": "How are you?",
+              "match": "I’m fine, thank you!",
+              "translatable": true
+            },
+            {
+              "word": "Nice to meet you!",
+              "match": "Nice to meet you too!",
+              "translatable": true
+            },
+            {
+              "word": "Have a great day!",
+              "match": "Thanks, you too!",
+              "translatable": true
+            },
+            {
+              "word": "See you later!",
+              "match": "Bye!",
+              "translatable": true
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "Say: Nice to meet you!",
+          "prompt_translatable": true,
+          "expected": "Nice to meet you!",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: ___ are you?",
+          "prompt_translatable": true,
+          "answer": "How",
+          "answer_translatable": true,
+          "hint": "Asking about someone’s well-being",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to greet someone in the evening?",
+          "question_translatable": true,
+          "answer": "Good evening",
+          "answer_translatable": true,
+          "options": [
+            "Good morning",
+            "Good evening",
+            "Hello",
+            "Goodbye"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "Type: How are you?",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "Say: Good morning!",
+          "prompt_translatable": true,
+          "expected": "Good morning!",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: ___ you later!",
+          "prompt_translatable": true,
+          "answer": "See",
+          "answer_translatable": true,
+          "hint": "A casual goodbye",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to apologize?",
+          "question_translatable": true,
+          "answer": "Sorry",
+          "answer_translatable": true,
+          "options": [
+            "Thank you",
+            "Please",
+            "Sorry",
+            "Goodbye"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "Complete the dialogue: A: Hi! How are you? B: ___",
+          "prompt_translatable": true,
+          "answer": "I’m fine, thank you!",
+          "answer_translatable": true,
+          "hint": "Respond to a greeting",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "Type: Have a great day!",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "Say: Take care!",
+          "prompt_translatable": true,
+          "expected": "Take care!",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: Good ___!",
+          "prompt_translatable": true,
+          "answer": "night",
+          "answer_translatable": true,
+          "hint": "A nighttime greeting",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to wish someone well?",
+          "question_translatable": true,
+          "answer": "Have a great day!",
+          "answer_translatable": true,
+          "options": [
+            "How are you?",
+            "Have a great day!",
+            "Goodbye",
+            "Sorry"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "Complete the dialogue: A: See you tomorrow! B: ___",
+          "prompt_translatable": true,
+          "answer": "Okay, bye!",
+          "answer_translatable": true,
+          "hint": "A response to a goodbye",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "Match phrases to responses",
+          "prompt_translatable": true,
+          "pairs": [
+            {
+              "word": "What’s up?",
+              "match": "Not much, you?",
+              "translatable": true
+            },
+            {
+              "word": "Good to see you!",
+              "match": "You too!",
+              "translatable": true
+            }
+          ],
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "Say: Have a nice evening!",
+          "prompt_translatable": true,
+          "expected": "Have a nice evening!",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: ___ to meet you!",
+          "prompt_translatable": true,
+          "answer": "Nice",
+          "answer_translatable": true,
+          "hint": "A polite greeting",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to greet someone casually?",
+          "question_translatable": true,
+          "answer": "What’s up?",
+          "answer_translatable": true,
+          "options": [
+            "Good night",
+            "What’s up?",
+            "Thank you",
+            "Please"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "Type: Good to see you!",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "Complete the dialogue: A: Have a great day! B: ___",
+          "prompt_translatable": true,
+          "answer": "Thanks, you too!",
+          "answer_translatable": true,
+          "hint": "A polite response",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "Say: How’s it going?",
+          "prompt_translatable": true,
+          "expected": "How’s it going?",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: ___ care!",
+          "prompt_translatable": true,
+          "answer": "Take",
+          "answer_translatable": true,
+          "hint": "A farewell phrase",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to greet someone in the afternoon?",
+          "question_translatable": true,
+          "answer": "Good afternoon",
+          "answer_translatable": true,
+          "options": [
+            "Good morning",
+            "Good afternoon",
+            "Good night",
+            "Hello"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        }
+      ],
+      "cultural_notes": "In English-speaking cultures, greetings vary by time of day (e.g., 'Good morning' before noon, 'Good evening' after 6 PM). A smile, wave, or handshake is common, especially in formal settings. Casual greetings like 'Hi' or 'What’s up?' are popular among friends.",
+      "cultural_notes_translatable": true
+    },
+    {
+      "lesson": 2,
+      "title": "Self Introduction",
+      "skills": [
+        "Phrases",
+        "Grammar",
+        "Pronunciation"
+      ],
+      "content": [
+        {
+          "type": "phrase",
+          "text": "My name is [Your Name].",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Nice to meet you!",
+          "response_translatable": true,
+          "audio": "my_name_is.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "I am from [Your City].",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "That’s interesting!",
+          "response_translatable": true,
+          "audio": "i_am_from.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "I am a student.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Cool! What do you study?",
+          "response_translatable": true,
+          "audio": "i_am_a_student.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "I work as a teacher.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "That’s great! What do you teach?",
+          "response_translatable": true,
+          "audio": "i_work_as_teacher.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "I like to read books.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Nice! What books do you read?",
+          "response_translatable": true,
+          "audio": "i_like_to_read.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "I live in [Your City].",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "I love that city!",
+          "response_translatable": true,
+          "audio": "i_live_in.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "I am from the United States.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Wow, that’s far!",
+          "response_translatable": true,
+          "audio": "i_am_from_us.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "I am an engineer.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "That’s impressive!",
+          "response_translatable": true,
+          "audio": "i_am_an_engineer.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "My hobby is painting.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "That’s creative!",
+          "response_translatable": true,
+          "audio": "my_hobby_painting.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "I like to travel.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Which places did you visit?",
+          "response_translatable": true,
+          "audio": "i_like_to_travel.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "I study biology.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "That sounds interesting!",
+          "response_translatable": true,
+          "audio": "i_study_biology.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "I work in an office.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "What do you do there?",
+          "response_translatable": true,
+          "audio": "i_work_in_office.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "I’m a doctor.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "That’s amazing!",
+          "response_translatable": true,
+          "audio": "im_a_doctor.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "I love music.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "What kind of music?",
+          "response_translatable": true,
+          "audio": "i_love_music.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "I work as a chef.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "What do you cook?",
+          "response_translatable": true,
+          "audio": "i_work_as_chef.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "I like to play sports.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Which sports?",
+          "response_translatable": true,
+          "audio": "i_like_sports.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "I’m studying at university.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "What do you study?",
+          "response_translatable": true,
+          "audio": "im_studying_university.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "I enjoy cooking.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "What’s your favorite dish to cook?",
+          "response_translatable": true,
+          "audio": "i_enjoy_cooking.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "I’m from Canada.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Cool! Which part?",
+          "response_translatable": true,
+          "audio": "im_from_canada.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "I work as a writer.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "What do you write?",
+          "response_translatable": true,
+          "audio": "i_work_as_writer.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "I like hiking.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Where do you hike?",
+          "response_translatable": true,
+          "audio": "i_like_hiking.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "I study computer science.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "That’s cool!",
+          "response_translatable": true,
+          "audio": "i_study_cs.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "I’m a nurse.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "That’s a good job",
+          "response_translatable": true,
+          "audio": "im_a_nurse.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "I love watching movies.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "What’s your favorite?",
+          "response_translatable": true,
+          "audio": "i_love_movies.mp3"
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Introducing yourself at a party",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Hi, I’m Sarah. I’m from London.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hi_sarah.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "Nice to meet you, Sarah! I’m John.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "nice_to_meet_sarah.mp3"
+            },
+            {
+              "speaker": "A",
+              "text": "I’m a student. I study biology. What do you do?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "im_a_student.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Meeting a colleague",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Hello, my name is Alex. I work as a designer.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hello_alex.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "Hi Alex, I’m Lisa. I’m a manager.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hi_lisa.mp3"
+            },
+            {
+              "speaker": "A",
+              "text": "Nice to meet you!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "nice_to_meet_paint.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Introducing yourself in class",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Hi, I’m Emma. I’m studying at university.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hi_emma.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "Cool, Emma! What’s your major?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "cool_emma_major.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Meeting someone at a conference",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Hello, I’m Tom. I’m from Hyderabad",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hello_tom.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "Hi Tom, I’m Rachel. I’m from Bangalore",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hi_rachel_doctor.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Introducing yourself at a community event",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Hi, I’m James. I like to travel.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hi_james.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "Nice to meet you, James! Which places did you visit?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "which_places_did_you_visit.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Meeting a new neighbor",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Hello, I’m Mia. I recently moved to [Your City]",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hello_mia.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "Hi Mia, I’m Sam. Welcome to the neighborhood!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "welcome_sam.mp3"
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "Match phrases to responses",
+          "prompt_translatable": true,
+          "lang": "en-IN",
+          "pairs": [
+            {
+              "word": "My name is [Your Name].",
+              "match": "Nice to meet you!",
+              "translatable": true
+            },
+            {
+              "word": "I am a student.",
+              "match": "Cool! What do you study?",
+              "translatable": true
+            },
+            {
+              "word": "I like to read books.",
+              "match": "Nice! What books do you read?",
+              "translatable": true
+            },
+            {
+              "word": "I live in [Your City].",
+              "match": "I love that city!",
+              "translatable": true
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "Say: My name is [Your Name].",
+          "prompt_translatable": true,
+          "expected": "My name is [Your Name].",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: I am from ___",
+          "prompt_translatable": true,
+          "answer": "London",
+          "answer_translatable": true,
+          "hint": "A city or country",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "How do you say you are a doctor?",
+          "question_translatable": true,
+          "answer": "I am a doctor",
+          "answer_translatable": true,
+          "options": [
+            "I am a student",
+            "I am a doctor",
+            "My name is doctor",
+            "I from doctor"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "Type: I am a student.",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "Say: I like to read.",
+          "prompt_translatable": true,
+          "expected": "I like to read.",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: I work as a ___",
+          "prompt_translatable": true,
+          "answer": "teacher",
+          "answer_translatable": true,
+          "hint": "An occupation",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to share your hobby?",
+          "question_translatable": true,
+          "answer": "I like to [hobby].",
+          "answer_translatable": true,
+          "options": [
+            "I am a hobby",
+            "I like to [hobby].",
+            "My name is hobby",
+            "I from hobby"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "Complete the dialogue: A: Hi, I’m Sarah. B: ___",
+          "prompt_translatable": true,
+          "answer": "Nice to meet you, Sarah!",
+          "answer_translatable": true,
+          "hint": "A polite response",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "Type: I live in [Your City].",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "Say: I’m a doctor.",
+          "prompt_translatable": true,
+          "expected": "I’m a doctor.",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: I like to ___",
+          "prompt_translatable": true,
+          "answer": "travel",
+          "answer_translatable": true,
+          "hint": "A hobby",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "How do you say you’re from Canada?",
+          "question_translatable": true,
+          "answer": "I’m from Canada",
+          "answer_translatable": true,
+          "options": [
+            "I’m a Canada",
+            "I’m from Canada",
+            "My name is Canada",
+            "I like Canada"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "Complete the dialogue: A: I’m studying at university. B: ___",
+          "prompt_translatable": true,
+          "answer": "What do you study?",
+          "answer_translatable": true,
+          "hint": "Ask about their studies",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "Match phrases to responses",
+          "prompt_translatable": true,
+          "pairs": [
+            {
+              "word": "I like to travel.",
+              "match": "Where have you been?",
+              "translatable": true
+            },
+            {
+              "word": "I’m a nurse.",
+              "match": "That’s a good job!",
+              "translatable": true
+            }
+          ],
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "Say: I enjoy cooking.",
+          "prompt_translatable": true,
+          "expected": "I enjoy cooking.",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: I study ___",
+          "prompt_translatable": true,
+          "answer": "biology",
+          "answer_translatable": true,
+          "hint": "A subject",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to share where you live?",
+          "question_translatable": true,
+          "answer": "I live in [Your City].",
+          "answer_translatable": true,
+          "options": [
+            "I am [Your City].",
+            "I live in [Your City].",
+            "I work in [Your City].",
+            "I like [Your City]."
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "Type: I like to play sports.",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "Complete the dialogue: A: I’m from New Delhi. B: ___",
+          "prompt_translatable": true,
+          "answer": "Wow, that’s far!",
+          "answer_translatable": true,
+          "hint": "A surprised response",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "Say: I work as a chef.",
+          "prompt_translatable": true,
+          "expected": "I work as a chef.",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: My hobby is ___",
+          "prompt_translatable": true,
+          "answer": "painting",
+          "answer_translatable": true,
+          "hint": "A creative activity",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        }
+      ],
+      "cultural_notes": "English introductions often include your name, hometown, or job. Small talk about weather, hobbies, or travel is common after introductions, especially at social events like parties or conferences.",
+      "cultural_notes_translatable": true
+    },
+    {
+      "lesson": 3,
+      "title": "Family",
+      "skills": [
+        "Vocabulary",
+        "Phrases",
+        "Grammar",
+        "Cultural Context"
+      ],
+      "content": [
+        {
+          "type": "vocab",
+          "word": "Father",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "My father is a doctor.",
+          "example_translatable": true,
+          "audio": "father.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "Mother",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "My mother is a teacher.",
+          "example_translatable": true,
+          "audio": "mother.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "Older brother",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "My older brother is 25.",
+          "example_translatable": true,
+          "audio": "older_brother.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "Younger brother",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "My younger brother is in school.",
+          "example_translatable": true,
+          "audio": "younger_brother.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "Older sister",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "My older sister is a lawyer.",
+          "example_translatable": true,
+          "audio": "older_sister.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "Younger sister",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "My younger sister loves dancing.",
+          "example_translatable": true,
+          "audio": "younger_sister.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "Daughter",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "My daughter is five years old.",
+          "example_translatable": true,
+          "audio": "daughter.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "Son",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "My son plays soccer.",
+          "example_translatable": true,
+          "audio": "son.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "Uncle",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "My uncle lives in Mumbai.",
+          "example_translatable": true,
+          "audio": "uncle.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "Aunty",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "My aunty makes great cookies.",
+          "example_translatable": true,
+          "audio": "aunty.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "This is my family.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Your family looks wonderful!",
+          "response_translatable": true,
+          "audio": "this_is_my_family.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "I have two brothers.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "That’s a big family!",
+          "response_translatable": true,
+          "audio": "i_have_two_brothers.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "My mother is a teacher.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "That’s amazing!",
+          "response_translatable": true,
+          "audio": "my_mother_is_teacher.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "Do you have siblings?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Yes, I have a sister.",
+          "response_translatable": true,
+          "audio": "do_you_have_siblings.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "My parents live in [Your City].",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Nice place!",
+          "response_translatable": true,
+          "audio": "my_parents_live_in.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "I love my family.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "That’s so sweet!",
+          "response_translatable": true,
+          "audio": "i_love_my_family.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "My father is a doctor.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Wow, that’s impressive!",
+          "response_translatable": true,
+          "audio": "my_father_is_doctor.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "I have one sister.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "That’s nice!",
+          "response_translatable": true,
+          "audio": "i_have_one_sister.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "My brother is a student.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "What does he study?",
+          "response_translatable": true,
+          "audio": "my_brother_is_student.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "My grandmother lives with us.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "That’s wonderful!",
+          "response_translatable": true,
+          "audio": "my_grandmother_lives.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "I have a big family.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "That sounds fun!",
+          "response_translatable": true,
+          "audio": "i_have_big_family.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "My parents are retired.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "That’s nice for them!",
+          "response_translatable": true,
+          "audio": "my_parents_retired.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "My sister likes to dance.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "That’s cool!",
+          "response_translatable": true,
+          "audio": "my_sister_likes_dance.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "Do you have a brother?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "No, I have a sister.",
+          "response_translatable": true,
+          "audio": "do_you_have_brother.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "My grandfather tells stories.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "That sounds fun!",
+          "response_translatable": true,
+          "audio": "my_grandfather_stories.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "I have three siblings.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Wow, big family!",
+          "response_translatable": true,
+          "audio": "i_have_three_siblings.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "My mother cooks well.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Lucky you!",
+          "response_translatable": true,
+          "audio": "my_mother_cooks_well.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "My family lives far away.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Do you visit often?",
+          "response_translatable": true,
+          "audio": "my_family_lives_far.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "I have a younger brother.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "How old is he?",
+          "response_translatable": true,
+          "audio": "i_have_younger_brother.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "My parents are teachers.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "That’s great!",
+          "response_translatable": true,
+          "audio": "my_parents_teachers.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "My uncle is a farmer.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "That’s interesting!",
+          "response_translatable": true,
+          "audio": "my_uncle_is_farmer.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "My aunty loves gardening.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "That’s a nice hobby!",
+          "response_translatable": true,
+          "audio": "my_aunty_gardening.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "My daughter is in school.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "What grade is she in?",
+          "response_translatable": true,
+          "audio": "my_daughter_in_school.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "My son plays soccer.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "That’s awesome!",
+          "response_translatable": true,
+          "audio": "my_son_plays_soccer.mp3"
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Talking about family at a gathering",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Do you have any siblings?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "do_you_have_siblings.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "Yes, I have one sister and one brother.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "one_sister_one_brother.mp3"
+            },
+            {
+              "speaker": "A",
+              "text": "That’s nice! What do they do?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "what_do_they_do.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Introducing family at an event",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "This is my mother, Jane.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "this_is_my_mother.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "Nice to meet you, Jane!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "nice_to_meet_jane.mp3"
+            },
+            {
+              "speaker": "A",
+              "text": "She’s a teacher.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "shes_a_teacher.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Discussing family at a party",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "I have two brothers.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "i_have_two_brothers_party.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "That’s a big family!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "thats_big_family.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Talking about family in class",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "My parents live in Chennai.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "parents_live_Chennai.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "Nice place!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "nice_place.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Introducing your uncle at a family event",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "This is my uncle, Mark.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "this_is_my_uncle.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "Nice to meet you, Mark!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "nice_to_meet_mark.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Talking about your daughter",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "My daughter is five years old.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "my_daughter_five.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "That’s so cute!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "thats_so_cute.mp3"
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "Match phrases to responses",
+          "prompt_translatable": true,
+          "lang": "en-IN",
+          "pairs": [
+            {
+              "word": "This is my family.",
+              "match": "Your family looks wonderful!",
+              "translatable": true
+            },
+            {
+              "word": "I have two brothers.",
+              "match": "That’s a big family!",
+              "translatable": true
+            },
+            {
+              "word": "My mother is a teacher.",
+              "match": "That’s amazing!",
+              "translatable": true
+            },
+            {
+              "word": "I love my family.",
+              "match": "That’s so sweet!",
+              "translatable": true
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "Say: This is my mother.",
+          "prompt_translatable": true,
+          "expected": "This is my mother.",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: I have one ___",
+          "prompt_translatable": true,
+          "answer": "sister",
+          "answer_translatable": true,
+          "hint": "A family member",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "How do you say 'My parents'?",
+          "question_translatable": true,
+          "answer": "My parents",
+          "answer_translatable": true,
+          "options": [
+            "My brothers",
+            "My parents",
+            "My family",
+            "My mother"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "Type: I have two brothers.",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "Say: My father is a doctor.",
+          "prompt_translatable": true,
+          "expected": "My father is a doctor.",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: My ___ is a teacher.",
+          "prompt_translatable": true,
+          "answer": "mother",
+          "answer_translatable": true,
+          "hint": "A family member",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to ask about someone’s family?",
+          "question_translatable": true,
+          "answer": "Do you have siblings?",
+          "answer_translatable": true,
+          "options": [
+            "Do you have a job?",
+            "Do you have siblings?",
+            "What do you study?",
+            "I love my family"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "Complete the dialogue: A: This is my family. B: ___",
+          "prompt_translatable": true,
+          "answer": "Your family looks wonderful!",
+          "answer_translatable": true,
+          "hint": "A polite response",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "Type: My parents live in [Your City].",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "Say: My uncle is a farmer.",
+          "prompt_translatable": true,
+          "expected": "My uncle is a farmer.",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: My ___ likes to dance.",
+          "prompt_translatable": true,
+          "answer": "sister",
+          "answer_translatable": true,
+          "hint": "A family member",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "How do you say 'My daughter'?",
+          "question_translatable": true,
+          "answer": "My daughter",
+          "answer_translatable": true,
+          "options": [
+            "My sister",
+            "My daughter",
+            "My mother",
+            "My aunty"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "Complete the dialogue: A: I have a younger brother. B: ___",
+          "prompt_translatable": true,
+          "answer": "How old is he?",
+          "answer_translatable": true,
+          "hint": "Ask about age",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "Match phrases to responses",
+          "prompt_translatable": true,
+          "pairs": [
+            {
+              "word": "My son plays soccer.",
+              "match": "That’s awesome!",
+              "translatable": true
+            },
+            {
+              "word": "My aunty loves gardening.",
+              "match": "That’s a nice hobby!",
+              "translatable": true
+            }
+          ],
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "Say: My daughter is in school.",
+          "prompt_translatable": true,
+          "expected": "My daughter is in school.",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: My ___ tells stories.",
+          "prompt_translatable": true,
+          "answer": "grandfather",
+          "answer_translatable": true,
+          "hint": "An older family member",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to ask about someone’s brother?",
+          "question_translatable": true,
+          "answer": "Do you have a brother?",
+          "answer_translatable": true,
+          "options": [
+            "Do you have a sister?",
+            "Do you have a brother?",
+            "My daughter is in school.",
+            "I love my brother"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "Type: My sister likes to dance.",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "Complete the dialogue: A: This is my uncle, Mark. B: ___",
+          "prompt_translatable": true,
+          "answer": "Nice to meet you, Mark!",
+          "answer_translatable": true,
+          "hint": "A polite greeting",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "Say: I have three siblings.",
+          "prompt_translatable": true,
+          "expected": "I have three siblings.",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: My ___ is a farmer.",
+          "prompt_translatable": true,
+          "answer": "uncle",
+          "answer_translatable": true,
+          "hint": "A family member",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        }
+      ],
+      "cultural_notes": "In English, informal terms like 'mom' and 'dad' are common. Family discussions often involve sharing stories or photos, especially at gatherings like holidays or reunions. Asking about siblings or parents is a typical conversation starter.",
+      "cultural_notes_translatable": true
+    },
+    {
+      "lesson": 4,
+      "title": "Basic Interactions",
+      "skills": [
+        "Phrases",
+        "Grammar",
+        "Pronunciation"
+      ],
+      "content": [
+        {
+          "type": "phrase",
+          "text": "Can I have some water, please?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Sure, here you go!",
+          "response_translatable": true,
+          "audio": "can_i_have_water.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "Where is the bus stop?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "It's over there.",
+          "response_translatable": true,
+          "audio": "where_is_bus_stop.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "Thank you very much!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "You're welcome!",
+          "response_translatable": true,
+          "audio": "thank_you_very_much.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "Can you help me, please?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Of course!",
+          "response_translatable": true,
+          "audio": "can_you_help_me.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "Can I have a tea, please?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "Sure, here it is!",
+          "response_translatable": true,
+          "audio": "can_i_have_tea.mp3"
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Ordering at a cafe",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Can I have a tea, please?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "can_i_have_tea.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "Sure, would you like sugar?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "would_you_like_sugar.mp3"
+            },
+            {
+              "speaker": "A",
+              "text": "No, thank you.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "no_thank_you.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Asking for directions",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Where is the bus stop?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "where_is_bus_stop.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "It's over there.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "its_over_there.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "At a store",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Can you help me, please?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "can_you_help_me.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "Of course, what do you need?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "what_do_you_need.mp3"
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "Match phrases to their responses",
+          "prompt_translatable": true,
+          "lang": "en-IN",
+          "pairs": [
+            {
+              "word": "Can I have some water, please?",
+              "match": "Sure, here you go!",
+              "translatable": true
+            },
+            {
+              "word": "Thank you very much!",
+              "match": "You're welcome!",
+              "translatable": true
+            },
+            {
+              "word": "Where is the bus stop?",
+              "match": "It's over there.",
+              "translatable": true
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "Say: Can I have some water, please?",
+          "prompt_translatable": true,
+          "expected": "Can I have some water, please?",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: ___ you very much!",
+          "prompt_translatable": true,
+          "answer": "Thank",
+          "answer_translatable": true,
+          "hint": "Expressing gratitude",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to ask for help?",
+          "question_translatable": true,
+          "answer": "Can you help me, please?",
+          "answer_translatable": true,
+          "options": [
+            "Can you help me, please?",
+            "Where is help?",
+            "Thank you for help",
+            "I need water"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "Type: Where is the bus stop?",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "Say: Thank you very much!",
+          "prompt_translatable": true,
+          "expected": "Thank you very much!",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "Complete: Can I have a ___ , please?",
+          "prompt_translatable": true,
+          "answer": "tea",
+          "answer_translatable": true,
+          "hint": "A drink",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to order tea?",
+          "question_translatable": true,
+          "answer": "Can I have a tea, please?",
+          "answer_translatable": true,
+          "options": [
+            "Where is the tea?",
+            "Can I have a tea, please?",
+            "Thank you for tea",
+            "I need tea"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "Complete the dialogue: A: Can I have a tea, please? B: ___",
+          "prompt_translatable": true,
+          "answer": "Sure, would you like sugar?",
+          "answer_translatable": true,
+          "hint": "A server's response",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "Type: Can you help me, please?",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "cultural_notes",
+          "text": "In English-speaking regions, politeness is key in interactions. Phrases like 'please' and 'thank you' are commonly used to show respect and gratitude.",
+          "translatable": true,
+          "lang": "en-IN"
+        }
+      ]
+    }
+  ]
+}

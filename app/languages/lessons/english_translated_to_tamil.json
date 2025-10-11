@@ -1,0 +1,2400 @@
+{
+  "language": "english",
+  "unit": 1,
+  "title": "English Conversational Foundations",
+  "description": "Master essential English greetings, introductions, family terms, and daily interactions with support for automatic translation into Hindi, Telugu, Tamil, or other languages.",
+  "translation_config": {
+    "source_lang": "en-IN",
+    "supported_target_langs": [
+      "hi-IN",
+      "te-IN",
+      "ta-IN"
+    ],
+    "translatable_fields": [
+      "word",
+      "example",
+      "text",
+      "response",
+      "prompt",
+      "answer",
+      "question",
+      "options",
+      "lines.text",
+      "cultural_notes"
+    ]
+  },
+  "lessons": [
+    {
+      "lesson": 1,
+      "title": "Greetings",
+      "skills": [
+        "Vocabulary",
+        "Phrases",
+        "Pronunciation",
+        "Cultural Context"
+      ],
+      "content": [
+        {
+          "type": "vocab",
+          "word": "வணக்கம்",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "வணக்கம், உங்களைப் பார்த்ததில் மகிழ்ச்சி!",
+          "example_translatable": true,
+          "audio": "hello.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "ஹாய்",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "ஹாய், அது எப்படி நடக்கிறது?",
+          "example_translatable": true,
+          "audio": "hi.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "காலை வணக்கம்",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "காலை வணக்கம், ஒரு சிறந்த நாள்!",
+          "example_translatable": true,
+          "audio": "good_morning.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "நல்ல மதியம்",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "நல்ல மதியம், நான் உங்களுக்கு எவ்வாறு உதவ முடியும்?",
+          "example_translatable": true,
+          "audio": "good_afternoon.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "நல்ல மாலை",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "நல்ல மாலை, நிகழ்வுக்கு வருக!",
+          "example_translatable": true,
+          "audio": "good_evening.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "நல்ல இரவு",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "நல்ல இரவு, நன்றாக தூங்கு!",
+          "example_translatable": true,
+          "audio": "good_night.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "நன்றி",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "உங்கள் உதவிக்கு நன்றி.",
+          "example_translatable": true,
+          "audio": "thank_you.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "தயவுசெய்து",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "தயவுசெய்து உள்ளே வாருங்கள்.",
+          "example_translatable": true,
+          "audio": "please.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "மன்னிக்கவும்",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "மன்னிக்கவும், நான் குறுக்கிட விரும்பவில்லை.",
+          "example_translatable": true,
+          "audio": "sorry.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "குட்பை",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "குட்பை, விரைவில் சந்திப்போம்!",
+          "example_translatable": true,
+          "audio": "goodbye.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "நீங்கள் எப்படி இருக்கிறீர்கள்?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "நான் நன்றாக இருக்கிறேன், நன்றி!",
+          "response_translatable": true,
+          "audio": "how_are_you.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "உங்களை சந்தித்ததில் மகிழ்ச்சி!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "உங்களையும் சந்தித்ததில் மகிழ்ச்சி!",
+          "response_translatable": true,
+          "audio": "nice_to_meet_you.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "ஒரு சிறந்த நாள்!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "நன்றி, நீங்களும்!",
+          "response_translatable": true,
+          "audio": "have_a_great_day.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "பின்னர் சந்திப்போம்!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "பை!",
+          "response_translatable": true,
+          "audio": "see_you_later.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "இது எப்படி நடக்கிறது?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "மிகவும் நல்லது, நன்றி!",
+          "response_translatable": true,
+          "audio": "hows_it_going.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "கவனித்துக் கொள்ளுங்கள்!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "நீங்களும்!",
+          "response_translatable": true,
+          "audio": "take_care.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "என்ன?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "அதிகம் இல்லை, நீங்கள்?",
+          "response_translatable": true,
+          "audio": "whats_up.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "உங்களைப் பார்ப்பது நல்லது!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "நீங்களும்!",
+          "response_translatable": true,
+          "audio": "good_to_see_you.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "விரைவில் உங்களைப் பார்ப்பார் என்று நம்புகிறேன்!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "நிச்சயமாக!",
+          "response_translatable": true,
+          "audio": "hope_to_see_you.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "ஒரு நல்ல மாலை!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "நன்றி!",
+          "response_translatable": true,
+          "audio": "have_nice_evening.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "உங்கள் நாள் எப்படி நடக்கிறது?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "இது நன்றாக நடக்கிறது!",
+          "response_translatable": true,
+          "audio": "hows_your_day.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "நாளை சந்திப்போம்!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "சரி, பை!",
+          "response_translatable": true,
+          "audio": "see_you_tomorrow.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "ஒரு நல்ல இரவு!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "நீங்களும்!",
+          "response_translatable": true,
+          "audio": "have_good_night.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "ஏய், நீங்கள் எப்படி இருக்கிறீர்கள்?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "சிறப்பாகச் செய்வது, நன்றி!",
+          "response_translatable": true,
+          "audio": "hey_how_are_you.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "இப்போது விடைபெறுங்கள்!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "சந்திப்போம்!",
+          "response_translatable": true,
+          "audio": "goodbye_for_now.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "ஒரு அற்புதமான நாள்!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "மிக்க நன்றி!",
+          "response_translatable": true,
+          "audio": "have_wonderful_day.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "பின்னர் சந்திப்போம்!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "நிச்சயமாக!",
+          "response_translatable": true,
+          "audio": "catch_you_later.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "எல்லாம் எப்படி?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "எல்லாம் நல்லது.",
+          "response_translatable": true,
+          "audio": "hows_everything.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "உங்களை மீண்டும் பார்ப்பது நல்லது!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "இங்கே அதே!",
+          "response_translatable": true,
+          "audio": "nice_to_see_again.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "எளிதாக எடுத்துக் கொள்ளுங்கள்!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "செய்வேன்!",
+          "response_translatable": true,
+          "audio": "take_it_easy.mp3"
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Meeting a friend at a cafe",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "ஹாய்! இன்று நீங்கள் எப்படி இருக்கிறீர்கள்?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hi_how_are_you.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "நான் நன்றாக இருக்கிறேன், நன்றி! உங்களைப் பார்த்ததில் மகிழ்ச்சி!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "im_great.mp3"
+            },
+            {
+              "speaker": "A",
+              "text": "உங்களையும் பார்ப்பது நல்லது!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "good_to_see_you_too.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Greeting a colleague",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "காலை வணக்கம்! கூட்டத்திற்கு தயாரா?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "good_morning_meeting.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "காலை வணக்கம்! ஆம், நான் தயாராக இருக்கிறேன். நீங்கள்?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "good_morning_yes_im_ready_you.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Saying goodbye after class",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "பின்னர் சந்திப்போம்!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "see_you_later_class.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "பை, ஒரு சிறந்த நாள்!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "bye_have_great_day.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Meeting a stranger at an event",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "வணக்கம், உங்களை சந்தித்ததில் மகிழ்ச்சி!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hello_nice_to_meet.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "ஹாய், உங்களையும் சந்தித்ததில் மகிழ்ச்சி!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hi_nice_to_meet_too.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Greeting a neighbor",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "நல்ல மதியம்! எல்லாம் எப்படி?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "good_afternoon_hows_everything.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "எல்லாம் நல்லது, நன்றி!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "everythings_good.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Saying goodbye at a store",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "நன்றி, ஒரு சிறந்த நாள்!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "thank_you_great_day.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "நீங்களும்!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "you_too.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Meeting a friend at a park",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "ஏய், என்ன இருக்கிறது?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hey_whats_up.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "அதிகம் இல்லை, குளிர்ச்சியானது.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "not_much_chilling.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Greeting a teacher",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "காலை வணக்கம், நீங்கள் எப்படி இருக்கிறீர்கள்?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "good_morning_teacher.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "நான் நன்றாக இருக்கிறேன், நன்றி!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "im_fine_teacher.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Leaving a party",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "குட்பை, கவனித்துக் கொள்ளுங்கள்!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "goodbye_take_care.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "நீங்களும், விரைவில் சந்திப்போம்!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "you_too_see_soon.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Meeting someone at a bus stop",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "ஹாய், அது எப்படி நடக்கிறது?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hi_hows_it_going.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "மிகவும் நல்லது, நன்றி!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "pretty_good_thanks.mp3"
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "பதில்களுடன் சொற்றொடர்களை பொருத்துங்கள்",
+          "prompt_translatable": true,
+          "lang": "en-IN",
+          "pairs": [
+            {
+              "word": "How are you?",
+              "match": "I’m fine, thank you!",
+              "translatable": true
+            },
+            {
+              "word": "Nice to meet you!",
+              "match": "Nice to meet you too!",
+              "translatable": true
+            },
+            {
+              "word": "Have a great day!",
+              "match": "Thanks, you too!",
+              "translatable": true
+            },
+            {
+              "word": "See you later!",
+              "match": "Bye!",
+              "translatable": true
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "சொல்லுங்கள்: உங்களை சந்தித்ததில் மகிழ்ச்சி!",
+          "prompt_translatable": true,
+          "expected": "Nice to meet you!",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "முழுமையானது: ___ நீங்கள்?",
+          "prompt_translatable": true,
+          "answer": "How",
+          "answer_translatable": true,
+          "hint": "Asking about someone’s well-being",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to greet someone in the evening?",
+          "question_translatable": true,
+          "answer": "Good evening",
+          "answer_translatable": true,
+          "options": [
+            "Good morning",
+            "Good evening",
+            "Hello",
+            "Goodbye"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "வகை: நீங்கள் எப்படி இருக்கிறீர்கள்?",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "சொல்லுங்கள்: காலை வணக்கம்!",
+          "prompt_translatable": true,
+          "expected": "Good morning!",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "முடிந்தது: ___ நீங்கள் பின்னர்!",
+          "prompt_translatable": true,
+          "answer": "See",
+          "answer_translatable": true,
+          "hint": "A casual goodbye",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to apologize?",
+          "question_translatable": true,
+          "answer": "Sorry",
+          "answer_translatable": true,
+          "options": [
+            "Thank you",
+            "Please",
+            "Sorry",
+            "Goodbye"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "உரையாடலை முடிக்கவும்: ஒரு: ஹாய்! நீங்கள் எப்படி இருக்கிறீர்கள்? பி: ___",
+          "prompt_translatable": true,
+          "answer": "I’m fine, thank you!",
+          "answer_translatable": true,
+          "hint": "Respond to a greeting",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "வகை: ஒரு சிறந்த நாள்!",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "சொல்லுங்கள்: கவனித்துக் கொள்ளுங்கள்!",
+          "prompt_translatable": true,
+          "expected": "Take care!",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "முடிந்தது: நல்லது ___!",
+          "prompt_translatable": true,
+          "answer": "night",
+          "answer_translatable": true,
+          "hint": "A nighttime greeting",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to wish someone well?",
+          "question_translatable": true,
+          "answer": "Have a great day!",
+          "answer_translatable": true,
+          "options": [
+            "How are you?",
+            "Have a great day!",
+            "Goodbye",
+            "Sorry"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "உரையாடலை முடிக்கவும்: ஒரு: நாளை சந்திப்போம்! பி: ___",
+          "prompt_translatable": true,
+          "answer": "Okay, bye!",
+          "answer_translatable": true,
+          "hint": "A response to a goodbye",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "பதில்களுடன் சொற்றொடர்களை பொருத்துங்கள்",
+          "prompt_translatable": true,
+          "pairs": [
+            {
+              "word": "What’s up?",
+              "match": "Not much, you?",
+              "translatable": true
+            },
+            {
+              "word": "Good to see you!",
+              "match": "You too!",
+              "translatable": true
+            }
+          ],
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "சொல்லுங்கள்: ஒரு நல்ல மாலை!",
+          "prompt_translatable": true,
+          "expected": "Have a nice evening!",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "முடிந்தது: ___ உங்களை சந்திக்க!",
+          "prompt_translatable": true,
+          "answer": "Nice",
+          "answer_translatable": true,
+          "hint": "A polite greeting",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to greet someone casually?",
+          "question_translatable": true,
+          "answer": "What’s up?",
+          "answer_translatable": true,
+          "options": [
+            "Good night",
+            "What’s up?",
+            "Thank you",
+            "Please"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "வகை: உங்களைப் பார்ப்பது நல்லது!",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "உரையாடலை முடிக்கவும்: ஒரு: ஒரு சிறந்த நாள்! பி: ___",
+          "prompt_translatable": true,
+          "answer": "Thanks, you too!",
+          "answer_translatable": true,
+          "hint": "A polite response",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "சொல்லுங்கள்: அது எப்படி நடக்கிறது?",
+          "prompt_translatable": true,
+          "expected": "How’s it going?",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "முடிந்தது: ___ கவனிப்பு!",
+          "prompt_translatable": true,
+          "answer": "Take",
+          "answer_translatable": true,
+          "hint": "A farewell phrase",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to greet someone in the afternoon?",
+          "question_translatable": true,
+          "answer": "Good afternoon",
+          "answer_translatable": true,
+          "options": [
+            "Good morning",
+            "Good afternoon",
+            "Good night",
+            "Hello"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        }
+      ],
+      "cultural_notes": "In English-speaking cultures, greetings vary by time of day (e.g., 'Good morning' before noon, 'Good evening' after 6 PM). A smile, wave, or handshake is common, especially in formal settings. Casual greetings like 'Hi' or 'What’s up?' are popular among friends.",
+      "cultural_notes_translatable": true
+    },
+    {
+      "lesson": 2,
+      "title": "Self Introduction",
+      "skills": [
+        "Phrases",
+        "Grammar",
+        "Pronunciation"
+      ],
+      "content": [
+        {
+          "type": "phrase",
+          "text": "எனது பெயர் [உங்கள் பெயர்].",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "உங்களை சந்தித்ததில் மகிழ்ச்சி!",
+          "response_translatable": true,
+          "audio": "my_name_is.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "நான் [உங்கள் நகரத்தை] சேர்ந்தவன்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "அது சுவாரஸ்யமானது!",
+          "response_translatable": true,
+          "audio": "i_am_from.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "நான் ஒரு மாணவர்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "குளிர்! நீங்கள் என்ன படிக்கிறீர்கள்?",
+          "response_translatable": true,
+          "audio": "i_am_a_student.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "நான் ஒரு ஆசிரியராக வேலை செய்கிறேன்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "அது சிறந்தது! நீங்கள் என்ன கற்பிக்கிறீர்கள்?",
+          "response_translatable": true,
+          "audio": "i_work_as_teacher.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "நான் புத்தகங்களைப் படிக்க விரும்புகிறேன்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "நல்லது! நீங்கள் என்ன புத்தகங்களைப் படிக்கிறீர்கள்?",
+          "response_translatable": true,
+          "audio": "i_like_to_read.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "நான் [உங்கள் நகரத்தில்] வசிக்கிறேன்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "நான் அந்த நகரத்தை நேசிக்கிறேன்!",
+          "response_translatable": true,
+          "audio": "i_live_in.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "நான் அமெரிக்காவைச் சேர்ந்தவன்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "ஆஹா, அது வெகு தொலைவில் உள்ளது!",
+          "response_translatable": true,
+          "audio": "i_am_from_us.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "நான் ஒரு பொறியாளர்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "அது சுவாரஸ்யமாக இருக்கிறது!",
+          "response_translatable": true,
+          "audio": "i_am_an_engineer.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "எனது பொழுதுபோக்கு ஓவியம்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "அது ஆக்கபூர்வமானது!",
+          "response_translatable": true,
+          "audio": "my_hobby_painting.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "நான் பயணம் செய்ய விரும்புகிறேன்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "நீங்கள் எந்த இடங்களுக்குச் சென்றீர்கள்?",
+          "response_translatable": true,
+          "audio": "i_like_to_travel.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "நான் உயிரியல் படிக்கிறேன்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "அது சுவாரஸ்யமானது!",
+          "response_translatable": true,
+          "audio": "i_study_biology.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "நான் ஒரு அலுவலகத்தில் வேலை செய்கிறேன்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "நீங்கள் அங்கு என்ன செய்கிறீர்கள்?",
+          "response_translatable": true,
+          "audio": "i_work_in_office.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "நான் ஒரு மருத்துவர்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "அது ஆச்சரியமாக இருக்கிறது!",
+          "response_translatable": true,
+          "audio": "im_a_doctor.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "நான் இசையை விரும்புகிறேன்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "என்ன வகையான இசை?",
+          "response_translatable": true,
+          "audio": "i_love_music.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "நான் ஒரு சமையல்காரராக வேலை செய்கிறேன்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "நீங்கள் என்ன சமைக்கிறீர்கள்?",
+          "response_translatable": true,
+          "audio": "i_work_as_chef.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "நான் விளையாடுவதை விரும்புகிறேன்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "எந்த விளையாட்டு?",
+          "response_translatable": true,
+          "audio": "i_like_sports.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "நான் பல்கலைக்கழகத்தில் படிக்கிறேன்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "நீங்கள் என்ன படிக்கிறீர்கள்?",
+          "response_translatable": true,
+          "audio": "im_studying_university.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "நான் சமையலை ரசிக்கிறேன்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "சமைக்க உங்களுக்கு பிடித்த உணவு எது?",
+          "response_translatable": true,
+          "audio": "i_enjoy_cooking.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "நான் கனடாவைச் சேர்ந்தவன்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "குளிர்! எந்த பகுதி?",
+          "response_translatable": true,
+          "audio": "im_from_canada.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "நான் ஒரு எழுத்தாளராக வேலை செய்கிறேன்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "நீங்கள் என்ன எழுதுகிறீர்கள்?",
+          "response_translatable": true,
+          "audio": "i_work_as_writer.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "எனக்கு நடைபயணம் பிடிக்கும்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "நீங்கள் எங்கு செல்கிறீர்கள்?",
+          "response_translatable": true,
+          "audio": "i_like_hiking.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "நான் கணினி அறிவியல் படிக்கிறேன்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "அது அருமையாக இருக்கிறது!",
+          "response_translatable": true,
+          "audio": "i_study_cs.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "நான் ஒரு செவிலியர்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "இது ஒரு நல்ல வேலை",
+          "response_translatable": true,
+          "audio": "im_a_nurse.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "நான் திரைப்படங்களைப் பார்ப்பது மிகவும் பிடிக்கும்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "உங்களுக்கு பிடித்தது எது?",
+          "response_translatable": true,
+          "audio": "i_love_movies.mp3"
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Introducing yourself at a party",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "ஹாய், நான் சாரா. நான் லண்டனைச் சேர்ந்தவன்.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hi_sarah.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "உங்களை சந்தித்ததில் மகிழ்ச்சி, சாரா! நான் ஜான்.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "nice_to_meet_sarah.mp3"
+            },
+            {
+              "speaker": "A",
+              "text": "நான் ஒரு மாணவன். நான் உயிரியல் படிக்கிறேன். நீங்கள் என்ன செய்கிறீர்கள்?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "im_a_student.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Meeting a colleague",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "வணக்கம், என் பெயர் அலெக்ஸ். நான் ஒரு வடிவமைப்பாளராக வேலை செய்கிறேன்.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hello_alex.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "ஹாய் அலெக்ஸ், நான் லிசா. நான் ஒரு மேலாளர்.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hi_lisa.mp3"
+            },
+            {
+              "speaker": "A",
+              "text": "உங்களை சந்தித்ததில் மகிழ்ச்சி!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "nice_to_meet_paint.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Introducing yourself in class",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "ஹாய், நான் எம்மா. நான் பல்கலைக்கழகத்தில் படிக்கிறேன்.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hi_emma.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "கூல், எம்மா! உங்கள் மேஜர் என்ன?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "cool_emma_major.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Meeting someone at a conference",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "வணக்கம், நான் டாம். நான் ஹைதராபாத்தைச் சேர்ந்தவன்",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hello_tom.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "ஹாய் டாம், நான் ரேச்சல். நான் பெங்களூரைச் சேர்ந்தவன்",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hi_rachel_doctor.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Introducing yourself at a community event",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "ஹாய், நான் ஜேம்ஸ். நான் பயணம் செய்ய விரும்புகிறேன்.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hi_james.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "உங்களை சந்தித்ததில் மகிழ்ச்சி, ஜேம்ஸ்! நீங்கள் எந்த இடங்களுக்குச் சென்றீர்கள்?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "which_places_did_you_visit.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Meeting a new neighbor",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "வணக்கம், நான் மியா. நான் சமீபத்தில் [உங்கள் நகரத்திற்கு] சென்றேன்",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "hello_mia.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "ஹாய் மியா, நான் சாம். அக்கம் பக்கத்திற்கு வருக!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "welcome_sam.mp3"
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "பதில்களுடன் சொற்றொடர்களை பொருத்துங்கள்",
+          "prompt_translatable": true,
+          "lang": "en-IN",
+          "pairs": [
+            {
+              "word": "My name is [Your Name].",
+              "match": "Nice to meet you!",
+              "translatable": true
+            },
+            {
+              "word": "I am a student.",
+              "match": "Cool! What do you study?",
+              "translatable": true
+            },
+            {
+              "word": "I like to read books.",
+              "match": "Nice! What books do you read?",
+              "translatable": true
+            },
+            {
+              "word": "I live in [Your City].",
+              "match": "I love that city!",
+              "translatable": true
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "சொல்லுங்கள்: எனது பெயர் [உங்கள் பெயர்].",
+          "prompt_translatable": true,
+          "expected": "My name is [Your Name].",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "முழுமையானது: நான் ___ இலிருந்து வந்தவன்",
+          "prompt_translatable": true,
+          "answer": "London",
+          "answer_translatable": true,
+          "hint": "A city or country",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "How do you say you are a doctor?",
+          "question_translatable": true,
+          "answer": "I am a doctor",
+          "answer_translatable": true,
+          "options": [
+            "I am a student",
+            "I am a doctor",
+            "My name is doctor",
+            "I from doctor"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "வகை: நான் ஒரு மாணவன்.",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "சொல்லுங்கள்: நான் படிக்க விரும்புகிறேன்.",
+          "prompt_translatable": true,
+          "expected": "I like to read.",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "முழுமையானது: நான் ___ ஆக வேலை செய்கிறேன்",
+          "prompt_translatable": true,
+          "answer": "teacher",
+          "answer_translatable": true,
+          "hint": "An occupation",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to share your hobby?",
+          "question_translatable": true,
+          "answer": "I like to [hobby].",
+          "answer_translatable": true,
+          "options": [
+            "I am a hobby",
+            "I like to [hobby].",
+            "My name is hobby",
+            "I from hobby"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "உரையாடலை முடிக்கவும்: ஒரு: ஹாய், நான் சாரா. பி: ___",
+          "prompt_translatable": true,
+          "answer": "Nice to meet you, Sarah!",
+          "answer_translatable": true,
+          "hint": "A polite response",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "வகை: நான் [உங்கள் நகரத்தில்] வசிக்கிறேன்.",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "சொல்லுங்கள்: நான் ஒரு மருத்துவர்.",
+          "prompt_translatable": true,
+          "expected": "I’m a doctor.",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "முழுமையானது: நான் ___ ஐ விரும்புகிறேன்",
+          "prompt_translatable": true,
+          "answer": "travel",
+          "answer_translatable": true,
+          "hint": "A hobby",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "How do you say you’re from Canada?",
+          "question_translatable": true,
+          "answer": "I’m from Canada",
+          "answer_translatable": true,
+          "options": [
+            "I’m a Canada",
+            "I’m from Canada",
+            "My name is Canada",
+            "I like Canada"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "உரையாடலை முடிக்கவும்: ஒரு: நான் பல்கலைக்கழகத்தில் படிக்கிறேன். பி: ___",
+          "prompt_translatable": true,
+          "answer": "What do you study?",
+          "answer_translatable": true,
+          "hint": "Ask about their studies",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "பதில்களுடன் சொற்றொடர்களை பொருத்துங்கள்",
+          "prompt_translatable": true,
+          "pairs": [
+            {
+              "word": "I like to travel.",
+              "match": "Where have you been?",
+              "translatable": true
+            },
+            {
+              "word": "I’m a nurse.",
+              "match": "That’s a good job!",
+              "translatable": true
+            }
+          ],
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "சொல்லுங்கள்: நான் சமைப்பதை ரசிக்கிறேன்.",
+          "prompt_translatable": true,
+          "expected": "I enjoy cooking.",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "முழுமையானது: நான் ___ படிக்கிறேன்",
+          "prompt_translatable": true,
+          "answer": "biology",
+          "answer_translatable": true,
+          "hint": "A subject",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to share where you live?",
+          "question_translatable": true,
+          "answer": "I live in [Your City].",
+          "answer_translatable": true,
+          "options": [
+            "I am [Your City].",
+            "I live in [Your City].",
+            "I work in [Your City].",
+            "I like [Your City]."
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "வகை: நான் விளையாடுவதை விரும்புகிறேன்.",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "உரையாடலை முடிக்கவும்: ஒரு: நான் புதுதில்லியைச் சேர்ந்தவன். பி: ___",
+          "prompt_translatable": true,
+          "answer": "Wow, that’s far!",
+          "answer_translatable": true,
+          "hint": "A surprised response",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "சொல்லுங்கள்: நான் ஒரு சமையல்காரராக வேலை செய்கிறேன்.",
+          "prompt_translatable": true,
+          "expected": "I work as a chef.",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "முழுமையானது: எனது பொழுதுபோக்கு ___",
+          "prompt_translatable": true,
+          "answer": "painting",
+          "answer_translatable": true,
+          "hint": "A creative activity",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        }
+      ],
+      "cultural_notes": "English introductions often include your name, hometown, or job. Small talk about weather, hobbies, or travel is common after introductions, especially at social events like parties or conferences.",
+      "cultural_notes_translatable": true
+    },
+    {
+      "lesson": 3,
+      "title": "Family",
+      "skills": [
+        "Vocabulary",
+        "Phrases",
+        "Grammar",
+        "Cultural Context"
+      ],
+      "content": [
+        {
+          "type": "vocab",
+          "word": "தந்தை",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "என் தந்தை ஒரு மருத்துவர்.",
+          "example_translatable": true,
+          "audio": "father.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "அம்மா",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "என் அம்மா ஒரு ஆசிரியர்.",
+          "example_translatable": true,
+          "audio": "mother.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "மூத்த சகோதரர்",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "என் மூத்த சகோதரருக்கு 25.",
+          "example_translatable": true,
+          "audio": "older_brother.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "தம்பி",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "என் தம்பி பள்ளியில் இருக்கிறார்.",
+          "example_translatable": true,
+          "audio": "younger_brother.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "மூத்த சகோதரி",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "என் மூத்த சகோதரி ஒரு வழக்கறிஞர்.",
+          "example_translatable": true,
+          "audio": "older_sister.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "தங்கை",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "என் தங்கை நடனத்தை விரும்புகிறார்.",
+          "example_translatable": true,
+          "audio": "younger_sister.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "மகள்",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "என் மகளுக்கு ஐந்து வயது.",
+          "example_translatable": true,
+          "audio": "daughter.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "மகன்",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "என் மகன் கால்பந்து விளையாடுகிறான்.",
+          "example_translatable": true,
+          "audio": "son.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "மாமா",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "என் மாமா மும்பையில் வசிக்கிறார்.",
+          "example_translatable": true,
+          "audio": "uncle.mp3"
+        },
+        {
+          "type": "vocab",
+          "word": "அத்தை",
+          "translatable": true,
+          "lang": "en-IN",
+          "example": "என் அத்தை சிறந்த குக்கீகளை உருவாக்குகிறார்.",
+          "example_translatable": true,
+          "audio": "aunty.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "இது எனது குடும்பம்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "உங்கள் குடும்பம் அருமையாக தெரிகிறது!",
+          "response_translatable": true,
+          "audio": "this_is_my_family.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "எனக்கு இரண்டு சகோதரர்கள் உள்ளனர்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "அது ஒரு பெரிய குடும்பம்!",
+          "response_translatable": true,
+          "audio": "i_have_two_brothers.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "என் அம்மா ஒரு ஆசிரியர்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "அது ஆச்சரியமாக இருக்கிறது!",
+          "response_translatable": true,
+          "audio": "my_mother_is_teacher.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "உங்களுக்கு உடன்பிறப்புகள் இருக்கிறார்களா?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "ஆம், எனக்கு ஒரு சகோதரி இருக்கிறார்.",
+          "response_translatable": true,
+          "audio": "do_you_have_siblings.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "என் பெற்றோர் [உங்கள் நகரத்தில்] வசிக்கிறார்கள்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "நல்ல இடம்!",
+          "response_translatable": true,
+          "audio": "my_parents_live_in.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "நான் என் குடும்பத்தை நேசிக்கிறேன்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "அது மிகவும் இனிமையானது!",
+          "response_translatable": true,
+          "audio": "i_love_my_family.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "என் தந்தை ஒரு மருத்துவர்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "ஆஹா, அது சுவாரஸ்யமாக இருக்கிறது!",
+          "response_translatable": true,
+          "audio": "my_father_is_doctor.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "எனக்கு ஒரு சகோதரி இருக்கிறார்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "அது நல்லது!",
+          "response_translatable": true,
+          "audio": "i_have_one_sister.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "என் சகோதரர் ஒரு மாணவர்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "அவர் என்ன படிக்கிறார்?",
+          "response_translatable": true,
+          "audio": "my_brother_is_student.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "என் பாட்டி எங்களுடன் வசிக்கிறார்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "அது அற்புதம்!",
+          "response_translatable": true,
+          "audio": "my_grandmother_lives.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "எனக்கு ஒரு பெரிய குடும்பம் உள்ளது.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "அது வேடிக்கையாக இருக்கிறது!",
+          "response_translatable": true,
+          "audio": "i_have_big_family.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "என் பெற்றோர் ஓய்வு பெற்றவர்கள்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "அது அவர்களுக்கு நல்லது!",
+          "response_translatable": true,
+          "audio": "my_parents_retired.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "என் சகோதரி நடனமாட விரும்புகிறார்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "அது அருமையாக இருக்கிறது!",
+          "response_translatable": true,
+          "audio": "my_sister_likes_dance.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "உங்களுக்கு ஒரு சகோதரர் இருக்கிறாரா?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "இல்லை, எனக்கு ஒரு சகோதரி இருக்கிறார்.",
+          "response_translatable": true,
+          "audio": "do_you_have_brother.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "என் தாத்தா கதைகளைச் சொல்கிறார்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "அது வேடிக்கையாக இருக்கிறது!",
+          "response_translatable": true,
+          "audio": "my_grandfather_stories.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "எனக்கு மூன்று உடன்பிறப்புகள் உள்ளனர்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "ஆஹா, பெரிய குடும்பம்!",
+          "response_translatable": true,
+          "audio": "i_have_three_siblings.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "என் அம்மா நன்றாக சமைக்கிறார்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "நீங்கள் அதிர்ஷ்டசாலி!",
+          "response_translatable": true,
+          "audio": "my_mother_cooks_well.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "என் குடும்பம் வெகு தொலைவில் வாழ்கிறது.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "நீங்கள் அடிக்கடி வருகிறீர்களா?",
+          "response_translatable": true,
+          "audio": "my_family_lives_far.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "எனக்கு ஒரு தம்பி இருக்கிறார்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "அவருக்கு எவ்வளவு வயது?",
+          "response_translatable": true,
+          "audio": "i_have_younger_brother.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "என் பெற்றோர் ஆசிரியர்கள்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "அது சிறந்தது!",
+          "response_translatable": true,
+          "audio": "my_parents_teachers.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "என் மாமா ஒரு விவசாயி.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "அது சுவாரஸ்யமானது!",
+          "response_translatable": true,
+          "audio": "my_uncle_is_farmer.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "என் அத்தை தோட்டக்கலை நேசிக்கிறார்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "இது ஒரு நல்ல பொழுதுபோக்கு!",
+          "response_translatable": true,
+          "audio": "my_aunty_gardening.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "என் மகள் பள்ளியில் இருக்கிறாள்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "அவள் என்ன தரத்தில் இருக்கிறாள்?",
+          "response_translatable": true,
+          "audio": "my_daughter_in_school.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "என் மகன் கால்பந்து விளையாடுகிறான்.",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "அது அருமை!",
+          "response_translatable": true,
+          "audio": "my_son_plays_soccer.mp3"
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Talking about family at a gathering",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "உங்களிடம் உடன்பிறப்புகள் யாராவது இருக்கிறார்களா?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "do_you_have_siblings.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "ஆம், எனக்கு ஒரு சகோதரி மற்றும் ஒரு சகோதரர் இருக்கிறார்.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "one_sister_one_brother.mp3"
+            },
+            {
+              "speaker": "A",
+              "text": "அது நல்லது! அவர்கள் என்ன செய்கிறார்கள்?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "what_do_they_do.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Introducing family at an event",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "இது என் அம்மா ஜேன்.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "this_is_my_mother.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "உங்களை சந்தித்ததில் மகிழ்ச்சி, ஜேன்!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "nice_to_meet_jane.mp3"
+            },
+            {
+              "speaker": "A",
+              "text": "அவள் ஒரு ஆசிரியர்.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "shes_a_teacher.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Discussing family at a party",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "எனக்கு இரண்டு சகோதரர்கள் உள்ளனர்.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "i_have_two_brothers_party.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "அது ஒரு பெரிய குடும்பம்!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "thats_big_family.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Talking about family in class",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "என் பெற்றோர் சென்னையில் வசிக்கிறார்கள்.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "parents_live_Chennai.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "நல்ல இடம்!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "nice_place.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Introducing your uncle at a family event",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "இது என் மாமா, மார்க்.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "this_is_my_uncle.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "உங்களை சந்தித்ததில் மகிழ்ச்சி, மார்க்!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "nice_to_meet_mark.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Talking about your daughter",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "என் மகளுக்கு ஐந்து வயது.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "my_daughter_five.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "அது மிகவும் அழகாக இருக்கிறது!",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "thats_so_cute.mp3"
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "பதில்களுடன் சொற்றொடர்களை பொருத்துங்கள்",
+          "prompt_translatable": true,
+          "lang": "en-IN",
+          "pairs": [
+            {
+              "word": "This is my family.",
+              "match": "Your family looks wonderful!",
+              "translatable": true
+            },
+            {
+              "word": "I have two brothers.",
+              "match": "That’s a big family!",
+              "translatable": true
+            },
+            {
+              "word": "My mother is a teacher.",
+              "match": "That’s amazing!",
+              "translatable": true
+            },
+            {
+              "word": "I love my family.",
+              "match": "That’s so sweet!",
+              "translatable": true
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "சொல்லுங்கள்: இது என் அம்மா.",
+          "prompt_translatable": true,
+          "expected": "This is my mother.",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "முழுமையானது: எனக்கு ஒன்று ___ உள்ளது",
+          "prompt_translatable": true,
+          "answer": "sister",
+          "answer_translatable": true,
+          "hint": "A family member",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "How do you say 'My parents'?",
+          "question_translatable": true,
+          "answer": "My parents",
+          "answer_translatable": true,
+          "options": [
+            "My brothers",
+            "My parents",
+            "My family",
+            "My mother"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "வகை: எனக்கு இரண்டு சகோதரர்கள் உள்ளனர்.",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "சொல்லுங்கள்: என் தந்தை ஒரு மருத்துவர்.",
+          "prompt_translatable": true,
+          "expected": "My father is a doctor.",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "முழுமையானது: எனது ___ ஒரு ஆசிரியர்.",
+          "prompt_translatable": true,
+          "answer": "mother",
+          "answer_translatable": true,
+          "hint": "A family member",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to ask about someone’s family?",
+          "question_translatable": true,
+          "answer": "Do you have siblings?",
+          "answer_translatable": true,
+          "options": [
+            "Do you have a job?",
+            "Do you have siblings?",
+            "What do you study?",
+            "I love my family"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "உரையாடலை முடிக்கவும்: ப: இது எனது குடும்பம். பி: ___",
+          "prompt_translatable": true,
+          "answer": "Your family looks wonderful!",
+          "answer_translatable": true,
+          "hint": "A polite response",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "வகை: எனது பெற்றோர் [உங்கள் நகரத்தில்] வசிக்கிறார்கள்.",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "சொல்லுங்கள்: என் மாமா ஒரு விவசாயி.",
+          "prompt_translatable": true,
+          "expected": "My uncle is a farmer.",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "முழுமையானது: எனது ___ நடனமாட விரும்புகிறார்.",
+          "prompt_translatable": true,
+          "answer": "sister",
+          "answer_translatable": true,
+          "hint": "A family member",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "How do you say 'My daughter'?",
+          "question_translatable": true,
+          "answer": "My daughter",
+          "answer_translatable": true,
+          "options": [
+            "My sister",
+            "My daughter",
+            "My mother",
+            "My aunty"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "உரையாடலை முடிக்கவும்: ஒரு: எனக்கு ஒரு தம்பி இருக்கிறார். பி: ___",
+          "prompt_translatable": true,
+          "answer": "How old is he?",
+          "answer_translatable": true,
+          "hint": "Ask about age",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "பதில்களுடன் சொற்றொடர்களை பொருத்துங்கள்",
+          "prompt_translatable": true,
+          "pairs": [
+            {
+              "word": "My son plays soccer.",
+              "match": "That’s awesome!",
+              "translatable": true
+            },
+            {
+              "word": "My aunty loves gardening.",
+              "match": "That’s a nice hobby!",
+              "translatable": true
+            }
+          ],
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "சொல்லுங்கள்: என் மகள் பள்ளியில் இருக்கிறாள்.",
+          "prompt_translatable": true,
+          "expected": "My daughter is in school.",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "முழுமையானது: எனது ___ கதைகளைச் சொல்கிறது.",
+          "prompt_translatable": true,
+          "answer": "grandfather",
+          "answer_translatable": true,
+          "hint": "An older family member",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to ask about someone’s brother?",
+          "question_translatable": true,
+          "answer": "Do you have a brother?",
+          "answer_translatable": true,
+          "options": [
+            "Do you have a sister?",
+            "Do you have a brother?",
+            "My daughter is in school.",
+            "I love my brother"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "வகை: என் சகோதரி நடனமாட விரும்புகிறார்.",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "உரையாடலை முடிக்கவும்: ஒரு: இது என் மாமா, மார்க். பி: ___",
+          "prompt_translatable": true,
+          "answer": "Nice to meet you, Mark!",
+          "answer_translatable": true,
+          "hint": "A polite greeting",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "சொல்லுங்கள்: எனக்கு மூன்று உடன்பிறப்புகள் உள்ளனர்.",
+          "prompt_translatable": true,
+          "expected": "I have three siblings.",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "முழுமையானது: எனது ___ ஒரு விவசாயி.",
+          "prompt_translatable": true,
+          "answer": "uncle",
+          "answer_translatable": true,
+          "hint": "A family member",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        }
+      ],
+      "cultural_notes": "In English, informal terms like 'mom' and 'dad' are common. Family discussions often involve sharing stories or photos, especially at gatherings like holidays or reunions. Asking about siblings or parents is a typical conversation starter.",
+      "cultural_notes_translatable": true
+    },
+    {
+      "lesson": 4,
+      "title": "Basic Interactions",
+      "skills": [
+        "Phrases",
+        "Grammar",
+        "Pronunciation"
+      ],
+      "content": [
+        {
+          "type": "phrase",
+          "text": "தயவுசெய்து எனக்கு கொஞ்சம் தண்ணீர் இருக்க முடியுமா?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "நிச்சயமாக, இங்கே நீங்கள் செல்லுங்கள்!",
+          "response_translatable": true,
+          "audio": "can_i_have_water.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "பஸ் நிறுத்தம் எங்கே?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "அது அங்கேயே முடிந்துவிட்டது.",
+          "response_translatable": true,
+          "audio": "where_is_bus_stop.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "மிக்க நன்றி!",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "உங்களை வரவேற்கிறோம்!",
+          "response_translatable": true,
+          "audio": "thank_you_very_much.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "தயவுசெய்து எனக்கு உதவ முடியுமா?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "நிச்சயமாக!",
+          "response_translatable": true,
+          "audio": "can_you_help_me.mp3"
+        },
+        {
+          "type": "phrase",
+          "text": "தயவுசெய்து எனக்கு ஒரு தேநீர் சாப்பிடலாமா?",
+          "translatable": true,
+          "lang": "en-IN",
+          "response": "நிச்சயமாக, இங்கே அது!",
+          "response_translatable": true,
+          "audio": "can_i_have_tea.mp3"
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Ordering at a cafe",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "தயவுசெய்து எனக்கு ஒரு தேநீர் சாப்பிடலாமா?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "can_i_have_tea.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "நிச்சயமாக, நீங்கள் சர்க்கரையை விரும்புகிறீர்களா?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "would_you_like_sugar.mp3"
+            },
+            {
+              "speaker": "A",
+              "text": "இல்லை, நன்றி.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "no_thank_you.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "Asking for directions",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "பஸ் நிறுத்தம் எங்கே?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "where_is_bus_stop.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "அது அங்கேயே முடிந்துவிட்டது.",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "its_over_there.mp3"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "scenario": "At a store",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "தயவுசெய்து எனக்கு உதவ முடியுமா?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "can_you_help_me.mp3"
+            },
+            {
+              "speaker": "B",
+              "text": "நிச்சயமாக, உங்களுக்கு என்ன தேவை?",
+              "translatable": true,
+              "lang": "en-IN",
+              "audio": "what_do_you_need.mp3"
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "match",
+          "prompt": "சொற்றொடர்களை அவர்களின் பதில்களுடன் பொருத்துங்கள்",
+          "prompt_translatable": true,
+          "lang": "en-IN",
+          "pairs": [
+            {
+              "word": "Can I have some water, please?",
+              "match": "Sure, here you go!",
+              "translatable": true
+            },
+            {
+              "word": "Thank you very much!",
+              "match": "You're welcome!",
+              "translatable": true
+            },
+            {
+              "word": "Where is the bus stop?",
+              "match": "It's over there.",
+              "translatable": true
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "சொல்லுங்கள்: தயவுசெய்து எனக்கு கொஞ்சம் தண்ணீர் இருக்க முடியுமா?",
+          "prompt_translatable": true,
+          "expected": "Can I have some water, please?",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "முடிந்தது: ___ நீங்கள் மிகவும்!",
+          "prompt_translatable": true,
+          "answer": "Thank",
+          "answer_translatable": true,
+          "hint": "Expressing gratitude",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to ask for help?",
+          "question_translatable": true,
+          "answer": "Can you help me, please?",
+          "answer_translatable": true,
+          "options": [
+            "Can you help me, please?",
+            "Where is help?",
+            "Thank you for help",
+            "I need water"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "வகை: பஸ் நிறுத்தம் எங்கே?",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "voice",
+          "prompt": "சொல்லுங்கள்: மிக்க நன்றி!",
+          "prompt_translatable": true,
+          "expected": "Thank you very much!",
+          "expected_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "fill-in",
+          "prompt": "முழுமையானது: தயவுசெய்து எனக்கு ___ இருக்க முடியுமா?",
+          "prompt_translatable": true,
+          "answer": "tea",
+          "answer_translatable": true,
+          "hint": "A drink",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "quiz",
+          "question": "What do you say to order tea?",
+          "question_translatable": true,
+          "answer": "Can I have a tea, please?",
+          "answer_translatable": true,
+          "options": [
+            "Where is the tea?",
+            "Can I have a tea, please?",
+            "Thank you for tea",
+            "I need tea"
+          ],
+          "options_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "dialogue",
+          "prompt": "உரையாடலை முடிக்கவும்: ஒரு: தயவுசெய்து எனக்கு ஒரு தேநீர் இருக்க முடியுமா? பி: ___",
+          "prompt_translatable": true,
+          "answer": "Sure, would you like sugar?",
+          "answer_translatable": true,
+          "hint": "A server's response",
+          "hint_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "exercise",
+          "format": "type",
+          "prompt": "வகை: தயவுசெய்து எனக்கு உதவ முடியுமா?",
+          "prompt_translatable": true,
+          "lang": "en-IN"
+        },
+        {
+          "type": "cultural_notes",
+          "text": "ஆங்கிலம் பேசும் பகுதிகளில், இடைவினைகளில் மரியாதை முக்கியமானது. 'தயவுசெய்து' மற்றும் 'நன்றி' போன்ற சொற்றொடர்கள் பொதுவாக மரியாதையையும் நன்றியையும் காட்ட பயன்படுத்தப்படுகின்றன.",
+          "translatable": true,
+          "lang": "en-IN"
+        }
+      ]
+    }
+  ]
+}

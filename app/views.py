@@ -12,6 +12,7 @@ from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
 from django.utils.encoding import force_bytes, force_str
 from django.contrib.auth.decorators import login_required
 from .forms import LanguageRegistrationForm
+from django.http import HttpResponse
 import json
 import os
 
@@ -160,7 +161,7 @@ def verify_email(request, uidb64, token):
     if user is not None and default_token_generator.check_token(user, token):
         user.is_active = True
         user.save()
-        login(request, user)
+        login(request, user, backend='allauth.account.auth_backends.AuthenticationBackend')
         messages.success(request, 'Email verified successfully! Start learning now.')
         return redirect('index')
     else:
@@ -232,12 +233,12 @@ def lesson_detail(request, language, unit, lesson):
         })
 
     lesson_data = lessons[lesson - 1]
-
     # Determine target language (user preference or dropdown)
-    target_lang = request.GET.get('target', 'english')
+    known= LanguageRegistration.objects.get(user=request.user, learning_language=language).known_language
+    target_lang = request.GET.get('target_lang', known.lower())  # Default to known language
 
     # Load the translated file (e.g., telugu_translated_to_english.json)
-    targ = f"telugu_translated_to_{target_lang}"
+    targ = f"{language.lower()}_translated_to_{target_lang}"
     translated_file = load_json(targ)
     trans_lessons = translated_file.get('lessons', [])
 
@@ -280,3 +281,16 @@ def exercise_page(request, language, unit, lesson):
         'lesson': lesson,
         'exercises': exercises
     })
+    
+def service_worker(request):
+    """
+    Serve the service-worker.js from the static folder at the site root.
+    """
+    sw_path = os.path.join(settings.BASE_DIR, 'static', 'service-worker.js')
+    try:
+        with open(sw_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+        return HttpResponse(content, content_type='application/javascript')
+    except Exception as e:
+        # Return an empty js file if not found to avoid 500 errors
+        return HttpResponse('// service-worker not available', content_type='application/javascript')
