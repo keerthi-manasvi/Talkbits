@@ -56,7 +56,8 @@ class UserProgress(models.Model):
     current_lesson = models.ForeignKey(Lesson, on_delete=models.SET_NULL, null=True, blank=True)
     completed_lessons = models.ManyToManyField(Lesson, related_name='completed_by')
     exercises_submitted = models.JSONField(default=dict)
-
+    exercise_scores = models.JSONField(default=dict) 
+    
     def __str__(self):
         return f"{self.user.username} - {self.course.language}"
 
@@ -66,7 +67,12 @@ class UserProgress(models.Model):
     def mark_exercise_submitted(self, lesson_id):
         self.exercises_submitted[str(lesson_id)] = True
         self.save()
-
+        
+    def save_exercise_score(self, lesson_id, prompt, score):
+        if str(lesson_id) not in self.exercise_scores:
+            self.exercise_scores[str(lesson_id)] = {}
+        self.exercise_scores[str(lesson_id)][prompt] = score
+        self.save()
 
 class LanguageRegistration(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)

@@ -17,7 +17,6 @@ urlpatterns = [
     path("exercise/<str:language>/<int:unit>/<int:lesson>/", views.exercise_page, name="exercise_page"),
     path('registration-success/<str:language>/', views.registration_success, name='registration_success'),
     path("mycourses/", views.my_courses, name="my_courses"),
-
-
+    path('api/save_score/', views.save_exercise_score, name='save_exercise_score'),
     ]
 

@@ -1,34 +1,57 @@
 {% extends 'app/layout.html' %}
+{% load static %}
+
 {% block content %}
+<!-- Metadata for script: do NOT remove -->
+<div id="exercise-meta" data-language="{{ language }}" data-unit="{{ unit }}" data-lesson="{{ lesson }}"
+    style="display:none;"></div>
+
 <h2 class="text-2xl font-bold mb-4">Exercises for Lesson {{ lesson }}</h2>
+
 <form method="post" class="space-y-4">
     {% csrf_token %}
     {% for ex in exercises %}
     <div class="bg-white p-4 rounded shadow">
         <p class="font-medium">{{ ex.prompt }}</p>
+
         {% if ex.format == 'match' %}
         <ul class="list-disc ml-6">
             {% for pair in ex.pairs %}
             <li>{{ pair.word }} → {{ pair.match }}</li>
             {% endfor %}
         </ul>
+
         {% elif ex.format == 'fill-in' or ex.format == 'type' %}
         <input type="text" name="input_{{ forloop.counter }}" class="border rounded px-2 py-1 w-full mt-2">
+
         {% elif ex.format == 'quiz' %}
         {% for opt in ex.options %}
         <label class="block mt-1">
             <input type="radio" name="quiz_{{ forloop.counter }}" value="{{ opt }}"> {{ opt }}
         </label>
         {% endfor %}
+
         {% elif ex.format == 'voice' %}
-        <p class="mt-2 italic">Say: <strong>{{ ex.expected }}</strong></p>
+        <div class="voice-exercise bg-gray-50 p-3 rounded" data-expected="{{ ex.expected }}" data-lang="{{ ex.lang }}">
+            <p class="mt-2 italic">Say: <strong>{{ ex.expected }}</strong></p>
+        </div>
+
         {% elif ex.format == 'dialogue' %}
         <input type="text" name="dialogue_{{ forloop.counter }}" class="border rounded px-2 py-1 w-full mt-2">
         {% endif %}
     </div>
     {% endfor %}
-    <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Submit Exercises</button>
+
+    <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
+        Submit Exercises
+    </button>
 </form>
-<a href="{% url 'lesson_detail' language unit lesson %}" class="inline-block mt-4 text-blue-600 hover:underline">← Back
-    to Lesson</a>
+
+<a href="{% url 'lesson_detail' language unit lesson %}" class="inline-block mt-4 text-blue-600 hover:underline">
+    ← Back to Lesson
+</a>
+{% endblock %}
+
+{% block scripts %}
+<script src="{% static 'script.js' %}"></script>
 {% endblock %}

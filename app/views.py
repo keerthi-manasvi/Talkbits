@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth import get_user_model
+from django.views.decorators.csrf import csrf_exempt
 User=get_user_model()
 from .models import *
 from django.contrib import messages
@@ -12,7 +13,7 @@ from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
 from django.utils.encoding import force_bytes, force_str
 from django.contrib.auth.decorators import login_required
 from .forms import LanguageRegistrationForm
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 import json
 import os
 
@@ -281,7 +282,38 @@ def exercise_page(request, language, unit, lesson):
         'lesson': lesson,
         'exercises': exercises
     })
-    
+
+@csrf_exempt
+@login_required
+def save_exercise_score(request):
+    """AJAX endpoint to save exercise score from the frontend."""
+    if request.method != "POST":
+        return JsonResponse({"error": "Invalid request"}, status=405)
+
+    try:
+        data = json.loads(request.body)
+        language = data.get("language")
+        lesson = data.get("lesson")
+        prompt = data.get("prompt")
+        score = data.get("score", 0)
+
+        course = Course.objects.filter(language__iexact=language).first()
+        if not course:
+            return JsonResponse({"error": "Course not found"}, status=404)
+
+        progress, _ = UserProgress.objects.get_or_create(user=request.user, course=course)
+        progress.save_exercise_score(lesson, prompt, score)
+
+        # Update XP (optional, tweak as needed)
+        profile = Profile.objects.get(user=request.user)
+        profile.xp += int(score / 10)  # e.g., 85% → +8 XP
+        profile.save()
+
+        return JsonResponse({"success": True, "xp": profile.xp})
+
+    except Exception as e:
+        return JsonResponse({"error": str(e)}, status=400)
+     
 def service_worker(request):
     """
     Serve the service-worker.js from the static folder at the site root.
