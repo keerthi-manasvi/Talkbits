@@ -144,12 +144,12 @@ const exerciseContainers = Array.from(document.querySelectorAll('.voice-exercise
     const playBtn = document.createElement('button');
     playBtn.type = 'button';
     playBtn.textContent = '▶ Play Prompt';
-    playBtn.className = 'play-prompt-btn bg-blue-500 text-white px-3 py-1 rounded mr-2';
+    playBtn.className = 'play-prompt-btn bg-white-500 text-white px-3 py-1 rounded mr-2';
 
     const startBtn = document.createElement('button');
     startBtn.type = 'button';
     startBtn.textContent = '🎤 Start Speaking';
-    startBtn.className = 'start-rec-btn bg-green-600 text-white px-3 py-1 rounded mr-2';
+    startBtn.className = 'start-rec-btn bg-white-600 text-white px-3 py-1 rounded mr-2';
 
     const stopBtn = document.createElement('button');
     stopBtn.type = 'button';
@@ -252,7 +252,7 @@ const exerciseContainers = Array.from(document.querySelectorAll('.voice-exercise
 
       if (score >= 0.80) {
         feedbackP.textContent = '✅ Correct — ' + percent + '%';
-        feedbackP.style.color = 'green';
+        feedbackP.style.color = 'white';
       } else if (score >= 0.6) {
         feedbackP.textContent = '⚠️ Close — ' + percent + '%';
         feedbackP.style.color = '#b8860b';

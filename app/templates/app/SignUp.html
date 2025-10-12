@@ -3,15 +3,15 @@
 {% block title %}Sign Up {% endblock %}
 
 {% block content %}
-<div class="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-emerald-100 py-12 px-4">
+<div class="min-h-screen flex items-center justify-center bg-gradient-to-br from-white-50 to-emerald-100 py-12 px-4">
     <div class="max-w-md w-full space-y-8">
         <!-- Illustration -->
         <div class="text-center">
-            <div class="w-24 h-24 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                <span class="text-4xl">🦜</span>
+            <div class="w-24 h-24 bg-white-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                <span class="text-4xl">logo</span>
             </div>
-            <h1 class="text-3xl font-bold text-gray-900 mb-2">Join the Language Journey!</h1>
-            <p class="text-blue-700 text-lg">भाषा सीखें, भारत जानें – Start learning Indian languages today.</p>
+            <h1 class="text-3xl font-bold text-black-900 mb-2">Join the Language Journey!</h1>
+            <p class="text-white-700 text-lg">Start learning Indian languages today.</p>
         </div>
 
         <!-- Error/Success Messages -->
@@ -27,38 +27,38 @@
         <form action="{% url 'signup' %}" method="post" class="space-y-6">
             {% csrf_token %}
             <div>
-                <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Full Name (Optional)</label>
+                <label for="name" class="block text-sm font-medium text-amber-700 mb-2">Full Name (Optional)</label>
                 <input type="text" id="name" name="name"
-                    class="w-full px-3 py-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    class="w-full px-3 py-3 border border-amber-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-white-500 focus:border-transparent"
                     placeholder="Enter your name">
             </div>
             <div>
-                <label for="username" class="block text-sm font-medium text-gray-700 mb-2">Username</label>
+                <label for="username" class="block text-sm font-medium text-amber-700 mb-2">Username</label>
                 <input type="text" id="username" name="username"
-                    class="w-full px-3 py-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    class="w-full px-3 py-3 border border-amber-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-white-500 focus:border-transparent"
                     placeholder="Enter Your Username">
             </div>
             <div>
-                <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email or Phone</label>
+                <label for="email" class="block text-sm font-medium text-amber-700 mb-2">Email or Phone</label>
                 <input type="text" id="email" name="email" required
-                    class="w-full px-3 py-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    class="w-full px-3 py-3 border border-amber-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-white-500 focus:border-transparent"
                     placeholder="+91 12345 67890 or email@example.com">
             </div>
             <div>
-                <label for="password" class="block text-sm font-medium text-gray-700 mb-2">Password</label>
+                <label for="password" class="block text-sm font-medium text-amber-700 mb-2">Password</label>
                 <input type="password" id="password" name="password" required
-                    class="w-full px-3 py-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    class="w-full px-3 py-3 border border-amber-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-white-500 focus:border-transparent"
                     placeholder="Create a password">
             </div>
             <div>
-                <label for="confirm_password" class="block text-sm font-medium text-gray-700 mb-2">Confirm
+                <label for="confirm_password" class="block text-sm font-medium text-amber-700 mb-2">Confirm
                     Password</label>
                 <input type="password" id="confirm_password" name="confirm_password" required
-                    class="w-full px-3 py-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    class="w-full px-3 py-3 border border-amber-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-white-500 focus:border-transparent"
                     placeholder="Confirm your password">
             </div>
             <button type="submit"
-                class="w-full bg-blue-600 text-white py-3 px-4 rounded-lg font-semibold hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition">
+                class="w-full bg-yellow-600 text-white py-3 px-4 rounded-lg font-semibold hover:bg-white-700 focus:outline-none focus:ring-2 focus:ring-white-500 transition">
                 Sign Up
             </button>
         </form>
@@ -66,9 +66,9 @@
         <!-- Divider -->
         <div class="relative flex justify-center text-sm">
             <div class="absolute inset-0 flex items-center">
-                <div class="w-full border-t border-gray-300"></div>
+                <div class="w-full border-t border-amber-300"></div>
             </div>
-            <span class="relative bg-white px-4 text-gray-500">Or continue with</span>
+            <span class="relative bg-white px-4 text-amber-500">Or continue with</span>
         </div>
 
         <!-- Social Logins -->
@@ -76,7 +76,7 @@
             {% load socialaccount %}
 
             <a href="{% provider_login_url 'google' %}"
-                class="w-full flex justify-center py-3 px-4 border border-gray-300 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-50 transition">
+                class="w-full flex justify-center py-3 px-4 border border-amber-300 rounded-lg text-sm font-medium text-amber-700 hover:bg-amber-50 transition">
                 <img src="https://developers.google.com/identity/images/g-logo.png" alt="Google" class="w-5 h-5 mr-2">
                 Continue with Google
             </a>
@@ -85,8 +85,8 @@
 
         <!-- Sign In Link -->
         <div class="text-center">
-            <p class="text-sm text-gray-600">Already have an account? <a href="{% url 'signin' %}"
-                    class="font-medium text-blue-600 hover:underline">Sign In</a></p>
+            <p class="text-sm text-amber-600">Already have an account? <a href="{% url 'signin' %}"
+                    class="font-medium text-white-600 hover:underline">Sign In</a></p>
         </div>
     </div>
 </div>

@@ -5,7 +5,8 @@
 <head>
     <meta charset="UTF-8">
     <title>{% block title %} Learn Languages Like a Pro{% endblock %}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="manifest" href="{% static 'manifest.json' %}">
     <meta name="theme-color" content="#2d89ef">
     <link rel="apple-touch-icon" href="{% static 'icons/icon-192x192.png' %}">
@@ -34,34 +35,34 @@
     {% block head %}{% endblock %}
 </head>
 
-<body class="bg-blue-50 text-gray-900">
+<body class="bg-amber-50 text-amber-900">
     <!-- Header -->
-    <header class="bg-white shadow-sm border-b border-blue-200">
+    <header class="bg-red-400 shadow-sm border-b border-white-200">
         <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
             <a href="{% url 'index' %}" class="flex items-center space-x-2">
-                <div class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
-                    <span class="text-white font-bold text-sm">🦜</span> <!-- blue parrot mascot -->
+                <div class="w-8 h-8 bg-amber-100 rounded-full flex items-center justify-center">
+                    <span class="text-black font-bold text-sm">logo</span>
                 </div>
-                <span class="text-xl font-bold text-blue-600">APP</span>
+                <span class="text-xl font-bold text-white-600">APP</span>
             </a>
 
-            <nav class="hidden md:flex space-x-6">
+            <nav class="flex flex-wrap justify-start gap-4 md:gap-6 items-center">
                 {% if user.is_authenticated %}
-                <a href="{% url 'course_list' %}"
-                    class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Add New Course</a>
-                <a href="{% url 'my_courses' %}" class="text-blue-600 font-medium">Courses</a>
-                <a href="{% url 'profile' %}" class="text-blue-600 font-medium">Hi, {{ user.username }}!</a>
-                <a href="{% url 'logout' %}"
-                    class="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700">Logout</a>
-                {% else %}
-                <a href="{% url 'signin' %}"
-                    class="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700">Sign In</a>
-                <a href="{% url 'signup' %}"
-                    class="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700">Sign Up</a>
-                {% endif %}
+                <a href="{% url 'course_list' %}" class="text-black font-bold px-4 py-2 hover:bg-white-700">ADD
+                    NEW
+                    COURSE</a>
+                <a="{% url 'my_courses' %}" class="text-black px-4 py-2 font-bold hover:bg-white-700">COURSES</a>
+                    <a href="{% url 'profile' %}" class="text-black px-4 py-2 font-bold hover:bg-white-700">PROFILE</a>
 
-
+                    <a href="{% url 'logout' %}" class=" text-black px-4 py-2 font-bold hover:bg-white-700">LOGOUT</a>
+                    {% else %}
+                    <a href="{% url 'signin' %}" class=" text-black px-4 py-2 font-bold hover:bg-white-700">SIGN
+                        IN</a>
+                    <a href="{% url 'signup' %}" class=" text-black px-4 py-2 font-bold hover:bg-white-700">SIGN
+                        UP</a>
+                    {% endif %}
             </nav>
+
 
         </div>
     </header>
@@ -72,8 +73,8 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-white border-t border-blue-200 mt-12">
-        <div class="max-w-7xl mx-auto px-4 py-6 text-center text-gray-600">
+    <footer class="bg-white border-t border-white-200 mt-12">
+        <div class="max-w-7xl mx-auto px-4 py-6 text-center text-amber-600">
             terms, privacy go here
         </div>
     </footer>

@@ -268,14 +268,31 @@ def exercise_page(request, language, unit, lesson):
     data = load_json(language)
     lesson_data = data.get('lessons', [])[lesson - 1]
     exercises = [c for c in lesson_data.get('content', []) if c.get('type') == 'exercise']
-    submitted = request.method == 'POST'
-    if submitted:
+
+    if request.method == 'POST':
+        # Check if this is an AJAX submission with scores
+        if request.headers.get('x-requested-with') == 'XMLHttpRequest':
+            scores = request.POST.get('scores')  # will be JSON string from JS
+            print(scores)
+            if scores:
+                import json
+                scores_dict = json.loads(scores)
+                course_obj = Course.objects.filter(language=language).first()
+                if course_obj:
+                    progress, _ = UserProgress.objects.get_or_create(user=request.user, course=course_obj)
+                    # Save individual scores
+                    for prompt, score in scores_dict.items():
+                        progress.save_exercise_score(lesson_id=lesson, prompt=prompt, score=score)
+                    progress.mark_exercise_submitted(lesson)
+            return JsonResponse({'status': 'success'})
+
+        # Normal form submission (fallback)
         course_obj = Course.objects.filter(language=language).first()
         if course_obj:
             progress, _ = UserProgress.objects.get_or_create(user=request.user, course=course_obj)
-            progress.exercises_submitted[str(lesson)] = True
-            progress.save()
+            progress.mark_exercise_submitted(lesson)
         return redirect('lesson_list', language=language, unit=unit)
+
     return render(request, 'app/exercise_page.html', {
         'language': language,
         'unit': unit,

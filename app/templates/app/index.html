@@ -1,10 +1,11 @@
 {% extends 'app/layout.html' %}
+{% block title %}Home {% endblock %}
 {% block content %}
 <h2 class="text-2xl font-bold mb-4">Welcome</h2>
-<p class="mb-6 text-gray-700">Learn Telugu, Hindi, English, and Tamil like a pro. Sign up or log in to begin your
+<p class="mb-6 text-amber-700">Learn Telugu, Hindi, English, and Tamil like a pro. Sign up or log in to begin your
     journey!</p>
-<a href="{% url 'signup' %}" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Get Started</a>
-<a href="{% url 'course_list' %}" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Browse
+<a href="{% url 'signup' %}" class="bg-amber-300 text-black px-4 py-2 rounded hover:bg-white-700">Get Started</a>
+<a href="{% url 'course_list' %}" class="bg-amber-300 text-black px-4 py-2 rounded hover:bg-white-700">Browse
     Courses</a>
 
 {% endblock %}

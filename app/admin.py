@@ -5,3 +5,4 @@ from .models import *
 admin.site.register(User)
 admin.site.register(Profile)
 admin.site.register(LanguageRegistration)
+admin.site.register(UserProgress)

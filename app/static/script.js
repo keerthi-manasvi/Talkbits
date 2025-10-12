@@ -21,6 +21,49 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
+  const form = document.querySelector('form');
+  const scoreDisplay = document.getElementById('score-display');
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault(); // prevent actual form submission
+
+    let score = 0;
+    let total = 0;
+    let scoresData = {};
+
+    document.querySelectorAll('[id^="input_"], [id^="input_"]').forEach(input => {
+      total++;
+      const expected = input.dataset.expected.trim().toLowerCase();
+      const correct = input.value.trim().toLowerCase() === expected;
+      if (correct) score++;
+      scoresData[input.name] = correct ? 1 : 0;
+    });
+
+
+    document.querySelectorAll('input[type="radio"][data-expected]').forEach(radio => {
+      if (radio.checked) {
+        total++;
+        const correct = radio.value === radio.dataset.expected;
+        if (correct) score++;
+        scoresData[radio.name] = correct ? 1 : 0;
+      }
+      fetch("", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+          "X-Requested-With": "XMLHttpRequest",
+          "X-CSRFToken": document.querySelector('[name=csrfmiddlewaretoken]').value
+        },
+        body: new URLSearchParams({ scores: JSON.stringify(scoresData) })
+      }).then(res => res.json())
+        .then(data => console.log("Scores saved:", data))
+        .catch(err => console.error(err));
+    });
+
+
+
+    scoreDisplay.textContent = `Your score: ${score} / ${total}`;
+  });
 });
 
 // --- Audio Playback Control: ensure only one audio plays at a time ---
@@ -113,12 +156,12 @@ document.addEventListener("DOMContentLoaded", function () {
     const playBtn = document.createElement('button');
     playBtn.type = 'button';
     playBtn.textContent = '▶ Play Prompt';
-    playBtn.className = 'play-prompt-btn bg-blue-500 text-white px-3 py-1 rounded mr-2';
+    playBtn.className = 'play-prompt-btn bg-yellow-500 text-white px-3 py-1 rounded mr-2';
 
     const startBtn = document.createElement('button');
     startBtn.type = 'button';
     startBtn.textContent = '🎤 Start Speaking';
-    startBtn.className = 'start-rec-btn bg-green-600 text-white px-3 py-1 rounded mr-2';
+    startBtn.className = 'start-rec-btn bg-lime-400 text-white px-3 py-1 rounded mr-2';
 
     const stopBtn = document.createElement('button');
     stopBtn.type = 'button';
@@ -190,7 +233,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       if (score >= 0.8) {
         feedbackP.textContent = '✅ Correct — ' + percent + '%';
-        feedbackP.style.color = 'green';
+        feedbackP.style.color = 'white';
       } else if (score >= 0.6) {
         feedbackP.textContent = '⚠️ Close — ' + percent + '%';
         feedbackP.style.color = '#b8860b';
@@ -247,3 +290,4 @@ document.addEventListener("DOMContentLoaded", function () {
     };
   });
 })();
+

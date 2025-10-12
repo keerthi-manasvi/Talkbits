@@ -1,11 +1,12 @@
 {% extends 'app/layout.html' %}
+{% block title %}Successfully Registered {% endblock %}
 {% block content %}
 <div class="flex flex-col items-center justify-center min-h-[70vh] text-center px-6">
 
     <div class="bg-white shadow-lg rounded-2xl p-8 max-w-lg">
-        <h1 class="text-3xl font-bold text-green-600 mb-4"> Registration Successful!</h1>
+        <h1 class="text-3xl font-bold text-white-600 mb-4"> Registration Successful!</h1>
 
-        <p class="text-gray-700 mb-6">
+        <p class="text-amber-700 mb-6">
             You’ve successfully registered to learn
             <span class="font-semibold text-indigo-700">{{ language }}</span>.
         </p>
@@ -15,7 +16,7 @@
             Go to {{ language }} Course
         </a>
 
-        <a href="{% url 'course_list' %}" class="block text-sm text-gray-500 mt-4 hover:underline">
+        <a href="{% url 'course_list' %}" class="block text-sm text-amber-500 mt-4 hover:underline">
             ← Register another language
         </a>
     </div>

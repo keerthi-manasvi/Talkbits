@@ -1,4 +1,5 @@
 {% extends 'app/layout.html' %}
+{% block title %}Excercise Page {% endblock %}
 {% load static %}
 
 {% block content %}
@@ -11,43 +12,44 @@
 <form method="post" class="space-y-4">
     {% csrf_token %}
     {% for ex in exercises %}
+    {% if not ex.format == 'match' and not ex.format == 'dialogue' %}
     <div class="bg-white p-4 rounded shadow">
+
         <p class="font-medium">{{ ex.prompt }}</p>
 
-        {% if ex.format == 'match' %}
-        <ul class="list-disc ml-6">
-            {% for pair in ex.pairs %}
-            <li>{{ pair.word }} → {{ pair.match }}</li>
-            {% endfor %}
-        </ul>
 
-        {% elif ex.format == 'fill-in' or ex.format == 'type' %}
-        <input type="text" name="input_{{ forloop.counter }}" class="border rounded px-2 py-1 w-full mt-2">
+        {% if ex.format == 'fill-in' or ex.format == 'type' %}
+        <input type="text" id="input_{{ forloop.counter }}" name="input_{{ forloop.counter }}"
+            class="border rounded px-2 py-1 w-full mt-2" data-expected="{{ ex.expected }}">
 
         {% elif ex.format == 'quiz' %}
+        <p class="font-medium">{{ ex.question }}</p>
         {% for opt in ex.options %}
         <label class="block mt-1">
-            <input type="radio" name="quiz_{{ forloop.counter }}" value="{{ opt }}"> {{ opt }}
+            <input type="radio" name="quiz_{{ forloop.counter }}" id="quiz_{{ forloop.counter }}_{{ forloop.counter0 }}"
+                value="{{ opt }}" data-expected="{{ ex.correct_option }}"> {{ opt }}
         </label>
         {% endfor %}
 
         {% elif ex.format == 'voice' %}
-        <div class="voice-exercise bg-gray-50 p-3 rounded" data-expected="{{ ex.expected }}" data-lang="{{ ex.lang }}">
+        <div class="voice-exercise bg-amber-50 p-3 rounded" data-expected="{{ ex.expected }}" data-lang="{{ ex.lang }}">
             <p class="mt-2 italic">Say: <strong>{{ ex.expected }}</strong></p>
         </div>
 
-        {% elif ex.format == 'dialogue' %}
-        <input type="text" name="dialogue_{{ forloop.counter }}" class="border rounded px-2 py-1 w-full mt-2">
+
         {% endif %}
     </div>
+    {% endif %}
     {% endfor %}
 
-    <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
+    <button type="submit" class="bg-yellow-600 text-white px-4 py-2 rounded hover:bg-white-700">
         Submit Exercises
     </button>
 </form>
+<div id="score-display" class="mt-4 text-lg font-bold"></div>
 
-<a href="{% url 'lesson_detail' language unit lesson %}" class="inline-block mt-4 text-blue-600 hover:underline">
+
+<a href="{% url 'lesson_detail' language unit lesson %}" class="inline-block mt-4 text-white-600 hover:underline">
     ← Back to Lesson
 </a>
 {% endblock %}

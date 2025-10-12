@@ -1,17 +1,17 @@
 {% extends "app/layout.html" %}
 
-{% block title %}Profile - APP{% endblock %}
+{% block title %}Profile{% endblock %}
 
 {% block content %}
-<div class="py-12 px-4 bg-gradient-to-br from-blue-50 to-emerald-100">
+<div class="py-12 px-4 bg-gradient-to-br from-white-50 to-emerald-100">
     <div class="max-w-4xl mx-auto">
         <!-- Header Section -->
         <div class="text-center mb-12">
-            <div class="w-24 h-24 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                <span class="text-4xl">🦜</span>
+            <div class="w-24 h-24 bg-white-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                <span class="text-4xl">logo</span>
             </div>
-            <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-2">Your Learning Journey</h1>
-            <p class="text-lg text-blue-700">भाषा सीखें, भारत जानें – Track your progress with APP.</p>
+            <h1 class="text-3xl md:text-4xl font-bold text-amber-900 mb-2">Your Learning Journey</h1>
+            <p class="text-lg text-white-700">Track your progress</p>
         </div>
 
         <!-- Messages -->
@@ -25,21 +25,21 @@
 
         <!-- Profile Information -->
         <div class="bg-white rounded-lg shadow-md p-6 max-w-lg mx-auto">
-            <h2 class="text-2xl font-semibold text-gray-900 mb-4">Profile Details</h2>
+            <h2 class="text-2xl font-semibold text-amber-900 mb-4">Profile Details</h2>
             <div class="space-y-4">
                 <div>
-                    <span class="block text-sm font-medium text-gray-600">Name</span>
-                    <p class="text-lg text-gray-900">{{ user.get_full_name|default:"Not set" }}</p>
+                    <span class="block text-sm font-medium text-amber-600">Name</span>
+                    <p class="text-lg text-amber-900">{{ user.get_full_name|default:"Not set" }}</p>
                 </div>
                 <div>
-                    <span class="block text-sm font-medium text-gray-600">Email/Phone</span>
-                    <p class="text-lg text-gray-900">{{ user.username }}</p>
+                    <span class="block text-sm font-medium text-amber-600">Email/Phone</span>
+                    <p class="text-lg text-amber-900">{{ user.username }}</p>
                 </div>
                 <div>
-                    <span class="block text-sm font-medium text-gray-600">Account Status</span>
-                    <p class="text-lg text-gray-900">
+                    <span class="block text-sm font-medium text-amber-600">Account Status</span>
+                    <p class="text-lg text-amber-900">
                         {% if user.is_active %}
-                        <span class="text-blue-600">Verified</span>
+                        <span class="text-white-600">Verified</span>
                         {% else %}
                         <span class="text-red-600">Unverified (Check your email)</span>
                         {% endif %}
@@ -50,12 +50,12 @@
 
         <!-- Learning Progress -->
         <div class="mt-8 bg-white rounded-lg shadow-md p-6 max-w-lg mx-auto">
-            <h2 class="text-2xl font-semibold text-gray-900 mb-4">Learning Progress</h2>
+            <h2 class="text-2xl font-semibold text-amber-900 mb-4">Learning Progress</h2>
             <div class="space-y-4">
                 <div>
-                    <span class="block text-sm font-medium text-gray-600">Courses Enrolled</span>
+                    <span class="block text-sm font-medium text-amber-600">Courses Enrolled</span>
                     {% if registrations %}
-                    <ul class="list-disc list-inside text-blue-900 mt-1">
+                    <ul class="list-disc list-inside text-white-900 mt-1">
                         {% for reg in registrations %}
                         <li class="hover:text-indigo-600">
                             <a href="{% url 'unit_list' reg.learning_language %}">
@@ -65,7 +65,7 @@
                         {% endfor %}
                     </ul>
                     {% else %}
-                    <p class="text-gray-500 mt-1">None yet</p>
+                    <p class="text-amber-500 mt-1">None yet</p>
                     {% endif %}
                 </div>
             </div>
@@ -74,7 +74,7 @@
         <!-- Logout -->
         <div class="text-center mt-8">
             <a href="{% url 'logout' %}"
-                class="inline-block border border-blue-600 text-blue-600 px-4 py-2 rounded-full font-semibold hover:bg-blue-50 transition">Log
+                class="inline-block border border-white-600 text-white-600 px-4 py-2 rounded-full font-semibold hover:bg-white-50 transition">Log
                 Out</a>
         </div>
     </div>

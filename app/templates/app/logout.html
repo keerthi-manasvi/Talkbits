@@ -3,26 +3,26 @@
 {% block title %}Log Out {% endblock %}
 
 {% block content %}
-<div class="min-h-screen flex items-center justify-center bg-gradient-to-br from-green-50 to-emerald-100 py-12 px-4">
-    <div class="max-w-md w-full space-y-8">
+<div class="min-h-screen flex items-center justify-center bg-gradient-to-br from-white-50 to-emerald-100 py-12 px-4">
+    <div class="max-w-md w-full space-y-8 text-center">
         <!-- Illustration -->
-        <div class="text-center">
-            <div class="w-24 h-24 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                <span class="text-4xl">🦜</span>
+        <div class="flex justify-center">
+            <div class="w-24 h-24 bg-white-600 rounded-full flex items-center justify-center mb-6">
+                <span class="text-4xl">logo</span>
             </div>
         </div>
 
-        <!-- Error Message -->
+        <!-- Error/Logout Message -->
         {% if messages %}
-        <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded-md">
+        <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded-md text-center mx-auto">
             {% for message in messages %}
             <p>{{ message }}</p>
             {% endfor %}
         </div>
         {% endif %}
-        <p>You've been successfully logged out!</p>
 
-
+        <!-- Logout Confirmation -->
+        <p class="text-lg font-medium mt-4">You've been successfully logged out!</p>
 
     </div>
 </div>
