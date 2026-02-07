@@ -12,6 +12,7 @@ from django.contrib.auth.tokens import default_token_generator
 from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
 from django.utils.encoding import force_bytes, force_str
 from django.contrib.auth.decorators import login_required
+from django.shortcuts import get_object_or_404
 from .forms import LanguageRegistrationForm
 from django.http import HttpResponse, JsonResponse
 import json
@@ -206,13 +207,14 @@ def unit_list(request, language):
     return render(request, 'app/unit_list.html', {'language': language})
 
 @login_required
-def lesson_list(request, language, unit):
+def lesson_list(request, language, unit, score):
     data = load_json(language)
     lessons = data.get('lessons', [])
     return render(request, 'app/lesson_list.html', {
         'language': language,
         'unit': unit,
-        'lessons': lessons
+        'lessons': lessons,
+        'score': score
     })
 
 
@@ -264,73 +266,45 @@ def lesson_detail(request, language, unit, lesson):
 
 
 @login_required
-def exercise_page(request, language, unit, lesson):
+def excercise_page(request, language, unit, lesson):
     data = load_json(language)
     lesson_data = data.get('lessons', [])[lesson - 1]
-    exercises = [c for c in lesson_data.get('content', []) if c.get('type') == 'exercise']
+    excercises = [c for c in lesson_data.get('content', []) if c.get('type') == 'excercise']
 
-    if request.method == 'POST':
-        # Check if this is an AJAX submission with scores
-        if request.headers.get('x-requested-with') == 'XMLHttpRequest':
-            scores = request.POST.get('scores')  # will be JSON string from JS
-            print(scores)
-            if scores:
-                import json
-                scores_dict = json.loads(scores)
-                course_obj = Course.objects.filter(language=language).first()
-                if course_obj:
-                    progress, _ = UserProgress.objects.get_or_create(user=request.user, course=course_obj)
-                    # Save individual scores
-                    for prompt, score in scores_dict.items():
-                        progress.save_exercise_score(lesson_id=lesson, prompt=prompt, score=score)
-                    progress.mark_exercise_submitted(lesson)
-            return JsonResponse({'status': 'success'})
-
-        # Normal form submission (fallback)
-        course_obj = Course.objects.filter(language=language).first()
-        if course_obj:
-            progress, _ = UserProgress.objects.get_or_create(user=request.user, course=course_obj)
-            progress.mark_exercise_submitted(lesson)
-        return redirect('lesson_list', language=language, unit=unit)
-
-    return render(request, 'app/exercise_page.html', {
+    
+    return render(request, 'app/excercise_page.html', {
         'language': language,
         'unit': unit,
         'lesson': lesson,
-        'exercises': exercises
+        'excercises': excercises,
+        'score': 0
     })
 
-@csrf_exempt
 @login_required
-def save_exercise_score(request):
-    """AJAX endpoint to save exercise score from the frontend."""
-    if request.method != "POST":
-        return JsonResponse({"error": "Invalid request"}, status=405)
+def submit_score(request):
+    if request.method == "POST":
+        d = json.loads(request.body)
 
-    try:
-        data = json.loads(request.body)
-        language = data.get("language")
-        lesson = data.get("lesson")
-        prompt = data.get("prompt")
-        score = data.get("score", 0)
+        course = get_object_or_404(Course, language=d["language"])
+        unit = get_object_or_404(Unit, id=d["unit"])
+        lesson = get_object_or_404(Lesson, id=d["lesson"])
 
-        course = Course.objects.filter(language__iexact=language).first()
-        if not course:
-            return JsonResponse({"error": "Course not found"}, status=404)
+        p, _ = UserProgress.objects.get_or_create(
+            user=request.user,
+            course=course,
+            defaults={"current_unit": unit, "current_lesson": lesson},
+        )
 
-        progress, _ = UserProgress.objects.get_or_create(user=request.user, course=course)
-        progress.save_exercise_score(lesson, prompt, score)
+        p.current_unit = unit
+        p.current_lesson = lesson
+        p.completed_lessons.add(lesson)
+        score = f"{d['score']}/{d['total']}"
+        p.exercises_submitted[str(lesson.id)] = True
+        p.exercise_scores[str(lesson.id)] = {"score": score}
+        p.save()
+        
+        return redirect('lesson_list', language=d['language'], unit=unit, score=d['score'])
 
-        # Update XP (optional, tweak as needed)
-        profile = Profile.objects.get(user=request.user)
-        profile.xp += int(score / 10)  # e.g., 85% → +8 XP
-        profile.save()
-
-        return JsonResponse({"success": True, "xp": profile.xp})
-
-    except Exception as e:
-        return JsonResponse({"error": str(e)}, status=400)
-     
 def service_worker(request):
     """
     Serve the service-worker.js from the static folder at the site root.

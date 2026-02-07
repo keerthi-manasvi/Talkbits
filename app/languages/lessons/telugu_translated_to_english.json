@@ -306,7 +306,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "Match phrases to responses",
           "prompt_translatable": true,
@@ -330,7 +330,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: ___ How are you?",
           "prompt_translatable": true,
@@ -341,7 +341,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "What do you say to greet someone in the evening?",
           "question_translatable": true,
@@ -357,14 +357,14 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "TYPE: How are you?",
           "prompt_translatable": true,
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: Good morning!",
           "prompt_translatable": true,
@@ -373,7 +373,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: ___ let's meet!",
           "prompt_translatable": true,
@@ -384,7 +384,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "What do you say to apologize?",
           "question_translatable": true,
@@ -400,7 +400,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "Complete the Dialogue: A: Hi! How are you? B: ___",
           "prompt_translatable": true,
@@ -411,7 +411,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: Beware!",
           "prompt_translatable": true,
@@ -420,7 +420,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: Good ___!",
           "prompt_translatable": true,
@@ -431,7 +431,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "Complete the Dialogue: A: Let's meet tomorrow! B: ___",
           "prompt_translatable": true,
@@ -442,7 +442,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "Match phrases to responses",
           "prompt_translatable": true,
@@ -461,7 +461,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: ___ is very happy to meet",
           "prompt_translatable": true,
@@ -472,7 +472,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "What do you say to greet someone casually?",
           "question_translatable": true,
@@ -488,14 +488,14 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "TYPE: Glad to see you!",
           "prompt_translatable": true,
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: What's going on?",
           "prompt_translatable": true,
@@ -504,7 +504,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: ___ Beware!",
           "prompt_translatable": true,
@@ -515,7 +515,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "What do you say to greet someone in the afternoon?",
           "question_translatable": true,
@@ -813,7 +813,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "Match phrases to responses",
           "prompt_translatable": true,
@@ -842,7 +842,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: My name [your name].",
           "prompt_translatable": true,
@@ -851,7 +851,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: I came from ___.",
           "prompt_translatable": true,
@@ -862,14 +862,14 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "TYPE: I am a student.",
           "prompt_translatable": true,
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: I like reading.",
           "prompt_translatable": true,
@@ -878,7 +878,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: I'm working as ___.",
           "prompt_translatable": true,
@@ -889,7 +889,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "What do you say to share your hobby?",
           "question_translatable": true,
@@ -905,7 +905,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "Complete the dialogue: a: Hi, I Sara. B: ___",
           "prompt_translatable": true,
@@ -916,14 +916,14 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "TYPE: I live in [your city].",
           "prompt_translatable": true,
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: I am a doctor.",
           "prompt_translatable": true,
@@ -932,7 +932,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: I like ___.",
           "prompt_translatable": true,
@@ -943,7 +943,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "How do you say you’re from Canada?",
           "question_translatable": true,
@@ -959,7 +959,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "Complete the Dialogue: A: I'm studying at the university. B: ___",
           "prompt_translatable": true,
@@ -970,7 +970,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "Match phrases to responses",
           "prompt_translatable": true,
@@ -984,7 +984,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: I like cooking.",
           "prompt_translatable": true,
@@ -993,7 +993,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: I'm reading ___.",
           "prompt_translatable": true,
@@ -1004,7 +1004,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "What do you say to share where you live?",
           "question_translatable": true,
@@ -1020,14 +1020,14 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "Type: I like playing sports.",
           "prompt_translatable": true,
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "Complete the Dialogue: A: I came from New York. B: ___",
           "prompt_translatable": true,
@@ -1038,7 +1038,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: I'm working as a chef.",
           "prompt_translatable": true,
@@ -1047,7 +1047,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: My hobby ___",
           "prompt_translatable": true,
@@ -1359,7 +1359,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "Match family terms to their descriptions",
           "prompt_translatable": true,
@@ -1388,7 +1388,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: It's my family.",
           "prompt_translatable": true,
@@ -1397,7 +1397,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: I have a ___.",
           "prompt_translatable": true,
@@ -1408,7 +1408,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "What is the word for 'father'?",
           "question_translatable": true,
@@ -1424,14 +1424,14 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "TYPE: My mother is a teacher.",
           "prompt_translatable": true,
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: My younger brother is a student.",
           "prompt_translatable": true,
@@ -1440,7 +1440,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: My ___ Doctor.",
           "prompt_translatable": true,
@@ -1451,7 +1451,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "How do you say 'I love my family'?",
           "question_translatable": true,
@@ -1467,7 +1467,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "Complete the Dialogue: A: Do you have older sisters or sisters? B: ___",
           "prompt_translatable": true,
@@ -1478,7 +1478,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "TYPE: I have a big family.",
           "prompt_translatable": true,
@@ -1695,7 +1695,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "Match phrases to responses",
           "prompt_translatable": true,
@@ -1719,7 +1719,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: Can you help me?",
           "prompt_translatable": true,
@@ -1728,7 +1728,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: ___ How much?",
           "prompt_translatable": true,
@@ -1739,7 +1739,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "How do you ask for the time?",
           "question_translatable": true,
@@ -1755,14 +1755,14 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "TYPE: How can I go to the bus stop?",
           "prompt_translatable": true,
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: Where is this restaurant?",
           "prompt_translatable": true,
@@ -1771,7 +1771,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: Do you live ___?",
           "prompt_translatable": true,
@@ -1782,7 +1782,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "TYPE: Can you tell you again?",
           "prompt_translatable": true,

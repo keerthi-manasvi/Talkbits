@@ -172,7 +172,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "వాక్యాలను వారి సమాధానాలతో సరిపోల్చండి",
           "prompt_translatable": true,
@@ -201,7 +201,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "చెప్పండి: హలో!",
           "prompt_translatable": true,
@@ -210,7 +210,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "పూరించండి: నా ___ [మీ పేరు].",
           "prompt_translatable": true,
@@ -221,7 +221,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "வணக்கம் என்று சொல்வது எதைக் குறிக்கிறது?",
           "question_translatable": true,
@@ -237,7 +237,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "రకం: మిమ్మల్ని కలవడం ఆనందంగా ఉంది.",
           "prompt_translatable": true,
@@ -395,7 +395,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "వాక్యాలను వారి సమాధానాలతో సరిపోల్చండి",
           "prompt_translatable": true,
@@ -424,7 +424,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "చెప్పండి: దయచేసి సహాయం చేయండి.",
           "prompt_translatable": true,
@@ -433,7 +433,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "పూరించండి: ___ సహాయం.",
           "prompt_translatable": true,
@@ -444,7 +444,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "நேரம் கேட்க என்ன சொல்வது?",
           "question_translatable": true,
@@ -460,7 +460,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "రకం: మీరు తమిళం మాట్లాడుతున్నారా?",
           "prompt_translatable": true,
@@ -795,7 +795,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "వాక్యాలను వారి సమాధానాలతో సరిపోల్చండి",
           "prompt_translatable": true,
@@ -824,7 +824,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "చెప్పండి: ఇది నా తల్లి.",
           "prompt_translatable": true,
@@ -833,7 +833,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "పూరించండి: నాకు ___ ఉంది.",
           "prompt_translatable": true,
@@ -844,7 +844,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "'என் பெற்றோர்' என்று எப்படி சொல்வது?",
           "question_translatable": true,
@@ -860,14 +860,14 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "రకం: నాకు ఇద్దరు సోదరులు ఉన్నారు.",
           "prompt_translatable": true,
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "చెప్పండి: నా తండ్రి డాక్టర్.",
           "prompt_translatable": true,
@@ -876,7 +876,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "పూరించండి: నా ___ గురువు.",
           "prompt_translatable": true,
@@ -887,7 +887,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "குடும்பத்தைப் பற்றி கேட்க என்ன சொல்வது?",
           "question_translatable": true,
@@ -903,7 +903,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "సంభాషణను పూర్తి చేయండి: జ: ఇది నా కుటుంబం. బి: ___",
           "prompt_translatable": true,
@@ -914,7 +914,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "రకం: నా తల్లిదండ్రులు [మీ పట్టణంలో] నివసిస్తున్నారు.",
           "prompt_translatable": true,
@@ -1146,7 +1146,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "వాక్యాలను దాని సమాధానంతో సరిపోల్చండి",
           "prompt_translatable": true,
@@ -1175,7 +1175,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "చర్చ: ఈ ధర ఎంత?",
           "prompt_translatable": true,
@@ -1184,7 +1184,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "పూర్తి: దయచేసి నాకు ___ చూపించు.",
           "prompt_translatable": true,
@@ -1195,7 +1195,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "உணவகத்தில் தண்ணீர் கேட்க என்ன சொல்வீர்கள்?",
           "question_translatable": true,
@@ -1211,14 +1211,14 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "రకం: మార్కెట్ ఎక్కడ ఉంది?",
           "prompt_translatable": true,
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "చర్చ: దయచేసి బిల్ తీసుకురండి.",
           "prompt_translatable": true,
@@ -1227,7 +1227,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "పూర్తి: నాకు ___ ఉంది.",
           "prompt_translatable": true,
@@ -1238,7 +1238,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "வழி கேட்க என்ன சொல்வீர்கள்?",
           "question_translatable": true,
@@ -1254,7 +1254,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "సంభాషణను పూర్తి చేయండి: జ: ఖర్చు ఎంత? బి: ___",
           "prompt_translatable": true,
@@ -1265,7 +1265,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "రకం: దీన్ని కొనండి.",
           "prompt_translatable": true,

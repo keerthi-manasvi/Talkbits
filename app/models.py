@@ -55,23 +55,23 @@ class UserProgress(models.Model):
     current_unit = models.ForeignKey(Unit, on_delete=models.SET_NULL, null=True, blank=True)
     current_lesson = models.ForeignKey(Lesson, on_delete=models.SET_NULL, null=True, blank=True)
     completed_lessons = models.ManyToManyField(Lesson, related_name='completed_by')
-    exercises_submitted = models.JSONField(default=dict)
-    exercise_scores = models.JSONField(default=dict) 
+    excercises_submitted = models.JSONField(default=dict)
+    excercise_scores = models.JSONField(default=dict) 
     
     def __str__(self):
         return f"{self.user.username} - {self.course.language}"
 
-    def has_submitted_exercise(self, lesson_id):
-        return str(lesson_id) in self.exercises_submitted and self.exercises_submitted[str(lesson_id)] is True
+    def has_submitted_excercise(self, lesson_id):
+        return str(lesson_id) in self.excercises_submitted and self.excercises_submitted[str(lesson_id)] is True
 
-    def mark_exercise_submitted(self, lesson_id):
-        self.exercises_submitted[str(lesson_id)] = True
+    def mark_excercise_submitted(self, lesson_id):
+        self.excercises_submitted[str(lesson_id)] = True
         self.save()
         
-    def save_exercise_score(self, lesson_id, prompt, score):
-        if str(lesson_id) not in self.exercise_scores:
-            self.exercise_scores[str(lesson_id)] = {}
-        self.exercise_scores[str(lesson_id)][prompt] = score
+    def save_excercise_score(self, lesson_id, prompt, score):
+        if str(lesson_id) not in self.excercise_scores:
+            self.excercise_scores[str(lesson_id)] = {}
+        self.excercise_scores[str(lesson_id)][prompt] = score
         self.save()
 
 class LanguageRegistration(models.Model):

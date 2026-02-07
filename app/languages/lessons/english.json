@@ -512,7 +512,7 @@
                     ]
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "match",
                     "prompt": "Match phrases to responses",
                     "prompt_translatable": true,
@@ -541,7 +541,7 @@
                     ]
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "voice",
                     "prompt": "Say: Nice to meet you!",
                     "prompt_translatable": true,
@@ -550,7 +550,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "fill-in",
                     "prompt": "Complete: ___ are you?",
                     "prompt_translatable": true,
@@ -561,7 +561,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "quiz",
                     "question": "What do you say to greet someone in the evening?",
                     "question_translatable": true,
@@ -577,14 +577,14 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "type",
                     "prompt": "Type: How are you?",
                     "prompt_translatable": true,
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "voice",
                     "prompt": "Say: Good morning!",
                     "prompt_translatable": true,
@@ -593,7 +593,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "fill-in",
                     "prompt": "Complete: ___ you later!",
                     "prompt_translatable": true,
@@ -604,7 +604,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "quiz",
                     "question": "What do you say to apologize?",
                     "question_translatable": true,
@@ -620,7 +620,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "dialogue",
                     "prompt": "Complete the dialogue: A: Hi! How are you? B: ___",
                     "prompt_translatable": true,
@@ -631,14 +631,14 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "type",
                     "prompt": "Type: Have a great day!",
                     "prompt_translatable": true,
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "voice",
                     "prompt": "Say: Take care!",
                     "prompt_translatable": true,
@@ -647,7 +647,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "fill-in",
                     "prompt": "Complete: Good ___!",
                     "prompt_translatable": true,
@@ -658,7 +658,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "quiz",
                     "question": "What do you say to wish someone well?",
                     "question_translatable": true,
@@ -674,7 +674,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "dialogue",
                     "prompt": "Complete the dialogue: A: See you tomorrow! B: ___",
                     "prompt_translatable": true,
@@ -685,7 +685,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "match",
                     "prompt": "Match phrases to responses",
                     "prompt_translatable": true,
@@ -704,7 +704,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "voice",
                     "prompt": "Say: Have a nice evening!",
                     "prompt_translatable": true,
@@ -713,7 +713,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "fill-in",
                     "prompt": "Complete: ___ to meet you!",
                     "prompt_translatable": true,
@@ -724,7 +724,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "quiz",
                     "question": "What do you say to greet someone casually?",
                     "question_translatable": true,
@@ -740,14 +740,14 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "type",
                     "prompt": "Type: Good to see you!",
                     "prompt_translatable": true,
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "dialogue",
                     "prompt": "Complete the dialogue: A: Have a great day! B: ___",
                     "prompt_translatable": true,
@@ -758,7 +758,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "voice",
                     "prompt": "Say: How’s it going?",
                     "prompt_translatable": true,
@@ -767,7 +767,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "fill-in",
                     "prompt": "Complete: ___ care!",
                     "prompt_translatable": true,
@@ -778,7 +778,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "quiz",
                     "question": "What do you say to greet someone in the afternoon?",
                     "question_translatable": true,
@@ -1157,7 +1157,7 @@
                     ]
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "match",
                     "prompt": "Match phrases to responses",
                     "prompt_translatable": true,
@@ -1186,7 +1186,7 @@
                     ]
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "voice",
                     "prompt": "Say: My name is [Your Name].",
                     "prompt_translatable": true,
@@ -1195,7 +1195,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "fill-in",
                     "prompt": "Complete: I am from ___",
                     "prompt_translatable": true,
@@ -1206,7 +1206,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "quiz",
                     "question": "How do you say you are a doctor?",
                     "question_translatable": true,
@@ -1222,14 +1222,14 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "type",
                     "prompt": "Type: I am a student.",
                     "prompt_translatable": true,
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "voice",
                     "prompt": "Say: I like to read.",
                     "prompt_translatable": true,
@@ -1238,7 +1238,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "fill-in",
                     "prompt": "Complete: I work as a ___",
                     "prompt_translatable": true,
@@ -1249,7 +1249,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "quiz",
                     "question": "What do you say to share your hobby?",
                     "question_translatable": true,
@@ -1265,7 +1265,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "dialogue",
                     "prompt": "Complete the dialogue: A: Hi, I’m Sarah. B: ___",
                     "prompt_translatable": true,
@@ -1276,14 +1276,14 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "type",
                     "prompt": "Type: I live in [Your City].",
                     "prompt_translatable": true,
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "voice",
                     "prompt": "Say: I’m a doctor.",
                     "prompt_translatable": true,
@@ -1292,7 +1292,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "fill-in",
                     "prompt": "Complete: I like to ___",
                     "prompt_translatable": true,
@@ -1303,7 +1303,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "quiz",
                     "question": "How do you say you’re from Canada?",
                     "question_translatable": true,
@@ -1319,7 +1319,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "dialogue",
                     "prompt": "Complete the dialogue: A: I’m studying at university. B: ___",
                     "prompt_translatable": true,
@@ -1330,7 +1330,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "match",
                     "prompt": "Match phrases to responses",
                     "prompt_translatable": true,
@@ -1349,7 +1349,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "voice",
                     "prompt": "Say: I enjoy cooking.",
                     "prompt_translatable": true,
@@ -1358,7 +1358,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "fill-in",
                     "prompt": "Complete: I study ___",
                     "prompt_translatable": true,
@@ -1369,7 +1369,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "quiz",
                     "question": "What do you say to share where you live?",
                     "question_translatable": true,
@@ -1385,14 +1385,14 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "type",
                     "prompt": "Type: I like to play sports.",
                     "prompt_translatable": true,
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "dialogue",
                     "prompt": "Complete the dialogue: A: I’m from New Delhi. B: ___",
                     "prompt_translatable": true,
@@ -1403,7 +1403,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "voice",
                     "prompt": "Say: I work as a chef.",
                     "prompt_translatable": true,
@@ -1412,7 +1412,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "fill-in",
                     "prompt": "Complete: My hobby is ___",
                     "prompt_translatable": true,
@@ -1877,7 +1877,7 @@
                     ]
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "match",
                     "prompt": "Match phrases to responses",
                     "prompt_translatable": true,
@@ -1906,7 +1906,7 @@
                     ]
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "voice",
                     "prompt": "Say: This is my mother.",
                     "prompt_translatable": true,
@@ -1915,7 +1915,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "fill-in",
                     "prompt": "Complete: I have one ___",
                     "prompt_translatable": true,
@@ -1926,7 +1926,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "quiz",
                     "question": "How do you say 'My parents'?",
                     "question_translatable": true,
@@ -1942,14 +1942,14 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "type",
                     "prompt": "Type: I have two brothers.",
                     "prompt_translatable": true,
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "voice",
                     "prompt": "Say: My father is a doctor.",
                     "prompt_translatable": true,
@@ -1958,7 +1958,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "fill-in",
                     "prompt": "Complete: My ___ is a teacher.",
                     "prompt_translatable": true,
@@ -1969,7 +1969,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "quiz",
                     "question": "What do you say to ask about someone’s family?",
                     "question_translatable": true,
@@ -1985,7 +1985,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "dialogue",
                     "prompt": "Complete the dialogue: A: This is my family. B: ___",
                     "prompt_translatable": true,
@@ -1996,14 +1996,14 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "type",
                     "prompt": "Type: My parents live in [Your City].",
                     "prompt_translatable": true,
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "voice",
                     "prompt": "Say: My uncle is a farmer.",
                     "prompt_translatable": true,
@@ -2012,7 +2012,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "fill-in",
                     "prompt": "Complete: My ___ likes to dance.",
                     "prompt_translatable": true,
@@ -2023,7 +2023,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "quiz",
                     "question": "How do you say 'My daughter'?",
                     "question_translatable": true,
@@ -2039,7 +2039,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "dialogue",
                     "prompt": "Complete the dialogue: A: I have a younger brother. B: ___",
                     "prompt_translatable": true,
@@ -2050,7 +2050,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "match",
                     "prompt": "Match phrases to responses",
                     "prompt_translatable": true,
@@ -2069,7 +2069,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "voice",
                     "prompt": "Say: My daughter is in school.",
                     "prompt_translatable": true,
@@ -2078,7 +2078,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "fill-in",
                     "prompt": "Complete: My ___ tells stories.",
                     "prompt_translatable": true,
@@ -2089,7 +2089,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "quiz",
                     "question": "What do you say to ask about someone’s brother?",
                     "question_translatable": true,
@@ -2105,14 +2105,14 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "type",
                     "prompt": "Type: My sister likes to dance.",
                     "prompt_translatable": true,
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "dialogue",
                     "prompt": "Complete the dialogue: A: This is my uncle, Mark. B: ___",
                     "prompt_translatable": true,
@@ -2123,7 +2123,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "voice",
                     "prompt": "Say: I have three siblings.",
                     "prompt_translatable": true,
@@ -2132,7 +2132,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "fill-in",
                     "prompt": "Complete: My ___ is a farmer.",
                     "prompt_translatable": true,
@@ -2268,7 +2268,7 @@
                     ]
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "match",
                     "prompt": "Match phrases to their responses",
                     "prompt_translatable": true,
@@ -2292,7 +2292,7 @@
                     ]
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "voice",
                     "prompt": "Say: Can I have some water, please?",
                     "prompt_translatable": true,
@@ -2301,7 +2301,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "fill-in",
                     "prompt": "Complete: ___ you very much!",
                     "prompt_translatable": true,
@@ -2312,7 +2312,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "quiz",
                     "question": "What do you say to ask for help?",
                     "question_translatable": true,
@@ -2328,14 +2328,14 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "type",
                     "prompt": "Type: Where is the bus stop?",
                     "prompt_translatable": true,
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "voice",
                     "prompt": "Say: Thank you very much!",
                     "prompt_translatable": true,
@@ -2344,7 +2344,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "fill-in",
                     "prompt": "Complete: Can I have a ___ , please?",
                     "prompt_translatable": true,
@@ -2355,7 +2355,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "quiz",
                     "question": "What do you say to order tea?",
                     "question_translatable": true,
@@ -2371,7 +2371,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "dialogue",
                     "prompt": "Complete the dialogue: A: Can I have a tea, please? B: ___",
                     "prompt_translatable": true,
@@ -2382,7 +2382,7 @@
                     "lang": "en-IN"
                 },
                 {
-                    "type": "exercise",
+                    "type": "excercise",
                     "format": "type",
                     "prompt": "Type: Can you help me, please?",
                     "prompt_translatable": true,

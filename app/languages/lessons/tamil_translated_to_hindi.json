@@ -172,7 +172,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "वाक्यों को उनके उत्तरों से मिलाइये",
           "prompt_translatable": true,
@@ -201,7 +201,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "हैलो कहें!",
           "prompt_translatable": true,
@@ -210,7 +210,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "भरें: मेरा ___ [आपका नाम]।",
           "prompt_translatable": true,
@@ -221,7 +221,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "வணக்கம் என்று சொல்வது எதைக் குறிக்கிறது?",
           "question_translatable": true,
@@ -237,7 +237,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "प्रकार: आपसे मिलकर खुशी हुई।",
           "prompt_translatable": true,
@@ -395,7 +395,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "वाक्यों को उनके उत्तरों से मिलाइये",
           "prompt_translatable": true,
@@ -424,7 +424,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "कहो: कृपया मदद करें.",
           "prompt_translatable": true,
@@ -433,7 +433,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "भरें: ___ सहायता।",
           "prompt_translatable": true,
@@ -444,7 +444,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "நேரம் கேட்க என்ன சொல்வது?",
           "question_translatable": true,
@@ -460,7 +460,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "प्रकार: क्या आप तमिल बोलते हैं?",
           "prompt_translatable": true,
@@ -795,7 +795,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "वाक्यों को उनके उत्तरों से मिलाइये",
           "prompt_translatable": true,
@@ -824,7 +824,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "कहो: यह मेरी माँ है.",
           "prompt_translatable": true,
@@ -833,7 +833,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "भरें: मेरे पास ___ है।",
           "prompt_translatable": true,
@@ -844,7 +844,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "'என் பெற்றோர்' என்று எப்படி சொல்வது?",
           "question_translatable": true,
@@ -860,14 +860,14 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "प्रकार: मेरे दो भाई हैं।",
           "prompt_translatable": true,
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "कहो: मेरे पिता एक डॉक्टर हैं.",
           "prompt_translatable": true,
@@ -876,7 +876,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "भरें: मेरा ___ एक शिक्षक है।",
           "prompt_translatable": true,
@@ -887,7 +887,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "குடும்பத்தைப் பற்றி கேட்க என்ன சொல்வது?",
           "question_translatable": true,
@@ -903,7 +903,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "बातचीत पूरी करें: उत्तर: यह मेरा परिवार है. बी: ___",
           "prompt_translatable": true,
@@ -914,7 +914,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "प्रकार: मेरे माता-पिता [आपके शहर] में रहते हैं।",
           "prompt_translatable": true,
@@ -1146,7 +1146,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "वाक्यों को उसके उत्तर से मिलाइये",
           "prompt_translatable": true,
@@ -1175,7 +1175,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "बात करें: यह कीमत कितनी है?",
           "prompt_translatable": true,
@@ -1184,7 +1184,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "पूर्ण: कृपया मुझे दिखाएँ ___।",
           "prompt_translatable": true,
@@ -1195,7 +1195,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "உணவகத்தில் தண்ணீர் கேட்க என்ன சொல்வீர்கள்?",
           "question_translatable": true,
@@ -1211,14 +1211,14 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "प्रकार: बाज़ार कहाँ है?",
           "prompt_translatable": true,
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "बात करें: कृपया बिल लाएँ।",
           "prompt_translatable": true,
@@ -1227,7 +1227,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "पूर्ण: मेरे पास एक ___ है।",
           "prompt_translatable": true,
@@ -1238,7 +1238,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "வழி கேட்க என்ன சொல்வீர்கள்?",
           "question_translatable": true,
@@ -1254,7 +1254,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "बातचीत पूरी करें: A: लागत कितनी है? बी: ___",
           "prompt_translatable": true,
@@ -1265,7 +1265,7 @@
           "lang": "ta-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "प्रकार: इसे खरीदें.",
           "prompt_translatable": true,

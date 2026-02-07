@@ -1,26 +1,26 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const languageSelect = document.getElementById("languageSelect");
+  const languageSelect = document.getElementById("languageSelect");
 
-    if (!languageSelect) return;
+  if (!languageSelect) return;
 
-    languageSelect.addEventListener("change", function () {
-        const selectedLang = this.value;
+  languageSelect.addEventListener("change", function () {
+    const selectedLang = this.value;
 
-        document.querySelectorAll("[data-translatable]").forEach(el => {
-            try {
-                const translations = JSON.parse(el.getAttribute("data-translations"));
-                const translatedText = translations[selectedLang];
+    document.querySelectorAll("[data-translatable]").forEach(el => {
+      try {
+        const translations = JSON.parse(el.getAttribute("data-translations"));
+        const translatedText = translations[selectedLang];
 
-                if (translatedText) {
-                    el.innerText = translatedText;
-                } else {
-                    el.innerText = el.getAttribute("data-original") || el.innerText;
-                }
-            } catch (e) {
-                console.warn("Invalid translation data:", e);
-            }
-        });
+        if (translatedText) {
+          el.innerText = translatedText;
+        } else {
+          el.innerText = el.getAttribute("data-original") || el.innerText;
+        }
+      } catch (e) {
+        console.warn("Invalid translation data:", e);
+      }
     });
+  });
 });
 
 // --- Audio Playback Control: ensure only one audio plays at a time ---
@@ -44,22 +44,22 @@ document.addEventListener("DOMContentLoaded", function () {
 })();
 
 /* ------------------------------
-   Voice Exercise enhancer
-   Appends mic + recognition to any exercise with format == 'voice'
+   Voice excercise enhancer
+   Appends mic + recognition to any excercise with format == 'voice'
    Works without backend changes. Uses Web Speech API (Chrome best).
    ------------------------------ */
 
 (function () {
-  // Only run on pages with exercises
+  // Only run on pages with excercises
   if (!document.querySelector) return;
 
   // Helper: normalize strings (remove punctuation, spaces, lowercase)
   function normalizeText(s) {
     if (!s) return '';
     return s.replace(/[^\p{L}\p{N}\s]/gu, '') // remove punctuation (unicode-aware)
-            .replace(/\s+/g, ' ')
-            .trim()
-            .toLowerCase();
+      .replace(/\s+/g, ' ')
+      .trim()
+      .toLowerCase();
   }
 
   // Levenshtein distance (for similarity)
@@ -104,15 +104,15 @@ document.addEventListener("DOMContentLoaded", function () {
   const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition || null;
   const speechSupported = !!SpeechRecognition;
 
-  // Find voice-format exercise blocks: we rely on the template structure
-  // Each exercise block in the template contains the prompt and expected text.
+  // Find voice-format excercise blocks: we rely on the template structure
+  // Each excercise block in the template contains the prompt and expected text.
   // We'll scan for nodes that contain text like "Say: <expected>" or where ex.format == 'voice'
   // To be robust we search for elements that contain the expected text inside
-const exerciseContainers = Array.from(document.querySelectorAll('.voice-exercise'));
-  if (!exerciseContainers.length) return; // nothing to do
+  const excerciseContainers = Array.from(document.querySelectorAll('.voice-excercise'));
+  if (!excerciseContainers.length) return; // nothing to do
 
-  exerciseContainers.forEach((container) => {
-    // Try to detect if this is a voice exercise block by looking for "Say:" label or <strong> expected text
+  excerciseContainers.forEach((container) => {
+    // Try to detect if this is a voice excercise block by looking for "Say:" label or <strong> expected text
     const italicNode = container.querySelector('p.italic') || container.querySelector('p');
     let expectedText = null;
 
@@ -129,7 +129,7 @@ const exerciseContainers = Array.from(document.querySelectorAll('.voice-exercise
     }
 
     if (!expectedText) {
-      // not a voice exercise block
+      // not a voice excercise block
       return;
     }
 
@@ -241,9 +241,9 @@ const exerciseContainers = Array.from(document.querySelectorAll('.voice-exercise
 
     recognition.onresult = function (evt) {
       const transcript = Array.from(evt.results)
-                              .map(r => r[0].transcript)
-                              .join(' ')
-                              .trim();
+        .map(r => r[0].transcript)
+        .join(' ')
+        .trim();
       resultP.textContent = 'You said: "' + transcript + '"';
 
       // Compute similarity client-side
@@ -274,7 +274,7 @@ const exerciseContainers = Array.from(document.querySelectorAll('.voice-exercise
           transcript: transcript,
           expected: expectedText,
           lang: recognition.lang,
-          exercise_id: container.getAttribute('data-ex-id') || ''
+          excercise_id: container.getAttribute('data-ex-id') || ''
         })
       }).then(r => r.json()).then(data => {
         // handle server score if you want to use that instead

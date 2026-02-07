@@ -15,7 +15,7 @@ class Migration(migrations.Migration):
             name='ContentAudio',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('type', models.CharField(choices=[('vocab', 'Vocabulary'), ('phrase', 'Phrase'), ('dialogue', 'Dialogue'), ('cultural_notes', 'Cultural Notes'), ('exercise', 'Exercise')], max_length=20)),
+                ('type', models.CharField(choices=[('vocab', 'Vocabulary'), ('phrase', 'Phrase'), ('dialogue', 'Dialogue'), ('cultural_notes', 'Cultural Notes'), ('excercise', 'excercise')], max_length=20)),
                 ('word', models.CharField(blank=True, max_length=200)),
                 ('text', models.TextField(blank=True)),
                 ('example', models.TextField(blank=True)),

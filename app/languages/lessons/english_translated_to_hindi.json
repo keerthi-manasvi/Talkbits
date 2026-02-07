@@ -512,7 +512,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "वाक्यांशों को प्रतिक्रियाओं से मिलाएँ",
           "prompt_translatable": true,
@@ -541,7 +541,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "कहो: आपसे मिलकर अच्छा लगा!",
           "prompt_translatable": true,
@@ -550,7 +550,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "पूर्ण: ___ क्या आप हैं?",
           "prompt_translatable": true,
@@ -561,7 +561,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "What do you say to greet someone in the evening?",
           "question_translatable": true,
@@ -577,14 +577,14 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "प्रकार: आप कैसे हैं?",
           "prompt_translatable": true,
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "सुप्रभात कहो!",
           "prompt_translatable": true,
@@ -593,7 +593,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "पूर्ण: ___ आप बाद में!",
           "prompt_translatable": true,
@@ -604,7 +604,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "What do you say to apologize?",
           "question_translatable": true,
@@ -620,7 +620,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "संवाद पूरा करें: A: नमस्ते! आप कैसे हैं? बी: ___",
           "prompt_translatable": true,
@@ -631,14 +631,14 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "प्रकार: आपका दिन शुभ हो!",
           "prompt_translatable": true,
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "कहो: ध्यान रखना!",
           "prompt_translatable": true,
@@ -647,7 +647,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "पूर्ण: अच्छा ___!",
           "prompt_translatable": true,
@@ -658,7 +658,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "What do you say to wish someone well?",
           "question_translatable": true,
@@ -674,7 +674,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "संवाद पूरा करें: A: कल मिलते हैं! बी: ___",
           "prompt_translatable": true,
@@ -685,7 +685,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "वाक्यांशों को प्रतिक्रियाओं से मिलाएँ",
           "prompt_translatable": true,
@@ -704,7 +704,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "कहो: आपकी शाम शुभ हो!",
           "prompt_translatable": true,
@@ -713,7 +713,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "पूर्ण: ___आपसे मिलने के लिए!",
           "prompt_translatable": true,
@@ -724,7 +724,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "What do you say to greet someone casually?",
           "question_translatable": true,
@@ -740,14 +740,14 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "प्रकार: आपको देखकर अच्छा लगा!",
           "prompt_translatable": true,
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "संवाद पूरा करें: उत्तर: आपका दिन शुभ हो! बी: ___",
           "prompt_translatable": true,
@@ -758,7 +758,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "कहो: कैसा चल रहा है?",
           "prompt_translatable": true,
@@ -767,7 +767,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "पूर्ण: ___देखभाल!",
           "prompt_translatable": true,
@@ -778,7 +778,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "What do you say to greet someone in the afternoon?",
           "question_translatable": true,
@@ -1157,7 +1157,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "वाक्यांशों को प्रतिक्रियाओं से मिलाएँ",
           "prompt_translatable": true,
@@ -1186,7 +1186,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "कहो: मेरा नाम [आपका नाम] है।",
           "prompt_translatable": true,
@@ -1195,7 +1195,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "पूर्ण: मैं ___ से हूं",
           "prompt_translatable": true,
@@ -1206,7 +1206,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "How do you say you are a doctor?",
           "question_translatable": true,
@@ -1222,14 +1222,14 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "प्रकार: मैं एक विद्यार्थी हूँ।",
           "prompt_translatable": true,
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "कहो: मुझे पढ़ना पसंद है.",
           "prompt_translatable": true,
@@ -1238,7 +1238,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "पूर्ण: मैं ___ के रूप में काम करता हूं",
           "prompt_translatable": true,
@@ -1249,7 +1249,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "What do you say to share your hobby?",
           "question_translatable": true,
@@ -1265,7 +1265,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "संवाद पूरा करें: A: नमस्ते, मैं सारा हूं। बी: ___",
           "prompt_translatable": true,
@@ -1276,14 +1276,14 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "प्रकार: मैं [आपके शहर] में रहता हूँ।",
           "prompt_translatable": true,
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "कहो: मैं एक डॉक्टर हूँ.",
           "prompt_translatable": true,
@@ -1292,7 +1292,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "पूर्ण: मुझे ___ पसंद है",
           "prompt_translatable": true,
@@ -1303,7 +1303,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "How do you say you’re from Canada?",
           "question_translatable": true,
@@ -1319,7 +1319,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "संवाद पूरा करें: उत्तर: मैं विश्वविद्यालय में पढ़ रहा हूं। बी: ___",
           "prompt_translatable": true,
@@ -1330,7 +1330,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "वाक्यांशों को प्रतिक्रियाओं से मिलाएँ",
           "prompt_translatable": true,
@@ -1349,7 +1349,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "कहो: मुझे खाना पकाने में मजा आता है।",
           "prompt_translatable": true,
@@ -1358,7 +1358,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "पूर्ण: मैं अध्ययन करता हूं ___",
           "prompt_translatable": true,
@@ -1369,7 +1369,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "What do you say to share where you live?",
           "question_translatable": true,
@@ -1385,14 +1385,14 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "प्रकार: मुझे खेल खेलना पसंद है।",
           "prompt_translatable": true,
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "संवाद पूरा करें: उत्तर: मैं नई दिल्ली से हूं। बी: ___",
           "prompt_translatable": true,
@@ -1403,7 +1403,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "कहो: मैं शेफ के रूप में काम करता हूं।",
           "prompt_translatable": true,
@@ -1412,7 +1412,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "पूर्ण: मेरा शौक ___ है",
           "prompt_translatable": true,
@@ -1877,7 +1877,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "वाक्यांशों को प्रतिक्रियाओं से मिलाएँ",
           "prompt_translatable": true,
@@ -1906,7 +1906,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "कहो: यह मेरी माँ है.",
           "prompt_translatable": true,
@@ -1915,7 +1915,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "पूर्ण: मेरे पास एक ___ है",
           "prompt_translatable": true,
@@ -1926,7 +1926,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "How do you say 'My parents'?",
           "question_translatable": true,
@@ -1942,14 +1942,14 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "प्रकार: मेरे दो भाई हैं।",
           "prompt_translatable": true,
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "कहो: मेरे पिता एक डॉक्टर हैं.",
           "prompt_translatable": true,
@@ -1958,7 +1958,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "पूर्ण: मेरा ___ एक शिक्षक है।",
           "prompt_translatable": true,
@@ -1969,7 +1969,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "What do you say to ask about someone’s family?",
           "question_translatable": true,
@@ -1985,7 +1985,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "संवाद पूरा करें: A: यह मेरा परिवार है। बी: ___",
           "prompt_translatable": true,
@@ -1996,14 +1996,14 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "प्रकार: मेरे माता-पिता [आपके शहर] में रहते हैं।",
           "prompt_translatable": true,
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "कहो: मेरे चाचा किसान हैं।",
           "prompt_translatable": true,
@@ -2012,7 +2012,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "पूर्ण: मेरा ___ नृत्य करना पसंद करता है।",
           "prompt_translatable": true,
@@ -2023,7 +2023,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "How do you say 'My daughter'?",
           "question_translatable": true,
@@ -2039,7 +2039,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "संवाद पूरा करें: उत्तर: मेरा एक छोटा भाई है। बी: ___",
           "prompt_translatable": true,
@@ -2050,7 +2050,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "वाक्यांशों को प्रतिक्रियाओं से मिलाएँ",
           "prompt_translatable": true,
@@ -2069,7 +2069,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "कहो: मेरी बेटी स्कूल में है.",
           "prompt_translatable": true,
@@ -2078,7 +2078,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "संपूर्ण: मेरा ___ कहानियाँ कहता है।",
           "prompt_translatable": true,
@@ -2089,7 +2089,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "What do you say to ask about someone’s brother?",
           "question_translatable": true,
@@ -2105,14 +2105,14 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "प्रकार: मेरी बहन को नृत्य करना पसंद है।",
           "prompt_translatable": true,
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "संवाद पूरा करें: A: यह मेरे चाचा, मार्क हैं। बी: ___",
           "prompt_translatable": true,
@@ -2123,7 +2123,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "कहो: मेरे तीन भाई-बहन हैं।",
           "prompt_translatable": true,
@@ -2132,7 +2132,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "पूर्ण: मेरा ___ एक किसान है।",
           "prompt_translatable": true,
@@ -2268,7 +2268,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "उनकी प्रतिक्रियाओं से वाक्यांशों का मिलान करें",
           "prompt_translatable": true,
@@ -2292,7 +2292,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "कहो: क्या मुझे थोड़ा पानी मिल सकता है, कृपया?",
           "prompt_translatable": true,
@@ -2301,7 +2301,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "पूर्ण: ___आप बहुत!",
           "prompt_translatable": true,
@@ -2312,7 +2312,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "What do you say to ask for help?",
           "question_translatable": true,
@@ -2328,14 +2328,14 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "प्रकार: बस स्टॉप कहां है?",
           "prompt_translatable": true,
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "कहो: बहुत बहुत धन्यवाद!",
           "prompt_translatable": true,
@@ -2344,7 +2344,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "पूर्ण: क्या मुझे कृपया ___ मिल सकता है?",
           "prompt_translatable": true,
@@ -2355,7 +2355,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "What do you say to order tea?",
           "question_translatable": true,
@@ -2371,7 +2371,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "संवाद पूरा करें: उत्तर: क्या मुझे एक चाय मिल सकती है, कृपया? बी: ___",
           "prompt_translatable": true,
@@ -2382,7 +2382,7 @@
           "lang": "en-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "प्रकार: क्या आप कृपया मेरी मदद कर सकते हैं?",
           "prompt_translatable": true,

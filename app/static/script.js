@@ -87,8 +87,8 @@ document.addEventListener("DOMContentLoaded", function () {
 })();
 
 /* ------------------------------
-   Voice Exercise enhancer
-   Appends mic + recognition to any exercise with format == 'voice'
+   Voice excercise enhancer
+   Appends mic + recognition to any excercise with format == 'voice'
    Works without backend changes. Uses Web Speech API (Chrome best).
    ------------------------------ */
 (function () {
@@ -137,10 +137,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition || null;
   const speechSupported = !!SpeechRecognition;
-  const exerciseContainers = Array.from(document.querySelectorAll('.voice-exercise'));
-  if (!exerciseContainers.length) return;
+  const excerciseContainers = Array.from(document.querySelectorAll('.voice-excercise'));
+  if (!excerciseContainers.length) return;
 
-  exerciseContainers.forEach((container) => {
+  excerciseContainers.forEach((container) => {
     const strong = container.querySelector('strong');
     const p = container.querySelector('p');
     let expectedText = strong?.textContent?.trim() || '';
@@ -247,7 +247,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // --- Save score to backend ---
       try {
-        const meta = document.getElementById('exercise-meta');
+        const meta = document.getElementById('excercise-meta');
         const language = meta ? meta.dataset.language : (document.body.dataset.language || '');
         const lesson = meta ? meta.dataset.lesson : (document.body.dataset.lesson || '');
         fetch('/api/save_score/', {

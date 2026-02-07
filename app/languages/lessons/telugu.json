@@ -306,7 +306,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "Match phrases to responses",
           "prompt_translatable": true,
@@ -330,7 +330,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: ___ ఎలా ఉన్నారు?",
           "prompt_translatable": true,
@@ -341,7 +341,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "What do you say to greet someone in the evening?",
           "question_translatable": true,
@@ -357,14 +357,14 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "Type: మీరు ఎలా ఉన్నారు?",
           "prompt_translatable": true,
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: శుభోదయం!",
           "prompt_translatable": true,
@@ -373,7 +373,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: ___ కలుద్దాం!",
           "prompt_translatable": true,
@@ -384,7 +384,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "What do you say to apologize?",
           "question_translatable": true,
@@ -400,7 +400,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "Complete the dialogue: A: హాయ్! నీవు ఎలా ఉన్నావు? B: ___",
           "prompt_translatable": true,
@@ -411,7 +411,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: జాగ్రత్త!",
           "prompt_translatable": true,
@@ -420,7 +420,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: శుభ ___!",
           "prompt_translatable": true,
@@ -431,7 +431,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "Complete the dialogue: A: రేపు కలుద్దాం! B: ___",
           "prompt_translatable": true,
@@ -442,7 +442,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "Match phrases to responses",
           "prompt_translatable": true,
@@ -461,7 +461,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: ___ కలవడం చాలా సంతోషంగా ఉంది",
           "prompt_translatable": true,
@@ -472,7 +472,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "What do you say to greet someone casually?",
           "question_translatable": true,
@@ -488,14 +488,14 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "Type: నీవు కనిపించడం సంతోషం!",
           "prompt_translatable": true,
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: ఏమి జరుగుతోంది?",
           "prompt_translatable": true,
@@ -504,7 +504,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: ___ జాగ్రత్త!",
           "prompt_translatable": true,
@@ -515,7 +515,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "What do you say to greet someone in the afternoon?",
           "question_translatable": true,
@@ -813,7 +813,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "Match phrases to responses",
           "prompt_translatable": true,
@@ -842,7 +842,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: నా పేరు [Your Name].",
           "prompt_translatable": true,
@@ -851,7 +851,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: నేను ___ నుండి వచ్చాను.",
           "prompt_translatable": true,
@@ -862,14 +862,14 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "Type: నేను విద్యార్థిని.",
           "prompt_translatable": true,
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: నాకు చదవడం ఇష్టం.",
           "prompt_translatable": true,
@@ -878,7 +878,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: నేను ___గా పనిచేస్తున్నాను.",
           "prompt_translatable": true,
@@ -889,7 +889,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "What do you say to share your hobby?",
           "question_translatable": true,
@@ -905,7 +905,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "Complete the dialogue: A: హాయ్, నేను సారా. B: ___",
           "prompt_translatable": true,
@@ -916,14 +916,14 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "Type: నేను [Your City] లో నివసిస్తున్నాను.",
           "prompt_translatable": true,
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: నేను డాక్టర్.",
           "prompt_translatable": true,
@@ -932,7 +932,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: నాకు ___ ఇష్టం.",
           "prompt_translatable": true,
@@ -943,7 +943,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "How do you say you’re from Canada?",
           "question_translatable": true,
@@ -959,7 +959,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "Complete the dialogue: A: నేను విశ్వవిద్యాలయంలో చదువుతున్నాను. B: ___",
           "prompt_translatable": true,
@@ -970,7 +970,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "Match phrases to responses",
           "prompt_translatable": true,
@@ -984,7 +984,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: నాకు వంట చేయడం ఇష్టం.",
           "prompt_translatable": true,
@@ -993,7 +993,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: నేను ___ చదువుతున్నాను.",
           "prompt_translatable": true,
@@ -1004,7 +1004,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "What do you say to share where you live?",
           "question_translatable": true,
@@ -1020,14 +1020,14 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "Type: నాకు క్రీడలు ఆడటం ఇష్టం.",
           "prompt_translatable": true,
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "Complete the dialogue: A: నేను న్యూయార్క్ నుండి వచ్చాను. B: ___",
           "prompt_translatable": true,
@@ -1038,7 +1038,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: నేను చెఫ్‌గా పనిచేస్తున్నాను.",
           "prompt_translatable": true,
@@ -1047,7 +1047,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: నా హాబీ ___",
           "prompt_translatable": true,
@@ -1359,7 +1359,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "Match family terms to their descriptions",
           "prompt_translatable": true,
@@ -1388,7 +1388,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: ఇది నా కుటుంబం.",
           "prompt_translatable": true,
@@ -1397,7 +1397,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: నాకు ఒక ___ ఉంది.",
           "prompt_translatable": true,
@@ -1408,7 +1408,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "What is the word for 'father'?",
           "question_translatable": true,
@@ -1424,14 +1424,14 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "Type: నా తల్లి ఉపాధ్యాయురాలు.",
           "prompt_translatable": true,
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: నా తమ్ముడు విద్యార్థి.",
           "prompt_translatable": true,
@@ -1440,7 +1440,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: నా ___ డాక్టర్.",
           "prompt_translatable": true,
@@ -1451,7 +1451,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "How do you say 'I love my family'?",
           "question_translatable": true,
@@ -1467,7 +1467,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "Complete the dialogue: A: నీకు అన్నలు లేదా చెల్లెళ్ళు ఉన్నారా? B: ___",
           "prompt_translatable": true,
@@ -1478,7 +1478,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "Type: నాకు పెద్ద కుటుంబం ఉంది.",
           "prompt_translatable": true,
@@ -1695,7 +1695,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "Match phrases to responses",
           "prompt_translatable": true,
@@ -1719,7 +1719,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: మీరు నాకు సహాయం చేయగలరా?",
           "prompt_translatable": true,
@@ -1728,7 +1728,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: ___ ఎంత?",
           "prompt_translatable": true,
@@ -1739,7 +1739,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "How do you ask for the time?",
           "question_translatable": true,
@@ -1755,14 +1755,14 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "Type: నేను బస్సు స్టాప్‌కు ఎలా వెళ్ళగలను?",
           "prompt_translatable": true,
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: ఈ రెస్టారెంట్ ఎక్కడ ఉంది?",
           "prompt_translatable": true,
@@ -1771,7 +1771,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: మీరు ___ నివసిస్తున్నారు?",
           "prompt_translatable": true,
@@ -1782,7 +1782,7 @@
           "lang": "te-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "Type: దయచేసి మీరు మళ్లీ చెప్పగలరా?",
           "prompt_translatable": true,

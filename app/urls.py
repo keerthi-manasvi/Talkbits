@@ -12,11 +12,11 @@ urlpatterns = [
     path("profile", views.profile, name="profile"),
     path("courses/", views.course_list, name="course_list"),
     path("unit/<str:language>/", views.unit_list, name="unit_list"),
-    path("lessons/<str:language>/<int:unit>/", views.lesson_list, name="lesson_list"),
+    path("lessons/<str:language>/<int:unit>/<int:score>/", views.lesson_list, name="lesson_list"),
     path("lesson/<str:language>/<int:unit>/<int:lesson>/", views.lesson_detail, name="lesson_detail"),
-    path("exercise/<str:language>/<int:unit>/<int:lesson>/", views.exercise_page, name="exercise_page"),
+    path("excercise/<str:language>/<int:unit>/<int:lesson>/", views.excercise_page, name="excercise_page"),
+    path( "api/submit-score/",    views.submit_score,    name="submit_score"),
     path('registration-success/<str:language>/', views.registration_success, name='registration_success'),
     path("mycourses/", views.my_courses, name="my_courses"),
-    path('api/save_score/', views.save_exercise_score, name='save_exercise_score'),
     ]
 

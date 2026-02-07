@@ -263,7 +263,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "Match the phrases with their answers",
           "prompt_translatable": true,
@@ -340,7 +340,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: Nice to meet you!",
           "prompt_translatable": true,
@@ -349,7 +349,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: How are ___?",
           "prompt_translatable": true,
@@ -360,7 +360,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "शाम को किसी को अभिवादन करने के लिए क्या कहते हैं?",
           "question_translatable": true,
@@ -376,14 +376,14 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "Type: How are you?",
           "prompt_translatable": true,
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: Good morning!",
           "prompt_translatable": true,
@@ -392,7 +392,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: ___ See you!",
           "prompt_translatable": true,
@@ -403,7 +403,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "माफी माँगने के लिए क्या कहते हैं?",
           "question_translatable": true,
@@ -419,7 +419,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "Complete the dialogue: A: Hi! How are you? B: ___",
           "prompt_translatable": true,
@@ -430,14 +430,14 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "Type: Have a nice day!",
           "prompt_translatable": true,
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: Take care of yourself!",
           "prompt_translatable": true,
@@ -446,7 +446,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: Good ___!",
           "prompt_translatable": true,
@@ -457,7 +457,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "Complete the dialogue: A: See you tomorrow! B: ___",
           "prompt_translatable": true,
@@ -468,7 +468,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "Match the phrases with their answers",
           "prompt_translatable": true,
@@ -487,7 +487,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: Have a good evening!",
           "prompt_translatable": true,
@@ -496,7 +496,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: Nice to meet ___!",
           "prompt_translatable": true,
@@ -507,7 +507,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "अनौपचारिक अभिवादन के लिए क्या कहते हैं?",
           "question_translatable": true,
@@ -523,14 +523,14 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "Type: Nice to meet you!",
           "prompt_translatable": true,
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: ___ Take care!",
           "prompt_translatable": true,
@@ -541,7 +541,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "दोपहर में अभिवादन के लिए क्या कहते हैं?",
           "question_translatable": true,
@@ -799,7 +799,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "Match the phrases with their answers",
           "prompt_translatable": true,
@@ -828,7 +828,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: My name is [your name].",
           "prompt_translatable": true,
@@ -837,7 +837,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: I'm from ___.",
           "prompt_translatable": true,
@@ -848,7 +848,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "आप डॉक्टर होने के लिए क्या कहते हैं?",
           "question_translatable": true,
@@ -864,14 +864,14 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "Type: I am a student.",
           "prompt_translatable": true,
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: I like reading.",
           "prompt_translatable": true,
@@ -880,7 +880,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: I work as a ___.",
           "prompt_translatable": true,
@@ -891,7 +891,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "अपना शौक बताने के लिए क्या कहते हैं?",
           "question_translatable": true,
@@ -907,7 +907,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "Complete the dialogue: A: Hi, I'm Sarita. B: ___",
           "prompt_translatable": true,
@@ -918,14 +918,14 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "Type: I live in [your city].",
           "prompt_translatable": true,
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: I am a doctor.",
           "prompt_translatable": true,
@@ -934,7 +934,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: I like ___.",
           "prompt_translatable": true,
@@ -945,7 +945,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "कनाडा से होने के लिए क्या कहते हैं?",
           "question_translatable": true,
@@ -961,7 +961,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "Complete the dialogue: A: I am studying at university. B: ___",
           "prompt_translatable": true,
@@ -972,7 +972,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "Match the phrases with their answers",
           "prompt_translatable": true,
@@ -991,7 +991,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: I like to cook.",
           "prompt_translatable": true,
@@ -1000,7 +1000,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: I read ___.",
           "prompt_translatable": true,
@@ -1011,7 +1011,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "आप कहाँ रहते हैं, यह बताने के लिए क्या कहते हैं?",
           "question_translatable": true,
@@ -1027,14 +1027,14 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "Type: I like playing sports.",
           "prompt_translatable": true,
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "Complete the dialogue: A: I am from Mumbai. B: ___",
           "prompt_translatable": true,
@@ -1045,7 +1045,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: I work as a chef.",
           "prompt_translatable": true,
@@ -1054,7 +1054,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: My hobby is ___.",
           "prompt_translatable": true,
@@ -1384,7 +1384,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "Match the phrases with their answers",
           "prompt_translatable": true,
@@ -1413,7 +1413,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: This is my mother.",
           "prompt_translatable": true,
@@ -1422,7 +1422,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: I have a ___.",
           "prompt_translatable": true,
@@ -1433,7 +1433,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "'मेरे माता-पिता' को कैसे कहते हैं?",
           "question_translatable": true,
@@ -1449,14 +1449,14 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "Type: I have two brothers.",
           "prompt_translatable": true,
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: My father is a doctor.",
           "prompt_translatable": true,
@@ -1465,7 +1465,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: My ___ is a teacher.",
           "prompt_translatable": true,
@@ -1476,7 +1476,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "किसी के परिवार के बारे में पूछने के लिए क्या कहते हैं?",
           "question_translatable": true,
@@ -1492,7 +1492,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "Complete the dialogue: A: This is my family. B: ___",
           "prompt_translatable": true,
@@ -1503,7 +1503,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "Type: My parents live in [your city].",
           "prompt_translatable": true,
@@ -1735,7 +1735,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "Match the phrases with their answers",
           "prompt_translatable": true,
@@ -1764,7 +1764,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: How much is it worth?",
           "prompt_translatable": true,
@@ -1773,7 +1773,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: Please show me ___.",
           "prompt_translatable": true,
@@ -1784,7 +1784,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "रेस्तराँ में पानी माँगने के लिए क्या कहते हैं?",
           "question_translatable": true,
@@ -1800,14 +1800,14 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "Type: Where is the market?",
           "prompt_translatable": true,
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "Say: Please bring the bill.",
           "prompt_translatable": true,
@@ -1816,7 +1816,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "Complete: I want a ___.",
           "prompt_translatable": true,
@@ -1827,7 +1827,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "रास्ता पूछने के लिए क्या कहते हैं?",
           "question_translatable": true,
@@ -1843,7 +1843,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "Complete the dialogue: A: How much does it cost? B: ___",
           "prompt_translatable": true,
@@ -1854,7 +1854,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "Type: I want to buy this.",
           "prompt_translatable": true,

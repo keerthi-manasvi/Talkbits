@@ -12,7 +12,7 @@ class Migration(migrations.Migration):
     operations = [
         migrations.AddField(
             model_name='userprogress',
-            name='exercise_scores',
+            name='excercise_scores',
             field=models.JSONField(default=dict),
         ),
         migrations.AlterUniqueTogether(

@@ -263,7 +263,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "சொற்றொடர்களை அவற்றின் பதில்களுடன் பொருத்துங்கள்",
           "prompt_translatable": true,
@@ -340,7 +340,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "சொல்லுங்கள்: உங்களை சந்தித்ததில் மகிழ்ச்சி!",
           "prompt_translatable": true,
@@ -349,7 +349,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "முடிந்தது: ___ எப்படி?",
           "prompt_translatable": true,
@@ -360,7 +360,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "शाम को किसी को अभिवादन करने के लिए क्या कहते हैं?",
           "question_translatable": true,
@@ -376,14 +376,14 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "வகை: நீங்கள் எப்படி இருக்கிறீர்கள்?",
           "prompt_translatable": true,
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "சொல்லுங்கள்: காலை வணக்கம்!",
           "prompt_translatable": true,
@@ -392,7 +392,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "முழுமையானது: ___ உங்களைப் பாருங்கள்!",
           "prompt_translatable": true,
@@ -403,7 +403,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "माफी माँगने के लिए क्या कहते हैं?",
           "question_translatable": true,
@@ -419,7 +419,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "உரையாடலை முடிக்கவும்: ஒரு: ஹாய்! நீங்கள் எப்படி இருக்கிறீர்கள்? பி: ___",
           "prompt_translatable": true,
@@ -430,14 +430,14 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "வகை: ஒரு நல்ல நாள்!",
           "prompt_translatable": true,
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "சொல்லுங்கள்: உங்களை கவனித்துக் கொள்ளுங்கள்!",
           "prompt_translatable": true,
@@ -446,7 +446,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "முடிந்தது: நல்லது ___!",
           "prompt_translatable": true,
@@ -457,7 +457,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "உரையாடலை முடிக்கவும்: ஒரு: நாளை சந்திப்போம்! பி: ___",
           "prompt_translatable": true,
@@ -468,7 +468,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "சொற்றொடர்களை அவற்றின் பதில்களுடன் பொருத்துங்கள்",
           "prompt_translatable": true,
@@ -487,7 +487,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "சொல்லுங்கள்: ஒரு நல்ல மாலை!",
           "prompt_translatable": true,
@@ -496,7 +496,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "முழுமையானது: சந்தித்ததில் மகிழ்ச்சி ___!",
           "prompt_translatable": true,
@@ -507,7 +507,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "अनौपचारिक अभिवादन के लिए क्या कहते हैं?",
           "question_translatable": true,
@@ -523,14 +523,14 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "வகை: உங்களை சந்தித்ததில் மகிழ்ச்சி!",
           "prompt_translatable": true,
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "முடிந்தது: ___ கவனித்துக் கொள்ளுங்கள்!",
           "prompt_translatable": true,
@@ -541,7 +541,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "दोपहर में अभिवादन के लिए क्या कहते हैं?",
           "question_translatable": true,
@@ -799,7 +799,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "சொற்றொடர்களை அவற்றின் பதில்களுடன் பொருத்துங்கள்",
           "prompt_translatable": true,
@@ -828,7 +828,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "சொல்லுங்கள்: எனது பெயர் [உங்கள் பெயர்].",
           "prompt_translatable": true,
@@ -837,7 +837,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "முழுமையானது: நான் ___ இலிருந்து வந்தவன்.",
           "prompt_translatable": true,
@@ -848,7 +848,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "आप डॉक्टर होने के लिए क्या कहते हैं?",
           "question_translatable": true,
@@ -864,14 +864,14 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "வகை: நான் ஒரு மாணவன்.",
           "prompt_translatable": true,
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "சொல்லுங்கள்: எனக்கு வாசிப்பு பிடிக்கும்.",
           "prompt_translatable": true,
@@ -880,7 +880,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "முழுமையானது: நான் ஒரு ___ ஆக வேலை செய்கிறேன்.",
           "prompt_translatable": true,
@@ -891,7 +891,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "अपना शौक बताने के लिए क्या कहते हैं?",
           "question_translatable": true,
@@ -907,7 +907,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "உரையாடலை முடிக்கவும்: ஒரு: ஹாய், சரிதா. பி: ___",
           "prompt_translatable": true,
@@ -918,14 +918,14 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "வகை: நான் [உங்கள் நகரத்தில்] வசிக்கிறேன்.",
           "prompt_translatable": true,
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "சொல்லுங்கள்: நான் ஒரு மருத்துவர்.",
           "prompt_translatable": true,
@@ -934,7 +934,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "முழுமையானது: எனக்கு ___ பிடிக்கும்.",
           "prompt_translatable": true,
@@ -945,7 +945,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "कनाडा से होने के लिए क्या कहते हैं?",
           "question_translatable": true,
@@ -961,7 +961,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "உரையாடலை முடிக்கவும்: ஒரு: நான் பல்கலைக்கழகத்தில் படிக்கிறேன். பி: ___",
           "prompt_translatable": true,
@@ -972,7 +972,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "சொற்றொடர்களை அவற்றின் பதில்களுடன் பொருத்துங்கள்",
           "prompt_translatable": true,
@@ -991,7 +991,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "சொல்லுங்கள்: நான் சமைக்க விரும்புகிறேன்.",
           "prompt_translatable": true,
@@ -1000,7 +1000,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "முடிந்தது: நான் ___ படித்தேன்.",
           "prompt_translatable": true,
@@ -1011,7 +1011,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "आप कहाँ रहते हैं, यह बताने के लिए क्या कहते हैं?",
           "question_translatable": true,
@@ -1027,14 +1027,14 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "வகை: நான் விளையாடுவதை விரும்புகிறேன்.",
           "prompt_translatable": true,
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "உரையாடலை முடிக்கவும்: ஒரு: நான் மும்பையைச் சேர்ந்தவன். பி: ___",
           "prompt_translatable": true,
@@ -1045,7 +1045,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "சொல்லுங்கள்: நான் ஒரு சமையல்காரராக வேலை செய்கிறேன்.",
           "prompt_translatable": true,
@@ -1054,7 +1054,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "முழுமையானது: எனது பொழுதுபோக்கு ___.",
           "prompt_translatable": true,
@@ -1384,7 +1384,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "சொற்றொடர்களை அவற்றின் பதில்களுடன் பொருத்துங்கள்",
           "prompt_translatable": true,
@@ -1413,7 +1413,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "சொல்லுங்கள்: இது என் அம்மா.",
           "prompt_translatable": true,
@@ -1422,7 +1422,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "முழுமையானது: எனக்கு ஒரு ___ உள்ளது.",
           "prompt_translatable": true,
@@ -1433,7 +1433,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "'मेरे माता-पिता' को कैसे कहते हैं?",
           "question_translatable": true,
@@ -1449,14 +1449,14 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "வகை: எனக்கு இரண்டு சகோதரர்கள் உள்ளனர்.",
           "prompt_translatable": true,
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "சொல்லுங்கள்: என் தந்தை ஒரு மருத்துவர்.",
           "prompt_translatable": true,
@@ -1465,7 +1465,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "முழுமையானது: எனது ___ ஒரு ஆசிரியர்.",
           "prompt_translatable": true,
@@ -1476,7 +1476,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "किसी के परिवार के बारे में पूछने के लिए क्या कहते हैं?",
           "question_translatable": true,
@@ -1492,7 +1492,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "உரையாடலை முடிக்கவும்: ப: இது எனது குடும்பம். பி: ___",
           "prompt_translatable": true,
@@ -1503,7 +1503,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "வகை: எனது பெற்றோர் [உங்கள் நகரத்தில்] வசிக்கிறார்கள்.",
           "prompt_translatable": true,
@@ -1735,7 +1735,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "match",
           "prompt": "சொற்றொடர்களை அவற்றின் பதில்களுடன் பொருத்துங்கள்",
           "prompt_translatable": true,
@@ -1764,7 +1764,7 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "சொல்லுங்கள்: அதன் மதிப்பு எவ்வளவு?",
           "prompt_translatable": true,
@@ -1773,7 +1773,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "முழுமையானது: தயவுசெய்து என்னைக் காட்டுங்கள் ___.",
           "prompt_translatable": true,
@@ -1784,7 +1784,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "रेस्तराँ में पानी माँगने के लिए क्या कहते हैं?",
           "question_translatable": true,
@@ -1800,14 +1800,14 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "வகை: சந்தை எங்கே?",
           "prompt_translatable": true,
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "voice",
           "prompt": "சொல்லுங்கள்: தயவுசெய்து மசோதாவைக் கொண்டு வாருங்கள்.",
           "prompt_translatable": true,
@@ -1816,7 +1816,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "fill-in",
           "prompt": "முழுமையானது: எனக்கு ஒரு ___ வேண்டும்.",
           "prompt_translatable": true,
@@ -1827,7 +1827,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "quiz",
           "question": "रास्ता पूछने के लिए क्या कहते हैं?",
           "question_translatable": true,
@@ -1843,7 +1843,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "dialogue",
           "prompt": "உரையாடலை முடிக்கவும்: ஒரு: இதற்கு எவ்வளவு செலவாகும்? பி: ___",
           "prompt_translatable": true,
@@ -1854,7 +1854,7 @@
           "lang": "hi-IN"
         },
         {
-          "type": "exercise",
+          "type": "excercise",
           "format": "type",
           "prompt": "வகை: இதை வாங்க விரும்புகிறேன்.",
           "prompt_translatable": true,

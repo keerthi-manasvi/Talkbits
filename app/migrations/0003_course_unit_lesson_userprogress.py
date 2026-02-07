@@ -41,7 +41,7 @@ class Migration(migrations.Migration):
             name='UserProgress',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('exercises_submitted', models.JSONField(default=dict)),
+                ('excercises_submitted', models.JSONField(default=dict)),
                 ('completed_lessons', models.ManyToManyField(related_name='completed_by', to='app.lesson')),
                 ('course', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='app.course')),
                 ('current_lesson', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, to='app.lesson')),

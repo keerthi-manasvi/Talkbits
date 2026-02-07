@@ -6,7 +6,7 @@
 <h2 class="text-2xl font-bold mb-4">{{ lesson_data.title }}</h2>
 
 {% for item, trans in combined %}
-{% if item.type != 'exercise' %}
+{% if item.type != 'excercise' %}
 <div class="bg-white p-4 rounded shadow mb-4">
 
   {# ---------------- Vocab & Phrase ---------------- #}
@@ -73,9 +73,9 @@
 {% endif %}
 {% endfor %}
 
-<a href="{% url 'exercise_page' language unit lesson %}"
+<a href="{% url 'excercise_page' language unit lesson %}"
   class="bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600">
-  Go to Exercises
+  Go to excercises
 </a>
 
 {% endblock %}
