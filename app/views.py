@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth import get_user_model
 from django.views.decorators.csrf import csrf_exempt
+from streamlit import user
 User=get_user_model()
 from .models import *
 from django.contrib import messages
@@ -12,8 +13,13 @@ from django.contrib.auth.tokens import default_token_generator
 from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
 from django.utils.encoding import force_bytes, force_str
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth.password_validation import validate_password
+from django.core.exceptions import ValidationError
 from .forms import LanguageRegistrationForm
+from .validators import username_taken, email_taken
+from .exercise_engine import grade_submission
 from django.http import HttpResponse, JsonResponse
+from django.views.decorators.http import require_POST
 import json
 import os
 
@@ -101,8 +107,18 @@ def signup_view(request):
             messages.error(request, 'Passwords do not match.')
             return render(request, 'app/signup.html')
 
-        # Check if username (email/phone) already exists
-        if User.objects.filter(email=email).exists():
+        try:
+            validate_password(password)
+        except ValidationError as e:
+            for err in e.messages:
+                messages.error(request, err)
+            return render(request, 'app/signup.html')
+
+        if username_taken(username):
+            messages.error(request, 'This username is already taken.')
+            return render(request, 'app/signup.html')
+
+        if email_taken(email):
             messages.error(request, 'This email or phone number is already registered.')
             return render(request, 'app/signup.html')
 
@@ -110,7 +126,7 @@ def signup_view(request):
         try:
             user = User.objects.create_user(
                 username=username,
-                email=email if '@' in email else '',  # Set email if username is an email
+                email=email if '@' in email else None,  # Set email if username is an email
                 password=password,
                 first_name=name.split()[0] if name else '',
                 last_name=' '.join(name.split()[1:]) if name and len(name.split()) > 1 else '',
@@ -136,13 +152,17 @@ def signup_view(request):
                 f'If you didn’t sign up, ignore this email.\n\n'
                 f'Thanks,\nThe APP Team'
             )
-            send_mail(
+            print("EMAIL_HOST_USER:", settings.EMAIL_HOST_USER)
+            print("DEFAULT_FROM_EMAIL:", settings.DEFAULT_FROM_EMAIL)
+            print("Recipient:", user.email or email)
+            sent = send_mail(
                 subject=subject,
                 message=message,
                 from_email=settings.DEFAULT_FROM_EMAIL,
                 recipient_list=[user.email or email],
                 fail_silently=False,
             )
+            print("Emails sent:", sent)
 
             messages.success(request, 'Account created! Please check your email to verify your account.')
             return render(request, 'app/signin.html')  # Redirect to signin with success message
@@ -172,8 +192,28 @@ def verify_email(request, uidb64, token):
 @login_required
 def profile(request):
     registrations = LanguageRegistration.objects.filter(user=request.user)
+    progresses = UserProgress.objects.filter(user=request.user).select_related('course')
+
+    course_scores = [
+        {
+            "language": p.course.language,
+            "total_score": p.total_score,     # average % across all attempted exercises
+            "total_points": p.total_points,    # sum of all exercise scores (XP-style total)
+            "lessons_attempted": len(p.exercise_scores),
+        }
+        for p in progresses
+    ]
+    overall_average = (
+        round(sum(c["total_score"] for c in course_scores) / len(course_scores), 1)
+        if course_scores else 0
+    )
+    profile_obj, _ = Profile.objects.get_or_create(user=request.user)
+
     return render(request, "app/profile.html", {
-        "registrations": registrations
+        "registrations": registrations,
+        "course_scores": course_scores,
+        "overall_average": overall_average,
+        "profile_obj": profile_obj,
     })
 def logout_view(request):
     logout(request)  # Log out the user
@@ -263,41 +303,98 @@ def lesson_detail(request, language, unit, lesson):
 
 
 
+# Fields that must NEVER reach the browser for a given exercise format --
+# rendering these into the DOM (as the old template did via data-expected /
+# data-correct-option attributes) lets anyone read the answer from view-source.
+_SECRET_FIELDS_BY_FORMAT = {
+    'fill-in': {'answer'},
+    'quiz': {'answer'},
+    'dialogue': {'answer'},
+    'match': {'pairs'},  # the correct pairing itself; the "word" list is still needed by the client
+}
+
+
+def _public_exercise(exercise: dict, index: int) -> dict:
+    """Return a client-safe copy of an exercise: no answer keys, plus its index."""
+    safe = dict(exercise)
+    for field in _SECRET_FIELDS_BY_FORMAT.get(exercise.get('format'), set()):
+        safe.pop(field, None)
+    if exercise.get('format') == 'match':
+        # Client still needs the left-hand words and the shuffled right-hand
+        # options to build the matching UI -- just not which word maps to
+        # which option.
+        pairs = exercise.get('pairs', [])
+        safe['words'] = [p['word'] for p in pairs]
+        safe['options'] = [p['match'] for p in pairs]
+    safe['index'] = index
+    return safe
+
+
 @login_required
 def exercise_page(request, language, unit, lesson):
     data = load_json(language)
     lesson_data = data.get('lessons', [])[lesson - 1]
-    exercises = [c for c in lesson_data.get('content', []) if c.get('type') == 'exercise']
-
-    if request.method == 'POST':
-        # Check if this is an AJAX submission with scores
-        if request.headers.get('x-requested-with') == 'XMLHttpRequest':
-            scores = request.POST.get('scores')  # will be JSON string from JS
-            print(scores)
-            if scores:
-                import json
-                scores_dict = json.loads(scores)
-                course_obj = Course.objects.filter(language=language).first()
-                if course_obj:
-                    progress, _ = UserProgress.objects.get_or_create(user=request.user, course=course_obj)
-                    # Save individual scores
-                    for prompt, score in scores_dict.items():
-                        progress.save_exercise_score(lesson_id=lesson, prompt=prompt, score=score)
-                    progress.mark_exercise_submitted(lesson)
-            return JsonResponse({'status': 'success'})
-
-        # Normal form submission (fallback)
-        course_obj = Course.objects.filter(language=language).first()
-        if course_obj:
-            progress, _ = UserProgress.objects.get_or_create(user=request.user, course=course_obj)
-            progress.mark_exercise_submitted(lesson)
-        return redirect('lesson_list', language=language, unit=unit)
+    raw_exercises = [c for c in lesson_data.get('content', []) if c.get('type') == 'exercise']
+    exercises = [_public_exercise(ex, i) for i, ex in enumerate(raw_exercises)]
 
     return render(request, 'app/exercise_page.html', {
         'language': language,
         'unit': unit,
         'lesson': lesson,
-        'exercises': exercises
+        'exercises': exercises,
+        'exercises_json': json.dumps(exercises, ensure_ascii=False),
+    })
+
+
+@require_POST
+@login_required
+def submit_exercises(request, language, unit, lesson):
+    """
+    Grades an entire lesson's worth of exercise answers server-side and
+    returns a score summary the frontend uses to render the popup modal.
+    Expected JSON body: {"answers": [{"index": 0, "value": "How"}, ...]}
+    """
+    try:
+        body = json.loads(request.body or '{}')
+    except json.JSONDecodeError:
+        return JsonResponse({"error": "Invalid JSON body"}, status=400)
+
+    answers = body.get('answers', [])
+    if not isinstance(answers, list):
+        return JsonResponse({"error": "'answers' must be a list"}, status=400)
+
+    data = load_json(language)
+    lessons = data.get('lessons', [])
+    if lesson - 1 >= len(lessons) or lesson - 1 < 0:
+        return JsonResponse({"error": "Lesson not found"}, status=404)
+
+    lesson_data = lessons[lesson - 1]
+    exercises = [c for c in lesson_data.get('content', []) if c.get('type') == 'exercise']
+
+    result = grade_submission(exercises, answers)
+
+    course = Course.objects.filter(language__iexact=language).first()
+    if course is None:
+        # Auto-create the course row on first use; keeps DB in sync with the
+        # static language content without needing a separate seed step.
+        course = Course.objects.create(language=language.capitalize(), title=f"{language.capitalize()} Course")
+
+    progress, _ = UserProgress.objects.get_or_create(user=request.user, course=course)
+    for item in result['results']:
+        progress.save_exercise_score(lesson_id=lesson, prompt=item['prompt'], score=item['score'])
+    progress.mark_exercise_submitted(lesson)
+
+    profile, _ = Profile.objects.get_or_create(user=request.user)
+    profile.xp += int(result['score_percent'] / 10)
+    profile.save(update_fields=['xp'])
+
+    return JsonResponse({
+        "score_percent": result['score_percent'],
+        "correct": result['correct'],
+        "total": result['total'],
+        "results": result['results'],
+        "course_total_score": progress.total_score,
+        "xp": profile.xp,
     })
 
 @csrf_exempt

@@ -6,7 +6,7 @@ urlpatterns = [
     path("", views.index, name="index"),
     path("signin", views.signin_view, name="signin"),
     path("logout", views.logout_view, name="logout"),
-    path("SignUp", views.signup_view, name="signup"),
+    path("signup", views.signup_view, name="signup"),
     path("register/<str:language>/", views.register_language, name="register"),
     path('verify-email/<uidb64>/<token>/', views.verify_email, name='verify_email'),
     path("profile", views.profile, name="profile"),
@@ -18,5 +18,6 @@ urlpatterns = [
     path('registration-success/<str:language>/', views.registration_success, name='registration_success'),
     path("mycourses/", views.my_courses, name="my_courses"),
     path('api/save_score/', views.save_exercise_score, name='save_exercise_score'),
+    path("api/exercise/<str:language>/<int:unit>/<int:lesson>/submit/", views.submit_exercises, name="submit_exercises"),
     ]
 

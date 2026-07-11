@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
 from pathlib import Path
-from django.contrib.auth import login
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -22,12 +21,48 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-f^p21uo%455)xi5w3m_^ljkvjzwo96n0$0v58*zq!#)u(okdi='
+SECRET_KEY = os.environ.get(
+    'DJANGO_SECRET_KEY',
+    'django-insecure-f^p21uo%455)xi5w3m_^ljkvjzwo96n0$0v58*zq!#)u(okdi='
+)
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.environ.get('DJANGO_DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = []
+# Comma-separated list, e.g. "app.example.com,example.com"
+ALLOWED_HOSTS = [h.strip() for h in os.environ.get('DJANGO_ALLOWED_HOSTS', '').split(',') if h.strip()]
+if DEBUG and not ALLOWED_HOSTS:
+    ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+
+# --- Cloudflare proxy support -----------------------------------------------
+# Cloudflare terminates TLS and forwards plain HTTP to the origin, adding this
+# header so Django knows the *original* request was HTTPS. Without this,
+# request.is_secure() is always False behind the proxy and CSRF/redirects break.
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+USE_X_FORWARDED_HOST = True
+USE_X_FORWARDED_PORT = True
+
+# Trust the Cloudflare-fronted domain(s) for CSRF (must include scheme).
+CSRF_TRUSTED_ORIGINS = [
+    o.strip() for o in os.environ.get('DJANGO_CSRF_TRUSTED_ORIGINS', '').split(',') if o.strip()
+]
+
+SECURE_SSL_REDIRECT = os.environ.get('DJANGO_SECURE_SSL_REDIRECT', 'False') == 'True'
+SESSION_COOKIE_SECURE = not DEBUG
+CSRF_COOKIE_SECURE = not DEBUG
+SESSION_COOKIE_SAMESITE = 'Lax'
+CSRF_COOKIE_SAMESITE = 'Lax'
+SECURE_HSTS_SECONDS = 0 if DEBUG else 31536000
+SECURE_HSTS_INCLUDE_SUBDOMAINS = not DEBUG
+SECURE_HSTS_PRELOAD = not DEBUG
+SECURE_CONTENT_TYPE_NOSNIFF = True
+
+# Stateless-friendly sessions: DB-backed sessions work fine across Cloudflare's
+# anycast edge since the origin is a single app talking to one database --
+# no separate cache/session store dependency is needed for this app's scale.
+SESSION_ENGINE = 'django.contrib.sessions.backends.db'
+SESSION_EXPIRE_AT_BROWSER_CLOSE = False
+SESSION_COOKIE_AGE = 60 * 60 * 24 * 14  # 14 days
 
 
 # Application definition
@@ -53,6 +88,13 @@ SITE_ID = 1
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    # Serves static files efficiently (compressed + hashed) straight from the
+    # app process so Cloudflare's CDN can cache them with far-future expiry
+    # without needing a separate static-file host or bucket.
+    'whitenoise.middleware.WhiteNoiseMiddleware',
+    # Must run before anything that reads request.META['REMOTE_ADDR']
+    # (rate limiting, logging, allauth login-attempt tracking).
+    'app.middleware.CloudflareRealIPMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -102,13 +144,14 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
-    },
-    {
         'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+        # Custom validator: min 6 chars, 1 uppercase, 1 lowercase, 1 digit.
+        # Replaces MinimumLengthValidator/NumericPasswordValidator since this
+        # single validator already enforces a stricter combined rule.
+        'NAME': 'app.validators.StrongPasswordValidator',
+        'OPTIONS': {'min_length': 6},
     },
 ]
 
@@ -132,6 +175,26 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
+# CompressedManifestStaticFilesStorage renames each static file with a
+# content hash (e.g. script.a3f1c9.js) and rewrites references to it. That
+# lets us set an effectively infinite Cloudflare cache TTL on /static/* --
+# any file change produces a brand-new URL, so there's no staleness risk.
+# Only enabled outside DEBUG: it requires `collectstatic` to have already
+# built the hash manifest, which local `runserver`/`test` runs don't do.
+STORAGES = {
+    "default": {
+        "BACKEND": "django.core.files.storage.FileSystemStorage",
+    },
+    "staticfiles": {
+        "BACKEND": (
+            "whitenoise.storage.CompressedManifestStaticFilesStorage"
+            if not DEBUG else
+            "django.contrib.staticfiles.storage.StaticFilesStorage"
+        ),
+    },
+}
+WHITENOISE_MAX_AGE = 60 * 60 * 24 * 365  # 1 year -- safe because of the hashed filenames above
+
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
@@ -143,15 +206,13 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = 'app.User'
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'  # Example: Gmail SMTP
+EMAIL_BACKEND =  'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'computerstempo@gmail.com'  
-EMAIL_HOST_PASSWORD = '123'  # App-specific password (not regular password)
-DEFAULT_FROM_EMAIL = 'appname <computerstempo@gmail.com>'
-
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_HOST_USER = 'betaphase.studio@gmail.com'
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD', '')  # app-specific password, never the raw account password
+DEFAULT_FROM_EMAIL = 'TalkBits <betaphase.studio@gmail.com>'
 
 AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
@@ -163,4 +224,26 @@ LOGIN_REDIRECT_URL = "/"
 # If you also want to control where they go after logout:
 LOGOUT_REDIRECT_URL = "/"
 
-SITE_ID = 1
+# --- django-allauth: modern settings (replaces deprecated *_REQUIRED style) --
+ACCOUNT_LOGIN_METHODS = {'username', 'email'}
+ACCOUNT_SIGNUP_FIELDS = ['email*', 'username*', 'password1*', 'password2*']
+ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
+ACCOUNT_UNIQUE_EMAIL = True
+ACCOUNT_EMAIL_REQUIRED = True
+ACCOUNT_CONFIRM_EMAIL_ON_GET = True  
+ACCOUNT_RATE_LIMITS = {
+    'login_failed': '5/5m',
+}
+SOCIALACCOUNT_AUTO_SIGNUP = True
+SOCIALACCOUNT_LOGIN_ON_GET = True  # skip the intermediate allauth confirmation page
+
+# Google OAuth: create credentials at https://console.cloud.google.com/apis/credentials
+# and set these as environment variables (never commit real secrets).
+SOCIALACCOUNT_PROVIDERS = {
+    'google': {
+        'SCOPE': ['profile', 'email'],
+        'AUTH_PARAMS': {
+            'access_type': 'online',
+        },
+    }
+}
