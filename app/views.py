@@ -2,7 +2,6 @@ from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth import get_user_model
 from django.views.decorators.csrf import csrf_exempt
-from streamlit import user
 User=get_user_model()
 from .models import *
 from django.contrib import messages
@@ -217,7 +216,7 @@ def profile(request):
     })
 def logout_view(request):
     logout(request)  # Log out the user
-    return render(request, 'app/logout.html')
+    return render(request, 'app/index.html')
 
 def load_json(language: str) -> dict:
     base_dir = os.path.dirname(os.path.abspath(__file__))
