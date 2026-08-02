@@ -15,26 +15,32 @@
      this was ever rendered (see app/views.py:_public_exercise). -->
 <script id="exercises-data" type="application/json">{{ exercises_json|safe }}</script>
 
-<h2 class="text-2xl font-bold mb-4 text-amber-900">Exercises for Lesson {{ lesson }}</h2>
+<div class="min-h-[75vh] bg-cream py-16 px-6 sm:px-10 max-w-3xl mx-auto">
 
-<div id="exercise-root" class="space-y-4"></div>
+    <h2 class="font-display uppercase text-3xl sm:text-4xl mb-1 reveal-left">
+        <span class="text-brand-yellow">Exercise</span>
+    </h2>
+    <p class="text-brand-brown/70 mb-8 reveal-left reveal-delay-1">Lesson {{ lesson }}</p>
 
-<button id="submit-exercises-btn" type="button"
-        class="mt-6 bg-yellow-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-yellow-700 transition">
-    Submit Exercises
-</button>
+    <div id="exercise-root" class="space-y-4 reveal-up"></div>
 
-<a href="{% url 'lesson_detail' language unit lesson %}" class="inline-block mt-4 text-amber-700 hover:underline">
-    ← Back to Lesson
-</a>
+    <button id="submit-exercises-btn" type="button" class="btn-cta uppercase text-sm sm:text-base mt-8">
+        Submit Exercises
+    </button>
+
+    <a href="{% url 'lesson_detail' language unit lesson %}" class="inline-block mt-4 text-brand-brown hover:text-brand-red hover:underline transition-colors">
+        &larr; Back to Lesson
+    </a>
+</div>
 
 <!-- Score popup modal -->
-<div id="score-modal" class="fixed inset-0 bg-black/50 hidden items-center justify-center z-50 px-4">
-    <div class="bg-white rounded-2xl shadow-2xl max-w-sm w-full p-6 text-center transform transition-all">
-        <h3 class="text-xl font-bold text-amber-900 mb-1">Lesson Complete!</h3>
-        <p class="text-4xl font-extrabold text-emerald-600 my-3"><span id="score-modal-percent">0</span>%</p>
-        <p id="score-modal-detail" class="text-amber-700 mb-5">0 / 0 correct</p>
-        <button id="score-modal-close" class="bg-amber-600 text-white px-5 py-2 rounded-lg font-semibold hover:bg-amber-700">
+<div id="score-modal" class="fixed inset-0 bg-brand-brown/50 hidden items-center justify-center z-50 px-4">
+    <div class="bg-cream rounded-2xl shadow-2xl max-w-sm w-full p-8 text-center transform transition-all">
+        <p id="score-modal-emoji" class="text-4xl mb-2"></p>
+        <h3 class="font-display uppercase text-xl text-brand-brown mb-1">Lesson Complete!</h3>
+        <p class="text-4xl font-extrabold text-brand-red my-3"><span id="score-modal-percent">0</span>%</p>
+        <p id="score-modal-detail" class="text-brand-brown/70 mb-6">0 / 0 correct</p>
+        <button id="score-modal-close" class="btn-cta uppercase text-sm">
             Continue
         </button>
     </div>

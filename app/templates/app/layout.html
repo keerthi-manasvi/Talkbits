@@ -8,18 +8,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="manifest" href="{% static 'manifest.json' %}">
-    <meta name="theme-color" content="#2d89ef">
+    <meta name="theme-color" content="#F0645A">
     <link rel="apple-touch-icon" href="{% static 'icons/icon-192x192.png' %}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cream: '#FDF6E3',
+                        brand: {
+                            red: '#F0645A',
+                            yellow: '#F5B942',
+                            brown: '#4A2010',
+                        },
+                    },
+                    fontFamily: {
+                        display: ["'Neue Machina'", "'Courier New'", "monospace"],
+                        body: ["'League Spartan'", "Verdana", "sans-serif"],
+                    },
+                },
+            },
+        };
+    </script>
 
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-        }
-    </style>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+
     {% load static %}
 
     <script id="translation-data" type="application/json">
@@ -35,45 +52,60 @@
     {% block head %}{% endblock %}
 </head>
 
-<body class="bg-amber-50 text-amber-900">
+<body class="bg-cream text-brand-brown font-body">
     <!-- Header -->
-    <header class="bg-red-400 shadow-sm border-b border-white-200">
-        <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
-            <a href="{% url 'index' %}" class="flex items-center space-x-2">
-               
-                <span class="text-xl font-bold text-white-600">TALKBITS</span>
+    <header class="bg-cream border-b-2 border-brand-brown/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex justify-between items-center gap-4">
+            <a href="{% url 'index' %}" class="flex items-center">
+                <span class="text-2xl sm:text-3xl font-display lowercase text-brand-brown tracking-tight">talkbits</span>
             </a>
 
-            <nav class="flex flex-wrap justify-start gap-4 md:gap-6 items-center">
+            <nav class="flex flex-wrap justify-end gap-2 sm:gap-3 items-center">
                 {% if user.is_authenticated %}
-                <a href="{% url 'course_list' %}" class="text-black font-bold px-4 py-2 hover:bg-white-700">ADD
-                    NEW
-                    COURSE</a>
-                <a="{% url 'my_courses' %}" class="text-black px-4 py-2 font-bold hover:bg-white-700">COURSES</a>
-                    <a href="{% url 'profile' %}" class="text-black px-4 py-2 font-bold hover:bg-white-700">PROFILE</a>
-
-                    <a href="{% url 'logout' %}" class=" text-black px-4 py-2 font-bold hover:bg-white-700">LOGOUT</a>
-                    {% else %}
-                    <a href="{% url 'signin' %}" class=" text-black px-4 py-2 font-bold hover:bg-white-700">SIGN
-                        IN</a>
-                    <a href="{% url 'signup' %}" class=" text-black px-4 py-2 font-bold hover:bg-white-700">SIGN
-                        UP</a>
-                    {% endif %}
+                <a href="{% url 'course_list' %}" class="btn-nav-pill">New Course</a>
+                <a href="{% url 'my_courses' %}" class="btn-nav-pill">Courses</a>
+                <a href="{% url 'profile' %}" class="btn-nav-pill">Profile</a>
+                <a href="{% url 'logout' %}" class="text-brand-brown font-semibold text-sm px-2 hover:text-brand-red transition-colors">Logout</a>
+                {% else %}
+                <a href="{% url 'signin' %}" class="btn-nav-pill">Sign In</a>
+                <a href="{% url 'signup' %}" class="btn-nav-pill">Sign Up</a>
+                {% endif %}
             </nav>
-
-
         </div>
     </header>
 
     <!-- Main Content -->
-    <main class="max-w-4xl mx-auto px-4 py-8">
+    <main class="w-full">
         {% block content %}{% endblock %}
     </main>
 
     <!-- Footer -->
-    <footer class="bg-white border-t border-white-200 mt-12">
-        <div class="max-w-7xl mx-auto px-4 py-6 text-center text-amber-600">
-            terms, privacy go here
+    <footer class="bg-brand-yellow border-t-2 border-brand-brown/10 mt-16">
+        <div class="max-w-7xl mx-auto px-6 sm:px-10 py-10 grid grid-cols-1 sm:grid-cols-3 gap-8 text-brand-brown">
+            <div>
+                <p class="font-display text-lg mb-2">Talkbits <span class="font-body font-normal text-sm align-middle">Open Source</span></p>
+                <p class="text-sm leading-relaxed max-w-xs">Developed as an open source language-learning website for Indian languages. Learn Indian languages the free, quick and practical way.</p>
+            </div>
+            <div>
+                <p class="font-semibold mb-2">Contribute</p>
+                <ul class="text-sm space-y-1">
+                    <li><a href="https://github.com" class="hover:underline">Documentation</a></li>
+                    <li><a href="https://github.com" class="hover:underline">Report a Bug</a></li>
+                    <li><a href="https://github.com" class="hover:underline">Raise a PR</a></li>
+                    <li><a href="https://github.com" class="hover:underline">Careers</a></li>
+                </ul>
+            </div>
+            <div>
+                <p class="font-semibold mb-2">Contact</p>
+                <ul class="text-sm space-y-1">
+                    <li><a href="mailto:hello@talkbits.dev" class="hover:underline">hello@talkbits.dev</a></li>
+                    <li><a href="#" class="hover:underline">Media</a></li>
+                    <li><a href="#" class="hover:underline">Karma Points</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-6 sm:px-10 pb-6 text-xs text-brand-brown/70">
+            © {% now "Y" %} Talkbits. Built with Django &amp; Design. All rights reserved.
         </div>
     </footer>
 
@@ -89,6 +121,28 @@
                     });
             });
         }
+    </script>
+
+    <!-- Scroll-triggered reveal animations (Intersection Observer fallback for
+         browsers without native animation-timeline support). -->
+    <script>
+        (function () {
+            const targets = document.querySelectorAll('.reveal-up, .reveal-left, .reveal-right');
+            if (!targets.length) return;
+            if (!('IntersectionObserver' in window)) {
+                targets.forEach((t) => t.classList.add('is-visible'));
+                return;
+            }
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.15 });
+            targets.forEach((t) => observer.observe(t));
+        })();
     </script>
 </body>
 

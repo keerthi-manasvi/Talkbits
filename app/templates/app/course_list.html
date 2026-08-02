@@ -3,24 +3,24 @@
 {% block title %}Course List{% endblock %}
 
 {% block content %}
-<!-- Messages -->
-{% if messages %}
-<div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded-md mb-8 max-w-lg mx-auto">
-    {% for message in messages %}
-    <p>{{ message }}</p>
-    {% endfor %}
-</div>
-{% endif %}
+<div class="min-h-[80vh] flex items-center justify-center bg-cream py-16 px-4">
+    <div class="max-w-lg w-full text-center reveal-up">
 
+        {% if messages %}
+        <div class="bg-brand-red/10 border border-brand-red text-brand-red px-4 py-3 rounded-md mb-8 text-left">
+            {% for message in messages %}
+            <p>{{ message }}</p>
+            {% endfor %}
+        </div>
+        {% endif %}
 
-<div class="min-h-screen flex items-center justify-center bg-gradient-to-br from-white-50 to-emerald-100 py-12 px-4">
-    <div class="max-w-md w-full text-center">
-        
-        <h2 class="text-2xl font-bold mb-6">Select a Language Course</h2>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <h2 class="font-display uppercase text-3xl sm:text-4xl mb-10">
+            <span class="text-brand-red">Join</span> <span class="text-brand-yellow">Language</span>
+        </h2>
+
+        <div class="flex flex-wrap justify-center gap-4">
             {% for lang in languages %}
-            <a href="{% url 'register' lang %}"
-                class="bg-amber-300 shadow p-4 rounded text-center hover:bg-white-50 font-medium text-white-700">
+            <a href="{% url 'register' lang %}" class="btn-pill min-w-[9rem] uppercase">
                 {{ lang }}
             </a>
             {% endfor %}

@@ -3,25 +3,41 @@
 
 {% block content %}
 
-<div class="min-h-screen bg-amber-50 flex flex-col items-center py-12">
-    <h1 class="text-3xl font-bold text-black mb-8">My Courses</h1>
+<div class="min-h-[70vh] flex flex-col items-center px-4 py-16 text-center">
 
     {% if registrations %}
-    <div class=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-11/12 max-w-5xl">
+    <h1 class="font-display font-extrabold text-3xl mb-2 tb-fade-up">
+        <span class="text-tb-brown">Languages</span> <span class="text-tb-yellow-dark">Joined</span>
+    </h1>
+    <p class="text-tb-brown/70 mb-10 tb-fade-up">You're a few languages away from being a polyglot.</p>
+
+    <div class="grid grid-cols-2 gap-4 w-full max-w-md">
         {% for reg in registrations %}
         <a href="{% url 'unit_list' reg.learning_language %}"
-            class="group block p-6 bg-red-400 border border-amber-200 rounded-sm shadow hover:shadow-lg hover:bg-indigo-50 transition-all duration-200">
-            <h2 class="text-xl font-semibold text-black group-hover:text-indigo-600">
-                {{ reg.learning_language|title }}
-            </h2>
-            <p class="mt-2 text-black-500">View all units and lessons for {{ reg.learning_language|title }}.</p>
+            class="tb-btn-pill tb-fade-up bg-tb-red text-white font-bold px-6 py-4 rounded-full shadow hover:bg-tb-yellow hover:text-tb-brown tb-focus"
+            style="--tb-delay:{{ forloop.counter0 }}">
+            {{ reg.learning_language|upper }}
         </a>
         {% endfor %}
     </div>
     {% else %}
-    <p class="text-amber-600 text-lg">You haven’t registered for any courses yet.</p>
-    <a href="{% url 'course_list' %}" class="bg-amber-300 text-black px-4 py-2 rounded hover:bg-white-700">Browse
-        Courses</a>
+    <div class="tb-fade-up max-w-md">
+        <!-- OPTIONAL DECORATIVE — a goofy little empty-state doodle. Delete
+             this <svg> if you'd rather keep the empty state plain. -->
+        <svg class="tb-doodle tb-float w-28 h-28 mx-auto mb-6" viewBox="0 0 100 100" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="46" fill="#F6C9CB" />
+            <path d="M32 45c0-4 4-8 8-8s8 4 8 8" stroke="#3D2B1F" stroke-width="4" stroke-linecap="round" />
+            <path d="M52 45c0-4 4-8 8-8s8 4 8 8" stroke="#3D2B1F" stroke-width="4" stroke-linecap="round" />
+            <path d="M35 65c8 8 22 8 30 0" stroke="#3D2B1F" stroke-width="4" stroke-linecap="round" />
+        </svg>
+        <h2 class="font-display font-bold text-xl text-tb-brown mb-2">No courses yet</h2>
+        <p class="text-tb-brown/70 mb-6">You haven't registered for any courses yet.</p>
+        <a href="{% url 'course_list' %}"
+            class="tb-btn-pill inline-block bg-tb-red text-white font-bold px-6 py-3 rounded-full shadow hover:bg-tb-yellow hover:text-tb-brown tb-focus">
+            Browse Courses
+        </a>
+    </div>
     {% endif %}
 </div>
 

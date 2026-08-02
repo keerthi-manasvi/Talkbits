@@ -1,15 +1,31 @@
 {% extends 'app/layout.html' %}
 {% block title %}Lessons {% endblock %}
 {% block content %}
-<h2 class="text-2xl font-bold mb-4">{{ language }} - Unit {{ unit }} Lessons</h2>
-<ul class="space-y-2">
-    {% for lesson in lessons %}
-    <li>
-        <a href="{% url 'lesson_detail' language unit forloop.counter %}"
-            class="block bg-white p-4 rounded shadow hover:bg-white-50 font-medium text-white-700">
-            {{ lesson.title }}
-        </a>
-    </li>
-    {% endfor %}
-</ul>
+<div class="max-w-2xl mx-auto px-4 py-14">
+    <h2 class="font-display font-extrabold text-3xl mb-1 tb-fade-up">
+        <span class="text-tb-red">{{ language|upper }}</span>
+    </h2>
+    <p class="text-tb-yellow-dark font-display font-bold text-lg mb-8 tb-fade-up">Unit {{ unit }} Lessons</p>
+
+    <ul class="space-y-4">
+        {% for lesson in lessons %}
+        <li class="tb-fade-up" style="--tb-delay:{{ forloop.counter0 }}">
+            <a href="{% url 'lesson_detail' language unit forloop.counter %}"
+                class="tb-card-lift flex items-center justify-between bg-white p-5 rounded-2xl shadow group tb-focus">
+                <span>
+                    <span
+                        class="inline-block bg-tb-red text-white text-xs font-bold uppercase tracking-wide px-3 py-1 rounded-full mb-1">
+                        Lesson {{ forloop.counter }}
+                    </span>
+                    <span class="block font-semibold text-tb-brown">{{ lesson.title }}</span>
+                </span>
+                <span
+                    class="tb-btn-pill bg-tb-red text-white text-sm font-bold px-4 py-2 rounded-full group-hover:bg-tb-yellow group-hover:text-tb-brown shrink-0">
+                    Start Lesson
+                </span>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
 {% endblock %}

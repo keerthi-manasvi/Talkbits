@@ -1,0 +1,195 @@
+/* ==========================================================================
+   Talkbits — custom type + motion system
+   Palette: cream #FDF6E3 / coral-red #F0645A / gold #F5B942 / brown #4A2010
+   ========================================================================== */
+
+/* Neue Machina is a licensed display face; we reference it by family name so
+   it is picked up automatically if the user's system/OS has it installed,
+   and fall back cleanly to Courier New everywhere else. */
+@font-face {
+  font-family: 'Neue Machina';
+  src: local('Neue Machina'), local('NeueMachina-Regular');
+  font-weight: 400 700;
+  font-display: swap;
+}
+
+/* League Spartan is loaded from Google Fonts in layout.html; this local()
+   probe just lets an installed copy take priority, falling back to Verdana. */
+@font-face {
+  font-family: 'League Spartan';
+  src: local('League Spartan'), local('LeagueSpartan-Regular');
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'League Spartan', Verdana, sans-serif;
+  overflow-x: hidden;
+}
+
+.font-display {
+  font-family: 'Neue Machina', 'Courier New', monospace;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Buttons                                                                  */
+/* ---------------------------------------------------------------------- */
+
+/* 1. Landing / primary CTA — sharp-edged yellow block, brown display type */
+.btn-cta {
+  font-family: 'Neue Machina', 'Courier New', monospace;
+  background-color: #F5B942;
+  color: #4A2010;
+  padding: 0.85rem 2rem;
+  border-radius: 0;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  transition: transform 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease;
+  box-shadow: 4px 4px 0 rgba(74, 32, 16, 0.15);
+}
+.btn-cta:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 rgba(74, 32, 16, 0.2);
+  background-color: #f7c65f;
+}
+
+/* 2. Language pill — rounded red pill, white text (used for language chips) */
+.btn-pill {
+  font-family: 'League Spartan', Verdana, sans-serif;
+  font-weight: 700;
+  background-color: #F0645A;
+  color: #FDF6E3;
+  border-radius: 9999px;
+  padding: 0.55rem 1.5rem;
+  display: inline-block;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.btn-pill:hover {
+  background-color: #F5B942;
+  color: #4A2010;
+  transform: scale(1.05);
+}
+
+/* 3. Start-lesson / action pill — same red->yellow hover grow treatment */
+.btn-start {
+  font-family: 'League Spartan', Verdana, sans-serif;
+  font-weight: 700;
+  background-color: #F0645A;
+  color: #FDF6E3;
+  border-radius: 9999px;
+  padding: 0.6rem 1.75rem;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+.btn-start:hover {
+  background-color: #F5B942;
+  color: #000;
+  transform: scale(1.05);
+}
+
+/* Small nav pill (New Course / Profile) */
+.btn-nav-pill {
+  font-family: 'League Spartan', Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 0.7rem;
+  letter-spacing: 0.03em;
+  background-color: #F0645A;
+  color: #FDF6E3;
+  border-radius: 9999px;
+  padding: 0.4rem 0.9rem;
+  display: inline-block;
+  transition: all 0.25s ease-in-out;
+  white-space: nowrap;
+}
+.btn-nav-pill:hover {
+  background-color: #F5B942;
+  color: #4A2010;
+  transform: scale(1.05);
+}
+
+/* ---------------------------------------------------------------------- */
+/* Scroll-reveal animations                                                 */
+/* ---------------------------------------------------------------------- */
+
+.reveal-up {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.reveal-up.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-left {
+  opacity: 0;
+  transform: translateX(-32px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.reveal-left.is-visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.reveal-right {
+  opacity: 0;
+  transform: translateX(32px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.reveal-right.is-visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.reveal-delay-1 { transition-delay: 0.08s; }
+.reveal-delay-2 { transition-delay: 0.16s; }
+.reveal-delay-3 { transition-delay: 0.24s; }
+.reveal-delay-4 { transition-delay: 0.32s; }
+
+@supports (animation-timeline: view()) {
+  .reveal-up, .reveal-left, .reveal-right {
+    animation: reveal-fade-slide linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes reveal-fade-slide {
+  from { opacity: 0; transform: translateY(28px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.card-lift {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.card-lift:hover {
+  transform: translateY(-3px);
+  box-shadow: 6px 6px 0 rgba(74, 32, 16, 0.15);
+}
+
+/* ---------------------------------------------------------------------- */
+/* Bare Django widget fallback (e.g. register form's known_language select) */
+/* Only targets elements the template/forms.py left unstyled.               */
+/* ---------------------------------------------------------------------- */
+form select:not([class]),
+form input:not([class]):not([type="hidden"]):not([type="checkbox"]):not([type="radio"]) {
+  width: 100%;
+  border: 2px solid rgba(74, 32, 16, 0.2);
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  background-color: #fff;
+  color: #4A2010;
+  font-family: 'League Spartan', Verdana, sans-serif;
+}
+form select:not([class]):focus,
+form input:not([class]):not([type="hidden"]):focus {
+  outline: none;
+  border-color: #F0645A;
+}

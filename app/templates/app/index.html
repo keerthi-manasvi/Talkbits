@@ -1,11 +1,49 @@
 {% extends 'app/layout.html' %}
 {% block title %}Home {% endblock %}
 {% block content %}
-<h2 class="text-2xl font-bold mb-4">Welcome</h2>
-<p class="mb-6 text-amber-700">Learn Telugu, Hindi, English, and Tamil like a pro. Sign up or log in to begin your
-    journey!</p>
-<a href="{% url 'signup' %}" class="bg-amber-300 text-black px-4 py-2 rounded hover:bg-white-700">Get Started</a>
-<a href="{% url 'course_list' %}" class="bg-amber-300 text-black px-4 py-2 rounded hover:bg-white-700">Browse
-    Courses</a>
+
+<!-- ============ Section 1 : Hero ============ -->
+<section class="min-h-[80vh] flex items-center bg-cream">
+    <div class="max-w-7xl mx-auto w-full px-6 sm:px-10 py-16 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+        <div class="reveal-left">
+            <h1 class="font-display uppercase leading-[0.95] text-4xl sm:text-5xl lg:text-6xl">
+                <span class="text-brand-red block">Ditch</span>
+                <span class="text-brand-red block">the App</span>
+                <span class="text-brand-yellow block">Bridge</span>
+                <span class="text-brand-yellow block">the Gap</span>
+            </h1>
+        </div>
+        <div class="reveal-right reveal-delay-1">
+            <p class="text-brand-brown/80 text-base sm:text-lg leading-relaxed mb-6 max-w-md">
+                Learn Indian languages from the language you're most comfortable in. Talkbits is an
+                open-source, community-curated way to learn a course in minutes, not months — with
+                quick, practical exercises and native audio at every step.
+            </p>
+            <div class="flex flex-wrap items-center gap-4">
+                <a href="{% url 'signup' %}" class="btn-cta uppercase text-sm sm:text-base">Bridge the Gap</a>
+                <a href="{% url 'course_list' %}" class="text-brand-brown font-semibold hover:text-brand-red transition-colors underline underline-offset-4">Browse Courses</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============ Section 2 : Languages covered ============ -->
+<section class="min-h-[70vh] flex items-center bg-brand-red">
+    <div class="max-w-7xl mx-auto w-full px-6 sm:px-10 py-16 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+        <div class="reveal-left flex flex-wrap gap-4 justify-start">
+            <span class="bg-cream text-brand-brown font-semibold rounded-full px-6 py-3 text-lg">Hindi</span>
+            <span class="bg-cream text-brand-brown font-semibold rounded-full px-6 py-3 text-lg">Telugu</span>
+            <span class="bg-cream text-brand-brown font-semibold rounded-full px-6 py-3 text-lg">English</span>
+            <span class="bg-cream text-brand-brown font-semibold rounded-full px-6 py-3 text-lg">Tamil</span>
+        </div>
+        <div class="reveal-right reveal-delay-1 md:text-right">
+            <h2 class="font-display uppercase text-3xl sm:text-4xl lg:text-5xl leading-tight">
+                <span class="text-cream">Languages</span><br>
+                <span class="text-brand-yellow">Covered</span>
+            </h2>
+            <p class="text-cream/80 text-sm mt-2">(so far)</p>
+        </div>
+    </div>
+</section>
 
 {% endblock %}

@@ -2,80 +2,91 @@
 {% load static %}
 
 {% block content %}
+<div class="max-w-2xl mx-auto px-4 py-14">
 
-<h2 class="text-2xl font-bold mb-4">{{ lesson_data.title }}</h2>
+    <h2 class="font-display font-extrabold text-3xl text-tb-red mb-8 tb-fade-up">{{ lesson_data.title }}</h2>
 
-{% for item, trans in combined %}
-{% if item.type != 'exercise' %}
-<div class="bg-white p-4 rounded shadow mb-4">
+    <div class="space-y-4">
+        {% for item, trans in combined %}
+        {% if item.type != 'exercise' %}
+        <div class="tb-card-lift tb-fade-up bg-white p-5 rounded-2xl shadow border border-tb-brown/5">
 
-  {# ---------------- Vocab & Phrase ---------------- #}
-  {% if item.type == 'vocab' or item.type == 'phrase' %}
-  {% if item.word %}
-  <p class="font-semibold">
-    <a href="https://www.google.com/search?tbm=isch&q={{ trans.word|urlencode }}+Indian+Sign+Language" target="_blank"
-      class="hover:underline text-white-600">
-      {{ item.word }}
+            {# ---------------- Vocab & Phrase ---------------- #}
+            {% if item.type == 'vocab' or item.type == 'phrase' %}
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                {% if item.word %}
+                <div>
+                    <p class="font-semibold">
+                        <a href="https://www.google.com/search?tbm=isch&q={{ trans.word|urlencode }}+Indian+Sign+Language"
+                            target="_blank" class="hover:underline text-tb-red tb-focus rounded">
+                            {{ item.word }}
+                        </a>
+                    </p>
+                    {% if trans.word %}
+                    <p class="text-tb-brown/80">{{ trans.word }}</p>
+                    {% endif %}
+                </div>
+                {% endif %}
+
+                {% if item.text %}
+                <div>
+                    <p class="font-semibold">
+                        <a href="https://www.google.com/search?tbm=isch&q={{ trans.text|urlencode }}+Indian+Sign+Language"
+                            target="_blank" class="hover:underline text-tb-red tb-focus rounded">
+                            {{ item.text }}
+                        </a>
+                    </p>
+                    {% if trans.text %}
+                    <p class="text-tb-brown/80">{{ trans.text }}</p>
+                    {% endif %}
+                </div>
+                {% endif %}
+            </div>
+
+            {% if item.example %}
+            <p class="italic text-tb-brown/70 mt-3">{{ item.example }}</p>
+            {% if trans.example %}
+            <p class="text-tb-brown/70">{{ trans.example }}</p>
+            {% endif %}
+            {% endif %}
+
+            {% if item.audio %}
+            <audio controls class="mt-3 w-full">
+                <source src="{% static 'audio/' %}{{ language|lower }}/{{ item.audio }}" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            {% endif %}
+            {% endif %}
+
+            {# ---------------- Dialogue ---------------- #}
+            {% if item.type == 'dialogue' %}
+            <p class="font-bold text-tb-brown mb-3">Dialogue: {{ item.scenario }}</p>
+            <div class="space-y-3">
+                {% for line in item.lines %}
+                <div class="border-l-2 border-tb-yellow pl-3">
+                    <p><strong class="text-tb-red">{{ line.speaker }}:</strong> {{ line.text }}</p>
+                    {% if trans.text %}
+                    <p class="text-tb-brown/70">{{ trans.text }}</p>
+                    {% endif %}
+                    {% if line.audio %}
+                    <audio controls class="mt-1 w-full">
+                        <source src="{% static 'audio/' %}{{ language|lower }}/{{ line.audio }}" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+
+    <a href="{% url 'exercise_page' language unit lesson %}"
+        class="tb-btn-pill inline-block mt-8 bg-tb-yellow text-tb-brown font-bold px-6 py-3 rounded-full shadow hover:bg-tb-red hover:text-white tb-focus">
+        Go to Exercises
     </a>
-  </p>
-  {% if trans.word %}
-  <p>{{ trans.word }}</p>
-  {% endif %}
-  {% endif %}
-
-  {% if item.text %}
-  <p class="font-semibold">
-    <a href="https://www.google.com/search?tbm=isch&q={{ trans.text|urlencode }}+Indian+Sign+Language" target="_blank"
-      class="hover:underline text-white-600">
-      {{ item.text }}
-    </a>
-  </p>
-  {% if trans.text %}
-  <p>{{ trans.text }}</p>
-  {% endif %}
-  {% endif %}
-
-  {% if item.example %}
-  <p class="italic">{{ item.example }}</p>
-  {% if trans.example %}
-  <p>{{ trans.example }}</p>
-  {% endif %}
-  {% endif %}
-
-  {% if item.audio %}
-  <audio controls class="mt-2 w-full">
-    <source src="{% static 'audio/' %}{{ language|lower }}/{{ item.audio }}" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-  {% endif %}
-  {% endif %}
-
-  {# ---------------- Dialogue ---------------- #}
-  {% if item.type == 'dialogue' %}
-  <p class="font-bold mb-2">Dialogue: {{ item.scenario }}</p>
-  {% for line in item.lines %}
-  <div class="mb-1">
-    <p><strong>{{ line.speaker }}:</strong> {{ line.text }}</p>
-    {% if trans.text %}
-    <p>{{ trans.text }}</p>
-    {% endif %}
-    {% if line.audio %}
-    <audio controls class="mt-1 w-full">
-      <source src="{% static 'audio/' %}{{ language|lower }}/{{ line.audio }}" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
-    {% endif %}
-  </div>
-  {% endfor %}
-  {% endif %}
-
 </div>
-{% endif %}
-{% endfor %}
-
-<a href="{% url 'exercise_page' language unit lesson %}"
-  class="bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600">
-  Go to Exercises
-</a>
-
 {% endblock %}

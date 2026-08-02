@@ -30,9 +30,9 @@
   }
 
   function renderFillIn(ex) {
-    const card = el('div', 'bg-white p-4 rounded-lg shadow');
-    card.append(el('p', 'font-medium text-amber-900', ex.prompt));
-    const input = el('input', 'border rounded px-3 py-2 w-full mt-2');
+    const card = el('div', 'tb-card-lift tb-fade-up bg-white p-4 rounded-2xl shadow');
+    card.append(el('p', 'font-medium text-tb-brown', ex.prompt));
+    const input = el('input', 'border border-tb-brown/15 rounded-lg px-3 py-2 w-full mt-2');
     input.type = 'text';
     input.placeholder = ex.hint || 'Your answer';
     input.addEventListener('input', () => { answers[ex.index] = input.value; });
@@ -41,9 +41,9 @@
   }
 
   function renderType(ex) {
-    const card = el('div', 'bg-white p-4 rounded-lg shadow');
-    card.append(el('p', 'font-medium text-amber-900', ex.prompt));
-    const input = el('input', 'border rounded px-3 py-2 w-full mt-2');
+    const card = el('div', 'tb-card-lift tb-fade-up bg-white p-4 rounded-2xl shadow');
+    card.append(el('p', 'font-medium text-tb-brown', ex.prompt));
+    const input = el('input', 'border border-tb-brown/15 rounded-lg px-3 py-2 w-full mt-2');
     input.type = 'text';
     input.placeholder = 'Type what you hear/read above';
     input.addEventListener('input', () => { answers[ex.index] = input.value; });
@@ -52,15 +52,15 @@
   }
 
   function renderQuiz(ex) {
-    const card = el('div', 'bg-white p-4 rounded-lg shadow');
-    card.append(el('p', 'font-medium text-amber-900', ex.question));
+    const card = el('div', 'tb-card-lift tb-fade-up bg-white p-4 rounded-2xl shadow');
+    card.append(el('p', 'font-medium text-tb-brown', ex.question));
     (ex.options || []).forEach((opt, i) => {
-      const label = el('label', 'block mt-2 cursor-pointer');
+      const label = el('label', 'block mt-2 cursor-pointer text-tb-brown');
       const radio = document.createElement('input');
       radio.type = 'radio';
       radio.name = `quiz_${ex.index}`;
       radio.value = opt;
-      radio.className = 'mr-2';
+      radio.className = 'mr-2 accent-tb-red';
       radio.addEventListener('change', () => { answers[ex.index] = opt; });
       label.append(radio, document.createTextNode(opt));
       card.append(label);
@@ -69,9 +69,9 @@
   }
 
   function renderDialogue(ex) {
-    const card = el('div', 'bg-white p-4 rounded-lg shadow');
-    card.append(el('p', 'font-medium text-amber-900', ex.prompt));
-    const input = el('input', 'border rounded px-3 py-2 w-full mt-2');
+    const card = el('div', 'tb-card-lift tb-fade-up bg-white p-4 rounded-2xl shadow');
+    card.append(el('p', 'font-medium text-tb-brown', ex.prompt));
+    const input = el('input', 'border border-tb-brown/15 rounded-lg px-3 py-2 w-full mt-2');
     input.type = 'text';
     input.placeholder = ex.hint || 'Complete the dialogue';
     input.addEventListener('input', () => { answers[ex.index] = input.value; });
@@ -80,16 +80,16 @@
   }
 
   function renderMatch(ex) {
-    const card = el('div', 'bg-amber-50 p-4 rounded-lg shadow');
-    card.append(el('p', 'font-medium text-amber-900 mb-2', ex.prompt));
+    const card = el('div', 'tb-card-lift tb-fade-up bg-cream p-4 rounded-2xl shadow');
+    card.append(el('p', 'font-medium text-tb-brown mb-2', ex.prompt));
     const chosen = {};
     answers[ex.index] = chosen;
 
     (ex.words || []).forEach((word) => {
-      const row = el('div', 'flex items-center justify-between gap-3 mt-2 bg-white p-2 rounded');
-      row.append(el('span', 'text-amber-900', word));
+      const row = el('div', 'flex items-center justify-between gap-3 mt-2 bg-white p-2 rounded-lg');
+      row.append(el('span', 'text-tb-brown', word));
       const select = document.createElement('select');
-      select.className = 'border rounded px-2 py-1';
+      select.className = 'border border-tb-brown/15 rounded-lg px-2 py-1';
       select.append(el('option', '', '-- choose --'));
       (ex.options || []).forEach((opt) => select.append(el('option', '', opt)));
       select.addEventListener('change', () => { chosen[word] = select.value; });
@@ -100,10 +100,10 @@
   }
 
   function renderVoice(ex) {
-    const card = el('div', 'voice-exercise bg-amber-50 p-4 rounded-lg shadow');
+    const card = el('div', 'voice-exercise tb-card-lift tb-fade-up bg-cream p-4 rounded-2xl shadow');
     card.setAttribute('data-index', ex.index);
     card.setAttribute('data-lang', ex.lang || '');
-    card.append(el('p', 'italic text-amber-900', 'Say: ' + (ex.expected || '')));
+    card.append(el('p', 'italic text-tb-brown', 'Say: ' + (ex.expected || '')));
     // Playback / recording controls + Web Speech scoring are attached by
     // enhanceVoiceExercises() below (kept separate since it depends on
     // browser Speech APIs that may not exist).
@@ -234,11 +234,11 @@
       if (!expectedText) return;
 
       const controlsWrap = el('div', 'mt-2 flex gap-2 flex-wrap');
-      const playBtn = el('button', 'bg-yellow-500 text-white px-3 py-1 rounded', '▶ Play Prompt');
+      const playBtn = el('button', 'tb-btn-pill bg-tb-yellow text-tb-brown px-3 py-1 rounded-full font-semibold', '▶ Play Prompt');
       playBtn.type = 'button';
-      const startBtn = el('button', 'bg-lime-500 text-white px-3 py-1 rounded', '🎤 Start Speaking');
+      const startBtn = el('button', 'tb-btn-pill bg-tb-red text-white px-3 py-1 rounded-full font-semibold', '🎤 Start Speaking');
       startBtn.type = 'button';
-      const stopBtn = el('button', 'bg-red-500 text-white px-3 py-1 rounded opacity-50', '⏹ Stop');
+      const stopBtn = el('button', 'tb-btn-pill bg-tb-brown text-white px-3 py-1 rounded-full font-semibold opacity-50', '⏹ Stop');
       stopBtn.type = 'button';
       stopBtn.disabled = true;
 
