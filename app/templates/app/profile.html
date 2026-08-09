@@ -3,99 +3,97 @@
 {% block title %}Profile{% endblock %}
 
 {% block content %}
-<div class="max-w-3xl mx-auto px-4 py-14">
+<div class="min-h-[80vh] bg-cream py-16 px-6 sm:px-10">
+    <div class="max-w-4xl mx-auto">
 
-    <!-- Messages -->
-    {% if messages %}
-    <div class="bg-red-100 border border-tb-red text-tb-red-dark px-4 py-3 rounded-md mb-8">
-        {% for message in messages %}
-        <p>{{ message }}</p>
-        {% endfor %}
-    </div>
-    {% endif %}
-
-    <!-- Profile header -->
-    <div class="tb-fade-up mb-10">
-        <p class="text-tb-yellow-dark font-display font-bold text-sm uppercase tracking-wide">Profile</p>
-        <h1 class="font-display font-extrabold text-4xl text-tb-brown">{{ user.get_full_name|default:user.username }}</h1>
-        <div class="flex items-center gap-4 mt-3">
-            <p class="text-sm text-tb-brown/70">Total Score</p>
+        <!-- Messages -->
+        {% if messages %}
+        <div class="bg-brand-red/10 border border-brand-red text-brand-red px-4 py-3 rounded-md mb-8">
+            {% for message in messages %}
+            <p>{{ message }}</p>
+            {% endfor %}
         </div>
-        <p class="font-display font-extrabold text-3xl text-tb-red">
-            {{ overall_average|default:"0.0" }}
-        </p>
-    </div>
+        {% endif %}
 
-    <!-- Score Summary -->
-    <div class="tb-fade-up mb-10">
+        <!-- Header Section -->
+        <div class="mb-10 reveal-left">
+            <p class="text-brand-red font-display uppercase tracking-wide text-sm mb-1">Profile</p>
+            <h1 class="font-display uppercase text-4xl sm:text-5xl text-brand-brown mb-1">
+                {{ user.get_full_name|default:user.username }}
+            </h1>
+            <p class="text-brand-brown/60 text-sm mb-6">{{ user.username }}</p>
+
+        </div>
+
+        <!-- Score Summary -->
         {% if course_scores %}
-        <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mb-12 reveal-up">
             {% for c in course_scores %}
-            <div class="tb-card-lift bg-tb-red rounded-2xl p-4 text-white">
-                <p class="font-display font-extrabold text-3xl">{{ c.total_score }}</p>
+            <div class="{% cycle 'bg-brand-red text-cream' 'bg-brand-yellow text-brand-brown' %} p-5 rounded-lg card-lift">
+                <p class="font-display text-3xl">{{ c.total_score }}</p>
                 <p class="font-semibold mt-1">{{ c.language|title }}</p>
-                <p class="text-xs text-white/80 mt-1">{{ c.lessons_attempted }} lesson(s) attempted</p>
+                <p class="text-xs opacity-80 mt-2">{{ c.lessons_attempted }} lesson(s) attempted</p>
+                <p class="text-xs opacity-80">{{ c.total_points }} pts</p>
             </div>
             {% endfor %}
         </div>
-        <p class="text-xs text-tb-brown/50 mt-4">XP: {{ profile_obj.xp }}</p>
         {% else %}
-        <div class="bg-white rounded-2xl shadow p-6 text-center text-tb-brown/70">
-            Complete some exercises to see your scores here.
-        </div>
+        <p class="text-brand-brown/60 mb-12">Complete some exercises to see your scores here.</p>
         {% endif %}
-    </div>
 
-    <!-- Courses enrolled -->
-    <div class="tb-fade-up bg-white rounded-2xl shadow-md p-6 mb-8">
-        <h2 class="font-display font-bold text-lg text-tb-brown mb-3">Courses Enrolled</h2>
-        {% if registrations %}
-        <ul class="flex flex-wrap gap-2">
-            {% for reg in registrations %}
-            <li>
-                <a href="{% url 'unit_list' reg.learning_language %}"
-                    class="tb-btn-pill inline-block bg-cream-dark text-tb-brown font-semibold px-4 py-2 rounded-full hover:bg-tb-yellow tb-focus">
-                    {{ reg.learning_language|title }}
-                </a>
-            </li>
-            {% endfor %}
-        </ul>
-        {% else %}
-        <p class="text-tb-brown/60">None yet</p>
-        {% endif %}
-    </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Profile Information -->
+            <div class="bg-white border-2 border-brand-brown/10 rounded-lg p-6 reveal-up reveal-delay-1">
+                <h2 class="font-display uppercase text-lg text-brand-brown mb-4">Profile Details</h2>
+                <div class="space-y-4">
+                    <div>
+                        <span class="block text-xs font-semibold uppercase tracking-wide text-brand-brown/50">Name</span>
+                        <p class="text-brand-brown">{{ user.get_full_name|default:"Not set" }}</p>
+                    </div>
+                    <div>
+                        <span class="block text-xs font-semibold uppercase tracking-wide text-brand-brown/50">Email/Phone</span>
+                        <p class="text-brand-brown">{{ user.username }}</p>
+                    </div>
+                    <div>
+                        <span class="block text-xs font-semibold uppercase tracking-wide text-brand-brown/50">Account Status</span>
+                        <p class="text-brand-brown">
+                            {% if user.is_active %}
+                            <span class="text-green-700 font-semibold">Verified</span>
+                            {% else %}
+                            <span class="text-brand-red font-semibold">Unverified (Check your email)</span>
+                            {% endif %}
+                        </p>
+                    </div>
+                    <div>
+                        <span class="block text-xs font-semibold uppercase tracking-wide text-brand-brown/50">XP</span>
+                        <p class="text-brand-brown">{{ profile_obj.xp }}</p>
+                    </div>
+                </div>
+            </div>
 
-    <!-- Account details -->
-    <div class="tb-fade-up bg-white rounded-2xl shadow-md p-6 mb-8">
-        <h2 class="font-display font-bold text-lg text-tb-brown mb-4">Account Details</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            <div>
-                <span class="block text-xs font-bold uppercase tracking-wide text-tb-brown/50">Name</span>
-                <p class="text-tb-brown">{{ user.get_full_name|default:"Not set" }}</p>
-            </div>
-            <div>
-                <span class="block text-xs font-bold uppercase tracking-wide text-tb-brown/50">Email/Phone</span>
-                <p class="text-tb-brown">{{ user.username }}</p>
-            </div>
-            <div>
-                <span class="block text-xs font-bold uppercase tracking-wide text-tb-brown/50">Account Status</span>
-                <p>
-                    {% if user.is_active %}
-                    <span class="text-emerald-600 font-semibold">Verified</span>
-                    {% else %}
-                    <span class="text-tb-red font-semibold">Unverified (Check your email)</span>
-                    {% endif %}
-                </p>
+            <!-- Learning Progress -->
+            <div class="bg-white border-2 border-brand-brown/10 rounded-lg p-6 reveal-up reveal-delay-2">
+                <h2 class="font-display uppercase text-lg text-brand-brown mb-4">Courses Enrolled</h2>
+                {% if registrations %}
+                <div class="flex flex-wrap gap-3">
+                    {% for reg in registrations %}
+                    <a href="{% url 'unit_list' reg.learning_language %}" class="btn-pill">
+                        {{ reg.learning_language|title }}
+                    </a>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <p class="text-brand-brown/60">None yet</p>
+                {% endif %}
             </div>
         </div>
-    </div>
 
-    <!-- Logout -->
-    <div class="text-center">
-        <a href="{% url 'logout' %}"
-            class="tb-btn-pill inline-block border-2 border-tb-red text-tb-red px-6 py-2 rounded-full font-bold hover:bg-tb-red hover:text-white tb-focus">
-            Log Out
-        </a>
+        <!-- Logout -->
+        <div class="text-center mt-10">
+            <a href="{% url 'logout' %}"
+                class="inline-block border-2 border-brand-brown text-brand-brown px-6 py-2 rounded-full font-semibold hover:bg-brand-brown hover:text-cream transition-colors">
+                Log Out</a>
+        </div>
     </div>
 </div>
 {% endblock %}

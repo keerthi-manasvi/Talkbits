@@ -28,7 +28,7 @@
         Submit Exercises
     </button>
 
-    <a href="{% url 'lesson_detail' language unit lesson %}" class="inline-block mt-4 text-brand-brown hover:text-brand-red hover:underline transition-colors">
+    <a href="{% url 'lesson_detail' language unit lesson %}" class="inline-block m-4 text-brand-brown hover:text-brand-red hover:underline transition-colors">
         &larr; Back to Lesson
     </a>
 </div>
@@ -41,8 +41,11 @@
         <p class="text-4xl font-extrabold text-brand-red my-3"><span id="score-modal-percent">0</span>%</p>
         <p id="score-modal-detail" class="text-brand-brown/70 mb-6">0 / 0 correct</p>
         <button id="score-modal-close" class="btn-cta uppercase text-sm">
-            Continue
+            <a href="{% url 'lesson_list' language unit %}" class="inline-block m-4 text-brand-brown hover:text-brand-red hover:underline transition-colors">
+        &larr; Continue
+    </a>
         </button>
+        
     </div>
 </div>
 {% endblock %}

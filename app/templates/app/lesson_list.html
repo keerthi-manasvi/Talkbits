@@ -1,28 +1,21 @@
 {% extends 'app/layout.html' %}
 {% block title %}Lessons {% endblock %}
 {% block content %}
-<div class="max-w-2xl mx-auto px-4 py-14">
-    <h2 class="font-display font-extrabold text-3xl mb-1 tb-fade-up">
-        <span class="text-tb-red">{{ language|upper }}</span>
-    </h2>
-    <p class="text-tb-yellow-dark font-display font-bold text-lg mb-8 tb-fade-up">Unit {{ unit }} Lessons</p>
+<div class="min-h-[75vh] bg-cream py-16 px-6 sm:px-10 max-w-7xl mx-auto">
+    <div class="reveal-left mb-10">
+        <h2 class="font-display uppercase text-3xl sm:text-4xl">
+            <span class="text-brand-red">{{ language }}</span>
+        </h2>
+        <p class="font-display uppercase text-xl text-brand-yellow">Unit {{ unit }} Lessons</p>
+    </div>
 
-    <ul class="space-y-4">
+    <ul class="flex flex-col gap-4 max-w-sm">
         {% for lesson in lessons %}
-        <li class="tb-fade-up" style="--tb-delay:{{ forloop.counter0 }}">
-            <a href="{% url 'lesson_detail' language unit forloop.counter %}"
-                class="tb-card-lift flex items-center justify-between bg-white p-5 rounded-2xl shadow group tb-focus">
-                <span>
-                    <span
-                        class="inline-block bg-tb-red text-white text-xs font-bold uppercase tracking-wide px-3 py-1 rounded-full mb-1">
-                        Lesson {{ forloop.counter }}
-                    </span>
-                    <span class="block font-semibold text-tb-brown">{{ lesson.title }}</span>
-                </span>
-                <span
-                    class="tb-btn-pill bg-tb-red text-white text-sm font-bold px-4 py-2 rounded-full group-hover:bg-tb-yellow group-hover:text-tb-brown shrink-0">
-                    Start Lesson
-                </span>
+        <li class="bg-brand-red text-cream p-6 rounded-lg shadow card-lift reveal-up">
+            <p class="font-display uppercase text-sm mb-1">Lesson {{ forloop.counter }}</p>
+            <p class="mb-4 font-medium">{{ lesson.title }}</p>
+            <a href="{% url 'lesson_detail' language unit forloop.counter %}" class="btn-start uppercase text-sm">
+                Start Lesson
             </a>
         </li>
         {% endfor %}

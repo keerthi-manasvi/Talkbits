@@ -30,9 +30,9 @@
   }
 
   function renderFillIn(ex) {
-    const card = el('div', 'tb-card-lift tb-fade-up bg-white p-4 rounded-2xl shadow');
-    card.append(el('p', 'font-medium text-tb-brown', ex.prompt));
-    const input = el('input', 'border border-tb-brown/15 rounded-lg px-3 py-2 w-full mt-2');
+    const card = el('div', 'bg-white border-2 border-brand-brown/15 p-4 rounded-lg');
+    card.append(el('p', 'font-medium text-brand-brown', ex.prompt));
+    const input = el('input', 'border-2 border-brand-brown/20 rounded-lg px-3 py-2 w-full mt-2');
     input.type = 'text';
     input.placeholder = ex.hint || 'Your answer';
     input.addEventListener('input', () => { answers[ex.index] = input.value; });
@@ -41,9 +41,9 @@
   }
 
   function renderType(ex) {
-    const card = el('div', 'tb-card-lift tb-fade-up bg-white p-4 rounded-2xl shadow');
-    card.append(el('p', 'font-medium text-tb-brown', ex.prompt));
-    const input = el('input', 'border border-tb-brown/15 rounded-lg px-3 py-2 w-full mt-2');
+    const card = el('div', 'bg-white border-2 border-brand-brown/15 p-4 rounded-lg');
+    card.append(el('p', 'font-medium text-brand-brown', ex.prompt));
+    const input = el('input', 'border-2 border-brand-brown/20 rounded-lg px-3 py-2 w-full mt-2');
     input.type = 'text';
     input.placeholder = 'Type what you hear/read above';
     input.addEventListener('input', () => { answers[ex.index] = input.value; });
@@ -52,15 +52,15 @@
   }
 
   function renderQuiz(ex) {
-    const card = el('div', 'tb-card-lift tb-fade-up bg-white p-4 rounded-2xl shadow');
-    card.append(el('p', 'font-medium text-tb-brown', ex.question));
+    const card = el('div', 'bg-white border-2 border-brand-brown/15 p-4 rounded-lg');
+    card.append(el('p', 'font-medium text-brand-brown', ex.question));
     (ex.options || []).forEach((opt, i) => {
-      const label = el('label', 'block mt-2 cursor-pointer text-tb-brown');
+      const label = el('label', 'block mt-2 cursor-pointer text-brand-brown');
       const radio = document.createElement('input');
       radio.type = 'radio';
       radio.name = `quiz_${ex.index}`;
       radio.value = opt;
-      radio.className = 'mr-2 accent-tb-red';
+      radio.className = 'mr-2';
       radio.addEventListener('change', () => { answers[ex.index] = opt; });
       label.append(radio, document.createTextNode(opt));
       card.append(label);
@@ -69,9 +69,9 @@
   }
 
   function renderDialogue(ex) {
-    const card = el('div', 'tb-card-lift tb-fade-up bg-white p-4 rounded-2xl shadow');
-    card.append(el('p', 'font-medium text-tb-brown', ex.prompt));
-    const input = el('input', 'border border-tb-brown/15 rounded-lg px-3 py-2 w-full mt-2');
+    const card = el('div', 'bg-white border-2 border-brand-brown/15 p-4 rounded-lg');
+    card.append(el('p', 'font-medium text-brand-brown', ex.prompt));
+    const input = el('input', 'border-2 border-brand-brown/20 rounded-lg px-3 py-2 w-full mt-2');
     input.type = 'text';
     input.placeholder = ex.hint || 'Complete the dialogue';
     input.addEventListener('input', () => { answers[ex.index] = input.value; });
@@ -80,16 +80,16 @@
   }
 
   function renderMatch(ex) {
-    const card = el('div', 'tb-card-lift tb-fade-up bg-cream p-4 rounded-2xl shadow');
-    card.append(el('p', 'font-medium text-tb-brown mb-2', ex.prompt));
+    const card = el('div', 'bg-cream border-2 border-brand-brown/15 p-4 rounded-lg');
+    card.append(el('p', 'font-medium text-brand-brown mb-2', ex.prompt));
     const chosen = {};
     answers[ex.index] = chosen;
 
     (ex.words || []).forEach((word) => {
       const row = el('div', 'flex items-center justify-between gap-3 mt-2 bg-white p-2 rounded-lg');
-      row.append(el('span', 'text-tb-brown', word));
+      row.append(el('span', 'text-brand-brown', word));
       const select = document.createElement('select');
-      select.className = 'border border-tb-brown/15 rounded-lg px-2 py-1';
+      select.className = 'border-2 border-brand-brown/20 rounded-lg px-2 py-1';
       select.append(el('option', '', '-- choose --'));
       (ex.options || []).forEach((opt) => select.append(el('option', '', opt)));
       select.addEventListener('change', () => { chosen[word] = select.value; });
@@ -100,10 +100,10 @@
   }
 
   function renderVoice(ex) {
-    const card = el('div', 'voice-exercise tb-card-lift tb-fade-up bg-cream p-4 rounded-2xl shadow');
+    const card = el('div', 'voice-exercise bg-cream border-2 border-brand-brown/15 p-4 rounded-lg');
     card.setAttribute('data-index', ex.index);
     card.setAttribute('data-lang', ex.lang || '');
-    card.append(el('p', 'italic text-tb-brown', 'Say: ' + (ex.expected || '')));
+    card.append(el('p', 'italic text-brand-brown', 'Say: ' + (ex.expected || '')));
     // Playback / recording controls + Web Speech scoring are attached by
     // enhanceVoiceExercises() below (kept separate since it depends on
     // browser Speech APIs that may not exist).
@@ -234,15 +234,15 @@
       if (!expectedText) return;
 
       const controlsWrap = el('div', 'mt-2 flex gap-2 flex-wrap');
-      const playBtn = el('button', 'tb-btn-pill bg-tb-yellow text-tb-brown px-3 py-1 rounded-full font-semibold', '▶ Play Prompt');
+      const playBtn = el('button', 'btn-start text-sm px-3 py-1', '▶ Play Prompt');
       playBtn.type = 'button';
-      const startBtn = el('button', 'tb-btn-pill bg-tb-red text-white px-3 py-1 rounded-full font-semibold', '🎤 Start Speaking');
+      const startBtn = el('button', 'bg-brand-yellow text-brand-brown font-semibold px-3 py-1 rounded-full text-sm hover:scale-105 transition-all', '🎤 Start Speaking');
       startBtn.type = 'button';
-      const stopBtn = el('button', 'tb-btn-pill bg-tb-brown text-white px-3 py-1 rounded-full font-semibold opacity-50', '⏹ Stop');
+      const stopBtn = el('button', 'bg-brand-brown text-cream font-semibold px-3 py-1 rounded-full text-sm opacity-50', '⏹ Stop');
       stopBtn.type = 'button';
       stopBtn.disabled = true;
 
-      const resultP = el('p', 'mt-2');
+      const resultP = el('p', 'mt-2 text-brand-brown');
       const feedbackP = el('p', 'font-semibold mt-1');
 
       controlsWrap.append(playBtn, startBtn, stopBtn);
@@ -269,7 +269,7 @@
       recognition.maxAlternatives = 3;
 
       startBtn.addEventListener('click', () => {
-        resultP.textContent = 'Listening...';
+        resultP.textContent = '';
         feedbackP.textContent = '';
         startBtn.disabled = true;
         stopBtn.disabled = false;

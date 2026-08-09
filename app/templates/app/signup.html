@@ -3,17 +3,17 @@
 {% block title %}Sign Up {% endblock %}
 
 {% block content %}
-<div class="min-h-[80vh] flex items-center justify-center px-4 py-16">
-    <div class="max-w-md w-full space-y-8 tb-fade-up">
+<div class="min-h-[85vh] flex items-center justify-center bg-cream py-12 px-4">
+    <div class="max-w-md w-full space-y-8 reveal-up">
         <!-- Illustration -->
         <div class="text-center">
-            <h1 class="font-display font-extrabold text-3xl text-tb-brown mb-2">Join the Language Journey!</h1>
-            <p class="text-tb-brown/70 text-lg">Start learning Indian languages today.</p>
+            <h1 class="font-display uppercase text-2xl sm:text-3xl text-brand-brown mb-2">Join the Language Journey!</h1>
+            <p class="text-brand-brown/70 text-lg">Start learning Indian languages today.</p>
         </div>
 
         <!-- Error/Success Messages -->
         {% if messages %}
-        <div class="bg-red-100 border border-tb-red text-tb-red-dark px-4 py-3 rounded-md">
+        <div class="bg-brand-red/10 border border-brand-red text-brand-red px-4 py-3 rounded-md">
             {% for message in messages %}
             <p>{{ message }}</p>
             {% endfor %}
@@ -21,71 +21,68 @@
         {% endif %}
 
         <!-- Sign Up Form -->
-        <div class="bg-white rounded-2xl shadow-md p-8">
-            <form action="{% url 'signup' %}" method="post" class="space-y-6">
-                {% csrf_token %}
-                <div>
-                    <label for="name" class="block text-sm font-medium text-tb-brown/80 mb-2">Full Name (Optional)</label>
-                    <input type="text" id="name" name="name"
-                        class="w-full px-3 py-3 border border-tb-brown/15 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-tb-yellow focus:border-transparent"
-                        placeholder="Enter your name">
-                </div>
-                <div>
-                    <label for="username" class="block text-sm font-medium text-tb-brown/80 mb-2">Username</label>
-                    <input type="text" id="username" name="username"
-                        class="w-full px-3 py-3 border border-tb-brown/15 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-tb-yellow focus:border-transparent"
-                        placeholder="Enter Your Username">
-                </div>
-                <div>
-                    <label for="email" class="block text-sm font-medium text-tb-brown/80 mb-2">Email or Phone</label>
-                    <input type="text" id="email" name="email" required
-                        class="w-full px-3 py-3 border border-tb-brown/15 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-tb-yellow focus:border-transparent"
-                        placeholder="+91 12345 67890 or email@example.com">
-                </div>
-                <div>
-                    <label for="password" class="block text-sm font-medium text-tb-brown/80 mb-2">Password</label>
-                    <input type="password" id="password" name="password" required
-                        class="w-full px-3 py-3 border border-tb-brown/15 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-tb-yellow focus:border-transparent"
-                        placeholder="Create a password">
-                </div>
-                <div>
-                    <label for="confirm_password" class="block text-sm font-medium text-tb-brown/80 mb-2">Confirm
-                        Password</label>
-                    <input type="password" id="confirm_password" name="confirm_password" required
-                        class="w-full px-3 py-3 border border-tb-brown/15 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-tb-yellow focus:border-transparent"
-                        placeholder="Confirm your password">
-                </div>
-                <button type="submit"
-                    class="tb-btn-pill w-full bg-tb-red text-white py-3 px-4 rounded-full font-bold hover:bg-tb-yellow hover:text-tb-brown tb-focus">
-                    Sign Up
-                </button>
-            </form>
-
-            <!-- Divider -->
-            <div class="relative flex justify-center text-sm my-6">
-                <div class="absolute inset-0 flex items-center">
-                    <div class="w-full border-t border-tb-brown/15"></div>
-                </div>
-                <span class="relative bg-white px-4 text-tb-brown/50">Or continue with</span>
+        <form action="{% url 'signup' %}" method="post" class="space-y-6">
+            {% csrf_token %}
+            <div>
+                <label for="name" class="block text-sm font-medium text-brand-brown mb-2">Full Name (Optional)</label>
+                <input type="text" id="name" name="name"
+                    class="w-full px-3 py-3 border-2 border-brand-brown/20 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-brand-red focus:border-transparent"
+                    placeholder="Enter your name">
             </div>
-
-            <!-- Social Logins -->
-            <div class="space-y-3">
-                {% load socialaccount %}
-
-                <a href="{% provider_login_url 'google' %}"
-                    class="w-full flex justify-center py-3 px-4 border border-tb-brown/15 rounded-full text-sm font-medium text-tb-brown hover:bg-cream tb-focus">
-                    <img src="https://developers.google.com/identity/images/g-logo.png" alt="Google" class="w-5 h-5 mr-2">
-                    Continue with Google
-                </a>
-
+            <div>
+                <label for="username" class="block text-sm font-medium text-brand-brown mb-2">Username</label>
+                <input type="text" id="username" name="username"
+                    class="w-full px-3 py-3 border-2 border-brand-brown/20 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-brand-red focus:border-transparent"
+                    placeholder="Enter Your Username">
             </div>
+            <div>
+                <label for="email" class="block text-sm font-medium text-brand-brown mb-2">Email or Phone</label>
+                <input type="text" id="email" name="email" required
+                    class="w-full px-3 py-3 border-2 border-brand-brown/20 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-brand-red focus:border-transparent"
+                    placeholder="+91 12345 67890 or email@example.com">
+            </div>
+            <div>
+                <label for="password" class="block text-sm font-medium text-brand-brown mb-2">Password</label>
+                <input type="password" id="password" name="password" required
+                    class="w-full px-3 py-3 border-2 border-brand-brown/20 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-brand-red focus:border-transparent"
+                    placeholder="Create a password">
+            </div>
+            <div>
+                <label for="confirm_password" class="block text-sm font-medium text-brand-brown mb-2">Confirm
+                    Password</label>
+                <input type="password" id="confirm_password" name="confirm_password" required
+                    class="w-full px-3 py-3 border-2 border-brand-brown/20 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-brand-red focus:border-transparent"
+                    placeholder="Confirm your password">
+            </div>
+            <button type="submit" class="btn-cta uppercase text-sm w-full text-center">
+                Sign Up
+            </button>
+        </form>
+
+        <!-- Divider -->
+        <div class="relative flex justify-center text-sm">
+            <div class="absolute inset-0 flex items-center">
+                <div class="w-full border-t border-brand-brown/20"></div>
+            </div>
+            <span class="relative bg-cream px-4 text-brand-brown/60">Or continue with</span>
+        </div>
+
+        <!-- Social Logins -->
+        <div class="space-y-3">
+            {% load socialaccount %}
+
+            <a href="{% provider_login_url 'google' %}"
+                class="w-full flex justify-center items-center py-3 px-4 border-2 border-brand-brown/20 rounded-lg text-sm font-medium text-brand-brown hover:bg-white transition">
+                <img src="https://developers.google.com/identity/images/g-logo.png" alt="Google" class="w-5 h-5 mr-2">
+                Continue with Google
+            </a>
+
         </div>
 
         <!-- Sign In Link -->
         <div class="text-center">
-            <p class="text-sm text-tb-brown/70">Already have an account? <a href="{% url 'signin' %}"
-                    class="font-semibold text-tb-red hover:underline">Sign In</a></p>
+            <p class="text-sm text-brand-brown/70">Already have an account? <a href="{% url 'signin' %}"
+                    class="font-medium text-brand-red hover:underline">Sign In</a></p>
         </div>
     </div>
 </div>

@@ -3,41 +3,27 @@
 
 {% block content %}
 
-<div class="min-h-[70vh] flex flex-col items-center px-4 py-16 text-center">
+<div class="min-h-[80vh] bg-cream flex flex-col items-start py-16 px-6 sm:px-10 max-w-7xl mx-auto">
+    <div class="reveal-left mb-10">
+        <h1 class="font-display uppercase text-3xl sm:text-4xl">
+            <span class="text-brand-red">Languages</span> <span class="text-brand-yellow">Joined</span>
+        </h1>
+        {% if registrations %}
+        <p class="text-brand-brown/70 mt-2">You're a few languages away from being a polyglot.</p>
+        {% endif %}
+    </div>
 
     {% if registrations %}
-    <h1 class="font-display font-extrabold text-3xl mb-2 tb-fade-up">
-        <span class="text-tb-brown">Languages</span> <span class="text-tb-yellow-dark">Joined</span>
-    </h1>
-    <p class="text-tb-brown/70 mb-10 tb-fade-up">You're a few languages away from being a polyglot.</p>
-
-    <div class="grid grid-cols-2 gap-4 w-full max-w-md">
+    <div class="flex flex-wrap gap-4 reveal-up reveal-delay-1">
         {% for reg in registrations %}
-        <a href="{% url 'unit_list' reg.learning_language %}"
-            class="tb-btn-pill tb-fade-up bg-tb-red text-white font-bold px-6 py-4 rounded-full shadow hover:bg-tb-yellow hover:text-tb-brown tb-focus"
-            style="--tb-delay:{{ forloop.counter0 }}">
-            {{ reg.learning_language|upper }}
+        <a href="{% url 'unit_list' reg.learning_language %}" class="btn-pill min-w-[9rem] uppercase">
+            {{ reg.learning_language }}
         </a>
         {% endfor %}
     </div>
     {% else %}
-    <div class="tb-fade-up max-w-md">
-        <!-- OPTIONAL DECORATIVE — a goofy little empty-state doodle. Delete
-             this <svg> if you'd rather keep the empty state plain. -->
-        <svg class="tb-doodle tb-float w-28 h-28 mx-auto mb-6" viewBox="0 0 100 100" fill="none"
-            xmlns="http://www.w3.org/2000/svg">
-            <circle cx="50" cy="50" r="46" fill="#F6C9CB" />
-            <path d="M32 45c0-4 4-8 8-8s8 4 8 8" stroke="#3D2B1F" stroke-width="4" stroke-linecap="round" />
-            <path d="M52 45c0-4 4-8 8-8s8 4 8 8" stroke="#3D2B1F" stroke-width="4" stroke-linecap="round" />
-            <path d="M35 65c8 8 22 8 30 0" stroke="#3D2B1F" stroke-width="4" stroke-linecap="round" />
-        </svg>
-        <h2 class="font-display font-bold text-xl text-tb-brown mb-2">No courses yet</h2>
-        <p class="text-tb-brown/70 mb-6">You haven't registered for any courses yet.</p>
-        <a href="{% url 'course_list' %}"
-            class="tb-btn-pill inline-block bg-tb-red text-white font-bold px-6 py-3 rounded-full shadow hover:bg-tb-yellow hover:text-tb-brown tb-focus">
-            Browse Courses
-        </a>
-    </div>
+    <p class="text-brand-brown/70 text-lg mb-4">You haven't registered for any courses yet.</p>
+    <a href="{% url 'course_list' %}" class="btn-cta uppercase text-sm">Browse Courses</a>
     {% endif %}
 </div>
 

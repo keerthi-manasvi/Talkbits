@@ -3,12 +3,12 @@
 {% block title %}Log Out {% endblock %}
 
 {% block content %}
-<div class="min-h-[70vh] flex items-center justify-center px-4 py-16">
-    <div class="max-w-md w-full space-y-6 text-center tb-fade-up">
+<div class="min-h-[75vh] flex items-center justify-center bg-cream py-12 px-4">
+    <div class="max-w-md w-full space-y-8 text-center reveal-up">
 
         <!-- Error/Logout Message -->
         {% if messages %}
-        <div class="bg-red-100 border border-tb-red text-tb-red-dark px-4 py-3 rounded-md text-center mx-auto">
+        <div class="bg-brand-red/10 border border-brand-red text-brand-red px-4 py-3 rounded-md text-center mx-auto">
             {% for message in messages %}
             <p>{{ message }}</p>
             {% endfor %}
@@ -16,13 +16,9 @@
         {% endif %}
 
         <!-- Logout Confirmation -->
-        <div class="bg-white rounded-2xl shadow-md p-8">
-            <p class="font-display font-bold text-xl text-tb-brown">You've been successfully logged out!</p>
-            <a href="{% url 'signin' %}"
-                class="tb-btn-pill inline-block mt-6 bg-tb-yellow text-tb-brown font-bold px-6 py-3 rounded-full shadow hover:bg-tb-red hover:text-white tb-focus">
-                Sign In Again
-            </a>
-        </div>
+        <p class="font-display uppercase text-xl text-brand-brown mt-4">You've been successfully logged out!</p>
+
+        <a href="{% url 'signin' %}" class="btn-cta uppercase text-sm inline-block">Sign In Again</a>
 
     </div>
 </div>

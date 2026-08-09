@@ -1,16 +1,15 @@
 {% extends 'app/layout.html' %}
 {% block title %}Successfully Registered {% endblock %}
 {% block content %}
-<div class="flex flex-col items-center justify-center min-h-[70vh] text-center px-6">
+<div class="flex flex-col items-center justify-center min-h-[75vh] text-center px-6 bg-cream">
 
-    <div class="tb-pop bg-white shadow-lg rounded-2xl p-10 max-w-lg">
-        <h1 class="font-display font-extrabold text-3xl text-tb-brown mb-1">SUCCESSFULLY</h1>
-        <p class="font-display font-extrabold text-3xl mb-6">
-            Joined <span class="text-tb-red">{{ language }}</span>!
-        </p>
+    <div class="reveal-up max-w-lg">
+        <h1 class="font-display uppercase text-3xl sm:text-4xl mb-2">
+            <span class="text-brand-brown">Successfully</span><br>
+            <span class="text-brand-brown">Joined </span><span class="text-brand-red">{{ language }}</span><span class="text-brand-brown">!</span>
+        </h1>
 
-        <a href="{% url 'unit_list' language %}"
-            class="tb-btn-pill inline-block bg-tb-yellow text-tb-brown font-bold px-8 py-3 rounded-full shadow hover:bg-tb-red hover:text-white tb-focus">
+        <a href="{% url 'unit_list' language %}" class="btn-cta uppercase text-sm sm:text-base mt-8 inline-block">
             Start Learning
         </a>
     </div>

@@ -21,29 +21,60 @@
             </p>
             <div class="flex flex-wrap items-center gap-4">
                 <a href="{% url 'signup' %}" class="btn-cta uppercase text-sm sm:text-base">Bridge the Gap</a>
-                <a href="{% url 'course_list' %}" class="text-brand-brown font-semibold hover:text-brand-red transition-colors underline underline-offset-4">Browse Courses</a>
             </div>
         </div>
     </div>
 </section>
 
 <!-- ============ Section 2 : Languages covered ============ -->
-<section class="min-h-[70vh] flex items-center bg-brand-red">
-    <div class="max-w-7xl mx-auto w-full px-6 sm:px-10 py-16 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-        <div class="reveal-left flex flex-wrap gap-4 justify-start">
-            <span class="bg-cream text-brand-brown font-semibold rounded-full px-6 py-3 text-lg">Hindi</span>
-            <span class="bg-cream text-brand-brown font-semibold rounded-full px-6 py-3 text-lg">Telugu</span>
-            <span class="bg-cream text-brand-brown font-semibold rounded-full px-6 py-3 text-lg">English</span>
-            <span class="bg-cream text-brand-brown font-semibold rounded-full px-6 py-3 text-lg">Tamil</span>
-        </div>
-        <div class="reveal-right reveal-delay-1 md:text-right">
+<section class="min-h-screen flex items-center justify-center bg-brand-red py-12">
+    <div class="max-w-7xl mx-auto w-full px-6 sm:px-10 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        
+        <!-- Heading -->
+        <div class="reveal-right reveal-delay-1 md:order-2 md:text-right">
             <h2 class="font-display uppercase text-3xl sm:text-4xl lg:text-5xl leading-tight">
                 <span class="text-cream">Languages</span><br>
                 <span class="text-brand-yellow">Covered</span>
             </h2>
             <p class="text-cream/80 text-sm mt-2">(so far)</p>
         </div>
+
+        <!-- Language Badges/Pills -->
+        <div class="reveal-left md:order-1 flex flex-wrap gap-3 sm:gap-4 justify-start">
+            <span class="bg-cream text-brand-brown font-semibold rounded-full px-5 py-2.5 sm:px-6 sm:py-3 text-base sm:text-lg">Hindi</span>
+            <span class="bg-cream text-brand-brown font-semibold rounded-full px-5 py-2.5 sm:px-6 sm:py-3 text-base sm:text-lg">Telugu</span>
+            <span class="bg-cream text-brand-brown font-semibold rounded-full px-5 py-2.5 sm:px-6 sm:py-3 text-base sm:text-lg">English</span>
+            <span class="bg-cream text-brand-brown font-semibold rounded-full px-5 py-2.5 sm:px-6 sm:py-3 text-base sm:text-lg">Tamil</span>
+        </div>
+
     </div>
 </section>
-
+ <!-- Footer -->
+    <footer class="bg-brand-yellow border-t-2 border-brand-brown/10">
+    <div class="max-w-7xl mx-auto px-6 sm:px-10 py-10 grid grid-cols-1 sm:grid-cols-3 gap-8 text-brand-brown">       <div>
+                <p class="font-display text-lg mb-2">Talkbits <span class="font-body font-normal text-sm align-middle">Open Source</span></p>
+                <p class="text-sm leading-relaxed max-w-xs">Developed as an open source language learning website for indian languages by Manju and Karuna.</p>
+            </div>
+            <div>
+                <p class="font-semibold mb-2">Contribute</p>
+                <ul class="text-sm space-y-1">
+                    <li><a href="https://github.com/keerthi-manasvi/Talkbits/blob/main/README.md" class="hover:underline">Documentation</a></li>
+                    <li><a href="https://github.com/keerthi-manasvi/Talkbits/issues" class="hover:underline">Report a Bug</a></li>
+                    <li><a href="https://github.com/keerthi-manasvi/Talkbits/pulls" class="hover:underline">Raise a PR</a></li>
+                    <li><a href="https://github.com" class="hover:underline">License</a></li>
+                </ul>
+            </div>
+            <div>
+                <p class="font-semibold mb-2">Contact</p>
+                <ul class="text-sm space-y-1">
+                    <li><a href="mailto:betaphase.studio@gmail.com" class="hover:underline">betaphase.studio@gmail.com</a></li>
+                    <li><a href="https://www.linkedin.com/in/keerthi-manasvi" class="hover:underline">Manju</a></li>
+                    <li><a href="https://www.linkedin.com/in/karuna-rapolu" class="hover:underline">Karuna</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-6 sm:px-10 pb-6 text-xs text-brand-brown/70">
+            © {% now "Y" %} Talkbits. Built with Django. All rights reserved. Released under the MIT License.
+        </div>
+    </footer>
 {% endblock %}
