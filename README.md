@@ -1,5 +1,5 @@
 # TalkBits
-Cause Google Translate can't wingman
+Ditch the App, Bridge the Gap
 
 ![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue.svg)
 ![Django](https://img.shields.io/badge/django-5.2.7-green.svg)
