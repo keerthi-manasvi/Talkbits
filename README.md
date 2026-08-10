@@ -29,7 +29,7 @@ Ditch the App, Bridge the Gap
 - Database: SQLite
 - Frontend: HTML, CSS ,JavaScript
 
-## Project Structure (key files)
+## Project Structure
 
 - `manage.py` — Django management script
 - `GenTech/` — Django project settings and configuration
@@ -151,3 +151,7 @@ python manage.py runserver
 ## License
 
 MIT — see `LICENSE`.
+
+## Live Deployment Link 
+
+https://talkbits.onrender.com/
