@@ -9,3 +9,6 @@ python manage.py migrate
 if [ "$DJANGO_SUPERUSER_USERNAME" ]; then
   python manage.py createsuperuser --no-input || true
 fi
+
+# Automatically configure Site and Google SocialApp
+python setup_socialapp.py
