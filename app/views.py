@@ -21,6 +21,9 @@ from django.http import HttpResponse, JsonResponse
 from django.views.decorators.http import require_POST
 import json
 import os
+import logging
+
+logger = logging.getLogger(__name__)
 
 def index(request):
     return render(request, 'app/index.html')
@@ -151,9 +154,6 @@ def signup_view(request):
                 f'If you didn’t sign up, ignore this email.\n\n'
                 f'Thanks,\nThe APP Team'
             )
-            print("EMAIL_HOST_USER:", settings.EMAIL_HOST_USER)
-            print("DEFAULT_FROM_EMAIL:", settings.DEFAULT_FROM_EMAIL)
-            print("Recipient:", user.email or email)
             sent = send_mail(
                 subject=subject,
                 message=message,
@@ -166,7 +166,8 @@ def signup_view(request):
             messages.success(request, 'Account created! Please check your email to verify your account.')
             return render(request, 'app/signin.html')  # Redirect to signin with success message
         except Exception as e:
-            messages.error(request, f'Error creating account: {str(e)}')
+            messages.error(request, f'Error creating account')
+            logger.exception("Login failed"+{str(e)})
             return render(request, 'app/signup.html')
 
     return render(request, 'app/signup.html')
@@ -226,13 +227,13 @@ def load_json(language: str) -> dict:
     try:
         with open(path, encoding='utf-8') as f:
             data = json.load(f)
-            print(f"✅ Loaded {language}.json successfully with {len(data.get('lessons', []))} lessons")
+            print(f" Loaded {language}.json successfully with {len(data.get('lessons', []))} lessons")
             return data
     except FileNotFoundError:
-        print(f"❌ File not found: {path}")
+        print(f" File not found: {path}")
         return {"lessons": []}
     except json.JSONDecodeError as e:
-        print(f"⚠️ JSON decode error in {language}.json: {e}")
+        print(f" JSON decode error in {language}.json: {e}")
         return {"lessons": []}
 
 
