@@ -97,8 +97,6 @@ def main():
 
     print("\n Audio generation complete!")
 
-# =========================
 # ENTRY POINT
-# =========================
 if __name__ == "__main__":
     main()
