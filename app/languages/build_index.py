@@ -5,13 +5,17 @@ from pathlib import Path
 
 # Config
 # use : build_index from_language to_language
-FROM_LANG = sys.argv[1].lower() if len(sys.argv) > 2 
-TO_LANG = sys.argv[2].lower() if len(sys.argv) > 2 
+if len(sys.argv) != 3:
+    print("Please provide two languages.")
+    print("Example: python build_index.py tamil telugu")
+    sys.exit(1)
+FROM_LANG = sys.argv[1].lower()  
+TO_LANG = sys.argv[2].lower() 
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
-INPUT_FILE = BASE_DIR / "languages" / "lessons" / f"{FROM_LANG}.json"
+INPUT_FILE = BASE_DIR / "app" / "languages" / "lessons" / f"{FROM_LANG}.json"
 TARGET_LANG = TO_LANG
-OUTPUT_FILE = BASE_DIR / "languages" / "lessons" / f"{FROM_LANG}_translated_to_{TO_LANG}.json"
+OUTPUT_FILE = BASE_DIR / "app" / "languages" / "lessons" / f"{FROM_LANG}_translated_to_{TO_LANG}.json"
 
 # Fields that are normally text fields
 TEXT_FIELDS = ["word", "prompt", "text", "response", "example", "question", "answer"]
