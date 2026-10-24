@@ -1,13 +1,17 @@
 import os
 import json
 from deep_translator import GoogleTranslator
+from pathlib import Path
 
-# -----------------------------
 # Config
-# -----------------------------
-INPUT_FILE = "C:\\Users\\manju\\GenTech\\app\\languages\\lessons\\tamil.json"      # your input file
-TARGET_LANG = "telugu"                  # language to translate into
-OUTPUT_FILE = "C:\\Users\\manju\\GenTech\\app\\languages\\lessons\\tamil_translated_to_telugu.json"  # output file
+# use : build_index from_language to_language
+FROM_LANG = sys.argv[1].lower() if len(sys.argv) > 2 
+TO_LANG = sys.argv[2].lower() if len(sys.argv) > 2 
+
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+INPUT_FILE = BASE_DIR / "languages" / "lessons" / f"{FROM_LANG}.json"
+TARGET_LANG = TO_LANG
+OUTPUT_FILE = BASE_DIR / "languages" / "lessons" / f"{FROM_LANG}_translated_to_{TO_LANG}.json"
 
 # Fields that are normally text fields
 TEXT_FIELDS = ["word", "prompt", "text", "response", "example", "question", "answer"]
@@ -23,16 +27,14 @@ TRANSLATABLE_FLAGS = {
     "answer": "translatable"
 }
 
-# -----------------------------
 # Helper function
-# -----------------------------
 def translate_text(text, src_lang="auto", target_lang=TARGET_LANG):
     """Translate a single string using GoogleTranslator."""
     try:
         translated = GoogleTranslator(source=src_lang, target=target_lang).translate(text)
         return translated
     except Exception as e:
-        print(f"⚠️ Failed to translate '{text}': {e}")
+        print(f"Failed to translate '{text}': {e}")
         return text  # fallback to original text
 
 def translate_item(item):
@@ -50,12 +52,10 @@ def translate_item(item):
                 line["text"] = translate_text(line["text"])
     return item
 
-# -----------------------------
 # Main logic
-# -----------------------------
 if __name__ == "__main__":
     if not os.path.exists(INPUT_FILE):
-        print(f"⚠️ Input file not found: {INPUT_FILE}")
+        print(f"Input file not found: {INPUT_FILE}")
         exit(1)
 
     # Load original lesson file
@@ -71,4 +71,4 @@ if __name__ == "__main__":
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    print(f"✅ Translation completed! Saved to {OUTPUT_FILE}")
+    print(f" Translation completed! Saved to {OUTPUT_FILE}")
