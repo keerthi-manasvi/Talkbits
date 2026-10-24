@@ -284,9 +284,9 @@
         const score = similarity(transcript, expectedText);
         const percent = Math.round(score * 100);
 
-        if (score >= 0.8) { feedbackP.textContent = `✅ Correct — ${percent}%`; feedbackP.style.color = 'green'; }
-        else if (score >= 0.6) { feedbackP.textContent = `⚠️ Close — ${percent}%`; feedbackP.style.color = '#b8860b'; }
-        else { feedbackP.textContent = `❌ Try again — ${percent}%`; feedbackP.style.color = 'red'; }
+        if (score >= 0.8) { feedbackP.textContent = ` Correct — ${percent}%`; feedbackP.style.color = 'green'; }
+        else if (score >= 0.6) { feedbackP.textContent = ` Close — ${percent}%`; feedbackP.style.color = '#b8860b'; }
+        else { feedbackP.textContent = ` Try again — ${percent}%`; feedbackP.style.color = 'red'; }
 
         startBtn.disabled = false;
         stopBtn.disabled = true;

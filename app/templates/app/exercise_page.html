@@ -11,18 +11,17 @@
      data-submit-url="{% url 'submit_exercises' language unit lesson %}"
      style="display:none;"></div>
 
-<!-- Exercise payload: safe -- answer keys were stripped server-side before
-     this was ever rendered (see app/views.py:_public_exercise). -->
+
 <script id="exercises-data" type="application/json">{{ exercises_json|safe }}</script>
 
 <div class="min-h-[75vh] bg-cream py-16 px-6 sm:px-10 max-w-3xl mx-auto">
 
-    <h2 class="font-display uppercase text-3xl sm:text-4xl mb-1 reveal-left">
+    <h2 class="font-display uppercase text-3xl sm:text-4xl mb-1">
         <span class="text-brand-yellow">Exercise</span>
     </h2>
-    <p class="text-brand-brown/70 mb-8 reveal-left reveal-delay-1">Lesson {{ lesson }}</p>
+    <p class="text-brand-brown/70 mb-8 ">Lesson {{ lesson }}</p>
 
-    <div id="exercise-root" class="space-y-4 reveal-up"></div>
+    <div id="exercise-root" class="space-y-4 "></div>
 
     <button id="submit-exercises-btn" type="button" class="btn-cta uppercase text-sm sm:text-base mt-8">
         Submit Exercises

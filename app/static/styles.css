@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Talkbits — custom type + motion system
+   Talkbits
    Palette: cream #FDF6E3 / coral-red #F0645A / gold #F5B942 / brown #4A2010
    ========================================================================== */
 
@@ -51,6 +51,7 @@ body {
   transition: transform 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease;
   box-shadow: 4px 4px 0 rgba(74, 32, 16, 0.15);
 }
+
 .btn-cta:hover {
   transform: translate(-2px, -2px);
   box-shadow: 6px 6px 0 rgba(74, 32, 16, 0.2);
@@ -69,6 +70,7 @@ body {
   text-align: center;
   transition: all 0.3s ease-in-out;
 }
+
 .btn-pill:hover {
   background-color: #F5B942;
   color: #4A2010;
@@ -86,6 +88,7 @@ body {
   display: inline-block;
   transition: all 0.3s ease-in-out;
 }
+
 .btn-start:hover {
   background-color: #F5B942;
   color: #000;
@@ -106,21 +109,21 @@ body {
   transition: all 0.25s ease-in-out;
   white-space: nowrap;
 }
+
 .btn-nav-pill:hover {
   background-color: #F5B942;
   color: #4A2010;
   transform: scale(1.05);
 }
 
-/* ---------------------------------------------------------------------- */
 /* Scroll-reveal animations                                                 */
-/* ---------------------------------------------------------------------- */
 
 .reveal-up {
   opacity: 0;
   transform: translateY(28px);
   transition: opacity 0.8s ease, transform 0.8s ease;
 }
+
 .reveal-up.is-visible {
   opacity: 1;
   transform: translateY(0);
@@ -131,6 +134,7 @@ body {
   transform: translateX(-32px);
   transition: opacity 0.8s ease, transform 0.8s ease;
 }
+
 .reveal-left.is-visible {
   opacity: 1;
   transform: translateX(0);
@@ -141,18 +145,33 @@ body {
   transform: translateX(32px);
   transition: opacity 0.8s ease, transform 0.8s ease;
 }
+
 .reveal-right.is-visible {
   opacity: 1;
   transform: translateX(0);
 }
 
-.reveal-delay-1 { transition-delay: 0.08s; }
-.reveal-delay-2 { transition-delay: 0.16s; }
-.reveal-delay-3 { transition-delay: 0.24s; }
-.reveal-delay-4 { transition-delay: 0.32s; }
+.reveal-delay-1 {
+  transition-delay: 0.08s;
+}
+
+.reveal-delay-2 {
+  transition-delay: 0.16s;
+}
+
+.reveal-delay-3 {
+  transition-delay: 0.24s;
+}
+
+.reveal-delay-4 {
+  transition-delay: 0.32s;
+}
 
 @supports (animation-timeline: view()) {
-  .reveal-up, .reveal-left, .reveal-right {
+
+  .reveal-up,
+  .reveal-left,
+  .reveal-right {
     animation: reveal-fade-slide linear both;
     animation-timeline: view();
     animation-range: entry 0% cover 30%;
@@ -162,22 +181,27 @@ body {
 }
 
 @keyframes reveal-fade-slide {
-  from { opacity: 0; transform: translateY(28px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .card-lift {
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
+
 .card-lift:hover {
   transform: translateY(-3px);
   box-shadow: 6px 6px 0 rgba(74, 32, 16, 0.15);
 }
 
-/* ---------------------------------------------------------------------- */
-/* Bare Django widget fallback (e.g. register form's known_language select) */
-/* Only targets elements the template/forms.py left unstyled.               */
-/* ---------------------------------------------------------------------- */
+
 form select:not([class]),
 form input:not([class]):not([type="hidden"]):not([type="checkbox"]):not([type="radio"]) {
   width: 100%;
@@ -188,6 +212,7 @@ form input:not([class]):not([type="hidden"]):not([type="checkbox"]):not([type="r
   color: #4A2010;
   font-family: 'League Spartan', Verdana, sans-serif;
 }
+
 form select:not([class]):focus,
 form input:not([class]):not([type="hidden"]):focus {
   outline: none;

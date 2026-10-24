@@ -47,7 +47,7 @@ LANGUAGE_CHOICES = [
     ('Tamil', 'Tamil'),
     ('Hindi', 'Hindi'),
     ('Telugu', 'Telugu'),
-    ('English', 'English'),  # Added English to match your app flow
+    ('English', 'English'),  
 ]
 
 # Course model
